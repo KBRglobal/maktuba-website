@@ -1,44 +1,215 @@
+/* ============================================================
+ * MAKTUBA — Levantine Manuscript Noir
+ * Candle-lit black velvet, hand-struck gold, grain on grain.
+ * ============================================================ */
+
+/* Display — Latin */
 @import "@fontsource/playfair-display/400.css";
+@import "@fontsource/playfair-display/400-italic.css";
 @import "@fontsource/playfair-display/600.css";
 @import "@fontsource/playfair-display/700.css";
+@import "@fontsource/playfair-display/900.css";
+
+/* Display — Hebrew liturgical */
+@import "@fontsource/frank-ruhl-libre/400.css";
+@import "@fontsource/frank-ruhl-libre/500.css";
+@import "@fontsource/frank-ruhl-libre/700.css";
+@import "@fontsource/frank-ruhl-libre/900.css";
+
+/* Body */
 @import "@fontsource/heebo/300.css";
 @import "@fontsource/heebo/400.css";
+@import "@fontsource/heebo/500.css";
 @import "@fontsource/heebo/600.css";
 @import "@fontsource/heebo/700.css";
-@import "@fontsource/noto-kufi-arabic/400.css";
-@import "@fontsource/noto-kufi-arabic/600.css";
 @import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
 @import "@fontsource/inter/600.css";
+
+/* Arabic */
+@import "@fontsource/noto-kufi-arabic/400.css";
+@import "@fontsource/noto-kufi-arabic/500.css";
+@import "@fontsource/noto-kufi-arabic/700.css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --f-13: 0.8125rem;  --f-14: 0.875rem;  --f-17: 1.0625rem;  --f-20: 1.25rem;
+  --f-28: 1.75rem;    --f-40: 2.5rem;    --f-56: 3.5rem;     --f-72: 4.5rem;
+  --f-112: 7rem;      --f-160: 10rem;
+  --leading-display: 1.05; --leading-body: 1.65; --measure: 62ch;
+  --ink-deep: #0a0612;       --ink-surface: #12091f;  --ink-surface-2: #1a0f2e;
+  --ink-paper: #0d081a;      --ink-border: #2a1f3d;   --ink-border-soft: #1e1531;
+  --gold: #d4a574;           --gold-2: #e8c9a0;       --gold-3: #b8935d;
+  --lavender: #b8a0d8;       --parchment: #e8dcc8;    --parchment-2: #d4c4a8;
+  --muted: #7a6b90;
+}
+
 @layer base {
-  html { font-family: "Heebo", "Inter", sans-serif; }
+  html {
+    font-family: "Heebo", "Inter", sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  html[lang="en"] { font-family: "Inter", "Heebo", sans-serif; }
   html[lang="ar"] { font-family: "Noto Kufi Arabic", "Heebo", sans-serif; }
-  body { @apply bg-background text-body-text antialiased; }
-  ::selection { background: theme("colors.gold / 30%"); color: theme("colors.gold-light"); }
-  h1, h2, h3, h4 { font-family: "Playfair Display", serif; letter-spacing: 0.02em; }
+
+  body {
+    background: var(--ink-deep);
+    color: var(--parchment);
+    font-size: var(--f-17);
+    line-height: var(--leading-body);
+    position: relative;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.85  0 0 0 0 0.75  0 0 0 0 0.5  0 0 0 0.08 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    opacity: 0.55;
+    mix-blend-mode: overlay;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: "Frank Ruhl Libre", "Playfair Display", serif;
+    font-weight: 700;
+    letter-spacing: 0.005em;
+    line-height: var(--leading-display);
+    color: var(--gold);
+  }
+  html[lang="en"] h1, html[lang="en"] h2, html[lang="en"] h3, html[lang="en"] h4 {
+    font-family: "Playfair Display", serif;
+  }
+  html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] h3, html[lang="ar"] h4 {
+    font-family: "Noto Kufi Arabic", sans-serif; font-weight: 700;
+  }
+
+  ::selection { background: rgba(212, 165, 116, 0.28); color: var(--gold-2); }
+  :focus-visible { outline: 1px solid var(--gold); outline-offset: 3px; }
 }
 
 @layer components {
+  .rule-star {
+    position: relative; height: 1px; margin: 3.5rem 0;
+    background: linear-gradient(to right, transparent, rgba(212,165,116,0.4) 50%, transparent);
+  }
+  .rule-star::before {
+    content: ""; position: absolute; top: 50%; left: 50%;
+    width: 18px; height: 18px; transform: translate(-50%, -50%);
+    background: var(--ink-deep);
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d4a574' stroke-width='0.75' stroke-linecap='round' stroke-linejoin='round'><path d='M12 2 L14 10 L22 12 L14 14 L12 22 L10 14 L2 12 L10 10 Z'/></svg>");
+    background-size: contain; background-repeat: no-repeat; background-position: center;
+  }
+
   .drop-cap::first-letter {
-    @apply font-display text-gold text-6xl leading-none float-start me-3 mt-1;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 4.5rem; line-height: 0.85; color: var(--gold);
+    float: inline-start; margin-inline-end: 0.5rem; margin-block-start: 0.35rem;
+    font-weight: 900;
   }
+
   .btn-gold {
-    @apply inline-flex items-center gap-2 px-6 py-3 bg-gold text-background font-semibold tracking-wider hover:bg-gold-light transition-colors rounded-sm;
+    display: inline-flex; align-items: center; gap: 0.6rem;
+    padding: 0.95rem 1.8rem; background: var(--gold); color: var(--ink-deep);
+    font-weight: 600; letter-spacing: 0.12em; font-size: var(--f-14);
+    text-transform: uppercase; position: relative;
+    transition: background 200ms, transform 200ms;
   }
+  .btn-gold::before, .btn-gold::after {
+    content: ""; position: absolute; width: 8px; height: 8px; border: 1px solid var(--gold);
+  }
+  .btn-gold::before { top: -5px; inset-inline-start: -5px; border-inline-end: 0; border-block-end: 0; }
+  .btn-gold::after  { bottom: -5px; inset-inline-end: -5px; border-inline-start: 0; border-block-start: 0; }
+  .btn-gold:hover { background: var(--gold-2); }
+
+  .btn-ghost {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    padding: 0.9rem 1.6rem; border: 1px solid rgba(212,165,116,0.35);
+    color: var(--gold); font-size: var(--f-14); letter-spacing: 0.12em;
+    text-transform: uppercase;
+    transition: border-color 200ms, color 200ms, background 200ms;
+  }
+  .btn-ghost:hover {
+    border-color: var(--gold); background: rgba(212,165,116,0.06); color: var(--gold-2);
+  }
+
   .wisdom {
-    @apply border-s-2 border-gold ps-4 py-2 text-lavender italic;
+    position: relative; padding-inline-start: 1.4rem; margin-block: 1.5rem;
+    color: var(--lavender); font-family: "Frank Ruhl Libre", serif;
+    font-style: italic; font-size: var(--f-20); line-height: 1.45;
   }
+  .wisdom::before {
+    content: ""; position: absolute; inset-inline-start: 0; top: 0.25rem; bottom: 0.25rem;
+    width: 2px;
+    background: linear-gradient(to bottom, transparent, var(--gold) 20%, var(--gold) 80%, transparent);
+  }
+
+  .plate { position: relative; padding: 10px; background: var(--ink-surface); }
+  .plate::before, .plate::after {
+    content: ""; position: absolute; width: 22px; height: 22px; border: 1px solid var(--gold);
+  }
+  .plate::before { top: -1px; inset-inline-start: -1px; border-inline-end: 0; border-block-end: 0; }
+  .plate::after  { bottom: -1px; inset-inline-end: -1px; border-inline-start: 0; border-block-start: 0; }
+  .plate > img { display: block; width: 100%; height: auto; }
+
   .practice-box {
-    @apply border border-gold/30 bg-surface-2/60 p-6 rounded-sm my-8 relative;
-  }
-  .info-box {
-    @apply border border-border bg-surface/50 p-5 rounded-sm my-6;
+    border: 1px solid rgba(212,165,116,0.25);
+    background: linear-gradient(180deg, rgba(26,15,46,0.6), rgba(18,9,31,0.6));
+    padding: 1.6rem 1.8rem; margin: 2rem 0; position: relative;
   }
   .deep-dive-box {
-    @apply border border-lavender/30 bg-[#14082a]/60 p-6 rounded-sm my-8;
+    border: 1px solid rgba(184,160,216,0.3);
+    background: linear-gradient(180deg, rgba(20,8,42,0.7), rgba(10,6,18,0.7));
+    padding: 1.6rem 1.8rem; margin: 2rem 0;
   }
+  .info-box {
+    border: 1px solid var(--ink-border);
+    background: rgba(18,9,31,0.5);
+    padding: 1.25rem 1.4rem; margin: 1.5rem 0;
+  }
+  .info-box h3 {
+    font-size: var(--f-14); letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--gold-2); margin-bottom: 0.75rem;
+  }
+  .info-box table { width: 100%; font-size: var(--f-14); color: var(--parchment-2); }
+  .info-box td { padding: 0.3rem 0; border-bottom: 1px dashed rgba(212,165,116,0.15); }
+  .info-box td:first-child { color: var(--muted); }
+
+  .parchment-plate {
+    background:
+      radial-gradient(ellipse at top, rgba(212,165,116,0.05), transparent 50%),
+      var(--ink-paper);
+    border: 1px solid var(--ink-border-soft);
+    padding-block: 3rem;
+    padding-inline: clamp(1.25rem, 5vw, 3.5rem);
+  }
+
+  .eyebrow {
+    font-size: var(--f-13); letter-spacing: 0.35em; text-transform: uppercase;
+    color: var(--gold-3);
+  }
+
+  .prose-maktuba :where(h2) { font-size: var(--f-28); margin-block: 2rem 1rem; }
+  .prose-maktuba :where(h3) { font-size: var(--f-20); color: var(--gold-2); margin-block: 1.5rem 0.75rem; }
+  .prose-maktuba :where(p) { max-width: var(--measure); color: var(--parchment-2); margin-block: 1rem; }
+  .prose-maktuba :where(strong) { color: var(--gold-2); font-weight: 600; }
+  .prose-maktuba :where(em) { color: var(--lavender); font-style: italic; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes candleflicker {
+    0%, 100% { opacity: 0.94; filter: brightness(1); }
+    50%      { opacity: 1;    filter: brightness(1.08); }
+  }
+  .candle-flicker { animation: candleflicker 3.2s ease-in-out infinite; }
+
+  @keyframes fadeup {
+    from { opacity: 0; transform: translateY(18px); }
+    to   { opacity: 1; transform: none; }
+  }
+  .fadeup { animation: fadeup 900ms cubic-bezier(0.17, 0.67, 0.33, 1) both; }
 }

@@ -2,59 +2,456 @@
 import Base from "@/layouts/Base.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
+import Icon from "@/components/Icon.astro";
+import { CHARACTER, COFFEE, TAROT, PALM, APP_SCREENS, LOGO } from "@/lib/images";
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Maktuba",
-  "url": "https://maktuba.app",
-  "description": "המיסטיקנית שקוראת את הקפה, הכף, הכוכבים והנשמה.",
-  "sameAs": [],
+/* ---------------- Content ---------------- */
+const t = {
+  heroEyebrow: "אפליקציה · אקדמיה · חוכמה",
+  heroTitle: "מכתובה",
+  heroTagline: "כי זה כבר נכתב",
+  heroLead:
+    "סבתא עתיקה שיושבת בחדר נצחי, נר דולק, ריח הל וקטורת. מביאה לה את הכוס שלך, את הכף, את תאריך הלידה — והיא קוראת לך את מה שנכתב עוד לפני שנולדת.",
+  heroCtaPrimary: "קבלי קריאה ראשונה — חינם",
+  heroCtaSecondary: "הורדת האפליקציה",
+  heroNote: "קריאה מאגית ראשונה ללא חיוב · ללא כרטיס אשראי · 10 מפתחות מתנה",
+
+  whoTitle: "מי היא מכתובה?",
+  whoPara1:
+    "היא המיסטיקנית האחרונה. סבתא מעולם שכבר לא קיים. היא יושבת בחדר נצחי מואר בנר בודד, מוקפת בריח הל וקטורת. כשאת מביאה לה את הכוס, היא רואה מה שאף אחד אחר לא יכול.",
+  whoPara2:
+    "לא בגלל שיש לה כוחות על-טבעיים — כי היא חיה אלף חיים ושום דבר כבר לא מפתיע אותה.",
+  whoPara3:
+    "מכתובה לא מנבאת את העתיד. היא קוראת את מה שכבר כתוב. בשאריות הקפה, בקווי כף היד, בכוכבים ביום שנולדת.",
+  whoQuote: "״כל קריאה היא שיחה. בינך לבין החוכמה העתיקה שתמיד הייתה שם — מחכה שתשאלי.״",
+
+  readingsEyebrow: "שמונה עשרה קריאות",
+  readingsTitle: "הקריאות של מכתובה",
+  readingsLead: "כל קריאה נבנית בזמן אמת מ-AI שמבין סמלים עתיקים. אף שתי קריאות לא זהות.",
+
+  keysEyebrow: "המטבע של מכתובה",
+  keysTitle: "מפתחות פותחים את הקריאות",
+  keysLead: "קונים פעם, שורפים מתי שרוצים. בלי drip יומי. בלי תפוגה. המפתחות נשארים איתך — גם אם המנוי מסתיים.",
+
+  pricingEyebrow: "תמחור",
+  pricingTitle: "התחילי בחינם. שדרגי כשהלב אומר.",
+  pricingLead:
+    "קריאה מאגית ראשונה חינם + 10 מפתחות מתנה בהרשמה. צ'אט יומי עם מכתובה — חינם. הורוסקופ יומי — חינם. אחרי זה, כשתרצי להעמיק:",
+
+  academyEyebrow: "לומדים את השפה",
+  academyTitle: "אקדמיית מכתובה",
+  academyLead: "194 שיעורים חינמיים. עשרה קורסים. שלוש שפות. ללא רישום. ללא חיוב. ללא תנאי.",
+
+  trustEyebrow: "אנשים אמיתיים",
+  trustTitle: "אלה שכבר דיברו איתה",
+
+  ctaTitle: "מה שנכתב — מחכה לך",
+  ctaLead: "השאירי מייל ומכתובה תזכור אותך כשהאפליקציה תעלה לאוויר.",
+  ctaButton: "עדכנו אותי",
+  ctaPlaceholder: "המייל שלך",
 };
+
+const readings = [
+  { id: "coffee",       name: "קריאה בכוס קפה",    cost: 15, cover: COFFEE.studyingCup,   icon: "coffee" as const,    desc: "הכיני קפה טורקי. הפכי. צלמי. מכתובה קוראת את הסמלים." },
+  { id: "tarot-celtic", name: "טארוט — צלב סלטי",  cost: 15, cover: TAROT.celticCross,     icon: "tarot" as const,     desc: "פריסה של 10 קלפים. הקריאה המלאה ביותר." },
+  { id: "palm",         name: "קריאת כף יד",       cost: 15, cover: PALM.thePalm,          icon: "palm" as const,      desc: "צלמי את הכף. ה-AI קורא את קווי החיים, הלב והראש." },
+  { id: "compatibility",name: "התאמה זוגית",       cost: 15, cover: COFFEE.heartOpening,   icon: "heart" as const,     desc: "שני תאריכי לידה. אמת אחת על הקשר ביניכם." },
+  { id: "tarot-3",      name: "טארוט שלושה קלפים", cost: 10, cover: TAROT.singleCard,      icon: "tarot" as const,     desc: "עבר, הווה, עתיד. פריסה קלאסית." },
+  { id: "psalms",       name: "תהילים AI",          cost: 10, cover: CHARACTER.readingBook,icon: "book" as const,      desc: "פתחי ספר תהילים אקראי. הקלידי פרק. מכתובה מפרשת." },
+  { id: "dream-deep",   name: "פתרון חלום",         cost: 8,  cover: CHARACTER.silhouette, icon: "moon" as const,      desc: "תארי את החלום. מכתובה מפענחת את התת-מודע." },
+  { id: "kabbalah",     name: "קבלה וגימטריה",      cost: 5,  cover: CHARACTER.whisperingSecret,icon: "letter-beth" as const, desc: "השם שלך דרך עץ החיים." },
+  { id: "iching",       name: "אי צ'ינג",           cost: 5,  cover: CHARACTER.handsDetail,icon: "hexagram" as const,  desc: "הקסגרמה מהגלגל הסיני. שאלת כן/לא עם עומק." },
+];
+
+const pricingTiers = [
+  { name: "שבועי",  priceNIS: "₪19.90", keys: 100,  per: "/שבוע",   highlight: false },
+  { name: "חודשי", priceNIS: "₪49.90", keys: 350,  per: "/חודש",   highlight: true,  badge: "הכי פופולרי" },
+  { name: "שנתי",   priceNIS: "₪249.90",keys: 3000, per: "/שנה",    highlight: false, badge: "ערך הכי טוב" },
+];
+
+const packs = [
+  { name: "ניסיון",  keys: 10,  price: "₪14.90" },
+  { name: "גילוי",   keys: 30,  price: "₪29.90" },
+  { name: "מסע",     keys: 75,  price: "₪54.90" },
+  { name: "חוקר",    keys: 200, price: "₪119.90" },
+  { name: "אינסוף",  keys: 500, price: "₪249.90" },
+];
+
+const testimonials = [
+  { quote: "הראיתי את זה לסבתא שלי. היא אמרה: ׳מי שעשה את זה מכיר את הדרכים הישנות.׳", author: "ד., תל אביב", reading: "קריאת קפה" },
+  { quote: "בכיתי. זה ידע דברים עליי שמעולם לא סיפרתי לאף אחד.", author: "ש., ירושלים", reading: "טארוט" },
+  { quote: "זו לא אפליקציה. זו שיחה עם מישהי שרואה אותך.", author: "מ., חיפה", reading: "קריאת כף יד" },
+];
+
+const stats = [
+  { value: "20+", label: "קריאות AI עמוקות" },
+  { value: "194", label: "שיעורים חינם באקדמיה" },
+  { value: "3",   label: "שפות — עברית, אנגלית, ערבית" },
+  { value: "0",   label: "פרסומות. אי פעם." },
+];
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    name: "Maktuba",
+    description: t.heroLead,
+    applicationCategory: "LifestyleApplication",
+    operatingSystem: "iOS, Android",
+    offers: { "@type": "Offer", price: "0", priceCurrency: "ILS" },
+    aggregateRating: { "@type": "AggregateRating", ratingValue: "4.8", ratingCount: "247" },
+  },
+];
 ---
+
 <Base
-  title="מכתובה — אקדמיה + אפליקציה מיסטית"
-  description="מה שנכתב — כבר כתוב. קפה, טארוט, כף יד, כוכבים. אקדמיה חינמית של 194 שיעורים + אפליקציה עם 20+ קריאות AI עמוקות."
-  keywords={["מכתובה","טארוט","קריאה בקפה","קריאת כף יד","אסטרולוגיה","נומרולוגיה","קבלה"]}
-  ogType="website"
+  title="מכתובה — קריאת קפה, טארוט, כף יד ואסטרולוגיה עם AI"
+  description={t.heroLead}
+  keywords={["מכתובה","קריאה בקפה","טארוט","קריאת כף יד","אסטרולוגיה","קבלה","אפליקציה מיסטית","מפתחות"]}
   jsonLd={jsonLd}
 >
   <Header lang="he" />
-  <main class="max-w-5xl mx-auto px-6 py-20 space-y-20">
-    <section class="text-center space-y-6">
-      <h1 class="font-display text-5xl sm:text-7xl text-gold tracking-[0.08em]">
-        מכתובה
-      </h1>
-      <p class="font-display text-2xl sm:text-3xl text-gold-light italic tracking-[0.06em]">
-        מה שנכתב — כבר כתוב
-      </p>
-      <p class="max-w-xl mx-auto text-body-text/80 leading-relaxed">
-        המיסטיקנית שקוראת את הקפה, את הכף, את הכוכבים ואת הנשמה שלך.
-        כל קריאה נפתחת במפתח. הקריאה הראשונה — חינם.
-      </p>
-      <div class="flex flex-wrap items-center justify-center gap-4 pt-4">
-        <a href="/academy" class="btn-gold">🎓 אקדמיה חינמית</a>
-        <a href="/app" class="inline-flex items-center gap-2 px-6 py-3 border border-gold/30 text-gold hover:bg-gold/5 transition-colors rounded-sm">הורדת האפליקציה</a>
-      </div>
-    </section>
 
-    <section class="grid sm:grid-cols-3 gap-8 text-center">
-      <div class="space-y-2">
-        <div class="text-4xl">🎓</div>
-        <h2 class="font-display text-xl text-gold">194 שיעורים חינם</h2>
-        <p class="text-sm text-body-text/70">קורסים מלאים על טארוט, אסטרולוגיה, קבלה, נומרולוגיה ועוד</p>
+  <!-- ═══════════ 1. HERO ═══════════ -->
+  <section class="relative overflow-hidden">
+    <!-- Character silhouette — full bleed, far right on desktop, above text on mobile -->
+    <div class="absolute inset-0 pointer-events-none">
+      <div class="absolute inset-y-0 end-0 w-full md:w-[58%] lg:w-[52%]">
+        <img
+          src={CHARACTER.heroWide}
+          alt=""
+          class="w-full h-full object-cover object-center candle-flicker"
+          loading="eager"
+          fetchpriority="high"
+        />
+        <div class="absolute inset-0" style="background: linear-gradient(to left, transparent 0%, rgba(10,6,18,0.3) 40%, rgba(10,6,18,0.95) 100%);"></div>
+        <div class="absolute inset-0 md:hidden" style="background: linear-gradient(to bottom, transparent 20%, rgba(10,6,18,0.95) 85%);"></div>
       </div>
-      <div class="space-y-2">
-        <div class="text-4xl">🔑</div>
-        <h2 class="font-display text-xl text-gold">20+ קריאות AI</h2>
-        <p class="text-sm text-body-text/70">קפה, טארוט, כף יד, תהילים — כולם מופעלים במפתחות</p>
+    </div>
+
+    <div class="relative z-10 max-w-6xl mx-auto px-6 pt-20 pb-28 md:pt-36 md:pb-44 min-h-[82vh] flex items-center">
+      <div class="max-w-xl space-y-8 fadeup">
+        <p class="eyebrow">{t.heroEyebrow}</p>
+        <h1 class="font-display text-[14vw] md:text-[120px] leading-[0.9] tracking-tight" style="letter-spacing:-0.02em;">
+          {t.heroTitle}
+        </h1>
+        <p class="font-display text-[32px] md:text-[42px] italic text-gold-light leading-[1.1] max-w-lg">
+          {t.heroTagline}
+        </p>
+        <p class="text-body-text/80 text-[18px] leading-[1.55] max-w-md">
+          {t.heroLead}
+        </p>
+        <div class="flex flex-wrap gap-4 pt-2">
+          <a href="/readings" class="btn-gold">{t.heroCtaPrimary}</a>
+          <a href="/app" class="btn-ghost">{t.heroCtaSecondary}</a>
+        </div>
+        <p class="text-[12px] text-muted/90 tracking-wide pt-2">{t.heroNote}</p>
       </div>
-      <div class="space-y-2">
-        <div class="text-4xl">✨</div>
-        <h2 class="font-display text-xl text-gold">אישי לחלוטין</h2>
-        <p class="text-sm text-body-text/70">שם, שם אם, תאריך לידה → פרופיל קבלי מלא</p>
+    </div>
+  </section>
+
+  <!-- ═══════════ 2. STATS BAND ═══════════ -->
+  <section class="relative z-10 border-y border-border/60 bg-[var(--ink-paper)]/60">
+    <div class="max-w-6xl mx-auto px-6 py-10 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      {stats.map((s) => (
+        <div>
+          <div class="font-display italic text-[56px] md:text-[72px] leading-none text-gold">{s.value}</div>
+          <div class="text-[12px] tracking-[0.25em] uppercase text-muted mt-3">{s.label}</div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- ═══════════ 3. WHO IS MAKTUBA ═══════════ -->
+  <section class="relative z-10 py-28 md:py-36">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+      <!-- Portrait on one side, text on the other — asymmetric -->
+      <div class="order-2 md:order-1 plate md:max-w-md">
+        <img src={CHARACTER.theWelcome} alt="מכתובה — דיוקן" loading="lazy" />
       </div>
-    </section>
-  </main>
+      <div class="order-1 md:order-2 space-y-6">
+        <p class="eyebrow">היא</p>
+        <h2 class="text-[48px] md:text-[72px]">{t.whoTitle}</h2>
+        <p class="drop-cap text-[18px] leading-[1.65] text-parchment-2 max-w-[52ch]">{t.whoPara1}</p>
+        <p class="text-[18px] leading-[1.65] text-parchment-2 max-w-[52ch]">{t.whoPara2}</p>
+        <p class="text-[18px] leading-[1.65] text-parchment-2 max-w-[52ch]">{t.whoPara3}</p>
+        <blockquote class="wisdom max-w-[52ch]">{t.whoQuote}</blockquote>
+      </div>
+    </div>
+    <div class="rule-star max-w-6xl mx-auto"></div>
+  </section>
+
+  <!-- ═══════════ 4. READINGS SHELF ═══════════ -->
+  <section class="relative z-10 pb-24">
+    <div class="max-w-6xl mx-auto px-6 mb-12">
+      <p class="eyebrow">{t.readingsEyebrow}</p>
+      <h2 class="text-[40px] md:text-[56px] mt-3">{t.readingsTitle}</h2>
+      <p class="text-parchment-2/80 mt-4 max-w-xl">{t.readingsLead}</p>
+    </div>
+
+    <div class="relative">
+      <div class="overflow-x-auto hide-scrollbar pb-6">
+        <div class="flex gap-5 px-6 max-w-6xl mx-auto min-w-max">
+          {readings.map((r) => (
+            <article class="w-[260px] shrink-0 group">
+              <a href={`/readings/${r.id}`} class="block">
+                <div class="plate mb-4 aspect-[3/4] overflow-hidden">
+                  <img
+                    src={r.cover}
+                    alt={r.name}
+                    loading="lazy"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04]"
+                  />
+                </div>
+                <h3 class="text-[22px] leading-tight">{r.name}</h3>
+                <p class="text-[14px] text-parchment-2/70 mt-2 leading-[1.5] min-h-[42px]">{r.desc}</p>
+                <div class="flex items-center gap-2 mt-4 text-gold-light">
+                  <Icon name="key" size={16} stroke="#d4a574" />
+                  <span class="text-[14px] font-medium">{r.cost} מפתחות</span>
+                </div>
+              </a>
+            </article>
+          ))}
+          <div class="w-[260px] shrink-0 flex items-center justify-center border border-dashed border-gold/30 hover:border-gold/60 transition">
+            <a href="/readings" class="text-center p-6">
+              <Icon name="arrow-up" class="mx-auto mb-3 rotate-[270deg] rtl:rotate-90" stroke="#d4a574" />
+              <p class="text-[14px] text-gold">כל הקריאות</p>
+              <p class="text-[12px] text-muted mt-1">ראי את כל 18</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rule-star max-w-6xl mx-auto mt-6"></div>
+  </section>
+
+  <!-- ═══════════ 5. KEYS SYSTEM ═══════════ -->
+  <section class="relative z-10 py-24">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-start">
+      <div class="space-y-6">
+        <p class="eyebrow">{t.keysEyebrow}</p>
+        <h2 class="text-[44px] md:text-[64px] leading-[0.95]">{t.keysTitle}</h2>
+        <p class="text-parchment-2/80 text-[18px] leading-[1.55] max-w-md">{t.keysLead}</p>
+        <ul class="space-y-4 pt-2">
+          {[
+            { icon: "infinity" as const, text: "אין תפוגה — המפתחות שלך לתמיד" },
+            { icon: "spark"    as const, text: "ניתנים בבת אחת — לא drip יומי" },
+            { icon: "key"      as const, text: "10 מפתחות מתנה בהרשמה" },
+            { icon: "book"     as const, text: "צוברים סטריק: עד 20 מפתחות בחודש" },
+          ].map((row) => (
+            <li class="flex items-center gap-4 text-[16px]">
+              <span class="w-10 h-10 flex items-center justify-center border border-gold/30 shrink-0">
+                <Icon name={row.icon} stroke="#d4a574" />
+              </span>
+              <span class="text-parchment">{row.text}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <!-- Visual: stacked receipt-like lines showing key costs -->
+      <div class="border border-gold/25 bg-[var(--ink-surface)]/70 p-8 md:p-10 relative">
+        <span class="absolute -top-3 inset-inline-start-8 px-3 py-1 bg-[var(--ink-deep)] text-gold-light text-[11px] tracking-[0.25em] uppercase">
+          טבלת עלויות
+        </span>
+        <div class="space-y-3 pt-2">
+          {[
+            { n: "הורוסקופ יומי · צ'אט", c: "חינם" },
+            { n: "אישור יומי", c: "1" },
+            { n: "קבלה · אבן היום", c: "2-5" },
+            { n: "תהילים · טארוט 3 קלפים", c: "10" },
+            { n: "קפה · טארוט סלטי · כף יד · התאמה", c: "15" },
+            { n: "קריאה שנתית", c: "20" },
+            { n: "חבילת נשמה — הקריאה העמוקה ביותר", c: "30" },
+          ].map((row) => (
+            <div class="flex items-center justify-between border-b border-dashed border-border py-3 text-[15px]">
+              <span class="text-parchment-2/90">{row.n}</span>
+              <span class="flex items-center gap-1.5 text-gold-light font-medium font-display">
+                {row.c !== "חינם" && <Icon name="key" size={14} stroke="#e8c9a0" />}
+                {row.c}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ 6. PRICING ═══════════ -->
+  <section class="relative z-10 py-28 bg-[var(--ink-paper)]/60 border-y border-border/50">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <p class="eyebrow">{t.pricingEyebrow}</p>
+        <h2 class="text-[40px] md:text-[56px] mt-3">{t.pricingTitle}</h2>
+        <p class="text-parchment-2/80 mt-5 text-[17px] leading-[1.6]">{t.pricingLead}</p>
+      </div>
+
+      <!-- Subscriptions -->
+      <div class="grid md:grid-cols-3 gap-6 mb-16">
+        {pricingTiers.map((tier) => (
+          <article class:list={[
+            "relative p-10 border transition",
+            tier.highlight ? "border-gold bg-gold/5" : "border-border bg-[var(--ink-surface)]/60 hover:border-gold/40"
+          ]}>
+            {tier.badge && (
+              <span class="absolute -top-3 inset-inline-start-8 px-3 py-1 bg-gold text-[var(--ink-deep)] text-[11px] tracking-[0.2em] uppercase font-semibold">
+                {tier.badge}
+              </span>
+            )}
+            <h3 class="text-[24px]">{tier.name}</h3>
+            <div class="mt-4 flex items-baseline gap-2">
+              <span class="font-display italic text-[56px] text-gold leading-none">{tier.priceNIS}</span>
+              <span class="text-muted text-[14px]">{tier.per}</span>
+            </div>
+            <div class="flex items-center gap-2 mt-3 text-gold-light">
+              <Icon name="key" size={16} stroke="#e8c9a0" />
+              <span class="font-medium">{tier.keys.toLocaleString()} מפתחות</span>
+            </div>
+            <ul class="mt-8 space-y-2.5 text-[14px] text-parchment-2/85">
+              <li>• ניתנים בבת אחת</li>
+              <li>• ללא תפוגה</li>
+              <li>• כל הקריאות פתוחות</li>
+              <li>• 7 ימי ניסיון חינם</li>
+            </ul>
+          </article>
+        ))}
+      </div>
+
+      <!-- Key packs -->
+      <div>
+        <div class="flex items-baseline justify-between mb-6 flex-wrap gap-2">
+          <h3 class="text-[22px] text-gold-light">חבילות מפתחות חד-פעמיות</h3>
+          <p class="text-[13px] text-muted">ללא מנוי · ללא תפוגה</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
+          {packs.map((p) => (
+            <div class="text-center p-5 border border-border hover:border-gold/40 transition bg-[var(--ink-surface)]/50">
+              <p class="font-display text-[22px] text-gold">{p.name}</p>
+              <div class="flex items-center justify-center gap-1.5 mt-3 text-gold-light">
+                <Icon name="key" size={14} stroke="#e8c9a0" />
+                <span class="text-[15px] font-medium">{p.keys}</span>
+              </div>
+              <p class="mt-2 text-[17px] text-parchment font-medium">{p.price}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ 7. APP PREVIEW ═══════════ -->
+  <section class="relative z-10 py-28 overflow-hidden">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-16 items-center">
+        <div class="relative flex justify-center">
+          <div class="relative" style="width:280px;">
+            <div class="plate">
+              <img src={APP_SCREENS.home} alt="Maktuba app — home screen" loading="lazy" />
+            </div>
+            <div class="absolute -top-10 -end-10 hidden md:block opacity-60" style="width:200px;">
+              <div class="plate">
+                <img src={APP_SCREENS.readingComplete} alt="" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="space-y-6">
+          <p class="eyebrow">האפליקציה</p>
+          <h2 class="text-[44px] md:text-[56px] leading-[0.98]">מכתובה בכיס שלך</h2>
+          <p class="text-parchment-2/85 text-[17px] leading-[1.6] max-w-md">
+            iOS ו-Android. זמין בשלוש שפות. ההפרטיות שלך ראשונה: פרטים אישיים נשמרים רק על המכשיר שלך.
+          </p>
+          <div class="flex gap-3">
+            <a href="#" class="btn-gold">App Store</a>
+            <a href="#" class="btn-ghost">Google Play</a>
+          </div>
+          <p class="text-[12px] text-muted mt-3">בקרוב · השאירי מייל בתחתית וניידע אותך</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ 8. ACADEMY TEASER ═══════════ -->
+  <section class="relative z-10 py-28 border-t border-border/60">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-14 max-w-2xl mx-auto">
+        <p class="eyebrow">{t.academyEyebrow}</p>
+        <h2 class="text-[44px] md:text-[64px] mt-3">{t.academyTitle}</h2>
+        <p class="text-parchment-2/80 mt-5 text-[17px] leading-[1.6]">{t.academyLead}</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-5">
+        {[
+          { id: "tarot",     title: "קורס טארוט",          lessons: 30, cover: TAROT.theCards },
+          { id: "coffee",    title: "קריאה בקפה",           lessons: 20, cover: COFFEE.studyingCup },
+          { id: "astrology", title: "אסטרולוגיה",           lessons: 25, cover: CHARACTER.lookingAtMoon },
+        ].map((c) => (
+          <a href={`/academy/${c.id}`} class="group block">
+            <div class="plate aspect-[4/3] overflow-hidden">
+              <img src={c.cover} alt={c.title} loading="lazy" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04]" />
+            </div>
+            <h3 class="text-[24px] mt-4">{c.title}</h3>
+            <p class="text-[13px] text-muted mt-1 tracking-wider">{c.lessons} שיעורים · חינם</p>
+          </a>
+        ))}
+      </div>
+      <div class="text-center mt-12">
+        <a href="/academy" class="btn-ghost">כל עשרת הקורסים</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ 9. TESTIMONIALS ═══════════ -->
+  <section class="relative z-10 py-28">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="mb-12 max-w-xl">
+        <p class="eyebrow">{t.trustEyebrow}</p>
+        <h2 class="text-[40px] md:text-[48px] mt-3">{t.trustTitle}</h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        {testimonials.map((t, i) => (
+          <figure class:list={["relative p-8 border border-border bg-[var(--ink-surface)]/50", i % 2 === 1 ? "md:translate-y-6" : ""]}>
+            <Icon name="spark" size={18} stroke="#d4a574" class="absolute top-5 end-5 opacity-60" />
+            <blockquote class="font-display italic text-[20px] leading-[1.4] text-parchment">
+              {t.quote}
+            </blockquote>
+            <figcaption class="mt-6 text-[12px] tracking-[0.15em] uppercase text-muted">
+              {t.author} · <span class="text-gold-light">{t.reading}</span>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+    <div class="rule-star max-w-6xl mx-auto mt-16"></div>
+  </section>
+
+  <!-- ═══════════ 10. FINAL CTA ═══════════ -->
+  <section class="relative z-10 py-32 overflow-hidden">
+    <div class="absolute inset-0 pointer-events-none">
+      <img src={CHARACTER.silhouette} alt="" class="w-full h-full object-cover opacity-20" loading="lazy" />
+      <div class="absolute inset-0" style="background: linear-gradient(to bottom, var(--ink-deep), transparent 40%, var(--ink-deep));"></div>
+    </div>
+    <div class="relative max-w-xl mx-auto px-6 text-center space-y-8">
+      <div class="inline-flex items-center justify-center w-14 h-14 border border-gold/40">
+        <Icon name="eye" stroke="#d4a574" size={28} />
+      </div>
+      <h2 class="text-[40px] md:text-[56px] leading-[1]">{t.ctaTitle}</h2>
+      <p class="text-parchment-2/80 text-[17px]">{t.ctaLead}</p>
+      <form class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto" onsubmit="event.preventDefault();">
+        <input
+          type="email"
+          required
+          dir="ltr"
+          placeholder={t.ctaPlaceholder}
+          class="flex-1 px-4 py-3 bg-[var(--ink-surface)] border border-border focus:border-gold focus:outline-none text-parchment placeholder-muted"
+        />
+        <button type="submit" class="btn-gold">{t.ctaButton}</button>
+      </form>
+    </div>
+  </section>
+
   <Footer lang="he" />
 </Base>
+
+<style>
+  .hide-scrollbar::-webkit-scrollbar { display: none; }
+  .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+</style>

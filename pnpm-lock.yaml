@@ -33,6 +33,9 @@ importers:
       '@anthropic-ai/sdk':
         specifier: ^0.30.1
         version: 0.30.1
+      '@fontsource/frank-ruhl-libre':
+        specifier: ^5.2.8
+        version: 5.2.8
       '@fontsource/heebo':
         specifier: ^5.2.8
         version: 5.2.8
@@ -550,6 +553,9 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource/frank-ruhl-libre@5.2.8':
+    resolution: {integrity: sha512-6ISorITeqsIsJ92KUgvShp0/KyGGzex6yEGYkzfVuVLntwfj9OdxsZavsaoNwx+IyVUI5Hz8m39vktt+TjIi/w==}
 
   '@fontsource/heebo@5.2.8':
     resolution: {integrity: sha512-K5aMLH2Yy/CmmjuM9lpToyIEwSdPKwW6KzZOGCFnj7XFrgatIpnesu6FDgmQl3bkyP/YCT62rzLRqRM9s/OzLw==}
@@ -3549,6 +3555,8 @@ snapshots:
 
   '@esbuild/win32-x64@0.27.7':
     optional: true
+
+  '@fontsource/frank-ruhl-libre@5.2.8': {}
 
   '@fontsource/heebo@5.2.8': {}
 

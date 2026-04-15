@@ -3,7 +3,9 @@ import { getCollection } from "astro:content";
 import Base from "@/layouts/Base.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
+import Icon from "@/components/Icon.astro";
 import config from "@data/academy-config.json";
+import { COURSE_COVER, CHARACTER } from "@/lib/images";
 
 export const prerender = true;
 
@@ -12,7 +14,10 @@ export async function getStaticPaths() {
 }
 
 const { course } = Astro.props;
-const allLessons = await getCollection("lessons", (l) => l.data.courseId === course.id);
+/** Only the Hebrew source files. Files named like tarot-the-magician.en.json are ignored. */
+const allLessons = await getCollection("lessons", (l) =>
+  l.data.courseId === course.id && !l.id.includes(".en") && !l.id.includes(".ar")
+);
 const lessonsByModule = new Map<string, typeof allLessons>();
 for (const l of allLessons) {
   const arr = lessonsByModule.get(l.data.module) ?? [];
@@ -21,63 +26,113 @@ for (const l of allLessons) {
 }
 for (const arr of lessonsByModule.values()) arr.sort((a, b) => a.data.lessonNumber - b.data.lessonNumber);
 
+const COURSE_ICON: Record<string, string> = {
+  tarot: "tarot", coffee: "coffee", palm: "palm", astrology: "moon",
+  numerology: "number", kabbalah: "letter-beth", dreams: "eye",
+  iching: "hexagram", crystals: "crystal", psalms: "book",
+};
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Course",
   name: course.titleHe,
-  description: `קורס חינמי ב${course.titleHe} — ${course.lessonCount} שיעורים מלאים.`,
+  description: `קורס חינמי ב${course.titleHe} — ${course.lessonCount} שיעורים מלאים, כולל מבחן בסוף כל שיעור וקישורים לקורסים קשורים.`,
   provider: { "@type": "Organization", name: "Maktuba Academy", url: "https://maktuba.app" },
   isAccessibleForFree: true,
   numberOfLessons: course.lessonCount,
   inLanguage: ["he", "en", "ar"],
 };
----
 
+const totalMinutes = allLessons.reduce((s, l) => s + (l.data.estimatedMinutes || 15), 0);
+const totalHours = Math.round(totalMinutes / 60 * 10) / 10;
+---
 <Base
   title={`${course.titleHe} — אקדמיית מכתובה | ${course.lessonCount} שיעורים חינם`}
-  description={`קורס חינמי ב${course.titleHe}: ${course.lessonCount} שיעורים מלאים, בחינה בסוף כל שיעור, קישורים לקורסים קשורים. בעברית, אנגלית וערבית.`}
+  description={`קורס חינמי ב${course.titleHe}: ${course.lessonCount} שיעורים מלאים, בחינה בסוף כל שיעור, קישורים לקורסים קשורים. בעברית, אנגלית וערבית. ללא רישום, ללא חיוב.`}
   keywords={[course.titleHe, `קורס ${course.titleHe}`, "אקדמיית מכתובה", `${course.titleEn} course`, `${course.titleEn} free`]}
   jsonLd={jsonLd}
 >
   <Header lang="he" />
-  <main class="max-w-4xl mx-auto px-6 py-16">
-    <nav aria-label="breadcrumb" class="text-xs text-muted mb-6">
-      <ol class="flex flex-wrap items-center gap-2">
-        <li><a href="/academy" class="hover:text-gold">אקדמיה</a></li>
-        <li>›</li>
-        <li class="text-body-text/70">{course.titleHe}</li>
-      </ol>
-    </nav>
 
-    <header class="text-center mb-12 space-y-3">
-      <div class="text-5xl">{course.icon}</div>
-      <h1 class="font-display text-4xl text-gold tracking-[0.08em]">{course.titleHe}</h1>
-      <p class="text-body-text/70">
-        {course.lessonCount} שיעורים · חינם · עברית/אנגלית/ערבית
-      </p>
-    </header>
+  <!-- Editorial hero for the course -->
+  <section class="relative overflow-hidden border-b border-border/60">
+    <div class="absolute inset-0 pointer-events-none">
+      <img src={COURSE_COVER[course.id] ?? CHARACTER.silhouette} alt="" class="w-full h-full object-cover opacity-35" />
+      <div class="absolute inset-0" style="background: linear-gradient(to bottom, rgba(10,6,18,0.4) 0%, var(--ink-deep) 80%);"></div>
+    </div>
+    <div class="relative max-w-5xl mx-auto px-6 py-20 md:py-28">
+      <nav class="text-[12px] text-muted mb-8 tracking-[0.15em] uppercase flex items-center gap-3">
+        <a href="/academy" class="hover:text-gold transition">אקדמיה</a>
+        <span class="text-border">›</span>
+        <span class="text-parchment-2/70">{course.titleHe}</span>
+      </nav>
+      <div class="flex items-start gap-6 mb-6">
+        <div class="hidden md:flex shrink-0 w-16 h-16 border border-gold/30 items-center justify-center">
+          <Icon name={COURSE_ICON[course.id] as any} size={32} stroke="#d4a574" />
+        </div>
+        <div>
+          <p class="eyebrow">כרך {course.order ?? ""}</p>
+          <h1 class="text-[56px] md:text-[96px] leading-[0.95] mt-3" style="letter-spacing:-0.01em;">
+            {course.titleHe}
+          </h1>
+        </div>
+      </div>
+      <div class="flex flex-wrap items-center gap-x-8 gap-y-3 mt-8 text-[13px] tracking-[0.15em] uppercase text-muted">
+        <span class="flex items-center gap-2">
+          <Icon name="book" size={16} stroke="#d4a574" /> {course.lessonCount} שיעורים
+        </span>
+        <span class="flex items-center gap-2">
+          <Icon name="wheel" size={16} stroke="#d4a574" /> {lessonsByModule.size} מודולים
+        </span>
+        <span class="flex items-center gap-2">
+          <Icon name="candle" size={16} stroke="#d4a574" /> ~{totalHours} שעות
+        </span>
+        <span class="flex items-center gap-2 text-gold">
+          <Icon name="infinity" size={16} stroke="#d4a574" /> חינם תמיד
+        </span>
+      </div>
+    </div>
+  </section>
 
+  <!-- Module-grouped lesson list — illuminated index style -->
+  <main class="max-w-4xl mx-auto px-6 py-20">
     {allLessons.length === 0 ? (
-      <p class="text-center text-muted py-12 border border-border rounded-sm">
-        השיעורים של הקורס הזה עדיין נכתבים. חזור/חזרי בקרוב 📜
-      </p>
+      <div class="text-center py-20 border border-border bg-[var(--ink-surface)]/50">
+        <Icon name="candle" size={32} stroke="#d4a574" class="mx-auto mb-4 candle-flicker" />
+        <p class="text-parchment-2/70">השיעורים של הקורס הזה עדיין נכתבים.</p>
+        <p class="text-muted text-[13px] mt-2">חזרי בקרוב — מכתובה כותבת לאט.</p>
+      </div>
     ) : (
-      <div class="space-y-10">
-        {[...lessonsByModule.entries()].map(([module, lessons]) => (
+      <div class="space-y-16">
+        {[...lessonsByModule.entries()].map(([module, lessons], mIdx) => (
           <section>
-            <h2 class="font-display text-xl text-gold-light tracking-wider mb-4">{module}</h2>
-            <ol class="space-y-2">
+            <header class="flex items-baseline justify-between border-b border-gold/20 pb-3 mb-6">
+              <div>
+                <span class="font-display italic text-[64px] leading-none text-gold/30 me-3 align-middle">
+                  {String(mIdx + 1).padStart(2, "0")}
+                </span>
+                <span class="text-[24px] text-gold-light align-middle">{module}</span>
+              </div>
+              <span class="text-[12px] tracking-[0.2em] uppercase text-muted">
+                {lessons.length} שיעורים
+              </span>
+            </header>
+            <ol class="divide-y divide-border/60">
               {lessons.map((l) => (
                 <li>
                   <a
                     href={`/academy/${course.id}/${l.data.slug}`}
-                    class="flex items-center justify-between px-4 py-3 border border-border bg-surface/50 hover:border-gold/40 hover:bg-surface-2/80 transition-colors rounded-sm"
+                    class="group grid grid-cols-[auto_1fr_auto] items-center gap-6 py-5 hover:bg-[var(--ink-surface)]/50 transition-colors -mx-4 px-4"
                   >
-                    <span class="text-body-text/90">
-                      <span class="text-gold/70 me-2">{String(l.data.lessonNumber).padStart(2, "0")}.</span>
+                    <span class="font-display italic text-[28px] text-gold-light/60 group-hover:text-gold transition w-10 text-end tabular-nums">
+                      {String(l.data.lessonNumber).padStart(2, "0")}
+                    </span>
+                    <span class="text-[18px] text-parchment group-hover:text-gold-light transition leading-tight">
                       {l.data.title}
                     </span>
-                    <span class="text-xs text-muted">{l.data.estimatedMinutes} דק׳</span>
+                    <span class="text-[12px] text-muted tracking-wide whitespace-nowrap tabular-nums">
+                      {l.data.estimatedMinutes} דק׳
+                    </span>
                   </a>
                 </li>
               ))}
@@ -86,6 +141,18 @@ const jsonLd = {
         ))}
       </div>
     )}
+
+    <div class="rule-star mt-20"></div>
+
+    <!-- CTA back to app -->
+    <aside class="text-center max-w-lg mx-auto">
+      <h3 class="text-[32px] mb-4">רוצה לתרגל מיד?</h3>
+      <p class="text-parchment-2/80 mb-6">
+        האפליקציה של מכתובה לוקחת את מה שלמדת והופכת אותו לקריאה אישית — בקפה, בכף, או בקלפים שלך.
+      </p>
+      <a href="/app" class="btn-gold">קבלי קריאה עם מכתובה</a>
+    </aside>
   </main>
+
   <Footer lang="he" />
 </Base>

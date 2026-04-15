@@ -1,21 +1,32 @@
 ---
+import { LOGO } from "@/lib/images";
 const { lang = "he" } = Astro.props;
 const t = {
-  he: { home: "בית", academy: "אקדמיה", app: "אפליקציה" },
-  en: { home: "Home", academy: "Academy", app: "App" },
-  ar: { home: "الرئيسية", academy: "الأكاديمية", app: "التطبيق" },
+  he: { readings: "קריאות", academy: "אקדמיה", pricing: "מחירים", about: "אודות", app: "האפליקציה" },
+  en: { readings: "Readings", academy: "Academy", pricing: "Pricing", about: "About", app: "App" },
+  ar: { readings: "قراءات",   academy: "الأكاديمية", pricing: "الأسعار", about: "عن", app: "التطبيق" },
 }[lang as "he" | "en" | "ar"];
 const prefix = lang === "he" ? "" : `/${lang}`;
+const pathNoLang = Astro.url.pathname.replace(/^\/(en|ar)/, "") || "/";
 ---
-<header class="sticky top-0 inset-x-0 z-40 bg-background/80 backdrop-blur-md border-b border-border">
+<header class="sticky top-0 inset-x-0 z-40 backdrop-blur-md border-b border-border/60" style="background: rgba(10,6,18,0.75);">
   <nav class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-    <a href={`${prefix}/`} class="font-display text-xl text-gold tracking-[0.15em]">🔮 MAKTUBA</a>
-    <div class="flex items-center gap-5">
-      <a href={`${prefix}/academy`} class="text-sm text-body-text hover:text-gold transition-colors">{t.academy}</a>
-      <div class="flex items-center gap-1 text-xs">
-        <a href={`/${Astro.url.pathname.replace(/^\/(en|ar)/, "")}`} class:list={["px-2 py-1 rounded-sm transition-colors", lang === "he" ? "bg-gold/20 text-gold" : "text-muted hover:text-gold"]}>HE</a>
-        <a href={`/en${Astro.url.pathname.replace(/^\/(en|ar)/, "")}`} class:list={["px-2 py-1 rounded-sm transition-colors", lang === "en" ? "bg-gold/20 text-gold" : "text-muted hover:text-gold"]}>EN</a>
-        <a href={`/ar${Astro.url.pathname.replace(/^\/(en|ar)/, "")}`} class:list={["px-2 py-1 rounded-sm transition-colors", lang === "ar" ? "bg-gold/20 text-gold" : "text-muted hover:text-gold"]}>AR</a>
+    <a href={`${prefix}/`} class="flex items-center gap-2.5" aria-label="Maktuba — Home">
+      <img src={LOGO.icon} alt="" class="h-8 w-auto" />
+      <span class="font-display text-[18px] tracking-[0.28em] text-gold uppercase hidden sm:inline" style="font-family: 'Playfair Display', serif; font-weight: 700;">
+        Maktuba
+      </span>
+    </a>
+    <div class="flex items-center gap-1 sm:gap-6">
+      <a href={`${prefix}/readings`}  class="hidden sm:inline text-[13px] tracking-[0.15em] uppercase text-parchment-2/85 hover:text-gold transition">{t.readings}</a>
+      <a href={`${prefix}/academy`}   class="text-[13px] tracking-[0.15em] uppercase text-parchment-2/85 hover:text-gold transition">{t.academy}</a>
+      <a href={`${prefix}/pricing`}   class="hidden sm:inline text-[13px] tracking-[0.15em] uppercase text-parchment-2/85 hover:text-gold transition">{t.pricing}</a>
+      <div class="flex items-center text-[11px] tracking-widest ms-2 sm:ms-4">
+        <a href={pathNoLang} class:list={["px-2 py-1 transition", lang === "he" ? "text-gold" : "text-muted hover:text-gold"]} aria-label="עברית">HE</a>
+        <span class="text-border/80">·</span>
+        <a href={`/en${pathNoLang === "/" ? "" : pathNoLang}`} class:list={["px-2 py-1 transition", lang === "en" ? "text-gold" : "text-muted hover:text-gold"]}>EN</a>
+        <span class="text-border/80">·</span>
+        <a href={`/ar${pathNoLang === "/" ? "" : pathNoLang}`} class:list={["px-2 py-1 transition", lang === "ar" ? "text-gold" : "text-muted hover:text-gold"]}>AR</a>
       </div>
     </div>
   </nav>
