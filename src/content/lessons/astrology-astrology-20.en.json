@@ -1,0 +1,136 @@
+{
+  "courseId": "astrology",
+  "lessonNumber": 20,
+  "title": "Zodiac Compatibility: The Secret to Harmonious Relationships in Astrology",
+  "slug": "astrology-20-compatibility",
+  "module": "Houses",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit, my child, the candle burns and the stars tell an ancient story about compatibility of hearts. In the previous lesson we explored the fascinating angles formed between planets, and now comes the moment to discover the true magic — how different signs befriend each other. Zodiac compatibility is not like the sweet horoscope in the newspaper. It's a delicate science of cosmic energies that affects every relationship in your life — love, friendship, business and family. I will show you today how to read the hidden alchemy between souls, how to understand why you're drawn to certain types of people, and why some couples simply work like magic. This is not blind fate — it's stellar wisdom that can guide you to happier relationships.</p>",
+    "theoryA": "<h2>How Does Zodiac Compatibility Work in Astrology?</h2><p>Zodiac compatibility is built on the principle that each element affects the other in different ways. Fire sign pairs (Aries, Leo, Sagittarius) create shared enthusiasm and high energy that feeds each other. When Aries meets Leo, the result is a stellar explosion of passion and ambition — both are driven by the same Mars force, but Aries brings the pioneering spirit and Leo brings the royalty.</p><p>Earth signs (Taurus, Virgo, Capricorn) create solid stability like rock mountains. When Capricorn meets Taurus, both understand the need for material security and building a solid future. Capricorn brings business ambition and Taurus brings sensuality and comfort. This is a pairing built to last generations.</p><p>Air signs (Gemini, Libra, Aquarius) get excited by new ideas and fascinating communication. Gemini with Aquarius create an endless brainstorm — both are driven by intellectual curiosity but Gemini seeks variety and Aquarius seeks revolution.</p><p>Water signs (Cancer, Scorpio, Pisces) flow together in emotional depths. When Scorpio meets Pisces, emotional depth meets higher spirituality. Scorpio brings magnetic power and Pisces brings universal compassion.</p>",
+    "practice1": {
+      "instruction": "Write down 3 important relationships in your life (family members, friends, partners). For each one, write down their sign and find which element they're in. Do you see a pattern? Which elements appear most often in your close circle?",
+      "type": "write"
+    },
+    "theoryB": "<h2>Which Signs Are Most Compatible in Love?</h2><p>The most celebrated couples in astrology are those who create deep harmony or creative tension between them. Aries with Sagittarius gets 95 out of 100 — both fire signs with love for freedom and adventure. Aries brings the courage to embark on journeys and Sagittarius brings long-term wisdom.</p><p>Taurus with Capricorn also gets 95 — this is the power pairing of the earth element. Both appreciate luxury, stability and long-term building. Taurus brings the culinary nature and Capricorn brings the ability to rake in money. Gemini with Aquarius gets 92 — an endless meeting of air sign minds. Gemini brings curiosity and social wisdom, Aquarius brings futuristic vision and innovation.</p><p>Cancer with Pisces gets 96 — the lotus pairing of water signs. Cancer brings family love and caring, Pisces brings spirituality and cosmic empathy. This is love that flows like an emotional river to the sea.</p><p>The opposite signs on the wheel create fascinating magnetic tension: Aries opposite Libra (72), Taurus opposite Scorpio (85), Gemini opposite Sagittarius (78), Cancer opposite Capricorn (80), Leo opposite Aquarius (78), Virgo opposite Pisces (depends on additional factors). These are \"opposites attract\" couples that complete each other.</p>",
+    "practice2": {
+      "instruction": "Choose a sign that always attracts you. Look up its description and compatibility score with your sign. Read the energetic interpretation. Now think of someone from that sign you know — does the description match what you feel with them?",
+      "type": "observe"
+    },
+    "deepDive": "<h2>What's Not Written in Books About Zodiac Compatibility</h2><p>The big secret no astrologer will tell you: the highest compatibility doesn't always bring the greatest happiness. Aries with Sagittarius might have 95 compatibility, but they might disappear into the Amazon rainforest together and never pay a mortgage. Sometimes tension is what causes growth — Taurus with Scorpio at 85 can be the strongest couple you'll meet, because Scorpio forces Taurus to deepen and Taurus forces Scorpio to stay anchored in reality.</p><p>Another secret: Chinese astrology adds an additional layer. If you're Gemini with Rat and you meet Leo with Dragon, the stellar compatibility combines with Chinese compatibility to create double magnetism. Gemini will appreciate the Rat's sharp intellect, and Leo will admire the Dragon's natural charisma.</p><p>The third secret: there are signs that function as bridges between different elements. Libra (air) connects to both fire and water signs because they're driven by the need for harmony. Scorpio (water) connects to earth signs too because it understands the need for power and stability.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which zodiac pair gets the highest compatibility score?",
+          "options": [
+            "Aries and Scorpio",
+            "Cancer and Pisces",
+            "Gemini and Virgo",
+            "Taurus and Leo"
+          ],
+          "correct": 1,
+          "explanation": "Cancer and Pisces get 96 out of 100 — a perfect pairing of water signs with deep emotional and spiritual harmony."
+        },
+        {
+          "question": "Why do fire signs suit each other?",
+          "options": [
+            "Because they love challenges",
+            "Because they share energy and passion",
+            "Because they hate routine",
+            "Because they're beautiful"
+          ],
+          "correct": 1,
+          "explanation": "Fire signs share the same inner energy and passion for life, which creates mutual understanding and encouragement."
+        },
+        {
+          "question": "Which signs are considered 'opposites attract'?",
+          "options": [
+            "Signs from the same element",
+            "Signs that are opposite on the zodiac wheel",
+            "Earth and water signs",
+            "Summer and winter signs"
+          ],
+          "correct": 1,
+          "explanation": "Opposite signs on the wheel (like Aries-Libra) create magnetic tension and complement each other in different traits."
+        },
+        {
+          "question": "What does a low compatibility score mean?",
+          "options": [
+            "The relationship is forbidden",
+            "Need to deal with challenges",
+            "It will never work",
+            "Mistake in astrology"
+          ],
+          "correct": 1,
+          "explanation": "A low compatibility score means there are more challenges to work on, not that the relationship is doomed to failure."
+        },
+        {
+          "question": "How do water signs connect to each other?",
+          "options": [
+            "Through intellect",
+            "Through emotional depth and intuition",
+            "Through shared activities",
+            "Through material goals"
+          ],
+          "correct": 1,
+          "explanation": "Water signs flow together through deep emotional connection, shared intuition and soul sensitivity."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we learned that zodiac compatibility is a complex energetic science based on elements, polarity and positions on the zodiac wheel. We saw that signs from the same element are drawn to each other, but also that tension can bring growth and depth to a relationship.",
+      "wisdom": "True love doesn't need perfect stars — it needs souls willing to dance together.",
+      "nextPreview": "In the next lesson we enter the mysterious world of the Black Moon — Lilith, the dark side and wild feminine power in astrology that reveals the repressed parts of our psyche."
+    }
+  },
+  "faq": [
+    {
+      "question": "Does low compatibility mean the relationship won't work?",
+      "answer": "Not necessarily. Low compatibility means more emotional work and communication is required, but many low-compatibility couples create strong relationships precisely because of the challenges."
+    },
+    {
+      "question": "How does Chinese astrology affect Western compatibility?",
+      "answer": "Chinese astrology adds an additional layer of personality and compatibility. A Chinese animal can add to or strengthen zodiacal compatibility, but it doesn't cancel it out."
+    },
+    {
+      "question": "What's more important - sun sign or rising sign in compatibility?",
+      "answer": "The sun sign represents inner identity and the rising sign represents first impression. Both are important - rising for initial attraction and sun for relationship depth."
+    },
+    {
+      "question": "Are there signs that don't match at all?",
+      "answer": "There are no signs that don't match at all. There are signs with more challenges, but with understanding and willingness to do emotional work, any couple can find harmony."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "elements",
+      "label": "⭐ The Four Elements in Astrology"
+    },
+    {
+      "course": "astrology",
+      "lesson": "venus",
+      "label": "⭐ Venus - Planet of Love"
+    },
+    {
+      "course": "astrology",
+      "lesson": "mars",
+      "label": "⭐ Mars and Sexual Energy"
+    }
+  ],
+  "seo": {
+    "title": "Zodiac Compatibility: Guide to Harmonious Relationships in Astrology",
+    "description": "Discover the secrets of compatibility between zodiac signs. Which couples work best? How do elements affect relationships? Complete guide to relationship astrology and soul compatibility.",
+    "keywords": [
+      "zodiac compatibility",
+      "relationship astrology",
+      "love compatibility",
+      "zodiac signs in love",
+      "astrology relationships",
+      "horoscope couples"
+    ],
+    "ogImage": "/og/academy/astrology/astrology-20.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

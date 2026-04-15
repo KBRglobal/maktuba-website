@@ -1,0 +1,131 @@
+{
+  "courseId": "tarot",
+  "lessonNumber": 27,
+  "title": "Court Cards — People and Roles",
+  "slug": "court-cards",
+  "module": "Minor Arcana",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit beside me, dear one. Light a white candle and place it next to you — today we enter the world of court cards, the cards that represent people and roles in our lives. If in the previous lesson you learned about the Ten of Cups and the joy of home, today you'll understand how the people around us — queens and kings, knights and pages — shape our life experience. Court cards are a mirror of the human psyche, each carrying a unique role in our emotions, thoughts, actions, and material world. This is ancestral wisdom — every person we meet in life is a messenger, and within every messenger is a part of ourselves waiting to be discovered.</p>",
+    "theoryA": "<h2>What is the meaning of court cards in Tarot?</h2><p>Court cards represent real people in our lives or different aspects of our own personality. Each suit — Wands, Cups, Swords, and Pentacles — includes four court cards: Page, Knight, Queen, and King. These sixteen cards together create a complete system of personality types.</p><p>The Page represents the young and learning part of us — new energy, curiosity, first experience. When you see a Page in a reading, it could be an actual child, or the fresh and exploratory part of yourself discovering something new. Pages are messengers — they bring news, opportunities, good tidings.</p><p>The Knight is the dynamic and active energy — it moves, acts, strives. Each Knight carries the energy of its element in an extreme form. The Knight of Wands rides fast toward adventure, the Knight of Cups drowns in emotions, the Knight of Swords cuts through with sharp thoughts, and the Knight of Pentacles builds with patience.</p><p>The Queen and King represent spiritual maturity — they have mastered their emotions, thoughts, actions, or material world. The Queen is the internal and receptive energy, the King is the external and giving energy. Together they create perfect balance within each element.</p><p>When a court card appears in a reading, ask yourself: Is this me? Is this someone else? Or perhaps this is a role I need to embody? Sometimes the Page of Wands tells us to return to being curious like children, and sometimes the Queen of Cups reminds us to open our hearts to compassion.</p>",
+    "practice1": {
+      "instruction": "Take out the four court cards of one suit (for example — all court cards of Wands). Arrange them before you in order: Page, Knight, Queen, King. Observe them for two minutes and think of one person you know who fits each role. Write down their names.",
+      "type": "observe"
+    },
+    "theoryB": "<h2>How do court cards connect to astrology and Kabbalah?</h2><p>Each court card carries within it a unique combination of element and role, connecting directly to ancient wisdom systems. In Kabbalah, the four court roles represent the four levels of soul and consciousness.</p><p>The Pages connect to the world of Assiah — the physical and practical world. They are the foundation, the ground, the point from which everything begins. In astrology, Pages carry the energy of Earth — stable, practical, focused on learning and receiving instruction.</p><p>The Knights belong to the world of Yetzirah — the world of emotions and creation. They are the inner fire that drives us forward. Each Knight carries the Fire energy of its element — even the Knight of Cups (Water) is fire within water, emotion that burns and seeks expression.</p><p>The Queens belong to the world of Beriah — the world of thought and deep understanding. They carry the energy of Water — flowing, receiving, processing. The Queen sits on her throne and receives all information, emotions, and experiences, processing them into wisdom.</p><p>The Kings belong to the world of Atzilut — the highest spiritual world. They carry the energy of Air — clear, directed, ruling and leading. The King knows what he wants and has the power to manifest his will.</p><p>Each court card is also a combination of two elements: the element of the role (Earth for Pages, Fire for Knights, Water for Queens, Air for Kings) and the element of the suit (Fire for Wands, Water for Cups, Air for Swords, Earth for Pentacles). The Queen of Wands, for example, is Water of Fire — the inner fire that flows with compassion and understanding.</p><p>In the numerological system, court cards carry the values of 11 (Page), 12 (Knight), 13 (Queen), and 14 (King). These are numbers of mastery and spiritual development, numbers that transcend the ten basic sephiroth and enter a higher dimension of existence.</p>",
+    "practice2": {
+      "instruction": "Choose one court card that speaks to you today. Hold it in your hands and close your eyes. Ask: \"What role do I need to embody today?\" Open your eyes and observe the card. What qualities of this character can you emulate? Write three concrete actions you'll take today inspired by this card.",
+      "type": "meditate"
+    },
+    "deepDive": "<h2>What's not written in books about court cards</h2><p>The deep secret of court cards is that they offer us a roadmap for complete personality development. Each of us is born with a natural inclination toward a certain suit — there are Fire people (Wands), Water people (Cups), Air people (Swords), and Earth people (Pentacles). But true wisdom is learning to embody all the roles.</p><p>I learned from my grandmothers that each court card is also a developmental stage in our personality. We begin as Pages — young, curious, full of questions. Then we become Knights — active, determined, sometimes a bit impulsive. Simultaneously we develop our Queen side — sensitivity, empathy, the ability to receive and process. Finally we mature into Kings — visionary, leaders, people who can lead themselves and others.</p><p>But the interesting point is that each of us lives all four stages simultaneously in different areas of life. You can be a King at work and a Page at home, or a Queen in emotions and a Knight in thoughts. Court cards teach us psychological flexibility — the ability to choose the right role for the right moment.</p><p>There's also a small secret that only few know: court cards serve as gateways. When you focus on a specific court card in meditation, you can access its qualities even if they're not natural to you. This is a form of soul work — becoming a different person for a short time, learning from them, and returning with new wisdom.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What does the Page represent in court cards?",
+          "options": [
+            "Leadership and authority",
+            "Youth and learning",
+            "Deep emotions",
+            "Material achievements"
+          ],
+          "correct": 1,
+          "explanation": "The Page represents the young and learning part of us — curiosity, first experience, and new beginnings."
+        },
+        {
+          "question": "Which element connects to the Knight role?",
+          "options": [
+            "Earth",
+            "Fire",
+            "Water",
+            "Air"
+          ],
+          "correct": 1,
+          "explanation": "The Knight carries Fire energy — dynamic, active, and moving forward."
+        },
+        {
+          "question": "In the Kabbalistic system, the Queens belong to which world?",
+          "options": [
+            "Assiah",
+            "Yetzirah",
+            "Beriah",
+            "Atzilut"
+          ],
+          "correct": 2,
+          "explanation": "Queens belong to the world of Beriah — the world of thought and deep understanding."
+        },
+        {
+          "question": "Which numerological number belongs to the King?",
+          "options": [
+            "11",
+            "12",
+            "13",
+            "14"
+          ],
+          "correct": 3,
+          "explanation": "The King carries the numerological value 14 — a number of mastery and spiritual development."
+        },
+        {
+          "question": "What is the uniqueness of the Queen of Wands in elements?",
+          "options": [
+            "Fire of Fire",
+            "Water of Fire",
+            "Air of Fire",
+            "Earth of Fire"
+          ],
+          "correct": 1,
+          "explanation": "The Queen (Water) of Wands (Fire) is Water of Fire — the inner fire that flows with compassion."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Court cards are the complete personality map in Tarot — Pages who learn, Knights who act, Queens who receive and Kings who lead. Each of us can embody all these roles at different times and places.",
+      "wisdom": "A person without queens is an orphan, and queens without pages are barren.",
+      "nextPreview": "In the next lesson we'll dive deep into each court card individually — we'll meet the Page of Wands, the bold Knight, the compassionate Queen, and the leading King."
+    }
+  },
+  "faq": [
+    {
+      "question": "Does a court card always represent another person or also myself?",
+      "answer": "A court card can represent a real person in your life, an aspect of your personality, or a role you need to embody. It depends on the context of the question and surrounding cards."
+    },
+    {
+      "question": "How do I know which court card fits a certain person?",
+      "answer": "Observe the personality traits, way of action, and motivations of the person. Are they learning (Page), acting (Knight), receiving and processing (Queen), or leading and ruling (King)?"
+    },
+    {
+      "question": "What's the difference between Queen and King in the same suit?",
+      "answer": "The Queen represents the internal and receptive energy of the element, the King represents the external and active energy. Both are mature and experienced, but in different expression."
+    },
+    {
+      "question": "Is there a specific age for each court card?",
+      "answer": "Not necessarily. A Page can represent an adult with a child's soul, and a King can represent a young person with an elder's wisdom. It's about spiritual maturity, not chronological age."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "numerology",
+      "lesson": "master-numbers",
+      "label": "⭐ Master Numbers 11-22"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "four-worlds",
+      "label": "🌟 Four Worlds in Kabbalah"
+    }
+  ],
+  "seo": {
+    "title": "Court Cards in Tarot - Complete Guide to People and Roles",
+    "description": "Learn about court cards in Tarot: Pages, Knights, Queens, and Kings. How each represents different roles in personality and life. In-depth guide to Tarot reading.",
+    "keywords": [
+      "court cards",
+      "tarot",
+      "page tarot",
+      "knight tarot",
+      "queen tarot",
+      "king tarot"
+    ],
+    "ogImage": "/og/academy/tarot/court-cards.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

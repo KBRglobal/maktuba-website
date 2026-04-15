@@ -1,0 +1,136 @@
+{
+  "courseId": "psalms",
+  "lessonNumber": 5,
+  "title": "Selected Psalms - Living Prayers",
+  "slug": "psalms-05",
+  "module": "Selected Psalms",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down, dear child, and the candle flickers as always... The warm cup of coffee in my hands, and my eyes gaze into the soul. Five lessons have passed, and now we've reached the place where Psalms become personal companions. Each chapter is like a small key to a great door in life. Today we'll learn about the Psalms that accompany us every day - those that awaken strength within us, bring healing, and open the gates of heaven. This isn't just about reading words, it's about understanding how each Psalm is an exact remedy for a specific problem. The art is knowing which chapter to read at which moment.</p>",
+    "theoryA": "<h2>How to Choose a Psalm for Every Life Situation?</h2><p>Every Psalm is a precise spiritual prescription. Just as you wouldn't take aspirin for a stomachache, each Psalm chapter is designed for a specific emotional or physical state. Psalm 1 is for beginnings and success. When you're starting a business, a new job, or want to make the right decision - this is your chapter. \"Blessed is the man who walks not in the counsel of the wicked\" - this chapter protects you from bad choices and guarantees success in every endeavor.</p><p>Psalm 3 is the strongest shield there is. When you're afraid, anxious, or feel under threat - read this chapter. \"The Lord is a shield about me\" - these words create a real protective envelope. My grandmother used to say: \"Afraid? Psalm 3!\" and it always worked. This chapter also helps against headaches and migraines - it has special healing power.</p><p>Psalm 23 is the most famous chapter - \"The Lord is my shepherd, I shall not want.\" This is for livelihood and abundance. When money isn't coming in, when you're worried about the financial future, or when you simply want there to be enough for all needs - this is your chapter. But it's not just about money. It's about the feeling that God cares for you on every level.</p><p>Psalm 119 is the giant - 176 verses according to the alphabet. The Chida discovered a special virtue: to read only the verses that correspond to the letters of your name. If your name is Sarah, you'd read verses 161-168 (Shin), 153-160 (Resh), 33-40 (Heh). It's like personal tailoring of the Psalm to your soul.</p>",
+    "practice1": {
+      "instruction": "Take your chapter according to your age (your age +1). For example: age 25 = Psalm 26. Read it in whisper, not aloud. Feel how the words enter within. Write one sentence about what you felt.",
+      "type": "meditate"
+    },
+    "theoryB": "<h2>What's the Connection Between Psalms and the Months of the Year?</h2><p>Each month has a special Psalm chapter that matches the month's zodiac sign and energy. This is a deep connection between Jewish astrology and Psalms. Tishrei (Libra) - Psalm 81. This is the month of judgment and scales, and this chapter brings balance and protection. Kislev (Sagittarius) - Psalm 30. The month of Chanukah and light, and this chapter deals with thanksgiving and illumination.</p><p>Nissan (Aries) received Psalm 107 - \"Give thanks to the Lord, for He is good, for His mercy endures forever.\" This is the month of freedom and redemption, and this chapter speaks of four types of people who need to give thanks - all connected to freedom: those who came out of the desert (freedom from confusion), freed prisoners (physical freedom), sick people who recovered (freedom from suffering), and sailors in a storm (freedom from fear).</p><p>This connection between months and Psalms isn't coincidental. Each month has a special astrological \"frequency,\" and each Psalm chapter has a spiritual frequency. When they align - magic happens. In the month of Av (Leo) we say Psalm 79 - a chapter of strength and courage. In the month of Shevat (Aquarius) we say Psalm 104 - a chapter of abundance and flow.</p><p>The Baal Shem Tov revealed another secret: to say the chapter of the month every day of that month. It's like putting the soul in rhythm with nature and creation. In Tishrei - Psalm 81 every day. In Kislev - Psalm 30 every day. The soul enters synchronization with cosmic energies.</p>",
+    "practice2": {
+      "instruction": "Find which chapter corresponds to your birth month (Tishrei-81, Cheshvan-80, Kislev-30, Tevet-121, Shevat-104, Adar-22, Nissan-107, Iyar-67, Sivan-119, Tammuz-137, Av-79, Elul-27). Read it and feel the connection to your zodiac sign's characteristics. Write how this chapter speaks to you.",
+      "type": "write"
+    },
+    "deepDive": "<h2>The Hidden Secret of Psalm 119 - Key to the Holy Name</h2><p>Psalm 119 is the longest chapter in Psalms - 176 verses, 22 stanzas of 8 verses each, according to alphabetical order. But the Chida discovered a deep secret in it that isn't written in any book.</p><p>Each stanza begins with one letter, and the eight verses within it are like eight names of that letter. When you say the verses that correspond to the letters of your name, you're actually building personal correction for the soul. The name \"David\" for example: Dalet (verses 25-32), Vav (verses 41-48), Dalet (again 25-32). It's like engraving your name in supernal light.</p><p>But there's another secret. The gematria of \"Psalms\" (485) plus the word \"Psalm\" (293) gives 778 - equal to the word \"eight\" (353) times two, plus \"truth\" (441). This hints at the eight verses in each stanza, which connect us to the supernal truth.</p><p>The Kabbalists said that whoever recites all of Psalm 119 - all 176 verses - merits correction of the covenant. But whoever says only his verses according to his name - merits personal soul correction. It's like the difference between general medicine and personalized medicine.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which Psalm chapter is suitable for beginnings and success?",
+          "options": [
+            "Psalm 1",
+            "Psalm 3",
+            "Psalm 23",
+            "Psalm 119"
+          ],
+          "correct": 0,
+          "explanation": "Psalm 1 - \"Blessed is the man\" - is suitable for beginnings, right decisions, and success in every endeavor."
+        },
+        {
+          "question": "Which Psalm chapter is read in the month of Nissan?",
+          "options": [
+            "Psalm 30",
+            "Psalm 81",
+            "Psalm 107",
+            "Psalm 79"
+          ],
+          "correct": 2,
+          "explanation": "The month of Nissan (Aries) corresponds to Psalm 107 - \"Give thanks to the Lord for He is good\" - the chapter of freedom and redemption."
+        },
+        {
+          "question": "How many verses are in each stanza of Psalm 119?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "10"
+          ],
+          "correct": 2,
+          "explanation": "Psalm 119 has 22 stanzas of 8 verses each, according to alphabetical order."
+        },
+        {
+          "question": "Which chapter is suitable for livelihood and abundance?",
+          "options": [
+            "Psalm 1",
+            "Psalm 3",
+            "Psalm 23",
+            "Psalm 119"
+          ],
+          "correct": 2,
+          "explanation": "Psalm 23 - \"The Lord is my shepherd, I shall not want\" - is the special chapter for livelihood and abundance on every level."
+        },
+        {
+          "question": "According to the Baal Shem Tov tradition, which chapter is said according to age?",
+          "options": [
+            "The exact age",
+            "Age minus 1",
+            "Age plus 1",
+            "Age times 2"
+          ],
+          "correct": 2,
+          "explanation": "Baal Shem Tov tradition: each person says the chapter corresponding to their age plus 1. Age 30 → Psalm 31."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Psalms are keys to life. Each chapter is an exact remedy for a specific situation - Psalm 1 for success, Psalm 3 for protection, Psalm 23 for livelihood. Each month has a special Psalm chapter that matches its zodiac sign and energy. And Psalm 119 enables personal correction according to the letters of one's name.",
+      "wisdom": "Every Psalm is a bridge between earth and heaven - you just need to know which bridge to cross.",
+      "nextPreview": "In the next lesson we'll learn about special Psalms - those that bring healing, protect from the evil eye, and open the gates of heaven in extreme situations."
+    }
+  },
+  "faq": [
+    {
+      "question": "Is it obligatory to read the chapter according to age every day?",
+      "answer": "It's a beautiful custom but not obligatory. You can also read according to need or situation. The Baal Shem Tov gave this as guidance, not as law."
+    },
+    {
+      "question": "What do you do if the age exceeds 150 chapters?",
+      "answer": "You say Psalm 150 and add the remainder. For example: age 155 = Psalm 150 plus Psalms 1-5."
+    },
+    {
+      "question": "How do you find the verses in Psalm 119 according to the name?",
+      "answer": "Each letter gets 8 verses: Aleph (1-8), Beth (9-16), Gimel (17-24) and so on. Look for the letters of the name and read the corresponding verses."
+    },
+    {
+      "question": "What's the difference between reading aloud or in a whisper?",
+      "answer": "Whispering is more intimate and turns inward. Aloud awakens forces in the world. It depends what you need - inner healing or external change."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "houses",
+      "label": "⭐ Houses in Astrology - Connection to the Months of the Year"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot",
+      "label": "⭐ The Sefirot in Kabbalah - The Spiritual Structure of Psalms"
+    },
+    {
+      "course": "numerology",
+      "lesson": "letters",
+      "label": "⭐ Gematria and Letters - The Hidden Power of Words"
+    }
+  ],
+  "seo": {
+    "title": "Psalms for Every Life Situation - How to Choose Correctly | Maktuba",
+    "description": "Learn how to choose the right chapter for every situation: Psalm 1 for success, 3 for protection, 23 for livelihood. Psalms for the months of the year and Psalm 119 according to personal name.",
+    "keywords": [
+      "psalms",
+      "psalm chapter",
+      "psalms for livelihood",
+      "psalms for protection",
+      "psalm 119",
+      "psalms months year"
+    ],
+    "ogImage": "/og/academy/psalms/psalms-05.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

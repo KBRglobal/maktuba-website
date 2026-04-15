@@ -1,0 +1,136 @@
+{
+  "courseId": "numerology",
+  "lessonNumber": 14,
+  "title": "Arabic Numerology — Abjad and Hisab al-Jummal",
+  "slug": "numerology-14-abjad",
+  "module": "Practice",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit, my dear ones, the hermits are already thinking of us. In the quiet desert evenings, when the wind whispers between the dunes, the ancient Arabs developed a profound numerological system — Abjad or Hisab al-Jummal. This is an ancient and respected system that calculates the numerical values of Arabic names, revealing hidden secrets within the letters. In our previous lesson we learned about life path number compatibility, and now we return to the ancient roots of Middle Eastern numerology. The Abjad method is a bridge between Jewish and Arabic tradition, a system that gives spiritual meaning to every letter and every name. It's time to explore the wisdom of the desert.</p>",
+    "theoryA": "<h2>How Does the Arabic Abjad System Work?</h2><p>The Arabic Abjad system is an ancient numerological system known as Hisab al-Jummal, which assigns a numerical value to each letter in the Arabic alphabet. The system operates according to a special order called 'the regular Mashriqi order': Abjad Hawwaz Hutti Kalaman Sa'fas Qarshat Thakhadh Dazagh. The letter Alef equals 1, Ba 2, Jim 3 and so on, until we reach higher values like Ra which is 200 and Shin which is 300. This is not just a counting system — it's a way to understand the hidden connections between words, names and concepts. The system is divided into groups: the first letters (Alef to Ta) represent numbers 1-9, the next group represents tens (Ya to Sad) with values 10-90, and then come the hundreds. Ancient astrologers and sages used this system to find connections between words through their numerical value — what is called 'Arabic gematria'. This is a tool for exploring hidden meanings and understanding the spiritual connections between different words.</p>",
+    "practice1": {
+      "instruction": "Calculate the numerical value of the name 'Nur' (N-U-R) in Abjad: Nun = 50, Waw = 6, Ra = 200. Sum: 50+6+200 = 256. Now calculate your own name in Hebrew and convert it to equivalent values (Alef=1, Beth=2, Gimel=3...). Write down the result and search for Arabic words with the same value in the knowledge database.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How Do We Connect Abjad to Western Numerology?</h2><p>The connection between Abjad and Western numerology is deep and fascinating. After calculating the total value of the name, we perform reduction to a single digit (exactly like in Western numerology), and thus arrive at the life path number of the name. This number is interpreted in the same way as in Western numerology: 1 refers to leadership, 2 to diplomacy, 3 to creativity and so on. But there's additional depth here — Arabic culture sees this calculation as a connection to spiritual values. For example, the name 'Allah' is calculated thus: Alef (1) + Lam (30) + Lam (30) + Ha (5) = 66, which reduces to 3 — the number of joy and creativity. Muhammad (M-H-M-D): Meem (40) + Ha (8) + Meem (40) + Dal (4) = 92, which reduces to 2 — the number of peace and diplomacy. The famous expression 'Bismillah ar-Rahman ar-Raheem' equals 786 — a sacred number in Islamic tradition. The connection to Kabbalah and Jewish gematria is clear: both systems believe that letters are divine tools for creating the world, and that numbers hold cosmic secrets.</p>",
+    "practice2": {
+      "instruction": "Take an Arabic family name or place name (like 'Mecca' or 'Damascus') and calculate its value in Abjad. Search in the knowledge database for other words with the same numerical value. Write an interpretive paragraph about the inner connection between these words, using regular numerological principles.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books — Secrets of Ilm al-Huruf</h2><p>Ilm al-Huruf (the science of letters) is the field of Arabic mysticism that goes beyond simple calculations. Arabic sages, especially Ibn Arabi, developed a conception that letters are independent life forces, not just symbols. Each letter carries certain cosmic qualities: Alef represents primordial unity, Ba represents duality, Jim represents movement. The great secret is that we don't just calculate words — we calculate dates, events, even dreams. There's deep wisdom that connects the important Arabic numbers: 5 (the five pillars of Islam), 7 (the seven heavens), 40 (forty days of purification), 99 (the 99 names of Allah). When someone is born, not only their name matters — their mother's name also transmits spiritual inheritance. The sages would compare the value of a person's name to the value of the mother's name, to understand the karmic connection. And here we find the deep connection to astrology: when we combine the Abjad number with the birth sign, we discover additional layers of meaning that connect to the correspondences of the stars.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is the numerical value of the letter Jim (ج) in the Abjad system?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correct": 1,
+          "explanation": "Jim is the third letter in the Arabic Abjad order and therefore its numerical value is 3."
+        },
+        {
+          "question": "What is the Arabic numerological system called?",
+          "options": [
+            "Abjad Hawwaz",
+            "Hisab al-Jummal",
+            "Ilm al-Huruf",
+            "Al-Abjadiyya"
+          ],
+          "correct": 1,
+          "explanation": "The system is called Hisab al-Jummal (حساب الجُمَّل), which means calculation of the sum."
+        },
+        {
+          "question": "What is the numerical value of the word 'Nur' (light) in Arabic?",
+          "options": [
+            "206",
+            "256",
+            "266",
+            "276"
+          ],
+          "correct": 1,
+          "explanation": "Nur = Nun (50) + Waw (6) + Ra (200) = 256."
+        },
+        {
+          "question": "What does the numerical value of the famous 'Bismillah' add up to?",
+          "options": [
+            "666",
+            "786",
+            "886",
+            "986"
+          ],
+          "correct": 1,
+          "explanation": "The complete phrase 'Bismillah ar-Rahman ar-Raheem' equals 786 — a sacred number in Islamic tradition."
+        },
+        {
+          "question": "What does Ilm al-Huruf mean?",
+          "options": [
+            "Calculation of numbers",
+            "Science of letters",
+            "Wisdom of stars",
+            "Secret of names"
+          ],
+          "correct": 1,
+          "explanation": "Ilm al-Huruf (علم الحروف) means the science of letters — the field of Arabic mysticism dealing with the hidden meaning of letters."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we learned about the Arabic Abjad system — Hisab al-Jummal — an ancient and respected method for calculating Arabic names. We saw how each letter carries a special numerical value, and how the system connects to Western numerology. We explored the basic principles of name calculation, reduction to a single digit, and the connection to Arabic mysticism.",
+      "wisdom": "The hermits know — in every name lies a secret, and in every secret lies a path.",
+      "nextPreview": "In our next lesson we'll learn about challenge numbers — the hidden obstacles and lessons behind our life path numbers."
+    }
+  },
+  "faq": [
+    {
+      "question": "Can Abjad be used for non-Arabic names?",
+      "answer": "Yes, Hebrew or Latin letters can be converted to equivalent Abjad values, but the system is primarily designed for Arabic names."
+    },
+    {
+      "question": "What's the difference between Abjad and Jewish gematria?",
+      "answer": "Both assign numerical values to letters, but Abjad uses the Arabic alphabetical order and slightly different values."
+    },
+    {
+      "question": "Is Abjad calculation considered fortune-telling?",
+      "answer": "No, Abjad is used for spiritual contemplation and seeking meanings, not for fortune-telling which is considered forbidden in Islam."
+    },
+    {
+      "question": "Why does the phrase 'Bismillah' equal exactly 786?",
+      "answer": "This is a precise calculation of all letters in the complete phrase, and the number 786 is considered sacred and reminiscent of God's name in Islamic tradition."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "kabbalah",
+      "lesson": "gematria",
+      "label": "⭐ Gematria in Kabbalah"
+    },
+    {
+      "course": "numerology",
+      "lesson": "13",
+      "label": "🔢 Numerological Compatibility"
+    },
+    {
+      "course": "astrology",
+      "lesson": "houses-arabic",
+      "label": "🌙 Arabic Houses in Astrology"
+    }
+  ],
+  "seo": {
+    "title": "Arabic Abjad — Hisab al-Jummal in Numerology",
+    "description": "Learn the Arabic Abjad system, Hisab al-Jummal, for calculating Arabic names. The ancient system for discovering hidden meanings in letters and numbers.",
+    "keywords": [
+      "Abjad",
+      "Hisab al-Jummal",
+      "Arabic numerology",
+      "gematria",
+      "Ilm al-Huruf",
+      "mysticism"
+    ],
+    "ogImage": "/og/academy/numerology/numerology-14.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

@@ -1,0 +1,138 @@
+{
+  "courseId": "kabbalah",
+  "lessonNumber": 1,
+  "title": "Introduction to Kabbalah and the Tree of Life",
+  "slug": "kabbalah-01",
+  "module": "Tree of Life",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down, my dear child. The candle is lit and the time is right to open together a hidden door that many fear to open. I am here with you, hand in hand, to begin a journey into the depths of Kabbalah. Kabbalah is not just ancient wisdom — it is a roadmap for the soul, a bridge between the physical and spiritual worlds. Today we will meet the Tree of Life, the central structure of this wisdom, and the ten Sefirot that build all of reality. Everything you learn here will become the foundation for all other courses — Tarot, astrology, and numerology are woven together through this Kabbalistic wisdom.</p>",
+    "theoryA": "<h2>What is Kabbalah and what is the Tree of Life?</h2><p>Kabbalah is the hidden Torah of the Jewish people, a wisdom system that reveals how creation operates. The Tree of Life is the sacred diagram that describes the flow of divine light from the supreme source down to the physical world in which we live.</p><p>The diagram consists of ten Sefirot connected by 22 paths, each corresponding to one of the 22 Hebrew letters. This is not just a philosophical scheme — it is a map of your soul, a map of all existence. Each Sefirah represents a different aspect of divine power and of humanity as well.</p><p>At the top of the tree sits Keter — the highest Sefirah representing the pure will of the Creator. From here the light flows through Chokmah and Binah, passing through emotion (Chesed, Gevurah, and Tiferet), action (Netzach, Hod, and Yesod) and arriving at Malchut — our world.</p><p>Each Sefirah lives and breathes within you. This is not just a theoretical model — it is an active system of forces that influences every moment of your life. When you understand how the Sefirot operate, you can work with them consciously, bring balance, and influence reality.</p>",
+    "practice1": {
+      "instruction": "Sit in a quiet place and draw or imagine a simple tree. On each branch write one of the ten Sefirot: Keter at the top, Chokmah and Binah on both sides, Chesed, Gevurah, Tiferet in the center, Netzach, Hod, Yesod below, and Malchut at the base. Look at the drawing and feel how the energy flows from top to bottom.",
+      "type": "draw"
+    },
+    "theoryB": "<h2>How do the Sefirot connect to Hebrew letters and Gematria?</h2><p>Each of the 22 Hebrew letters flows in a path connecting the different Sefirot. The letters are not just symbols — they are living creative forces. Each letter carries a gematric value and deep meaning that connects it to a specific spiritual force.</p><p>For example, the letter Aleph (א) with the value 1 represents the will for unity with the divine. It flows from Keter to Chokmah — from pure will to the first understanding. The letter Beth (ב) with the value 2 represents the house, the space where blessing can dwell, and so forth.</p><p>This connection between letters and Sefirot is the key to profound Kabbalistic work. When you think a word or name, you are actually activating combinations of spiritual forces. This is why Hebrew is called 'the holy tongue' — it is the language in which the world was created.</p><p>Gematria, the wisdom of calculating word values, reveals hidden connections between concepts. Words that have the same numerical value are spiritually connected in a deep way. This is the tool that allows us to decode the hidden codes in sacred texts and in life itself.</p>",
+    "practice2": {
+      "instruction": "Choose a Hebrew word that is meaningful to you (like your name or a word you love). Calculate its gematric value by adding the values of all the letters (use the table you learned). Write down the result and think about which Sefirah is most connected to this word according to its energy.",
+      "type": "write"
+    },
+    "deepDive": "<h2>The Great Secret: Why exactly ten Sefirot?</h2><p>Many ask why exactly ten Sefirot and not nine or eleven. The secret lies in the fact that ten is the number of physical completeness — ten fingers, ten planets that rule our lives (from the Kabbalistic perspective), ten utterances through which the world was created.</p><p>But the deeper secret is that there are actually eleven Sefirot. The 11th Sefirah is called 'Daat' and it is hidden between Chokmah and Binah. Daat is the Sefirah of inner knowledge, wisdom that comes only from direct experience. It doesn't appear in regular diagrams because it is born only when Chokmah and Binah unite within you.</p><p>When you work with the Sefirot, you are actually training your soul to contain divine forces. This is not a game — this is real spiritual work that changes the brain, heart, and body. Each Sefirah you internalize becomes part of you, and you become a clearer channel for the supreme light.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "How many Sefirot are there in the Tree of Life?",
+          "options": [
+            "Nine",
+            "Ten",
+            "Eleven",
+            "Twelve"
+          ],
+          "correct": 1,
+          "explanation": "The Tree of Life has ten revealed Sefirot, from Keter to Malchut. Daat is a hidden Sefirah that doesn't always appear in diagrams."
+        },
+        {
+          "question": "What is the name of the highest Sefirah in the Tree of Life?",
+          "options": [
+            "Chokmah",
+            "Keter",
+            "Binah",
+            "Tiferet"
+          ],
+          "correct": 1,
+          "explanation": "Keter is the highest Sefirah representing the pure divine will, the source point of all spiritual abundance."
+        },
+        {
+          "question": "What is the gematric value of the letter Aleph (א)?",
+          "options": [
+            "1",
+            "2",
+            "10",
+            "100"
+          ],
+          "correct": 0,
+          "explanation": "The letter Aleph carries the value 1 and symbolizes unity, beginning, and the will to connect with the divine."
+        },
+        {
+          "question": "How many letters in the Hebrew alphabet and how many paths in the Tree of Life?",
+          "options": [
+            "22 letters and 10 paths",
+            "22 letters and 22 paths",
+            "10 letters and 22 paths",
+            "32 letters and 32 paths"
+          ],
+          "correct": 1,
+          "explanation": "There are 22 letters in the Hebrew alphabet and 22 paths connecting the Sefirot in the Tree of Life - each path corresponds to one letter."
+        },
+        {
+          "question": "What is the name of the lowest Sefirah in the Tree of Life?",
+          "options": [
+            "Yesod",
+            "Hod",
+            "Netzach",
+            "Malchut"
+          ],
+          "correct": 3,
+          "explanation": "Malchut is the lowest Sefirah representing our physical world and the manifestation of all the spiritual forces from above."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today you opened the door to humanity's deepest wisdom. You learned about the Tree of Life and the ten Sefirot, discovered the connection between Hebrew letters and spiritual forces, and began to feel how Gematria works. This is only the first step, but a crucial one.",
+      "wisdom": "One who understands the Tree of Life, understands oneself.",
+      "nextPreview": "In the next lesson we will dive deep into the upper Sefirot - Keter, Chokmah, and Binah - and discover how they operate in your daily life."
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you need to be Jewish to study Kabbalah?",
+      "answer": "No. Kabbalah is universal wisdom that deals with the structure of reality and is open to anyone who approaches it with respect and sincerity."
+    },
+    {
+      "question": "What is the difference between practical and theoretical Kabbalah?",
+      "answer": "Theoretical Kabbalah deals with understanding systems and concepts, while practical Kabbalah includes meditations, spiritual exercises, and active work with spiritual forces."
+    },
+    {
+      "question": "How does the Tree of Life connect to Tarot?",
+      "answer": "Each Tarot card corresponds to a path or Sefirah in the Tree of Life. The 22 Major Arcana correspond to the 22 paths, and the 4 suits are divided among the Sefirot."
+    },
+    {
+      "question": "What is Daat and is it an eleventh Sefirah?",
+      "answer": "Daat is a hidden Sefirah created from the union of Chokmah and Binah. It represents inner knowledge that comes from direct experience and not just theoretical learning."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "tarot",
+      "lesson": "major-arcana-01",
+      "label": "⭐ The Major Arcana in Tarot"
+    },
+    {
+      "course": "numerology",
+      "lesson": "hebrew-letters",
+      "label": "⭐ Hebrew Letters in Numerology"
+    },
+    {
+      "course": "astrology",
+      "lesson": "planets-kabbalah",
+      "label": "⭐ The Connection between Planets and Sefirot"
+    }
+  ],
+  "seo": {
+    "title": "Beginner's Kabbalah: Tree of Life and Ten Sefirot - Lesson 1",
+    "description": "Learn about the Tree of Life, ten Sefirot, connection to Gematria and Hebrew letters. Comprehensive Kabbalah guide for beginners with practical exercises and connections to Tarot and astrology.",
+    "keywords": [
+      "Kabbalah",
+      "Tree of Life",
+      "Sefirot",
+      "Gematria",
+      "Hebrew letters",
+      "Keter",
+      "practical Kabbalah",
+      "Jewish wisdom"
+    ],
+    "ogImage": "/og/academy/kabbalah/kabbalah-01.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

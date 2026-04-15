@@ -1,0 +1,138 @@
+{
+  "courseId": "numerology",
+  "lessonNumber": 6,
+  "title": "Hisab Al-Jumal — Ancient Arabic Numerology",
+  "slug": "numerology-06-abjad-arabic",
+  "module": "Numbers",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">In the wisdom of the ancient East, where desert winds carry the secrets of eternity, there was born an ancient and powerful numerological system. Hisab Al-Jumal — \"calculation of letters\" — a system that transformed the Arabic alphabet into a spiritual key for exploring the soul. In previous lessons we learned about Western numerology and Hebrew Gematria, and now we meet their Semitic sister. This isn't just a calculation system — it's a way to connect with ancient Islamic wisdom, the tradition of Sufi sages, and the holy spirit that lives within the sacred letters. Sit comfortably, illumination begins now.</p>",
+    "theoryA": "<h2>What is Hisab Al-Jumal and How Does It Work?</h2><p>Hisab Al-Jumal is an ancient Arabic numerological system based on assigning numerical values to each letter in the Arabic alphabet. The system is also called \"Ilm Al-Huruf\" — the science of letters — and represents one of the most important branches of Islamic mysticism. Unlike Western systems, where letters are numbered according to alphabetical order, here the letters are arranged according to the ancient Semitic order: Abjad Hawwaz Hutti Kalaman Sa'afas Qarshat Thakhadh Dadhagh.</p><p>Each letter receives a unique numerical value, starting with Alif (א) which receives value 1, Ba (ب) which receives value 2, and so on. The first letters (Alif-Ta) receive values of 1-9, the next letters (Ya-Sad) receive tens from 10 to 90, and then hundreds (100-1000). For example, Mim (م) = 40, Shin (ش) = 300, and Ta Marbuta (ة) is treated like Ha (ه) = 5.</p><p>The process is simple: you take a name in Arabic, replace each letter with its numerical value, add all the values together, and then reduce to a single number (or Master number 11/22/33) as in regular numerology. The result gives the person's \"Life Path number,\" with the same basic meanings we learned before, but with a unique Eastern spiritual flavor.</p>",
+    "practice1": {
+      "instruction": "Take the word \"Nur\" (light) in Arabic: N-U-R. Calculate the value: Nun (ن)=50 + Waw (و)=6 + Ra (ر)=200 = 256. Reduce: 2+5+6=13, 1+3=4. This is Life Path number 4 — the number of stability and grounding. Repeat the process with your name in Arabic transliteration.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How Does Hisab Al-Jumal Connect to Other Mystical Systems?</h2><p>Hisab Al-Jumal doesn't stand alone — it's part of a rich spiritual tapestry that includes connections to other mystical systems. First, there's a direct connection to Hebrew Gematria and Kabbalah, since all Semitic languages share the same principle of letter sanctity. In fact, some words in Hisab Al-Jumal are identical in value to Hebrew Gematria — for example, the name \"Allah\" = 66, exactly like \"Adonai\" in Hebrew.</p><p>The system also connects to regular numerology through basic Life Path numbers. A person with Life Path 7 in Hisab Al-Jumal will display the same traits of spiritual inquiry and truth-seeking as in Western numerology. The difference is in the cultural and spiritual touch — instead of Western archetypes, we encounter archetypes of Islamic wisdom: the wandering Sufi (5), the builder of the community of believers (4), the spiritual teacher (9).</p><p>The deepest connection is to ancient Arabic astrology. Islamic scholars linked the letters to planets and zodiac signs, creating a complex system of correspondences. The letter Shin (ش) with value 300 is linked to the Sun, the letter Qaf (ق) with value 100 to the Moon, and so on. This enables a multi-dimensional reading of the name that combines numerology with astrology.</p>",
+    "practice2": {
+      "instruction": "Take an important emotional word — \"Hubb\" (love): Ha (ح)=8 + Waw (و)=6 + Ba (ب)=2 = 16, 1+6=7. This is Life Path 7 — the spiritual lover who seeks deep and meaningful love. Now calculate the name of someone dear to you in Arabic transliteration and explore what love reveals about the connection between you.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books — The Hidden Secrets of Ilm Al-Huruf</h2><p>There's a deep secret in Hisab Al-Jumal that only a few know. Muslim mystics believe that every name carries within it a \"Baraka\" — a hidden blessing from the Creator. When you calculate the value of a name and find it identical to the value of a sacred word in the Quran, it means the soul carries that same spiritual energy. For example, if your name equals 131 (like the word \"Salam\" — peace), it means your soul carries the mission of bringing peace to the world.</p><p>There's also a hidden tradition of \"Qirat Umm\" — mother reading. Mystics would calculate the value of the mother's name alongside the child's name value, examining how the energies connect. If the mother's name value and the child's name value create a whole number together (like 100, 200), it's a sign of special spiritual inheritance — the child carries the mother's spiritual mission.</p><p>The deepest secret is \"Tawafuq Al-Asma\" — correspondence of names. When it happens that your name in Hisab Al-Jumal equals in value one of Allah's 99 holy names, it means you carry that same spiritual power. Someone whose name equals 329 (like \"Ar-Rahman\" — The Merciful), carries the mission of bringing mercy to the world. This isn't fortune-telling — it's understanding the spiritual role the soul chose for itself.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is the ancient Arabic numerological system called?",
+          "options": [
+            "Arabic Gematria",
+            "Hisab Al-Jumal",
+            "Ilm Al-Nujum",
+            "Hurufat Qadima"
+          ],
+          "correct": 1,
+          "explanation": "Hisab Al-Jumal is the precise name for the Arabic numerological system, meaning 'calculation of letters'. The system is also called 'Ilm Al-Huruf' - the science of letters."
+        },
+        {
+          "question": "According to which order are letters arranged in Hisab Al-Jumal?",
+          "options": [
+            "Regular Arabic alphabetical order",
+            "Ancient Semitic order: Abjad Hawwaz Hutti",
+            "Order by numerical value",
+            "Order by religious importance"
+          ],
+          "correct": 1,
+          "explanation": "Hisab Al-Jumal uses the ancient Semitic order: Abjad Hawwaz Hutti Kalaman Sa'afas Qarshat Thakhadh Dadhagh, not the modern Arabic alphabetical order."
+        },
+        {
+          "question": "What is the value of the word 'Allah' (الله) in Hisab Al-Jumal?",
+          "options": [
+            "99",
+            "66",
+            "786",
+            "131"
+          ],
+          "correct": 1,
+          "explanation": "The word 'Allah' equals 66 in Hisab Al-Jumal: Alif (1) + Lam (30) + Lam (30) + Ha (5) = 66. This is a sacred and special value in Islamic mysticism."
+        },
+        {
+          "question": "What is 'Baraka' in the Hisab Al-Jumal tradition?",
+          "options": [
+            "A special calculation method",
+            "A hidden blessing in the name",
+            "A sacred planet",
+            "A Master number"
+          ],
+          "correct": 1,
+          "explanation": "Baraka is a hidden blessing that mystics believe every name carries within it from the Creator, especially when the name's value equals a sacred word in the Quran."
+        },
+        {
+          "question": "What is 'Qirat Umm' in the hidden tradition?",
+          "options": [
+            "Quran reading",
+            "Mother reading - comparing mother's name to child's name",
+            "Morning prayer",
+            "House blessing"
+          ],
+          "correct": 1,
+          "explanation": "Qirat Umm is a hidden tradition of calculating the mother's name value alongside the child's name value, to check spiritual inheritance and connecting energies."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Hisab Al-Jumal is a gateway to ancient Eastern wisdom that connects letter, number, and soul. We learned how each Arabic letter carries sacred numerical value, how to transform a name into a Life Path, and how the system connects to numerology, Kabbalah, and astrology. The revelation of hidden secrets — Baraka, Qirat Umm, and Tawafuq Al-Asma — opened a window to deep mystical traditions that deal with the soul's spiritual role.",
+      "wisdom": "Arabic letters are the soul's guiding stars — each letter carries the memory of the way home.",
+      "nextPreview": "In the next lesson we'll delve into compatibility numbers — how to check compatibility between two people through their Life Path numbers, and what each combination reveals about emotional and spiritual dynamics in relationships."
+    }
+  },
+  "faq": [
+    {
+      "question": "Can I use Hisab Al-Jumal even if I'm not Muslim?",
+      "answer": "Of course. Hisab Al-Jumal is a spiritual tool that focuses on understanding the energies connected to letters and names, and doesn't require specific religious affiliation. It's important to approach the system with respect and understanding for the culture from which it comes."
+    },
+    {
+      "question": "How do I transliterate my Hebrew name to Arabic for calculation?",
+      "answer": "Use phonetic transliteration — each Hebrew sound gets the closest Arabic letter. For example: David = داود, Rachel = راحيل, Yosef = يوسف. If in doubt, take the most common transliteration of the name."
+    },
+    {
+      "question": "What's the difference between Hisab Al-Jumal and Hebrew Gematria?",
+      "answer": "Both systems are similar in principle — assigning numerical values to letters. The difference is in the letter values (Arabic Abjad order vs Hebrew), and in cultural and spiritual meanings. Hisab Al-Jumal connects to Islamic wisdom, Gematria to Jewish Kabbalah."
+    },
+    {
+      "question": "Are there special sacred numbers in Hisab Al-Jumal?",
+      "answer": "Yes. The numbers 5 (five pillars of Islam), 7 (seven heavens), 40 (40 days of purification), and 99 (99 names of Allah) carry special spiritual meaning. The number 786 (Bismillah) is also considered especially sacred."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "kabbalah",
+      "lesson": "gematria",
+      "label": "🔢 Gematria and Letter Sanctity"
+    },
+    {
+      "course": "numerology",
+      "lesson": "life-path",
+      "label": "🛤️ Life Path Numbers"
+    },
+    {
+      "course": "astrology",
+      "lesson": "arabic-astrology",
+      "label": "⭐ Ancient Arabic Astrology"
+    }
+  ],
+  "seo": {
+    "title": "Hisab Al-Jumal — Ancient Arabic Numerology and Sacred Letter System",
+    "description": "Discover Hisab Al-Jumal, the ancient Arabic numerological system. Learn how to calculate letter values, find Life Path numbers, and connect with deep Eastern wisdom.",
+    "keywords": [
+      "Hisab Al-Jumal",
+      "Arabic numerology",
+      "Ilm Al-Huruf",
+      "sacred letters",
+      "Islamic mysticism",
+      "Abjad system",
+      "letter values",
+      "spiritual numerology"
+    ],
+    "ogImage": "/og/academy/numerology/numerology-06.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

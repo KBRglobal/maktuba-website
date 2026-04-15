@@ -1,0 +1,132 @@
+{
+  "courseId": "iching",
+  "lessonNumber": 4,
+  "title": "I Ching — Lesson 4",
+  "slug": "iching-04",
+  "module": "Hexagrams",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down, dear one... The candle burns and illuminates the path to the heart of the I Ching. In the previous lesson you met the two fundamental forces — Yang and Yin — and understood how they create the eight trigrams. Now it's time to explore the beating heart of the system: the 64 hexagrams that shape our life's map.</p><p>The ancient Chinese sages discovered that when two trigrams meet — one above and one below — they create a complete universe of meanings. Each hexagram is like a house with two floors: the lower trigram represents the inner state or past, the upper represents the outer state or future. They flow into each other, creating a living dynamic that tells the story of life.</p>",
+    "theoryA": "<h2>How Do the Trigrams Create 64 Hexagrams?</h2><p>Each hexagram consists of two trigrams — upper and lower — that together create six lines of Yin and Yang. When you multiply eight trigrams by eight, you get 64 possible combinations — this is the exact number of all possible human experiences according to the I Ching.</p><p>Hexagram number 1, \"The Creative Force,\" consists of Heaven above Heaven — all lines are pure Yang. This is the ancient masculine force, the driving energy that creates reality. Hexagram number 2, \"The Receptive Field,\" consists of Earth above Earth — all lines are pure Yin. This is the ancient feminine force, the receiving energy that shapes reality.</p><p>Between these two poles dance all the other 62 hexagrams, each telling a different story of balance between Yin and Yang. Hexagram number 11, \"Peace,\" presents Earth above Heaven — when the receiving force leads the creative force, perfect balance is created. Hexagram number 12, \"Standstill,\" presents the opposite — Heaven above Earth — and here the balance is broken, creating stagnation.</p><p>Each trigram carries its own meaning: Heaven represents force and strength, Earth represents receptivity and endurance, Water represents flow and danger, Fire represents clarity and illumination, Wind represents gentle influence, Thunder represents movement and arousal, Mountain represents stillness and quiet, and Lake represents joy and creativity. When two trigrams meet, they create a dialogue between their forces.</p>",
+    "practice1": {
+      "instruction": "Choose three hexagrams from the list (1-29) that attract you most intuitively. Write their names with numbers, and below record one word that describes what you feel toward each one.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How to Read and Interpret a Hexagram?</h2><p>Each hexagram is read from bottom to top — from the lower trigram to the upper. The lower trigram represents the current, inner state, or what is happening at the foundation. The upper trigram represents the direction, outer state, or what is developing.</p><p>Take for example hexagram number 3, \"Difficulty at the Beginning\" — Thunder beneath Water. Thunder represents movement and arousal, Water represents flow and also danger. The story that emerges is of new energy (Thunder) trying to break through obstacles (Water). This is the story of every true beginning — there is chaos, there is difficulty, but there is also inner force pushing forward.</p><p>Hexagram number 5, \"Waiting,\" presents Water above Heaven. Heaven gives force and clarity, but the Water above presents a state of anticipation — like clouds gathering before rain. The interpretation is that opportunity will come, but only after you learn to wait with dignity and without urgency.</p><p>The key to understanding hexagrams is to see them as dynamic stories, not static states. Each hexagram tells about transition — how forces act upon each other, how the situation develops, and what is the wise way to behave in this situation. Hexagram number 24, \"Return,\" for example, presents Thunder within Earth — this is the moment when light begins to return after the deepest darkness, the natural turning point that occurs in the world and in the soul.</p>",
+    "practice2": {
+      "instruction": "Choose one hexagram from the three you selected earlier. Explore its trigrams: what is the lower trigram and what is the upper? Write a short story (3-4 sentences) about how these forces act upon each other in a situation from your life.",
+      "type": "write"
+    },
+    "deepDive": "<h2>The Hidden Secret of Reading Hexagrams</h2><p>What most books don't teach is that hexagrams are alive — they're not just static pictures but movement. Each hexagram contains within it the seed of its change. The I Ching sages knew that every state carries within it the next state, just as every season contains the seed of the season that follows.</p><p>The great secret lies in reading the \"moving lines\" — when casting coins or yarrow stalks, sometimes you get lines that change from Yin to Yang or vice versa. But even when not casting at all, every hexagram carries within it the potential for transformation. The question is where the greatest tension lies — which line \"wants\" to change.</p><p>Hexagram number 1, \"The Creative Force,\" for example, carries within it the seed of hexagram number 2, \"The Receptive Field.\" This is its opposite pole, and the movement between them is like breathing — contracting and expanding, creating and receiving, acting and resting. So too with all other hexagrams — each carries the path to the one that opposes and complements it.</p><p>The practical hint is to listen to the tension within the hexagram. Where are the lines \"dissatisfied\" with the current state? Where is there a push for change? This is where the hexagram's recommendation is most relevant — not as prophecy but as a guide for wise action in this moment.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is the difference between the upper and lower trigram in a hexagram?",
+          "options": [
+            "The upper represents future, the lower represents past",
+            "The upper represents Heaven, the lower represents Earth",
+            "The upper represents Yin, the lower represents Yang",
+            "The upper represents problems, the lower represents solutions"
+          ],
+          "correct": 0,
+          "explanation": "The upper trigram represents the direction and outer or future state, while the lower represents the inner or present state."
+        },
+        {
+          "question": "How many hexagrams exist in the I Ching?",
+          "options": [
+            "32",
+            "48",
+            "64",
+            "128"
+          ],
+          "correct": 2,
+          "explanation": "64 hexagrams are created from 8 trigrams times 8 (8×8=64), covering all possible human experiences."
+        },
+        {
+          "question": "What does the hexagram 'The Creative Force' (number 1) represent?",
+          "options": [
+            "Six lines of pure Yin",
+            "Six lines of pure Yang",
+            "Water above Fire",
+            "Earth above Heaven"
+          ],
+          "correct": 1,
+          "explanation": "The hexagram 'The Creative Force' consists of Heaven above Heaven — all six lines are pure Yang, representing the ancient masculine force."
+        },
+        {
+          "question": "How is a hexagram read?",
+          "options": [
+            "From top to bottom",
+            "From bottom to top",
+            "From right to left",
+            "From center outward"
+          ],
+          "correct": 1,
+          "explanation": "A hexagram is read from bottom to top — from the lower trigram (foundation) to the upper (direction)."
+        },
+        {
+          "question": "What is the secret of 'moving lines' in hexagrams?",
+          "options": [
+            "They show that the hexagram is wrong",
+            "They indicate where there is potential for change",
+            "They indicate stronger lines",
+            "They show the important trigrams"
+          ],
+          "correct": 1,
+          "explanation": "Moving lines indicate where there is tension and potential for change, showing how the hexagram might develop."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today you learned how the 64 hexagrams are created from combinations of two trigrams, how to read them from bottom to top, and the difference between the lower and upper trigrams. You understood that each hexagram is a dynamic story of forces acting upon each other, and discovered the secret of moving lines — how every state carries within it the seed of change.",
+      "wisdom": "Every hexagram is a breathing moment in time — not fixed but movement.",
+      "nextPreview": "In the next lesson we'll dive deep into the casting process — how to prepare the coins, how to read the results, and how to interpret the moving lines that lead you from one hexagram to another."
+    }
+  },
+  "faq": [
+    {
+      "question": "Do I need to memorize all 64 hexagrams?",
+      "answer": "Not at first. Start with the basic hexagrams (1-8) and the path will build itself. Understanding comes through practice, not through memorization."
+    },
+    {
+      "question": "How do I know which hexagram is relevant to my situation?",
+      "answer": "Either through coin casting (which we'll learn in the next lesson), or through meditation on the situation and intuitive selection of the hexagram that speaks to you."
+    },
+    {
+      "question": "What does it mean when the upper and lower trigrams are identical?",
+      "answer": "This creates a 'pure' hexagram like 'The Creative Force' or 'The Receptive Field' — a state of concentrated, strong energy that requires more care in interpretation."
+    },
+    {
+      "question": "Is the order of hexagrams meaningful?",
+      "answer": "Yes, the traditional order tells a story of development — from creation through difficulty and growth to completion. Each hexagram is connected to those before and after it."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot",
+      "label": "⭐ The Ten Sefirot in Kabbalah"
+    },
+    {
+      "course": "numerology",
+      "lesson": "numbers-1-9",
+      "label": "📊 Numbers 1-9 in Numerology"
+    }
+  ],
+  "seo": {
+    "title": "The 64 Hexagrams of the I Ching - Complete Beginner's Guide",
+    "description": "Learn how the 64 hexagrams are created from trigram combinations, how to read and interpret them, and the hidden secrets of moving lines in the I Ching.",
+    "keywords": [
+      "hexagrams",
+      "I Ching",
+      "trigrams",
+      "Yin Yang",
+      "Creative Force",
+      "Receptive Field",
+      "moving lines"
+    ],
+    "ogImage": "/og/academy/iching/iching-04.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

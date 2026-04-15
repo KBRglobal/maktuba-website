@@ -1,0 +1,138 @@
+{
+  "courseId": "crystals",
+  "lessonNumber": 4,
+  "title": "Crystals for Different Inquiries — Choosing the Right Stone",
+  "slug": "crystals-04",
+  "module": "Foundations",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit comfortably, my dear, and gaze upon your crystal collection — or their images. Each stone carries within it the spirit of the heavens where it was born, the energy of its chakra, and the wisdom of the element from which it came. In the previous lesson, you learned about basic crystals and their powers. Now it's time to learn how to choose the right stone for each situation in your life — because not every crystal suits every purpose, nor every time. The right choice requires listening to three circles of wisdom: your astrology, your current emotional state, and the specific goal you wish to achieve. It's like choosing the right spice for a dish — the power lies in the perfect match.</p>",
+    "theoryA": "<h2>How to Choose a Crystal According to Your Astrological Sign?</h2><p>Each astrological sign is connected to specific crystals that support its natural energies. Aries is drawn to carnelian and garnet — stones of fire energy and leadership. Taurus enjoys rose quartz and malachite — stones of stability and love. Gemini needs agate and howlite — mental balance and clear communication. Cancer finds comfort in moonstone and selenite — intuition and spiritual connection. Leo shines with citrine and tiger's eye — self-confidence and personal power. Virgo focuses with sodalite and chrysocolla — clarity and authentic expression.</p><p>Libra seeks balance with lapis lazuli and opal — truth and creativity. Scorpio dives deep with obsidian and malachite — inner transformation and emotional intensity. Sagittarius expands reality with turquoise and tanzanite — adventure and spiritual vision. Capricorn builds foundations with hematite and smoky quartz — grounding and practicality. Aquarius dreams new with amethyst and labradorite — magic and inner revolution. Pisces flows with aquamarine and larimar — serenity and compassion. Remember — this is just a starting point. The right stone for you is the one that speaks to your soul, beyond what's written in the tables.</p>",
+    "practice1": {
+      "instruction": "Choose one crystal that suits your sign from the list of stones you've learned. Hold it in your hands (or look at it) for a full minute. Listen to the sensations that arise — warmth, cold, a gentle vibration, or simply pleasant quiet. Write one sentence about this feeling.",
+      "type": "meditate"
+    },
+    "theoryB": "<h2>How Do Different Stones Affect Chakras and Emotional States?</h2><p>Each crystal is connected to a specific chakra and affects different moods. The root chakra needs grounding — black tourmaline, hematite, and black onyx bring you back to here and now when you feel disconnected from reality. The sacral chakra awakens with carnelian and sunstone — vitality and creativity flow. The solar plexus opens with citrine and tiger's eye — self-confidence and manifesting dreams. The heart heals with rose quartz and aventurine — self-love and receiving emotional abundance.</p><p>The throat releases with lapis lazuli and kyanite — truthful speech and clear communication. The third eye opens with amethyst and labradorite — intuition and spiritual vision. The crown elevates with clear quartz and selenite — divine connection and mental clarity. When you're sad — rose quartz and rhodonite. When you're anxious — amethyst and obsidian. When you're afraid — black tourmaline and agate. When you're confused — fluorite and clear quartz. When you need courage — carnelian and tiger's eye. When you want peace — aquamarine and larimar.</p>",
+    "practice2": {
+      "instruction": "Choose an emotional state you're experiencing now or experienced this week. Find two crystals from the list that could help with this state — one for balance and one for strengthening. Write a personal affirmation for each stone, from your heart, that begins with the words 'I feel that this stone...'",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books — The Secret of Choosing Crystals</h2><p>The true secret of choosing crystals isn't found in tables or books — it's found within you. Each stone carries a unique frequency and vibration that communicates with your personal frequency at that moment. Sometimes you'll find yourself drawn to a stone that doesn't match your sign or your goal on paper — that's exactly the right crystal. The soul knows what it needs.</p><p>I have a little secret to share with you — sometimes the simplest stone, the cheapest one, or even one found in your backyard, is the most powerful for you. I learned about a woman who found an ordinary stone on the beach and it healed her from deep depression more than any expensive crystal. The truth is that your connection to the stone matters more than the type of stone. When you choose a crystal — listen to your body, your soul, that inexplicable feeling. It might be gentle warmth in your hands, a sudden feeling of peace, or simply the sensation that this stone is 'yours.' This is ancient wisdom — the heart knows what the mind doesn't understand.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which crystal is particularly suitable for Leo?",
+          "options": [
+            "Amethyst",
+            "Citrine",
+            "Rose quartz",
+            "Black tourmaline"
+          ],
+          "correct": 1,
+          "explanation": "Citrine suits Leo because it's connected to the solar plexus chakra, the fire element, and qualities of self-confidence and personal power — exactly what strengthens Leo's natural energy."
+        },
+        {
+          "question": "Which chakra connects to rose quartz?",
+          "options": [
+            "Root chakra",
+            "Heart chakra",
+            "Throat chakra",
+            "Crown chakra"
+          ],
+          "correct": 1,
+          "explanation": "Rose quartz connects to the heart chakra and brings qualities of unconditional love, self-love and emotional healing — exactly what the heart chakra needs."
+        },
+        {
+          "question": "Which crystal is most suitable for a state of lack of self-confidence?",
+          "options": [
+            "Aquamarine",
+            "Tiger's eye",
+            "Lapis lazuli",
+            "Obsidian"
+          ],
+          "correct": 1,
+          "explanation": "Tiger's eye brings qualities of courage, willpower and personal strength. It's connected to the solar plexus chakra which is responsible for self-confidence and personal power."
+        },
+        {
+          "question": "What is the most important rule in choosing a crystal?",
+          "options": [
+            "Match the astrological sign",
+            "Follow the tables in books",
+            "Listen to inner feeling",
+            "Choose the most expensive one"
+          ],
+          "correct": 2,
+          "explanation": "The most important rule is to listen to inner feeling and personal connection to the stone. The soul knows what it needs beyond any table or rule."
+        },
+        {
+          "question": "Which crystal is recommended for stress and pressure?",
+          "options": [
+            "Lepidolite",
+            "Garnet",
+            "Pyrite",
+            "Carnelian"
+          ],
+          "correct": 0,
+          "explanation": "Lepidolite is recommended for stress relief, emotional balance and help during difficult transitions. It's connected to the third eye chakra and brings emotional serenity."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today you learned how to choose crystals based on your astrological sign, different chakras, and emotional states. You understood that personal connection to the stone is more important than any table, and that the soul knows how to choose exactly what it needs.",
+      "wisdom": "The right stone finds its way to you when the heart is open.",
+      "nextPreview": "In the next lesson we'll learn how to cleanse and charge your crystals — true connection to their natural power."
+    }
+  },
+  "faq": [
+    {
+      "question": "Is it mandatory to choose a crystal according to astrological sign?",
+      "answer": "Not mandatory. The astrological sign is a good starting point, but your personal connection and feeling with the stone are more important. If a certain stone speaks to you, it's probably right for you."
+    },
+    {
+      "question": "What if I have a negative reaction to a crystal that's supposed to suit me?",
+      "answer": "Listen to your body. A negative reaction might indicate that the stone is bringing up something you're not ready to deal with now, or it's simply not the right time. Choose another stone that feels good."
+    },
+    {
+      "question": "Is it possible to use multiple crystals simultaneously?",
+      "answer": "Absolutely. Crystals can work together and strengthen each other. Start with 2-3 stones maximum to feel their energies separately and the interaction between them."
+    },
+    {
+      "question": "How long does it take to feel the crystal's effect?",
+      "answer": "It varies from person to person. Some people feel immediate change, others need several days or weeks. It's important to be patient and notice subtle changes in mood or energy."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "zodiac-elements",
+      "label": "⭐ Elements in Signs"
+    },
+    {
+      "course": "chakras",
+      "lesson": "chakra-balancing",
+      "label": "🔮 Chakra Balancing"
+    },
+    {
+      "course": "meditation",
+      "lesson": "crystal-meditation",
+      "label": "🧘‍♀️ Crystal Meditation"
+    }
+  ],
+  "seo": {
+    "title": "Choosing Crystals by Sign and Mood | Maktuba",
+    "description": "Learn how to choose the right crystal according to your astrological sign, chakras and emotional state. Practical tips for personal connection with gemstones.",
+    "keywords": [
+      "crystals",
+      "zodiac signs",
+      "chakras",
+      "gemstones",
+      "astrology",
+      "crystal selection",
+      "energies",
+      "healing"
+    ],
+    "ogImage": "/og/academy/crystals/crystals-04.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

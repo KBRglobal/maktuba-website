@@ -1,0 +1,138 @@
+{
+  "courseId": "iching",
+  "lessonNumber": 6,
+  "title": "I Ching — Lesson 6",
+  "slug": "iching-06",
+  "module": "Hexagrams",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit quietly with your candle burning, my dear. So far we have met the trigrams, the yang and yin lines, and the basic structure of the I Ching. Now it's time to know the true heart of ancient Chinese wisdom — the hexagrams themselves. This is a package of 64 perfect life situations, each one like a key to a door of deeper understanding. In this lesson we'll explore hexagrams 1-10, those that establish the entire system. They are like the first letters of a cosmic alphabet — simple at first glance, yet containing within them all the secrets of the universe.</p>",
+    "theoryA": "<h2>How are the basic hexagrams of the I Ching constructed?</h2><p>Hexagrams are built from combinations of two trigrams — upper and lower — and each combination creates unique energy in the world. The first hexagram, \"Force\" (all yang lines), and the second hexagram, \"Field\" (all yin lines), are the father and mother of all that exists. The pure force of heaven meets the pure force of earth, and from this encounter all other possibilities are born.</p><p>The third hexagram, \"Sprouting,\" shows us how thunder energy (lower) meets water energy (upper) — this is always difficulty at the beginning, like a seed breaking through ice. Such is life: everything new is born in struggle. The fourth hexagram, \"Wrapping,\" presents the mountain above water — youth seeking wisdom but not yet knowing how.</p><p>\"Waiting\" (hexagram 5) teaches us about time — water in the heavens, clouds that promise rain but haven't dropped it yet. This is the time of fruitful expectation, not neglect. \"Conflict\" (hexagram 6) shows heaven and water moving in opposite directions — the basis for all discord in the world.</p><p>\"Leadership\" (hexagram 7) and \"Grouping\" (hexagram 8) are a perfect pair — one shows water in earth (organized force under discipline), the other water on earth (natural flow toward unity). \"Small Accumulation\" (hexagram 9) teaches that wind in heaven makes subtle changes, and \"Treading\" (hexagram 10) shows how to step carefully when heaven is above the lake.</p>",
+    "practice1": {
+      "instruction": "Take out your I Ching coins (or 3 regular coins). Throw them 6 times and draw the hexagram that emerges. Look up its number in the list of the first hexagrams (1-29). Read the interpretation and write how this connects to your current situation.",
+      "type": "draw"
+    },
+    "theoryB": "<h2>How do we interpret the first hexagrams of the I Ching?</h2><p>Each hexagram is a complete universe of meanings, but there is a way to read them. The first hexagrams focus on the basic dynamics of life: force and softness, beginnings and difficulties, waiting and action. \"Force\" tells you: this is the time for leadership, for strong action, to be the dragon that soars. \"Field\" whispers: be like the faithful mare, receive and support instead of leading.</p><p>\"Sprouting\" reminds us that every beginning is difficult — don't panic when things seem chaotic. \"Wrapping\" shows that if you are in the youth role — seek a teacher, and if you are the teacher — wait for the student to come. \"Waiting\" teaches true patience, not passive — preparation for the right time.</p><p>\"Conflict\" warns: don't go all the way in an argument. Seek a mediator. \"Leadership\" demands righteous leadership in crisis situations, and \"Grouping\" promises that if you act from a sincere heart, people will connect to you. \"Small Accumulation\" says: small steps now, revolutions will come later. \"Treading\" teaches how to behave near power — carefully but without paralyzing fear.</p><p>In Kabbalah, these hexagrams connect to the ten Sefirot: \"Force\" is Keter, \"Field\" is Malkhut, and the rest represent the way divinity flows into the world. In astrology, they are like planetary energies — each hexagram expresses a combination of cosmic forces.</p>",
+    "practice2": {
+      "instruction": "Choose one of hexagrams 1-10 that calls to you most strongly now. Do a 5-minute meditation on it - imagine its image (heaven on heaven, earth on earth, etc.) and feel how this energy flows in your body. Write what you understood about yourself.",
+      "type": "meditate"
+    },
+    "deepDive": "<h2>What's not written in books — the inner secret of the first hexagrams</h2><p>The first hexagrams contain the entire story of creation, but not as told in books. \"Force\" and \"Field\" are not just yang and yin — they are the first act of conscious existence. Heaven doesn't \"create\" earth; they dance together in an eternal dance where each gives the other what it needs to be.</p><p>\"Sprouting\" reveals a secret: all true growth happens in darkness first. The seed disintegrates before it sprouts. So too in our lives — periods of chaos are not a glitch in the system, but part of the process. \"Wrapping\" teaches that wisdom is not measured by knowledge but by humility — how much you are willing to admit you don't know.</p><p>The secret of \"Waiting\" is that it is active, not passive. You prepare yourself, nourish, strengthen yourself for the right moment. \"Conflict\" reveals that every external conflict shows an internal conflict — the moment you resolve the conflict within you, the external will dissolve.</p><p>\"Leadership\" and \"Grouping\" show two sides of true power: one teaches how to lead when the situation demands strength, the other how to attract people from love. This is not \"either-or\" but \"both-and\" — a true leader knows when to use each of the tools.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What makes the first hexagram \"Force\" unique?",
+          "options": [
+            "All its lines are yang",
+            "It has only 4 lines",
+            "It represents the earth",
+            "It is second in order"
+          ],
+          "correct": 0,
+          "explanation": "The first hexagram \"Force\" is unique because all six of its lines are yang (solid lines), representing pure creative force and double heaven power."
+        },
+        {
+          "question": "What is the situation called when heaven is above and water below?",
+          "options": [
+            "Peace",
+            "Conflict",
+            "Grouping",
+            "Treading"
+          ],
+          "correct": 1,
+          "explanation": "Heaven above and water below create the hexagram \"Conflict\" - two forces moving in opposite directions creating discord."
+        },
+        {
+          "question": "What is the central advice of the hexagram \"Waiting\"?",
+          "options": [
+            "Act immediately with force",
+            "Wait patiently for the right time",
+            "Avoid all action",
+            "Seek help from others"
+          ],
+          "correct": 1,
+          "explanation": "\"Waiting\" teaches active patience - to wait honestly for the right time while preparing and nourishing oneself, not passivity."
+        },
+        {
+          "question": "Which hexagram describes water stored in earth?",
+          "options": [
+            "Grouping",
+            "Leadership",
+            "Sprouting",
+            "Treading"
+          ],
+          "correct": 1,
+          "explanation": "\"Leadership\" (The Army) is described as water stored in earth - hidden force organized under discipline, like a ready army."
+        },
+        {
+          "question": "What is the message of the hexagram \"Wrapping\"?",
+          "options": [
+            "The teacher must chase the student",
+            "The student must seek the teacher",
+            "Everyone is equal in wisdom",
+            "There is no need for learning"
+          ],
+          "correct": 1,
+          "explanation": "\"Wrapping\" teaches that the student must seek the teacher, not the other way around. Innocence is not weakness and one must learn with humility."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "We have met the first ten hexagrams - the foundations of I Ching wisdom. From \"Force\" of heaven to careful \"Treading,\" each teaches us about different dynamics in life. Remember that they are not just symbols - they are real maps for navigating reality.",
+      "wisdom": "The dragon that does not reveal itself too early - true power knows when to wait.",
+      "nextPreview": "In the next lesson we'll delve into hexagrams 11-22, where we'll meet \"Peace\" and \"Disintegration\" and learn how to read the eternal circle of time..."
+    }
+  },
+  "faq": [
+    {
+      "question": "How do you choose which hexagram to focus on?",
+      "answer": "The hexagram will choose you. Feel what you are drawn to now, or use divination. Your intuition knows what you need to hear."
+    },
+    {
+      "question": "Do you need to memorize all 64 hexagrams?",
+      "answer": "You don't need to memorize them. It's more important to understand the basic principles and the language of yin-yang. Understanding will come with practice."
+    },
+    {
+      "question": "What is the difference between the first and last hexagrams?",
+      "answer": "The first ones focus on the basic elements of existence and life. The later ones deal with more complex dynamics of society and spirituality."
+    },
+    {
+      "question": "How do the hexagrams connect to Kabbalah?",
+      "answer": "Each hexagram expresses a different flow of divine light through the Tree of Life. The first hexagrams correspond to the upper Sefirot."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "kabbalah",
+      "lesson": "tree-of-life",
+      "label": "⭐ Tree of Life in Kabbalah - flow of light"
+    },
+    {
+      "course": "astrology",
+      "lesson": "planetary-energy",
+      "label": "⭐ Planetary energies like hexagrams"
+    },
+    {
+      "course": "tarot",
+      "lesson": "major-arcana",
+      "label": "⭐ Major Arcana - similar maps for the journey"
+    }
+  ],
+  "seo": {
+    "title": "The First Hexagrams in I Ching - Lesson 6 | Maktuba Academy",
+    "description": "Learn the first ten hexagrams in the I Ching: Force, Field, Sprouting and more. Understand their deep meanings and practical interpretation.",
+    "keywords": [
+      "I Ching",
+      "hexagrams",
+      "yang yin",
+      "Chinese wisdom",
+      "divination",
+      "Force",
+      "Field",
+      "ancient wisdom"
+    ],
+    "ogImage": "/og/academy/iching/iching-06.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

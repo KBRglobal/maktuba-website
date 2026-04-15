@@ -1,0 +1,131 @@
+{
+  "courseId": "coffee",
+  "lessonNumber": 20,
+  "title": "Coffee Reading Ethics",
+  "slug": "coffee-ethics",
+  "module": "Practice",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down, dear child, we've reached the final lesson in our journey through the world of coffee reading. The candle burns in the room and breathes upon the embers of learning we've gathered together — from preparing the first finjan to the complex symbolism we learned in the previous lesson. But now, before we take this knowledge out into the world, we have an important conversation about the true meaning of spiritual responsibility. When you sit across from someone and tell them what you see in their finjan — you're not just reading symbols. You're touching a soul, influencing decisions, shaping how a person sees themselves and their future. This is a heavy responsibility, and there are rules that every wise coffee reader must know.</p>",
+    "theoryA": "<h2>What is the coffee reader's responsibility toward those who seek them out?</h2><p>A coffee reader carries heavy emotional and spiritual responsibility toward those who seek them out. The first thing that must be clear — you are not predicting a fixed future but offering understanding of the current situation and possible directions. People come to coffee reading in difficult moments, confused, seeking direction. They believe in your words, so every word must be spoken with care.</p><p>The golden rule of every wise coffee reader: always encourage, even when symbols indicate challenges. Instead of saying \"I see a snake in your finjan - someone will betray you,\" say \"I see a figure that calls for caution. You have the inner strength to recognize genuine people from those who might disappoint.\" You're conveying the same information but in a way that strengthens rather than frightens.</p><p>It's also important to remember that people remember what you told them for years. Your words become reality in their consciousness. If you told someone she would find love in the coming summer and summer passed without romance - she might feel like a failure or \"cursed.\" Therefore always add: \"This is what the symbols show right now, but life changes and you are a partner in creating your own destiny.\"</p><p>Never give medical predictions or advise on important medical decisions. If someone asks about health, refer them to a doctor and say that coffee can only show emotional and energetic trends. This is not just ethical - it's also legal. You don't have a medical license, and don't pretend you do.</p>",
+    "practice1": {
+      "instruction": "Write on paper 3 ways you would tell someone about the snake symbol (betrayal) in an encouraging and non-frightening way. Focus on conveying the message while strengthening the seeker's self-confidence.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How to set healthy boundaries when reading coffee?</h2><p>Setting clear boundaries is a central part of coffee reading ethics. The first thing - set a limited time for each reading. 20-30 minutes is enough. More than that and the seeker becomes dependent, and you'll become emotionally exhausted. Say at the beginning of the session: \"I have 20 minutes for the reading, and after that we'll end with a good blessing.\"</p><p>People sometimes try to turn a coffee reader into a psychologist or marriage counselor. Don't enter that role. You are a coffee reader, not a therapist. When someone starts telling you about deep psychological problems or complex relationship difficulties, say: \"I can see you have a lot on your heart. Coffee can offer general direction, but for such matters it's better to turn to a specialist who can truly help you.\"</p><p>Another important boundary: don't read coffee for the same person more than once a month. The reason is simple - people become addicted to predictions and start living their lives waiting for what the coffee \"said.\" This is unhealthy spiritual dependency. Say: \"The next time we meet will be in a month. Until then, let life unfold naturally.\"</p><p>Regarding payment - if you take money (and that's completely fine), set a fair price in advance. Don't change prices based on the \"severity\" of the situation or the seeker's wealth. Justice and equality are part of ethics. If someone can't pay - decide if you want to read for free or not. But make the decision before the reading, not after.</p>",
+    "practice2": {
+      "instruction": "Imagine someone comes to you for the third time this week for a coffee reading and insists it's urgent. Write how your response will maintain the boundary while respecting their feelings.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's not written in books - the true secrets of a wise coffee reader</h2><p>Now I'll tell you something you won't find in any book about coffee reading. The true secret of a good reader is not how many symbols she remembers or how accurate her prediction is. The secret is in the quality of her listening. When someone comes to you for a reading - they're not really coming to know the future. They come to be seen, to be understood, to feel that someone truly cares about them.</p><p>Sometimes the most healing thing in a reading is not what you say but how you listen. I have a memory from 40 years ago - a young pregnant woman who came for a reading. I could have talked about the symbols in the finjan for hours, but I saw that what she really needed was to feel someone was happy with her about the pregnancy. Her husband was busy, the family worried about money. I told her: \"The most beautiful flower in your finjan is the expression in your eyes when you talk about the baby.\" She burst into tears of relief.</p><p>Another secret - sometimes the most responsible thing a coffee reader can do is not read. If someone comes in an extreme emotional state - anger, deep grief, unusual fear - the finjan will be influenced by the emotional state and won't give a clear picture. In such cases, prepare good coffee for the seeker, sit with them for 10 minutes and say: \"Today you need a friend, not a coffee reader.\" This is much more healing than a confused reading.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is the golden rule of a wise coffee reader?",
+          "options": [
+            "Always encourage, even when symbols indicate challenges",
+            "Always give accurate predictions without fear",
+            "Read only what the seeker wants to hear",
+            "Avoid talking about challenges entirely"
+          ],
+          "correct": 0,
+          "explanation": "The golden rule is to always encourage - to convey information about challenges in a way that strengthens rather than frightens, and to give the seeker tools for coping."
+        },
+        {
+          "question": "How much time is recommended for each coffee reading?",
+          "options": [
+            "10-15 minutes",
+            "20-30 minutes",
+            "45-60 minutes",
+            "As much time as the seeker needs"
+          ],
+          "correct": 1,
+          "explanation": "20-30 minutes is the ideal time - enough to convey a meaningful message but not too much to avoid emotional dependency."
+        },
+        {
+          "question": "What should a coffee reader do when asked about medical issues?",
+          "options": [
+            "Try to help in any case",
+            "Give advice carefully",
+            "Refer to a doctor and explain that coffee doesn't replace medical consultation",
+            "Ignore the question"
+          ],
+          "correct": 2,
+          "explanation": "Medical predictions are forbidden - one must refer to a doctor and clarify that coffee reading deals only with emotional and energetic trends."
+        },
+        {
+          "question": "How many times per month is it recommended to read coffee for the same person?",
+          "options": [
+            "As many times as they want",
+            "Twice a week",
+            "Once a week",
+            "Once a month at most"
+          ],
+          "correct": 3,
+          "explanation": "No more than once a month, to prevent spiritual dependency and allow the seeker to live life naturally between readings."
+        },
+        {
+          "question": "What is the most important thing a coffee reader gives to seekers?",
+          "options": [
+            "Accurate predictions",
+            "Quality listening and the feeling that they are seen and understood",
+            "Solutions to all problems",
+            "Many interesting symbols"
+          ],
+          "correct": 1,
+          "explanation": "The true secret is quality listening - people come to feel seen and understood, this is much more healing than predictions."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Our journey through the world of coffee reading comes to an end, and now you know not only how to read symbols but how to do it responsibly and wisely. Remember - the true power of a coffee reader is in the ability to see the good in people and encourage them to find their own way.",
+      "wisdom": "Coffee teaches us not what will be, but what is possible.",
+      "nextPreview": "This was our final lesson in our journey together. Now it's your time to go and bring light to others through a cup of coffee and wisdom."
+    }
+  },
+  "faq": [
+    {
+      "question": "What do you do when the symbols in the finjan look negative?",
+      "answer": "Convey the message in an encouraging way - instead of 'you'll be betrayed' say 'you have the power to recognize genuine people'. Always strengthen the seeker."
+    },
+    {
+      "question": "Is it permitted to charge money for coffee reading?",
+      "answer": "Yes, it's completely permitted. It's important to set a fair price in advance and not change it based on the seeker's situation or wealth."
+    },
+    {
+      "question": "What do you do with a seeker who wants to come every day for reading?",
+      "answer": "Set a clear boundary - no more than once a month. Explain that this prevents spiritual dependency and allows life to unfold naturally."
+    },
+    {
+      "question": "How do you deal with a seeker in an extreme emotional state?",
+      "answer": "Sometimes the right thing is not to read at all. Prepare good coffee, listen and say 'today you need a friend, not a coffee reader'."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "tarot",
+      "lesson": "ethics",
+      "label": "⭐ Ethics in Tarot Reading"
+    },
+    {
+      "course": "numerology",
+      "lesson": "consultation",
+      "label": "🔢 Ethical Numerological Consultation"
+    }
+  ],
+  "seo": {
+    "title": "Coffee Reading Ethics - Rules and Spiritual Responsibility",
+    "description": "Learn the important ethical rules of coffee reading: how to set boundaries, encourage seekers and prevent spiritual dependency. Complete guide for responsible coffee readers.",
+    "keywords": [
+      "coffee reading ethics",
+      "responsible coffee reader",
+      "coffee reading boundaries",
+      "spiritual responsibility",
+      "fear curses",
+      "ethical spiritual consultation"
+    ],
+    "ogImage": "/og/academy/coffee/coffee-ethics.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

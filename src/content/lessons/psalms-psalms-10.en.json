@@ -1,0 +1,138 @@
+{
+  "courseId": "psalms",
+  "lessonNumber": 10,
+  "title": "Selected Psalms for Daily Life — Lesson 10",
+  "slug": "psalms-selected-daily-life-10",
+  "module": "Selected Psalms",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down, dear one, the candle is lit and the heart is preparing. Today we enter the treasury of Psalms written especially for daily life — those chapters that the Jewish people love to read when the heart yearns for something new and good, when the soul needs healing, or when business requires blessing. In the previous lesson we learned about the special connection between Psalms and the calendar, about the chapters suitable for each month and their spiritual powers. Now it's time to get acquainted with the most practical Psalms — those that fit every moment and every need in our lives.</p>",
+    "theoryA": "<h2>How to Choose the Right Psalms for Every Life Situation?</h2><p>Choosing the right Psalms depends on the type of need and your current situation. Each chapter in Psalms carries a certain energy and suits a particular spiritual state. When you're seeking success and new beginnings — Psalm 1 is the perfect choice. \"Blessed is the man who walks not in the counsel of the wicked\" — this is the chapter for those who want to choose the right path and succeed in all their endeavors.</p><p>When fear attacks and the heart fills with anxiety, Psalm 10 provides the necessary confidence. \"Why, Lord, do you stand far off? Why do you hide yourself in times of trouble?\" — even when it seems God is distant, He is near and watching over us. This chapter nullifies evil spirits and fears, and restores our inner confidence.</p><p>For matters of livelihood and business, we have two central chapters. Chapter 23 — \"The Lord is my shepherd, I shall not want\" — this is the strongest Psalm for sustenance and abundance. It brings confidence that God will provide all needs. Chapter 24 — \"The earth is the Lord's and everything in it\" — is especially suitable for business success and commerce, as it reminds us that God is the true owner of all wealth in the world.</p><p>When there are problems in marriage or family, Psalm 29 brings domestic peace and livelihood together. \"May the Lord bless his people with peace\" — this chapter creates harmony in relationships and also invites financial blessing. And if you're seeking love or marriage, Chapter 40 is the remedy: \"I waited patiently for the Lord\" — it teaches about patience and confidence that God will bring the right match at the right time.</p>",
+    "practice1": {
+      "instruction": "Choose one situation in your life that needs improvement (livelihood, health, relationships, or fear). Read the appropriate chapter for three consecutive days, once a day, and track the small changes happening in your life.",
+      "type": "practice"
+    },
+    "theoryB": "<h2>What is the Connection Between Psalms and Numerology and Astrology?</h2><p>The connection between Psalms and astrology is deep and fascinating. Each month of the year is linked to a specific zodiac sign and to a specific Psalm chapter. In Tishrei, the month of Libra, we read Chapter 81 — a chapter dealing with judgment and justice, exactly like the sign of Libra. In Cheshvan, the month of Scorpio, the chapter is 80 — which speaks of power and dealing with hidden forces.</p><p>In the tradition of the Baal Shem Tov there is also a special connection between a person's age and the Psalm chapter. Each person says the chapter corresponding to their age plus one — if you are 25, say Chapter 26. If you are 30, say Chapter 31. This connects us to the spiritual energy that suits our stage of life.</p><p>Chapter 119, the longest chapter in Psalms, is divided into 22 sections according to the Hebrew letters. The Chida wrote that this is a \"wonderful remedy indeed\" — to read the section that corresponds to the letters of your name. If your name begins with the letter Shin, read verses 161-168. If with Mem, read verses 97-104.</p><p>The connection to Kabbalah is even deeper. Each chapter in Psalms is linked to a different spiritual force in the Tree of Sefirot. Chapter 1 is linked to Keter — a new beginning from the supreme abundance. Chapter 33, which deals with children and the blessing of fertility, is linked to Yesod — the sefirah of existence and vitality.</p>",
+    "practice2": {
+      "instruction": "Calculate your age plus one, and find the corresponding chapter. Read it for a whole week and observe how these words affect your consciousness and emotions.",
+      "type": "meditate"
+    },
+    "deepDive": "<h2>The Hidden Secrets of Psalms for Daily Life</h2><p>What is not written in books is that every Psalm has not only a regular interpretation, but also a \"hidden intention\" — a special way to read it that awakens supernal forces. For example, when reading Chapter 23 for livelihood, the words \"The Lord is my shepherd, I shall not want\" should be said with a feeling of absolute confidence — not as a prayer of one who pleads, but as a declaration of one who knows that God is already taking care of him.</p><p>Another secret: Psalms work best when read at special times. Chapter 24 for business — best in the morning, before starting the work day. Chapter 40 for marriage — strongest in the evening, when the heart is open to receiving love. Chapter 10 against fear — at night, when fears attack.</p><p>And another secret that few know: when you have a specific problem, open a book of Psalms randomly. The chapter that opens before your eyes carries within it a hidden message for your problem. This is not magic — this is divine providence. Your soul guides your hand to open exactly in the right place.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which Psalm chapter is most suitable for someone seeking success in new beginnings?",
+          "options": [
+            "Chapter 1",
+            "Chapter 23",
+            "Chapter 10",
+            "Chapter 40"
+          ],
+          "correct": 0,
+          "explanation": "Chapter 1 — \"Blessed is the man\" — this is the chapter for those who want to choose the right path and succeed in all their endeavors."
+        },
+        {
+          "question": "According to the tradition of the Baal Shem Tov, which Psalm chapter should a 35-year-old read?",
+          "options": [
+            "Chapter 34",
+            "Chapter 35",
+            "Chapter 36",
+            "Chapter 37"
+          ],
+          "correct": 2,
+          "explanation": "Each person says the chapter corresponding to their age plus one — a 35-year-old reads Chapter 36."
+        },
+        {
+          "question": "Which Psalm chapter is best suited for nullifying fear and evil spirits?",
+          "options": [
+            "Chapter 1",
+            "Chapter 5",
+            "Chapter 10",
+            "Chapter 15"
+          ],
+          "correct": 2,
+          "explanation": "Chapter 10 — \"Why, Lord, do you stand far off\" — nullifies evil spirits and fears, and restores inner confidence."
+        },
+        {
+          "question": "In which month do we read Psalm Chapter 81?",
+          "options": [
+            "Cheshvan",
+            "Tishrei",
+            "Kislev",
+            "Tevet"
+          ],
+          "correct": 1,
+          "explanation": "In Tishrei, the month of Libra, we read Chapter 81 — a chapter dealing with judgment and justice."
+        },
+        {
+          "question": "Which Psalm chapter is most suitable for livelihood and abundance?",
+          "options": [
+            "Chapter 22",
+            "Chapter 23",
+            "Chapter 24",
+            "Chapter 25"
+          ],
+          "correct": 1,
+          "explanation": "Chapter 23 — \"The Lord is my shepherd, I shall not want\" — this is the strongest Psalm for livelihood and abundance."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "We learned that Psalms are not just ancient text — they are a practical guide for daily life. Each chapter carries special power and suits different situations: Chapter 1 for success, Chapter 10 against fear, Chapter 23 for livelihood, and Chapter 40 for love and marriage. The connection to astrology and age deepens the personal connection to the text.",
+      "wisdom": "Psalms are not read only with the tongue — they are read with the heart.",
+      "nextPreview": "In the next lesson we will learn about the deepest prayers in Psalms — those chapters written for moments of crisis and the search for true mysticism."
+    }
+  },
+  "faq": [
+    {
+      "question": "How long should one read Psalms to have an effect?",
+      "answer": "The minimum is three consecutive days for the same chapter. But the real power comes when reading with intention and concentration, not hastily."
+    },
+    {
+      "question": "Can one read Psalms for someone else's request?",
+      "answer": "Absolutely! Psalms are read also for others' healing, their marriages, and for any good request. The importance is in the pure intention."
+    },
+    {
+      "question": "What's better — reading in Hebrew or in translation?",
+      "answer": "Hebrew has special spiritual power, but if you don't understand — better in translation with understanding than in Hebrew without understanding."
+    },
+    {
+      "question": "Are there special hours for reading Psalms?",
+      "answer": "Every hour is good, but each spiritual remedy has an ideal time: livelihood in the morning, love in the evening, and confidence at night."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "numerology",
+      "lesson": "hebrew-letters",
+      "label": "⭐ Connection of Hebrew Letters to Psalms"
+    },
+    {
+      "course": "astrology",
+      "lesson": "monthly-cycles",
+      "label": "🌙 Zodiac Signs and Psalms by Months of the Year"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "tree-of-life",
+      "label": "🌳 Sefirot and Psalms in the Tree of Life"
+    }
+  ],
+  "seo": {
+    "title": "Psalms for Daily Life - Special Chapters for Every Need",
+    "description": "Learn how to choose Psalms for livelihood, love, health and fear. Connection to astrology and numerology. Practical remedies for every day.",
+    "keywords": [
+      "Psalms",
+      "spiritual remedies",
+      "livelihood",
+      "love",
+      "marriage",
+      "astrology",
+      "numerology",
+      "daily prayer"
+    ],
+    "ogImage": "/og/academy/psalms/psalms-10.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

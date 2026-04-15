@@ -1,0 +1,132 @@
+{
+  "courseId": "iching",
+  "lessonNumber": 7,
+  "title": "The Powerful Hexagrams: Force, Receptivity and Leadership in the I Ching",
+  "slug": "iching-07-hexagrams-force-receptive-leadership",
+  "module": "Hexagrams",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down... the candle is lit and the cards are waiting. Today we'll meet the most powerful hexagrams in the I Ching — the Creative force, the Receptive earth, and the leadership of the army. These are the ancient forces that shape reality, and each one carries within it the secret of manifestation in this world. In the previous lesson we discovered how to develop a hexagram and read its lines. Now it's time to deeply know the basic archetypes — the heavenly dragon that creates something from nothing, the earthly mare that receives and nourishes, and the leader who organizes chaos into discipline. These hexagrams are the foundation of all patterns that will follow them.</p>",
+    "theoryA": "<h2>What is the meaning of the first hexagram — the Creative Force?</h2><p>The first hexagram, the Creative Force (乾), is the pure expression of the Yang principle — pure creative force that drives the universe. All six of its lines are complete Yang, doubled heaven, the dragon in its full power. This is the maximum of creative power in the I Ching system.</p><p>This hexagram symbolizes absolute beginning, unconditional energy that bursts into the world and creates new reality. Its interpretation is clear: \"Great success through perseverance. The dragon rises — act with strength and integrity. Leadership calls you now.\" This is not just raw power, but directed and intelligent creative force.</p><p>The doubled heaven teaches us that true creation requires absolute consistency. A moment of inspiration is not enough — you must hold this power over time, like the dragon rising from waters to heaven. The message is that when you are in a place of creation, you must act with complete confidence, without hesitation.</p><p>In practical context, this hexagram appears when the time is ripe to start a new project, lead a group, or take significant initiative. It tells you that you now have the inner power to realize your vision, but this requires consistent and vigorous action. This is not the hexagram of planning — this is the hexagram of execution.</p>",
+    "practice1": {
+      "instruction": "Take the coins and practice throwing them six times. For each throw, record whether you got Yang (two tails and heads, or three heads) or Yin (three tails). Try to get hexagram 1 (the Creative Force) - all lines Yang. If it doesn't come out, throw again until you get it.",
+      "type": "draw"
+    },
+    "theoryB": "<h2>How does the second hexagram — the Receptive Field — complement the Creative Force?</h2><p>The second hexagram, the Receptive Field (坤), is the perfect completion of the Creative Force. All six of its lines are broken Yin, doubled earth, the mare that carries the world. This is pure receptivity — not as weakness but as power of another kind.</p><p>The Receptive Field teaches us that creation doesn't end the moment something is created. The idea that was born needs a place to grow, the seed needs fertile earth. This hexagram represents the power of the earth — patient, stable, nourishing. \"Success through humility and support. Follow rather than lead. The stability of the mare brings good fortune.\"</p><p>The relationship between the two is fundamental to understanding Chinese philosophy: Yang and Yin are not opposites but complements. Heaven creates, earth receives and nurtures. The dragon flies, the mare runs. No hexagram is better than the other — each has its role in the cycle of creation.</p><p>In practical life, when this hexagram appears, it tells you to remain in a supportive position and not to lead. This is the time to be the fertile ground that allows others to grow. This support is not passive — it is active and directed, like a mother raising her children or earth nourishing plants. This is the power of nourishment.</p>",
+    "practice2": {
+      "instruction": "Choose a situation in your life where you are in a position of 'receiver' or supporter (in family, work, community). Write how you can activate the power of receptivity — being stable, nourishing and supportive without leading. Plan one concrete step.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What is the hidden secret of the seventh hexagram — Leadership of the Army?</h2><p>The seventh hexagram, Leadership of the Army (師), reveals to us the deep secret of true leadership. Its structure — water stored in earth — reveals that true power is not in display but in inner organization. This is not a leader who shouts and boasts, but one who knows how to store power and use it at the right moment.</p><p>In ancient Chinese tradition, the army was not a force of destruction but a tool for maintaining cosmic order. The true leader is one who takes responsibility for his community, who knows when to fight and when to seek peace. \"Discipline and order are required. A strong leader unites the people. Act righteously in time of conflict.\"</p><p>The secret not written in books is that this hexagram appears precisely when you are not seeking to be a leader. It comes to you when the situation requires someone to take responsibility, to organize the chaos. True leadership is not born from lust for power but from a sense of duty to the community. The hidden waters in the earth are the organized force that acts from righteousness.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "How many Yang lines are in the first hexagram — the Creative Force?",
+          "options": [
+            "3 lines",
+            "4 lines",
+            "5 lines",
+            "6 lines"
+          ],
+          "correct": 3,
+          "explanation": "The first hexagram consists of 6 complete Yang lines — doubled heaven representing pure creative force."
+        },
+        {
+          "question": "What is the second hexagram called in English?",
+          "options": [
+            "The Nourishing Earth",
+            "The Receptive Field",
+            "The Running Mare",
+            "The Fertile Land"
+          ],
+          "correct": 1,
+          "explanation": "The second hexagram is called 'The Receptive Field' and represents the pure principle of receptivity — the doubled power of earth."
+        },
+        {
+          "question": "What do the waters stored in earth symbolize in the seventh hexagram?",
+          "options": [
+            "Hidden and organized power",
+            "Water freezing in winter",
+            "Deep emotions",
+            "Buried secrets"
+          ],
+          "correct": 0,
+          "explanation": "The waters stored in earth symbolize hidden power organized under discipline — this is the symbol of true leadership."
+        },
+        {
+          "question": "When is it recommended to act according to the second hexagram — the Receptive Field?",
+          "options": [
+            "When you want to lead",
+            "When you want to support and strengthen",
+            "When you want to start a project",
+            "When you want to decide quickly"
+          ],
+          "correct": 1,
+          "explanation": "The Receptive Field guides us to act in support and not in leadership — to be the fertile ground that allows others to grow."
+        },
+        {
+          "question": "What is the relationship between the first and second hexagrams?",
+          "options": [
+            "They oppose each other",
+            "They complement each other",
+            "There is no connection between them",
+            "They are identical"
+          ],
+          "correct": 1,
+          "explanation": "Heaven (Creative Force) and Earth (Receptive Field) complement each other in the cycle of creation — Yang creates and Yin receives and nourishes."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today you met the three fundamental forces in the I Ching: the Creative Force that opens and begins, the Receptive Field that nourishes and grows, and the Leadership of the Army that organizes and commands. Each one teaches us a different way to deal with life — sometimes we lead and create, sometimes we support and nourish, and sometimes we take responsibility and lead.",
+      "wisdom": "The dragon flies, the mare runs, and the leader commands — each in its time.",
+      "nextPreview": "In the next lesson we'll learn about the hexagrams of change and transition — how power flows between different states and what it tells you when you're in transition."
+    }
+  },
+  "faq": [
+    {
+      "question": "How do I know which hexagram suits my situation?",
+      "answer": "Throw the coins six times and you'll receive your hexagram. The I Ching responds to your inner and outer situation at the moment of throwing."
+    },
+    {
+      "question": "Is the first hexagram always better than the second?",
+      "answer": "No! All hexagrams are equal in value. Sometimes time requires creation (hexagram 1) and sometimes it requires support and receptivity (hexagram 2). Both are vital."
+    },
+    {
+      "question": "What does it mean that the seventh hexagram 'appears' to me?",
+      "answer": "It means your current situation requires leadership — even if you don't feel ready. The I Ching invites you to take responsibility with righteousness."
+    },
+    {
+      "question": "How do I activate the power of receptivity in my daily life?",
+      "answer": "Through listening, supporting, creating a safe space for others to grow. This includes patience, emotional stability, and the ability to give without expecting immediate return."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot-foundation",
+      "label": "⭐ Foundation in Kabbalah — the power that organizes"
+    },
+    {
+      "course": "tarot",
+      "lesson": "emperor-empress",
+      "label": "🌟 The Emperor and Empress in Tarot"
+    }
+  ],
+  "seo": {
+    "title": "The Powerful Hexagrams in the I Ching: Force, Receptivity and Leadership",
+    "description": "Learn the three fundamental forces in the I Ching: the Creative Force (hexagram 1), the Receptive Field (hexagram 2) and Leadership of the Army (hexagram 7). In-depth guide for beginners.",
+    "keywords": [
+      "I Ching",
+      "hexagrams",
+      "creative force",
+      "receptive field",
+      "leadership",
+      "yang and yin",
+      "guidance"
+    ],
+    "ogImage": "/og/academy/iching/iching-07.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

@@ -1,0 +1,137 @@
+{
+  "courseId": "astrology",
+  "lessonNumber": 4,
+  "title": "Chinese Astrology - The Eastern Zodiac Wheel",
+  "slug": "astrology-04",
+  "module": "Signs",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Let's leave the West for a moment and journey toward the magical empire of Chinese astrology. Here, instead of skies filled with stars, we meet a wheel of twelve sacred animals that guide us through the cyclical nature of entire years. Legend tells us that Buddha invited all the animals of the world to a party, but only twelve came. The cunning Rat arrived first (after riding on the kind-hearted Ox), and the generous Pig came last. Each received a year to rule over, thus creating the cycle of Chinese years. This isn't just a calendar change — it's a complete shift in how we understand personality, destiny, and time itself.</p>",
+    "theoryA": "<h2>How Does Chinese Astrology Work?</h2><p>Chinese astrology operates in 12-year cycles, where each year is ruled by a different animal with unique characteristics. Unlike Western astrology which is based on birth month, here your birth year determines your basic character.</p><p>The system consists of three main components: the Animal (12 options), the Element (5 options: Wood, Fire, Earth, Metal, Water), and the Principle (Yin or Yang). Each animal belongs to a fixed element — the Rat to Water, the Ox to Earth, the Tiger to Wood. But each year also receives a changing element in a five-year cycle, creating 60 different combinations (12×5=60) that make up a complete cycle.</p><p>The most fascinating thing? Unlike Western signs that focus on personality, Chinese animals specialize in destiny and karma. They tell you how you connect with the world, how time flows in your life, and how you can work with cosmic energies instead of fighting them. It's less 'who am I' and more 'how can I live in harmony with what the universe brings me.'</p><p>The animals are divided into four triads: The first triad (Rat, Dragon, Monkey) are the competitors and innovators. The second triad (Ox, Snake, Rooster) are the hard workers and persistent ones. The third triad (Tiger, Horse, Dog) are the brave and protective ones. The fourth triad (Rabbit, Goat, Pig) are the artists and diplomats.</p>",
+    "practice1": {
+      "instruction": "Find your birth year in the list and write which animal you were born under. If you were born in January or early February, check exactly when the new Chinese year began (usually between January 21 and February 20). Read your animal's traits and mark 3 characteristics that speak to you most.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How Does Compatibility Work in Chinese Signs?</h2><p>Chinese compatibility works through three main principles: harmony triangles, opposing pairs, and natural clashes. Each animal belongs to a specific harmony triangle that creates a group of three animals that complement each other perfectly.</p><p>The first triangle is the triangle of action: Rat, Dragon, and Monkey — all three are quick, smart, and love opportunities. The second triangle is the triangle of stability: Ox, Snake, and Rooster — all persistent, attentive, and with iron determination. The third triangle is the triangle of idealism: Tiger, Horse, and Dog — justice fighters who care for others. The fourth triangle is the triangle of diplomacy: Rabbit, Goat, and Pig — peace-lovers who create beauty and harmony.</p><p>But that's just the beginning. There are also the magical pairs: Rat+Ox (wisdom and stability), Tiger+Pig (courage and generosity), Rabbit+Dog (grace and loyalty), Dragon+Rooster (charisma and precision), Snake+Monkey (wisdom and innovation), Horse+Goat (freedom and creativity). These pairs complement each other like yin and yang.</p><p>The strongest clashes occur between opposing pairs on the wheel: Rat vs Horse, Ox vs Goat, Tiger vs Monkey, Rabbit vs Rooster, Dragon vs Dog, Snake vs Pig. These clashes don't mean the relationship is doomed to failure, but that more work is needed to understand each other.</p>",
+    "practice2": {
+      "instruction": "Find the animals of your three closest people (family, friends, partner). Check compatibility levels according to triangles and magical pairs. Are there clashes? Is there harmony? Write one sentence about each relationship and how it manifests in reality.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books About the Chinese System</h2><p>The biggest secret of Chinese astrology is that it doesn't try to determine who you are, but when you are. Each animal rules not just over personality, but over the cyclical nature of life — when to seize opportunities, when to wait, when to act. The Rat knows how to arrive first at an opportunity, but the Ox knows how to be patient and build something that will last.</p><p>In the ancient secret, each animal lives on a different time spiral. The Tiger wants action now, the Snake plans for the distance. Therefore, a Tiger-Snake couple will clash not over character, but over life's timing. The Tiger will say 'why aren't we doing anything?' and the Snake will say 'why are you always rushing?'</p><p>The deepest truth? The Chinese system teaches that every animal needs to learn from its opposite. The Rat needs to learn from the Horse how not to always be in a race. The Horse needs to learn from the Rat how to be strategic. This isn't just astrology — it's an entire philosophy of how to live in peace with time.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "How many years are in the Chinese astrological cycle?",
+          "options": [
+            "10 years",
+            "12 years",
+            "15 years",
+            "20 years"
+          ],
+          "correct": 1,
+          "explanation": "The Chinese cycle includes 12 years, with each year ruled by a different animal from the 12 sacred animals."
+        },
+        {
+          "question": "Which animal comes first in the Chinese cycle?",
+          "options": [
+            "The Ox",
+            "The Rat",
+            "The Tiger",
+            "The Dragon"
+          ],
+          "correct": 1,
+          "explanation": "The Rat comes first in the cycle according to legend, after riding on the Ox and jumping off at the last moment."
+        },
+        {
+          "question": "How many elements are in the Chinese system?",
+          "options": [
+            "4 elements",
+            "5 elements",
+            "6 elements",
+            "7 elements"
+          ],
+          "correct": 1,
+          "explanation": "There are 5 elements in the Chinese system: Wood, Fire, Earth, Metal, and Water, alternating in a 5-year cycle."
+        },
+        {
+          "question": "Which of the following triangles is correct?",
+          "options": [
+            "Rat-Ox-Tiger",
+            "Tiger-Horse-Dog",
+            "Dragon-Snake-Goat",
+            "Rabbit-Monkey-Pig"
+          ],
+          "correct": 1,
+          "explanation": "Tiger-Horse-Dog is the triangle of idealism, all three are justice fighters who care for others."
+        },
+        {
+          "question": "What is the main difference between Chinese and Western astrology?",
+          "options": [
+            "Chinese is based on birth year",
+            "Chinese is based on birth month",
+            "Chinese is based on birth day",
+            "Chinese is based on birth hour"
+          ],
+          "correct": 0,
+          "explanation": "Chinese astrology is based on birth year and not birth month like Western astrology."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Chinese astrology opens a door to a completely different perspective on time, personality, and destiny. It's not just a change of symbols from stars to animals — it's a philosophical shift. Instead of asking 'what does my sign say about me?' we ask 'how can I live in harmony with the cycle of time?' Each animal teaches us something different about life's rhythm, about timing, and about how to harness the energies the universe offers.",
+      "wisdom": "Every animal is wise in its time, every heart knows its soul's music.",
+      "nextPreview": "In the next lesson we'll return to the West and dive deep into understanding the zodiac in Tarot - how each card tells the story of its sign..."
+    }
+  },
+  "faq": [
+    {
+      "question": "How do I know which animal I am if I was born early in the year?",
+      "answer": "The Chinese year begins between January 21 and February 20 (date varies). If you were born in January or early February, check exactly when the Chinese year began in that year."
+    },
+    {
+      "question": "Is there a difference between male and female of the same animal?",
+      "answer": "Each animal can express itself in different ways, but the basic traits remain the same. The difference comes more through the element and principle (yin/yang) of the year."
+    },
+    {
+      "question": "What happens if my friend and I clash in zodiac signs?",
+      "answer": "A clash doesn't mean the relationship is doomed to failure, but that you need to understand and respect differences in life's pace and approach to the world. Sometimes opposites complement and challenge each other to grow."
+    },
+    {
+      "question": "How do I combine Chinese astrology with Western?",
+      "answer": "Both systems complement each other. Western focuses on personality and inner life, Chinese on life patterns and karma. You can use both for a more complete picture."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "tarot",
+      "lesson": "major-arcana-wheel",
+      "label": "⭐ Zodiac Wheel in Tarot"
+    },
+    {
+      "course": "numerology",
+      "lesson": "cycles-and-timing",
+      "label": "🔢 Time Cycles in Numerology"
+    },
+    {
+      "course": "astrology",
+      "lesson": "elements-deep",
+      "label": "🌟 Elements in Western Astrology"
+    }
+  ],
+  "seo": {
+    "title": "Chinese Astrology - The 12 Eastern Animal Wheel | Maktuba",
+    "description": "Learn about Chinese astrology, the 12 sacred animals, time cycles and compatibility. Professional guide to Eastern astrology with practical exercises and daily use tips.",
+    "keywords": [
+      "Chinese astrology",
+      "Chinese animals",
+      "Chinese zodiac",
+      "Chinese compatibility",
+      "animal wheel",
+      "Eastern astrology",
+      "12-year cycle"
+    ],
+    "ogImage": "/og/academy/astrology/astrology-04.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

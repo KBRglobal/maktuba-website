@@ -1,0 +1,138 @@
+{
+  "courseId": "astrology",
+  "lessonNumber": 6,
+  "title": "Chinese Zodiac - The Eastern Astrology System",
+  "slug": "astrology-06",
+  "module": "Zodiac Signs",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down, dear, the candle is lit and the stars are dancing above in the sky. In previous lessons we tasted the Western wisdom of the 12 zodiac signs, and now it's time to broaden our view and taste the ancient Eastern wisdom. The Chinese zodiac operates in cycles of 12 years, not months, and brings us a new and deep dimension of self-understanding. When someone asks me \"what is my Chinese zodiac sign?\", I always answer with a smile - it's not just a sign, it's a complete roadmap to your inner personality. The Chinese zodiac reveals hidden layers in the soul that Western astrology doesn't always reach. This is an ancient system that combines the five elements, the energies of yin and yang, and ancient Taoist wisdom.</p>",
+    "theoryA": "<h2>How to Find My Chinese Zodiac Sign by Birth Year?</h2><p>The Chinese zodiac is determined by the birth year in the Chinese calendar, which begins with Chinese New Year and not on January 1st. The Chinese year typically begins between late January and mid-February. If you were born early in the calendar year, it's important to check exactly when the Chinese year began that year.</p><p>The Chinese cycle includes 12 animals: Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, and Pig. Each animal rules over an entire year and grants those born in it their unique characteristics. The Rat opens the cycle with its wisdom and resourcefulness, while the Pig closes it with its generosity and honesty.</p><p>Beyond the animal itself, each Chinese year also combines one of the five elements: Water, Wood, Fire, Earth, and Metal. Each element appears twice in a 10-year cycle - once in yang energy and once in yin energy. For example, the year of the Dragon can be Water Dragon, Wood Dragon, Fire Dragon, etc. This combination creates 60 different variations in the complete cycle.</p><p>The energies of yin and yang add another dimension to the picture. Yang is the active force, external, masculine - characteristics of activity, competitiveness, and initiative. Yin is the passive force, internal, feminine - characteristics of receptivity, sensitivity, and nurturing. Rat, Tiger, Dragon, Horse, Monkey, and Dog are yang signs. Ox, Rabbit, Snake, Goat, Rooster, and Pig are yin signs.</p>",
+    "practice1": {
+      "instruction": "Check your birth year and find your Chinese zodiac sign. If you were born in January or February, search exactly when the Chinese year began. Write down the animal, the element (if you have the information), and the energy (yin or yang). Think about the initial characteristics that arise in you when looking at this animal.",
+      "type": "write"
+    },
+    "theoryB": "<h2>What's the Difference Between Western and Chinese Zodiac in Terms of Personality?</h2><p>The Western zodiac focuses on the birth month and reflects the external personality, the way you express yourself in the world and how others perceive you. The Chinese zodiac penetrates deeper layers and reveals the basic temperament, your natural ways of dealing with challenges, and your inner motivations.</p><p>While a Western sign like Leo might reveal your need to shine and lead, the Chinese zodiac will expose exactly how you do it. A Dragon will do it with charisma and grand vision, while a Tiger will do it through courage and wild competitiveness. Two Leo signs, but completely different expressions of the same energy.</p><p>Compatibility in the Chinese zodiac operates according to different principles than the Western one. Instead of opposing elements, here there's focus on harmony between complementary elements. The Rat connects well with the Dragon and Monkey because all three are intelligent and creative. The Ox, Snake, and Rooster form a triangle of efficiency and dedication. Each group of four signs creates an astrological \"family\" with shared values.</p><p>Time in the Chinese zodiac is measured differently - not daily or weekly but in 12-year cycles. Every 12 years you return to your sign, and a new life cycle begins. The year when you return to your original sign is called \"Ben Ming Nian\" and is considered a year of opportunities and significant transitions. It's a year that invites deep contemplation and future planning.</p>",
+    "practice2": {
+      "instruction": "Compare your Western zodiac with your Chinese zodiac. Write down three characteristics from each sign and look for where they connect and where they clash. How does this combination explain aspects of your personality that you didn't understand before? Give a concrete example from your life that demonstrates this combination.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books - Chinese Astrology as an Emotional Roadmap</h2><p>The great secret of the Chinese zodiac is that it doesn't just describe who you are, but how you develop throughout life. Each Chinese sign goes through a unique emotional journey during its 12 years in the cycle. In childhood and youth years, it expresses its raw characteristics. In middle age, it develops balance and maturity. Toward the end of the cycle, it reaches wisdom and giving.</p><p>Young Dragons, for example, can be arrogant and inflated. Mature Dragons learn to use their charisma for the benefit of all. Young Rabbits can be shy and hesitant, while mature Rabbits become skilled diplomats and peace mediators. This insight helps understand not only what your nature is, but also how to grow and develop within it.</p><p>Another secret is the connection between Chinese zodiac signs and Chinese months. In addition to the annual sign, there's also a monthly sign that completes the picture. The connection between the two creates a more accurate astrological map of the personality. Someone born in the year of the Rat in the month of the Tiger will be a Rat with an addition of boldness and competitiveness characteristic of the Tiger.</p><p>Romantic compatibility in the Chinese zodiac works on the basis of trust and mutual support, not just chemistry. \"Good\" couples in the Chinese zodiac know how to give each other emotional security and space for growth. They're not necessarily the most turbulent or passionate couples, but they build emotional stability and meaningful lives together.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "When does the Chinese year begin?",
+          "options": [
+            "Between late January and mid-February",
+            "On January 1st",
+            "On March 21st",
+            "Every October"
+          ],
+          "correct": 0,
+          "explanation": "The Chinese year begins according to the Chinese lunar calendar, usually between late January and mid-February, not on January 1st like the Gregorian calendar."
+        },
+        {
+          "question": "How many animals are in the Chinese zodiac cycle?",
+          "options": [
+            "10 animals",
+            "12 animals",
+            "8 animals",
+            "16 animals"
+          ],
+          "correct": 1,
+          "explanation": "The Chinese cycle includes 12 animals: Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, and Pig."
+        },
+        {
+          "question": "Which Chinese zodiac signs belong to yang energy?",
+          "options": [
+            "Ox, Rabbit, Snake",
+            "Rat, Tiger, Dragon",
+            "Goat, Rooster, Pig",
+            "All signs belong to yang"
+          ],
+          "correct": 1,
+          "explanation": "Yang signs are: Rat, Tiger, Dragon, Horse, Monkey, and Dog. They represent active, external, and masculine energy."
+        },
+        {
+          "question": "How many elements are in the Chinese system?",
+          "options": [
+            "Three elements",
+            "Four elements",
+            "Five elements",
+            "Six elements"
+          ],
+          "correct": 2,
+          "explanation": "The Chinese system includes five elements: Water, Wood, Fire, Earth, and Metal. Each element appears in both yin and yang energies."
+        },
+        {
+          "question": "What happens when we return to our original zodiac sign?",
+          "options": [
+            "It's a regular year without special meaning",
+            "It's a 'Ben Ming Nian' year of opportunities and transitions",
+            "It's a year of bad luck",
+            "It's a year to avoid making decisions"
+          ],
+          "correct": 1,
+          "explanation": "The year when you return to your original sign is called 'Ben Ming Nian' and is considered a year of opportunities, significant transitions, and deep contemplation."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "The Chinese zodiac opens before us an additional and deep dimension of self-understanding that combines ancient wisdom with accurate psychological insights. The combination of the 12 animals, five elements, and yin-yang energies creates a rich and complex personality map that reveals not only who we are, but also how we develop throughout life.",
+      "wisdom": "The Rat being first in the cycle is no coincidence - wisdom always opens the way.",
+      "nextPreview": "In the next lesson we'll dive into the world of elements - Water, Fire, Earth, and Air, and discover how they shape our personality and relationships."
+    }
+  },
+  "faq": [
+    {
+      "question": "How do I know which element belongs to my birth year in the Chinese zodiac?",
+      "answer": "Each Chinese year combines an element and energy (yin/yang). The cycle repeats every 60 years. You can check this in Chinese zodiac tables or accurate Chinese astrology websites."
+    },
+    {
+      "question": "Is the Chinese zodiac more accurate than the Western zodiac?",
+      "answer": "Both systems complement each other. The Western zodiac focuses on the birth month and external personality, while the Chinese zodiac focuses on the birth year and inner temperament."
+    },
+    {
+      "question": "What if I was born early in the calendar year?",
+      "answer": "It's important to check exactly when the Chinese year began that year. The Chinese year usually begins in late January or early February, not on January 1st."
+    },
+    {
+      "question": "Are romantic compatibilities in the Chinese zodiac accurate?",
+      "answer": "Compatibilities in the Chinese zodiac are based on harmony and mutual support, not just chemistry. They provide good direction but don't determine the fate of the relationship."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "elements",
+      "label": "⭐ Elements in Western Astrology"
+    },
+    {
+      "course": "astrology",
+      "lesson": "compatibility",
+      "label": "🌟 Romantic Compatibility in Western Signs"
+    },
+    {
+      "course": "numerology",
+      "lesson": "personal-year",
+      "label": "✨ Personal Year in Numerology"
+    }
+  ],
+  "seo": {
+    "title": "Chinese Zodiac - Complete Guide to Eastern Astrology",
+    "description": "Discover your Chinese zodiac sign, the five elements and yin-yang energies. Practical guide to understanding personality through Chinese zodiac and romantic compatibility.",
+    "keywords": [
+      "Chinese zodiac",
+      "Chinese astrology",
+      "zodiac animals",
+      "yin yang",
+      "Chinese elements",
+      "compatibility",
+      "eastern astrology",
+      "birth year signs"
+    ],
+    "ogImage": "/og/academy/astrology/astrology-06.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

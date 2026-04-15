@@ -1,0 +1,133 @@
+{
+  "courseId": "numerology",
+  "lessonNumber": 10,
+  "title": "Abjad Numerology — The Ancient Arabic Numerological System",
+  "slug": "numerology-abjad-arabic",
+  "module": "Numbers",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Come, let us cross the ancient Arabian deserts, where among the golden dunes was born a profound numerological system — the Arabic Abjad, or as it is called in Arabic 'Hisab al-Jummal'. This is a system of letters and numbers whose source lies in ancient tradition, connecting language to wisdom, words to power. The Arabic Abjad is not merely a tool for numerical calculation — it is a bridge between the physical and spiritual, between name and soul. While in previous lessons we learned about path and expression numbers in the Western system, the time has come to discover the hidden wisdom contained within Arabic letters and their special numerical values.</p>",
+    "theoryA": "<h2>How Do We Calculate Numbers Using the Arabic Abjad Method?</h2><p>The Arabic method of calculating numbers is based on a precise alphabetical system called 'Abjad Mashriqi'. Each Arabic letter receives a fixed numerical value according to the traditional order: A-B-J-D-H-W-Z-H-T-Y-K-L-M-N-S-Ayn-F-Tz-Q-R-Sh-T-Th-Kh-Dh-D-Tz-Gh. Aleph equals 1, Beth equals 2, Gimel equals 3 and so on up to 10, then the progression is in jumps of 10 up to 100, and from 100 in jumps of 100 up to 1000.</p><p>This arrangement is not arbitrary — it carries within it deep wisdom of elemental connections between letters and numbers. Each letter carries not only a sound but also a spiritual frequency, a hidden energy that finds expression in its number. Thus, when we calculate the value of a name in Arabic, we are not simply counting — we are revealing the hidden essence of the name.</p><p>The traditional order of the Abjad is: أبجد هوز حطي كلمن سعفص قرشت ثخذ ضظغ. This is an order that has been preserved in tradition for thousands of years, and it differs from the regular alphabetical order we know today. Tradition says this order was established not by chance but according to deep cosmic principles.</p>",
+    "practice1": {
+      "instruction": "Write your name in Hebrew and try to translate it to Arabic (or use an Arabic name you know). Calculate its value according to the Abjad table: A=1, B=2, J=3 etc. Add up all the letters and get the total sum.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How Does the Abjad Connect to Western Numerology?</h2><p>Despite the Arabic method appearing different, the connection to Western numerology is deep and fascinating. After obtaining the total sum of the name in Abjad, we perform the same reduction process we know — we add the digits until we reach a single digit (or master numbers 11, 22, 33). The final result is interpreted according to the same meanings we learned in Western life path numbers.</p><p>But here lies the special magic of the Arabic method — it adds an additional layer of depth. In Arabic and Islamic culture, they search for connections between the numerical value of the name and sacred words with the same numerical value. For example, the word 'Allah' equals 66, and 'Muhammad' equals 92. If your name arrives at one of these values, it is considered a special sign of spiritual connection.</p><p>The most sacred number in this culture is 786 — the numerical value of the sacred opening 'In the name of Allah, the Compassionate, the Merciful'. This is a number considered a blessing and talisman, and people whose names reach this value are considered especially blessed.</p>",
+    "practice2": {
+      "instruction": "Take the result you got in the first exercise and perform reduction: add the digits again and again until you get a single digit (except 11, 22, 33). Now search for the meaning of this number in the Western path number system and see how it connects to your personality.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books — The Secret System of 'Ilm al-Huruf'</h2><p>Beyond simple calculation of names, there exists a deeper tradition called 'Ilm al-Huruf' — the science of letters. This is a mystical system developed by Sufi sages, especially the great Ibn Arabi, who believed that within the letters themselves lies all cosmic wisdom.</p><p>According to this system, each Arabic letter carries not only a numerical value but also elemental qualities, cosmic directions, and connections to Kabbalistic sefirot. The letters are divided into groups according to their spiritual properties: letters of fire (action), water (emotion), air (thought) and earth (stability).</p><p>The great secret lies in the fact that when we combine the numerical values of a name, we are actually creating 'cosmic harmony' — a unique frequency that connects the person to higher forces. This is why there is great importance in Arabic culture to choosing names — they are not just labels, but bearers of destiny.</p><p>Also, one must be careful and approach this system with respect — in strict Islamic interpretation, fortune telling is considered forbidden, so it's important to approach this method as a tool for self-reflection and spiritual understanding, not as prediction or sorcery.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is the Arabic system for calculating name values called?",
+          "options": [
+            "Al-Jadwal",
+            "Hisab al-Jummal",
+            "Ilm al-Arqam",
+            "Qiyas al-Asma"
+          ],
+          "correct": 1,
+          "explanation": "The system is called 'Hisab al-Jummal' — calculation of the sum. This is the traditional system for calculating name values in the Arabic world."
+        },
+        {
+          "question": "What is the numerical value of the word 'Allah' in Arabic Abjad?",
+          "options": [
+            "66",
+            "99",
+            "786",
+            "92"
+          ],
+          "correct": 0,
+          "explanation": "The word 'Allah' (الله) equals 66: A(1) + L(30) + L(30) + H(5) = 66. This is a sacred number in Islamic tradition."
+        },
+        {
+          "question": "What is the traditional order of letters in the Abjad?",
+          "options": [
+            "Regular alphabetical",
+            "By numerical values",
+            "Abjad Hawz Huti",
+            "By frequency of use"
+          ],
+          "correct": 2,
+          "explanation": "The traditional order is 'Abjad Hawz Huti Kalaman Sa'afas Qarshat Thakhadh Dazagh' — an ancient order preserved in Abjad tradition."
+        },
+        {
+          "question": "What is the deeper mystical system of Arabic letters called?",
+          "options": [
+            "Hisab al-Jummal",
+            "Ilm al-Huruf",
+            "Tafsir al-Ahlam",
+            "Manazil al-Qamar"
+          ],
+          "correct": 1,
+          "explanation": "The system is called 'Ilm al-Huruf' (science of letters) — this is the mystical tradition developed by Sufi sages."
+        },
+        {
+          "question": "What is the most sacred number in Arabic-Islamic culture?",
+          "options": [
+            "99",
+            "66",
+            "786",
+            "114"
+          ],
+          "correct": 2,
+          "explanation": "The number 786 is the most sacred — it is the numerical value of 'In the name of Allah, the Compassionate, the Merciful', the sacred opening in the Quran."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we learned about the ancient Arabic numerological system — the Abjad. We discovered how to calculate name values according to the traditional order 'Abjad Hawz Huti', and how this system connects to the Western numerology we learned. We understood the spiritual importance of numbers like 66 (Allah) and 786 (the sacred opening), and touched upon the deeper system of 'Ilm al-Huruf' — the mystical science of letters.",
+      "wisdom": "Letters are the tools of creation — with them the world was created, with them your soul will be revealed.",
+      "nextPreview": "In the next lesson we will learn about number compatibility — how to calculate and understand the connections between different path numbers in the Western system."
+    }
+  },
+  "faq": [
+    {
+      "question": "Do I need to know Arabic to use the Abjad system?",
+      "answer": "Not necessarily. You can translate your name to Arabic and then use the Abjad table. The important thing is to maintain the numerical accuracy of each letter."
+    },
+    {
+      "question": "How is the Abjad different from Hebrew Gematria?",
+      "answer": "Both systems are similar in structure but differ in specific numerical values and cultural meanings. Abjad focuses on Islamic sacred words while Gematria focuses on Jewish texts."
+    },
+    {
+      "question": "Is it permitted to use Abjad for fortune telling?",
+      "answer": "One must be careful — in strict Islam, fortune telling is forbidden. The proper use is for self-reflection and spiritual understanding, not for predictions or sorcery."
+    },
+    {
+      "question": "What is the meaning of the number 786?",
+      "answer": "It is the numerical value of 'Bismillah' - 'In the name of Allah, the Compassionate, the Merciful'. This is the most sacred number in Arabic-Islamic culture and is considered a great blessing."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot-tree",
+      "label": "🌳 Tree of Sefirot in Kabbalah"
+    },
+    {
+      "course": "tarot",
+      "lesson": "numbers-cards",
+      "label": "🔢 Meaning of Numbers in Tarot"
+    }
+  ],
+  "seo": {
+    "title": "Abjad Numerology — The Ancient Arabic System for Calculating Names",
+    "description": "Discover the secrets of Arabic Abjad — the ancient system for calculating name values. Learn about Hisab al-Jummal, sacred numbers and the mystical science of letters.",
+    "keywords": [
+      "Abjad",
+      "Arabic numerology",
+      "Hisab al-Jummal",
+      "Ilm al-Huruf",
+      "numerology",
+      "sacred numbers",
+      "Arabic letters",
+      "Islamic mysticism"
+    ],
+    "ogImage": "/og/academy/numerology/numerology-10.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

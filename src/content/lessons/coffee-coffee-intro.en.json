@@ -1,0 +1,131 @@
+{
+  "courseId": "coffee",
+  "lessonNumber": 1,
+  "title": "Introduction to Coffee Reading",
+  "slug": "coffee-intro",
+  "module": "Foundations",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit with me, let's light the candle and open together an ancient world of wisdom. You know, when I look at your coffee cup, I see so much more than the remains of a morning drink. I see a map of your life, a story of your destiny, a message from the universe waiting to be revealed. Coffee reading, or as I like to call it - a conversation with the soul through the cup, is an art that passes from me to you just as it passed to me from my grandmother. This isn't magic, it's a language. A language of symbols, of energies, of truths that the heart knows but the mind hasn't yet understood. In this first lesson, I'll teach you the fundamentals - how to see beyond what the eye sees, and how to begin deciphering the messages the universe leaves for you in your coffee cup.</p>",
+    "theoryA": "<h2>How Does Coffee Reading Work?</h2><p>Coffee reading is an ancient divination art based on interpreting patterns of coffee grounds in a cup or finjan. When you drink Turkish coffee and swirl the cup, the coffee residue creates shapes and symbols that carry spiritual and prophetic meanings.</p><p>The process itself is simple yet profound: after drinking the coffee, you swirl the cup three times clockwise and then turn it upside down on a plate. The patterns formed on the cup's walls are the key to the reading. Each symbol created carries a different meaning according to its location in the cup.</p><p>The coffee itself serves as an energetic medium. During drinking, your personal energy mixes with the coffee, and its residue becomes a mirror of your mental state, emotions, and destiny. This is why the most successful coffee reading is done with coffee that you yourself drank.</p><p>The tradition comes from the Ottoman Empire, where women would gather for coffee ceremonies and conduct mutual readings. They believed that coffee connects between our world and higher realms, and that the symbols formed are direct messages from the universe.</p>",
+    "practice1": {
+      "instruction": "Prepare a cup of Turkish coffee or strong instant coffee. Drink it slowly while thinking about a question that's important to you. At the end of drinking, leave a few small sips at the bottom of the cup. Now swirl the cup 3 times clockwise and turn it upside down on a plate. Wait 2 minutes.",
+      "type": "observe"
+    },
+    "theoryB": "<h2>How Do We Decode Symbols in Coffee?</h2><p>Decoding begins with understanding that each place in the cup represents a different area of life. The cup's wall is divided into zones: the rim represents the near future (up to two weeks), the middle represents the medium future (up to six months), and the bottom represents the distant future or deep past.</p><p>Another important location is the distance from the handle. Close to the handle represents personal life, home and family. Far from the handle represents the external world - work, society and unfamiliar people. Each symbol you see should be examined according to its location and the context of other symbols around it.</p><p>The symbols themselves stem from universal categories: animals, plants and nature objects, tools and objects, geometric shapes and human figures. A bird, for example, symbolizes good news and freedom, but a bird on the rim heralds immediate news, while a bird at the bottom symbolizes the realization of an old dream.</p><p>Reading is an art of connecting symbols to create a coherent story. It's not enough to see an isolated symbol - you need to understand the dialogue between all the symbols created and their shared message.</p>",
+    "practice2": {
+      "instruction": "Take the cup you prepared earlier and look at the patterns that formed. Identify the 3 clearest symbols you see. Note each symbol's location (rim/middle/bottom, close/far from handle) and look up its meaning in the symbol table you learned.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in the Books</h2><p>The true secret of coffee reading doesn't lie in memorizing symbol meanings, but in developing intuitive vision. Many seek symbol books and dictionaries, but they miss the main point - every symbol is alive and changes according to the person and moment.</p><p>When I teach reading, I always say: \"Trust your third eye more than a book.\" The symbol of a tree for a young woman looking for work can be completely different than for an older woman dealing with illness. Context is everything.</p><p>Another secret they don't tell: the cup \"speaks\" to you even during drinking. Some of the best readers listen to the feelings that arise in them during the ceremony itself. Was the coffee more bitter than usual? Did you feel sudden warmth when you reached the bottom of the cup? This is also part of the message.</p><p>And the most important thing: a good reading flows like a story. If you're struggling to connect the symbols, it means you're still thinking instead of feeling. Let the soul tell the story through you.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Where in the cup represents the near future?",
+          "options": [
+            "The upper rim",
+            "The middle",
+            "The bottom",
+            "The handle"
+          ],
+          "correct": 0,
+          "explanation": "The upper rim of the cup represents the near future - up to two weeks from today."
+        },
+        {
+          "question": "How many times do you swirl the cup before turning it over?",
+          "options": [
+            "Once",
+            "Three times",
+            "Five times",
+            "Until you feel ready"
+          ],
+          "correct": 1,
+          "explanation": "You swirl the cup three times clockwise before turning it upside down on the plate."
+        },
+        {
+          "question": "What does a location close to the handle symbolize?",
+          "options": [
+            "Work and business",
+            "Personal life and family",
+            "Health",
+            "Travel"
+          ],
+          "correct": 1,
+          "explanation": "Close to the handle symbolizes personal life, home and family - the person's close circle."
+        },
+        {
+          "question": "From which period does the coffee reading tradition come?",
+          "options": [
+            "Ancient Egypt",
+            "Classical Greece",
+            "The Ottoman Empire",
+            "Ancient Persia"
+          ],
+          "correct": 2,
+          "explanation": "The coffee reading tradition comes from the Ottoman Empire, where women held coffee ceremonies and readings."
+        },
+        {
+          "question": "What's most important in decoding symbols?",
+          "options": [
+            "Remembering all meanings from the book",
+            "Understanding the context between symbols",
+            "Counting how many symbols there are",
+            "Drawing the symbols"
+          ],
+          "correct": 1,
+          "explanation": "Most important is understanding the context between symbols and creating a coherent story, not just remembering individual meanings."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today you learned the foundations of coffee reading - how the cup divides into time and location domains, how symbols are created and how to begin decoding them. Most important to remember is that this is the soul's language, not an exact science.",
+      "wisdom": "The coffee knows what the heart denies.",
+      "nextPreview": "In the next lesson we'll learn how to identify and decode the most basic symbols - animals, trees and nature forms."
+    }
+  },
+  "faq": [
+    {
+      "question": "Which coffee is best for reading?",
+      "answer": "Turkish coffee or strong instant coffee work best. The goal is to leave thick residue that creates clear patterns."
+    },
+    {
+      "question": "Can I read for myself or only for others?",
+      "answer": "You can definitely read for yourself! Sometimes self-reading is even more accurate because you know your own energy best."
+    },
+    {
+      "question": "How long must I wait after turning the cup over?",
+      "answer": "2-3 minutes is enough. The time is meant to let the residue settle and patterns sharpen."
+    },
+    {
+      "question": "What do I do if I don't see any symbols?",
+      "answer": "This happens when thoughts are confused or the question isn't clear. Try again with a clearer thought."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "tarot",
+      "lesson": "intuition",
+      "label": "⭐ Developing Intuition in Tarot"
+    },
+    {
+      "course": "numerology",
+      "lesson": "personal-number",
+      "label": "✨ Your Personal Number"
+    }
+  ],
+  "seo": {
+    "title": "Introduction to Coffee Reading - How to Start Reading the Cup",
+    "description": "Learn the fundamentals of coffee reading: how to identify symbols, decode meanings and start reading the finjan with confidence. Practical guide for beginners in Turkish coffee reading.",
+    "keywords": [
+      "coffee reading",
+      "finjan",
+      "Turkish coffee",
+      "coffee symbols",
+      "fortune telling",
+      "divination"
+    ],
+    "ogImage": "/og/academy/coffee/coffee-intro.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

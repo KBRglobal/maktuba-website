@@ -1,0 +1,131 @@
+{
+  "courseId": "astrology",
+  "lessonNumber": 19,
+  "title": "Astrological Compatibility — How to Discover Wonderful Matches",
+  "slug": "astrology-compatibility-matches",
+  "module": "Stars",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit by the candle, dear child. Today we'll reveal the deep secrets of astrological compatibility — the ancient knowledge that shows how the stars weave the threads of love between souls. Many ask me how to know if two people are compatible, how certain signs go together, and why there are couples who seem completely different but just work together. The truth is that compatibility isn't determined only by sun signs — it's a more complex, more intricate world. But today we'll start with the basics, learn to understand the fundamental patterns of compatibility, and discover how to use this wisdom to better understand your relationships. This knowledge can illuminate dark corners in relationships and show new paths to connection.</p>",
+    "theoryA": "<h2>How Do Compatibility Between Signs Work in Astrology?</h2><p>Astrological compatibility works according to principles of elements, qualities, and energies. Signs of the same element — fire (Aries, Leo, Sagittarius), earth (Taurus, Virgo, Capricorn), air (Gemini, Libra, Aquarius), water (Cancer, Scorpio, Pisces) — create natural harmony because they speak the same energetic language.</p><p>When fire meets fire, like Aries and Leo, a synergy of passion and energy is created — they understand each other at the level of drive and activity. Their score is 93, because both seek excitement, challenge, and action. This is a \"royal match of fire signs — stormy, dramatic, and they deeply admire each other\".</p><p>Air signs like Gemini and Libra (score 90) create a \"meeting of minds\" — they enjoy intellectual stimulation, long conversations, and socializing. Both need mental stimulation and can talk for hours about ideas and theories.</p><p>On the other hand, earth signs like Taurus and Capricorn (score 95) build \"legacy\" together — they are \"earth's power couple — ambitious, sensual, and stable as a rock. Built to last hundreds of years\". Both value stability, financial security, and sensual pleasure.</p><p>Water signs like Cancer and Scorpio find each other intuitively — \"oceanic depth of emotions, fierce loyalty, and intuitive understanding\" with a score of 94. They don't need to explain in words — they feel.</p>",
+    "practice1": {
+      "instruction": "Write down the signs of 5 couples you know (can be family couples, friends, or celebrities). For each couple, look up the score in the table and read the description. Does the description match what you see in their relationship?",
+      "type": "write"
+    },
+    "theoryB": "<h2>What Does It Mean When Opposite Signs Are Attracted?</h2><p>Opposite signs in the astrological wheel create \"magnetism of opposites\" — each sign holds half of the complete picture. Aries and Libra (score 72) represent the axis \"me versus we\" — the warrior and the peacemaker balance each other beautifully.</p><p>Taurus and Scorpio are magnetic opposites with a score of 85 — \"intense physical chemistry and unwavering loyalty. All or nothing\". Taurus brings stability to Scorpio's emotional intensity, and Scorpio awakens Taurus to emotional depths they didn't know existed within them.</p><p>Capricorn and Cancer (score 80) are \"opposite signs that complement each other — the nurturer and the provider build legacy\". Capricorn takes care of material security and Cancer creates emotional warmth — together they are a complete home.</p><p>Gemini and Sagittarius are on the \"axis of knowledge\" — one collects close information (Gemini) and the other seeks distant wisdom (Sagittarius). With a score of 78, they create \"endless conversations and shared curiosity\".</p><p>The magic in opposite signs is that each teaches the other what they lack — but it requires emotional maturity to contain the differences. When it works, it creates wonderful wholeness.</p>",
+    "practice2": {
+      "instruction": "Choose a pair of opposite signs from the table. Write a list of 3 things each sign can learn from its opposite sign. For example: what can Aries learn from Libra and vice versa?",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books — Why Low Scores Don't Mean 'Impossible'</h2><p>The secret most astrologers don't tell: a low score doesn't mean the relationship can't work. Aries and Aquarius (score 78) are considered well-matched despite not being of the same element. Aries and Virgo (score 47) are considered challenging — \"impulse versus analysis — Aries jumps while Virgo thinks. Frustrating but educational\".</p><p>The truth is that low scores show where you'll need to work harder, where you'll encounter friction. But this friction can lead to amazing growth if both people are willing to learn.</p><p>Capricorn and Aquarius (score not shown in table but low) — one anchored in tradition and the other wanting to revolutionize the world. Can be annoying, but can also create perfect balance between stability and innovation.</p><p>The real secret is that the sun sign is just a starting point. Everyone has a rising sign (ascendant), moon sign, Venus in another sign — and the complete combination creates a much more complex and interesting picture. A couple that seems \"incompatible\" by sun signs can be perfect when looking at the complete map.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What score did Aries and Leo receive in the compatibility table?",
+          "options": [
+            "70",
+            "85",
+            "93",
+            "95"
+          ],
+          "correct": 2,
+          "explanation": "Aries and Leo received a score of 93 because they are two fire signs that create a 'royal match of fire signs — stormy, dramatic, and they deeply admire each other'."
+        },
+        {
+          "question": "What is the nature of the relationship between Cancer and Scorpio according to the table?",
+          "options": [
+            "Superficial and quick",
+            "Oceanic depth of emotions",
+            "Competitive and energetic",
+            "Intellectual and social"
+          ],
+          "correct": 1,
+          "explanation": "Cancer and Scorpio (score 94) create 'oceanic depth of emotions, fierce loyalty, and intuitive understanding' because both are water signs."
+        },
+        {
+          "question": "Which pair of signs matches the description 'earth's power couple'?",
+          "options": [
+            "Aries and Leo",
+            "Gemini and Libra",
+            "Taurus and Capricorn",
+            "Aquarius and Pisces"
+          ],
+          "correct": 2,
+          "explanation": "Taurus and Capricorn (score 95) are called 'earth's power couple — ambitious, sensual, and stable as a rock. Built to last hundreds of years' because both are earth signs."
+        },
+        {
+          "question": "What is the score of Aries and Libra?",
+          "options": [
+            "50",
+            "65",
+            "72",
+            "85"
+          ],
+          "correct": 2,
+          "explanation": "Aries and Libra received a score of 72 because they are 'opposites attract — the warrior and the peacemaker balance each other beautifully'."
+        },
+        {
+          "question": "What characterizes the relationship between Gemini and Libra?",
+          "options": [
+            "Power struggles",
+            "Meeting of minds",
+            "Complete stability",
+            "Deep emotions"
+          ],
+          "correct": 1,
+          "explanation": "Gemini and Libra (score 90) create a 'meeting of minds — witty, charming, and social together' because both are air signs interested in intellectual stimulation."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we learned how the stars weave the threads of compatibility — how signs of the same element speak the same language, how opposites attract and complement each other, and how low scores don't mean 'impossible' but rather 'needs more work'. Remember that the sun sign is just a starting point — the complete map is much more complex and fascinating.",
+      "wisdom": "True love is not measured by stars, but by the courage to grow together.",
+      "nextPreview": "In the next lesson we'll explore the Chinese zodiac and learn how the Eastern animals add another layer to understanding personality."
+    }
+  },
+  "faq": [
+    {
+      "question": "Does a low score mean the couple can't work?",
+      "answer": "Absolutely not. A low score indicates challenges and the need for emotional work, but can lead to deeper growth and stronger love."
+    },
+    {
+      "question": "How do you know the score if the specific combination isn't in the table?",
+      "answer": "The table shows some combinations. Generally, signs of the same element will receive high scores, and opposite signs will be medium to high."
+    },
+    {
+      "question": "Should you only look at the sun sign?",
+      "answer": "No. The sun sign is a starting point, but for complete compatibility you need to check rising sign, moon sign, Venus and Mars — the complete map."
+    },
+    {
+      "question": "What do you do if your signs don't match according to the table?",
+      "answer": "Remember that the table shows general tendencies. There are many happy couples with 'low scores' — love and commitment matter more than stars."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": 5,
+      "label": "⭐ Elements in Astrology - Foundation for Understanding Compatibility"
+    },
+    {
+      "course": "astrology",
+      "lesson": 8,
+      "label": "⭐ The Seventh House - The House of Partnership"
+    }
+  ],
+  "seo": {
+    "title": "Astrological Compatibility - Guide to Compatible Signs and Wonderful Matches",
+    "description": "Discover how the stars determine compatibility between signs, which couples work best and why opposites attract. Complete guide to astrological matches with scores and deep analysis.",
+    "keywords": [
+      "astrological compatibility",
+      "compatible signs",
+      "zodiac matches",
+      "sign relationships",
+      "love and astrology",
+      "zodiac compatibility"
+    ],
+    "ogImage": "/og/academy/astrology/astrology-19.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

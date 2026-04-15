@@ -1,0 +1,136 @@
+{
+  "courseId": "dreams",
+  "lessonNumber": 6,
+  "title": "dreams — Lesson 6",
+  "slug": "dreams-06",
+  "module": "Symbols",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit, beloved one, the candle burns and the heart is full of curiosity. So far we have learned about the sources of dreams, their different types, and how to remember them. We entered the world of dream figures and discovered the hidden messages they carry. Now we come to the heart of the matter — symbols. Every dream is an encrypted language that the soul speaks with us, and in this lesson you will begin to decipher this secret code. Symbols are the words of the soul, and when you understand this language — your inner world opens like a flower in the sun.</p>",
+    "theoryA": "<h2>How do you identify central symbols in a dream?</h2><p>The central symbols in a dream are the strongest things that stayed with you after awakening. You can identify them by several clear criteria: they appear more than once in the dream, they evoke strong emotion in you (fear, joy, wonder), or they simply don't leave you even after you've awakened.</p><p>Every symbol has layers of meaning. There's the personal layer — how this symbol connects to your life, your memories, your experiences. There's the cultural layer — how our culture views this symbol. And there's the archetypal layer — the deep meaning that all humans recognize unconsciously.</p><p>Take water in a dream, for example. Personally — perhaps you struggle with emotions, or you thirst for spirituality. Culturally — in Jewish tradition water is Torah and wisdom, in Islamic tradition it's knowledge and sustenance. Archetypally — water is life itself, emotions, purification.</p><p>One of the most important things in identifying symbols is understanding that sometimes the most important symbol is the simplest one. The dream full of dragons and fairies isn't always the most meaningful. Sometimes a dream about a glass of water or shoes can be most accurate to what's happening in your life right now.</p>",
+    "practice1": {
+      "instruction": "Write down your last dream and underline all the symbols you remember — both small and large. Don't judge, just record. Then mark in red the three symbols that evoke the most emotion in you or stayed with you most strongly.",
+      "type": "write"
+    },
+    "theoryB": "<h2>What's the difference between symbol interpretation in different traditions?</h2><p>Each tradition sees the world of symbols through its cultural and spiritual lens. In the Jewish-Kabbalistic tradition, we understand that a dream is a letter from the soul that hasn't been read. Every symbol is connected to the Tree of Life, to the Sefirot, to the Hebrew letters. The Talmud says there were 24 dream interpreters in Jerusalem, and each would give a different interpretation to the same dream — and all were correct!</p><p>In Islamic tradition, Ibn Sirin divided dreams into three types: ruya (true vision from Allah), hadith al-nafs (the soul's conversation with itself), and hulm (disturbing dream from Satan). Every symbol is examined according to the dreamer's spiritual context, the time of the dream, and their life situation.</p><p>The Jungian-universal approach looks at collective archetypes — the figures and symbols that all humans recognize unconsciously. Jung discovered that there are symbols that recur in all cultures: the Great Mother, the Wise Old Man, the Shadow, the Anima and Animus.</p><p>What's interesting is that often, symbols from the same dream can receive different meanings in different traditions — but the basic message remains similar. A snake, for example, in Jewish tradition is the evil inclination or wisdom, in Islamic tradition it's a hidden enemy or buried treasure, and in Jungian tradition it's transformation or primitive intelligence.</p>",
+    "practice2": {
+      "instruction": "Take the strongest symbol from the previous exercise and write about it in three places: What does this mean to me personally? How does my culture view this symbol? How does it connect to my life right now?",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's not written in books about symbols</h2><p>Here's what they don't teach in regular courses: symbols in dreams change according to your age, spiritual state, and the season of your life. A dog in the dream of a 7-year-old girl is not the same dog in the dream of a 45-year-old woman. The same symbol can give a completely different message.</p><p>Another secret: sometimes the most important symbol in a dream is what wasn't there. You dreamed of a house but there were no doors? That's the message. All family members came to dinner but mother wasn't there? That's exactly what the dream wants you to notice.</p><p>And the biggest secret: symbols come in groups. They tell a story together. Water+fish+boat is one story. Water+drowning+rescue is another story. Always look for the connection between symbols, because that's where the real message lies.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "How do you identify a central symbol in a dream?",
+          "options": [
+            "It appears once but evokes strong emotion",
+            "It's always in red color",
+            "It appears only at the end of the dream",
+            "It's only related to our past"
+          ],
+          "correct": 0,
+          "explanation": "A central symbol is identified by its emotional intensity, not by its location in the dream or its color"
+        },
+        {
+          "question": "How many types of dreams are there in Islamic tradition according to Ibn Sirin?",
+          "options": [
+            "Two types",
+            "Three types",
+            "Four types",
+            "Five types"
+          ],
+          "correct": 1,
+          "explanation": "Ibn Sirin divided into three: ruya (divine vision), hadith al-nafs (self-talk), and hulm (disturbing dream)"
+        },
+        {
+          "question": "What does the Talmud say about dream interpretation?",
+          "options": [
+            "There's only one correct interpretation for each dream",
+            "A dream that isn't interpreted is like a letter that isn't read",
+            "It's forbidden to interpret others' dreams",
+            "Dreams are always prophetic visions"
+          ],
+          "correct": 1,
+          "explanation": "The Talmud says that a dream that isn't interpreted is like a letter that isn't read, and that multiple interpretations can be correct"
+        },
+        {
+          "question": "What's special about archetypal symbols according to Jung?",
+          "options": [
+            "They exist only in Western culture",
+            "They change every time",
+            "They're shared by all humans unconsciously",
+            "They're only related to the future"
+          ],
+          "correct": 2,
+          "explanation": "Archetypes are figures and symbols that all humans recognize unconsciously, across all cultures"
+        },
+        {
+          "question": "How do symbols in dreams change?",
+          "options": [
+            "They never change",
+            "They change only according to age",
+            "They change according to age, spiritual state, and life season",
+            "They change only at night"
+          ],
+          "correct": 2,
+          "explanation": "Symbols change their meaning according to the dreamer's age, spiritual state, and the season of life they're in"
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we learned to identify and decipher symbols — the secret language of the soul. We saw how each tradition interprets symbols through its spiritual lens, and how to understand the different layers of meaning.",
+      "wisdom": "The soul speaks in symbols because there are things that words cannot contain.",
+      "nextPreview": "In the next lesson we'll dive deep into the waters — we'll learn about symbols of water, sea, lakes and rain, and how each carries a different message about our emotional world."
+    }
+  },
+  "faq": [
+    {
+      "question": "How do you know which symbol interpretation to choose when there are several options?",
+      "answer": "Always choose the interpretation that speaks most to your heart and relates to your life right now. Your body will recognize the truth."
+    },
+    {
+      "question": "What do you do when there's a dream with many symbols?",
+      "answer": "Start with the 3-5 strongest symbols. They will tell the main story. The smaller symbols will add details later."
+    },
+    {
+      "question": "Can symbols appear in multiple dreams?",
+      "answer": "Absolutely! When a symbol recurs in several dreams, it means the message is very important and you need to pay attention to it."
+    },
+    {
+      "question": "How do you deal with frightening symbols?",
+      "answer": "Remember that in dreams even the most frightening symbols come to warn you or protect you. Always look for the gift within the fear."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "numerology",
+      "lesson": "life-path",
+      "label": "⭐ Life Path Number and Dream Interpretation"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot",
+      "label": "🌳 The Sefirot and Dream Symbols"
+    },
+    {
+      "course": "astrology",
+      "lesson": "moon",
+      "label": "🌙 The Moon and Dreams in Astrology"
+    }
+  ],
+  "seo": {
+    "title": "Dream Symbols - How to Decipher the Soul's Language | Maktuba",
+    "description": "Learn to identify and interpret symbols in dreams through Jewish, Islamic, and Jungian traditions. An in-depth lesson on decoding the symbolic language of dreams.",
+    "keywords": [
+      "dream symbols",
+      "dream interpretation",
+      "Ibn Sirin",
+      "Jung dreams",
+      "Jewish symbols",
+      "decoding dreams"
+    ],
+    "ogImage": "/og/academy/dreams/dreams-06.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

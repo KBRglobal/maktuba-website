@@ -1,0 +1,138 @@
+{
+  "courseId": "iching",
+  "lessonNumber": 3,
+  "title": "The Basic Trigrams in the I Ching — Lesson 3",
+  "slug": "iching-03-trigrams",
+  "module": "Introduction",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit at the old table, the candle flickering in soft light. Now, after you've become acquainted with the basic lines and symbols of the I Ching, the time has come to understand the hearts of the system — the trigrams. Just as the constellation Gemini in astrology is composed of individual stars yet creates a complete figure, so three lines in the I Ching unite to form a trigram — a complete symbol with deep meaning. Heaven, earth, wind and water — every element in nature finds its expression in these ancient trigrams. In this lesson we will explore the eight basic trigrams that are the building blocks of all 64 hexagrams.",
+    "theoryA": "<h2>What are the Basic Trigrams in the I Ching?</h2><p>The trigrams are eight basic forms of three lines — yin or yang — representing the primordial forces of nature. Every hexagram in the I Ching is composed of two trigrams — upper and lower — which together create the complete message of inspiration. Heaven (all lines solid), Earth (all lines broken), Water (solid line in middle and two broken), Wind (broken line in middle and two solid) — each carries ancient energy and wisdom.</p><p>The first and most important trigram is Heaven — three solid yang lines symbolizing pure creative force. This is the energy of the dragon rising to heaven, of noble leadership and bold action. Just as the Sun in astrology represents ego and self-expression, so Heaven in the I Ching represents the power of will and action. Opposite stands Earth — three broken yin lines symbolizing receptivity, humility and the power of yielding. This is the energy of the faithful mare, of support and embracing a whole world.</p><p>The other trigrams present more complex combinations. Water — broken-solid-broken — represents danger and flow, the abyss through which we pass in search of truth. Fire — solid-broken-solid — represents light, clarity and illumination, like the moon's crystallization that lights the way. Wind — solid-solid-broken — represents gentle penetration and the ability to permeate, like the wind blowing in the Tarot chariot. Thunder — broken-broken-solid — represents awakening, movement and energy bursting from below like winter giving way to spring.</p><p>Mountain — solid-broken-broken — represents stopping, meditation and stability. This is the energy of the wise elder sitting in silence and seeing all. Lake — broken-solid-solid — represents joy, openness and emotional exchange. This is the young energy of the little daughter who laughs and brings light to the world. Each trigram carries within it not only natural force but also human qualities, family patterns (father, mother, sons and daughters), geographical directions and even body parts. This is a complete system of correspondences connecting human to nature, inner to outer.</p>",
+    "practice1": {
+      "instruction": "Take paper and pen and write the eight trigrams in English: Heaven (3 solid lines), Earth (3 broken lines), Water (broken-solid-broken), Fire (solid-broken-solid), Wind (solid-solid-broken), Thunder (broken-broken-solid), Mountain (solid-broken-broken), Lake (broken-solid-solid). Next to them write one word that describes the energy of each one.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How do the Trigrams Create the Hexagrams?</h2><p>Every hexagram in the I Ching is created by joining two trigrams — upper and lower — which together create a unique dynamic. Just as in astrology two planets in a certain relationship create an aspect that influences our lives, so two trigrams together create a specific spiritual situation. The first hexagram — Force (The Creative) — is composed of Heaven above and Heaven below, meaning pure yang and doubled creative force.</p><p>The second hexagram — Field (The Receptive) — is composed of Earth above and Earth below, meaning pure yin and doubled receptive force. These are the two purest hexagrams in the I Ching, representing the two polar forces of existence — creation and reception, action and response. Most hexagrams are more complex combinations describing specific situations in life. Sprouting (hexagram 3) — Water above and Thunder below — describes a situation of difficult beginning, like a seed trying to sprout in frozen ground.</p><p>This structure of trigrams allows the understanding person to read every hexagram on several levels. The basic level is the general meaning of the hexagram — what it advises in the current situation. The second level is the dynamic between the two trigrams — how the upper force influences the lower force and vice versa. The third level is reading the individual lines and seeing how each line changes the overall energy. This is a multi-layered system of wisdom allowing deep and precise understanding of every life situation. In Kabbalah we see something similar in the sefirot that influence each other and create pathways of energy.</p><p>The most fascinating thing about combining trigrams is that they create not just practical instructions but also complete stories. Contemplation (hexagram 20) — Wind above and Earth below — tells the story of the king ascending a high tower (Wind) to contemplate his kingdom (Earth). Grace (hexagram 22) — Mountain above and Fire below — tells the story of fire illuminating at the foot of a mountain and creating natural beauty. Every hexagram is essentially a short story about energetic dynamics occurring in nature and the human soul, and we are called to be the heroes of this story.</p>",
+    "practice2": {
+      "instruction": "Choose one hexagram from the list presented (1-29) and break it down into its two trigrams. Write how you think these two trigrams together create the message of the hexagram. For example: Sprouting (3) = Water above + Thunder below = chaos above and movement below create difficulty in beginning.",
+      "type": "write"
+    },
+    "deepDive": "<h2>The Hidden Secret of the Trigrams</h2><p>What the regular books about the I Ching don't tell you is that the trigrams are not just symbols — they are a living map of the forces operating in our soul. Each trigram corresponds with a different part of the Kabbalistic Tree of Life and with planetary energies in astrology. Heaven corresponds with the sefirah of Keter — the pure source above all — and with the Sun. Earth corresponds with the sefirah of Malkhut — manifestation in the material world — and with the Moon.</p><p>Water corresponds with the sefirah of Hokhmah and with the planet Mercury — the flow and movement of information and intuition. Fire corresponds with the sefirah of Tiferet and with the Sun — the inner light that illuminates the way. Every time you work with the trigrams, you are practically and concretely inviting these energies into yourself. This is not just a game or spiritual gambling — this is real work with the forces that move the universe.</p><p>The second secret is that the trigrams operate in time cycles. Each trigram rules over certain periods in our lives, in our emotions and even in the hours of the day. Heaven rules the early morning hours, when masculine and active force awakens. Earth rules the evening, when we receive and digest what happened during the day. Thunder rules moments of breakthrough and change, regardless of time. When you learn to recognize this natural rhythm, you can flow with life instead of fighting against it. This is perhaps the deepest wisdom of the trigrams — they don't just describe situations, they teach us when to act and when to wait.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "How many basic trigrams are there in the I Ching?",
+          "options": [
+            "Six",
+            "Seven",
+            "Eight",
+            "Ten"
+          ],
+          "correct": 2,
+          "explanation": "There are exactly eight basic trigrams representing the primordial forces of nature: Heaven, Earth, Water, Fire, Wind, Thunder, Mountain and Lake."
+        },
+        {
+          "question": "What does the trigram of three solid yang lines represent?",
+          "options": [
+            "Earth",
+            "Heaven",
+            "Fire",
+            "Water"
+          ],
+          "correct": 1,
+          "explanation": "Three solid yang lines represent Heaven — pure creative force, leadership and active masculine energy."
+        },
+        {
+          "question": "How are hexagrams created in the I Ching?",
+          "options": [
+            "By combining six random lines",
+            "By combining two trigrams",
+            "From a fixed number of yin and yang lines",
+            "By translating Chinese text"
+          ],
+          "correct": 1,
+          "explanation": "Each hexagram is created by combining two trigrams — upper and lower — which together create unique dynamics and messages."
+        },
+        {
+          "question": "What is the characteristic of the Water trigram?",
+          "options": [
+            "Solid-broken-solid",
+            "Broken-solid-broken",
+            "Solid-solid-broken",
+            "Broken-broken-solid"
+          ],
+          "correct": 1,
+          "explanation": "The Water trigram is built broken-solid-broken and represents danger, flow and the abyss through which we pass in search of truth."
+        },
+        {
+          "question": "Which hexagram is composed of two Earth trigrams?",
+          "options": [
+            "Force (The Creative)",
+            "Field (The Receptive)",
+            "Sprouting",
+            "Conflict"
+          ],
+          "correct": 1,
+          "explanation": "The hexagram Field (The Receptive) is composed of Earth above and Earth below — pure yin and doubled receptive force."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we learned about the eight basic trigrams — the building blocks of all hexagrams. We became acquainted with Heaven and Earth as polar forces, and the other trigrams as complex combinations of yin and yang representing natural forces and soul rhythms.",
+      "wisdom": "The trigrams are the language through which Heaven speaks to you — learn to read and listen.",
+      "nextPreview": "In the next lesson we will dive deep into the practical consultation process — how to ask the right question and receive clear guidance from the I Ching."
+    }
+  },
+  "faq": [
+    {
+      "question": "Do I have to memorize all the trigrams by heart?",
+      "answer": "Not necessarily at the beginning, but with practice they will be absorbed naturally. Each trigram has a unique energy that you will begin to recognize."
+    },
+    {
+      "question": "What is the connection between the trigrams and astrology?",
+      "answer": "The trigrams correspond with planets and Kabbalistic sefirot. This allows deeper understanding of the operating energies."
+    },
+    {
+      "question": "How do I know which trigram is relevant to my situation?",
+      "answer": "At this stage you will practice recognizing the energies. In the coming lessons we will learn how to consult with the I Ching practically."
+    },
+    {
+      "question": "Is there a 'bad' or 'good' trigram?",
+      "answer": "There are no positive or negative trigrams — each represents a natural energy that has its proper place and time."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot-introduction",
+      "label": "⭐ The Sefirot in Kabbalah"
+    },
+    {
+      "course": "astrology",
+      "lesson": "planetary-basics",
+      "label": "⭐ Planets in Astrology"
+    },
+    {
+      "course": "numerology",
+      "lesson": "number-8",
+      "label": "⭐ Number 8 in Numerology"
+    }
+  ],
+  "seo": {
+    "title": "The Basic Trigrams in I Ching - 8 Forces of Nature",
+    "description": "Learn about the 8 basic trigrams in I Ching: Heaven, Earth, Water, Fire, Wind, Thunder, Mountain and Lake. How they create hexagrams and their connection to Kabbalah and astrology.",
+    "keywords": [
+      "trigrams",
+      "I Ching",
+      "hexagrams",
+      "yin yang",
+      "forces of nature",
+      "Chinese wisdom",
+      "divination",
+      "ancient wisdom"
+    ],
+    "ogImage": "/og/academy/iching/iching-03.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

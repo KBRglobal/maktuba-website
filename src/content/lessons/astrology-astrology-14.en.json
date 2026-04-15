@@ -1,0 +1,142 @@
+{
+  "courseId": "astrology",
+  "lessonNumber": 14,
+  "title": "Astrological Compatibility - The Science of Celestial Connections",
+  "slug": "astrology-compatibility-14",
+  "module": "Stars",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down, my dear child, the candle is lit and the stars are telling us the deepest stories of the heart. Today we'll dive into the world of astrological compatibility - an ancient science that teaches us how the stars and celestial wheels influence the connections between people. This isn't just about romantic love - it's about all our relationships: family, friendship, work. Chinese astrology with its 12 animals adds another layer of depth to understanding how different souls weave together. When we understand the stellar language of relationships, we can be wiser in love and friendship. Come, let's discover together how the stars navigate us toward meaningful encounters in life.</p>",
+    "theoryA": "<h2>How Do We Calculate Compatibility in Western Astrology?</h2><p>Compatibility in Western astrology is measured by the relationships between elements (fire, earth, air, water) and modalities (cardinal, fixed, mutable) among the zodiac signs. Each match receives a score from 35 to 96 points, based on the complexity of the relationship and potential challenges.</p><p>Fire signs (Aries, Leo, Sagittarius) match excellently with air (Gemini, Libra, Aquarius) - 78-95 points - because air fuels fire and gives it oxygen for enthusiasm. Earth signs (Taurus, Virgo, Capricorn) find stability with water (Cancer, Scorpio, Pisces) - 88-96 points - because water nourishes earth and earth gives water form and direction.</p><p>The most challenging relationships are between signs with different modalities. Aries (cardinal) with Cancer (cardinal) - only 42 points - because two leaders in one kitchen creates chaos. But that same Aries with Libra (opposing cardinal) - 72 points - because they complement each other's missing pieces.</p><p>Fixed signs (Taurus, Leo, Scorpio, Aquarius) are problematic together because of stubbornness. Taurus with Aquarius - only 38 points - because one clings to tradition and the other dreams of the future. But Taurus with Scorpio - 85 points - because both are loyal unto death and understand the need for depth.</p><p>Mutable signs (Gemini, Virgo, Sagittarius, Pisces) bring flexibility to relationships but need an anchor. Gemini with Pisces - 48 points - both are changeable but in different directions, requiring someone to give reality to the shared dream.</p>",
+    "practice1": {
+      "instruction": "Think about your closest relationship. Identify your sun sign and your partner's. Find your score in the table and write on a separate sheet: What are the strengths of this relationship and what are the challenges according to astrology?",
+      "type": "write"
+    },
+    "theoryB": "<h2>What is Chinese Astrology and How Does it Affect Relationships?</h2><p>Chinese astrology is based on a 12-year cycle, each year ruled by an animal with a unique element (wood, fire, earth, metal, water) and yin or yang energy. This system adds a layer of depth to understanding personality and romantic relationships in a way different from Western astrology.</p><p>Each animal in the Chinese wheel brings unique personality traits. The Rat (1996, 2008, 2020) is sharp-witted and resourceful, first to seize opportunities. The Ox (1997, 2009, 2021) is hardworking and reliable, moving mountains with patience. The Tiger (1998, 2010, 2022) is brave and competitive, prowling with magnetic confidence. The Rabbit (1999, 2011, 2023) is quiet and elegant, reading the room with refined sensitivity.</p><p>The best matches in the Chinese wheel create balanced triangles. The Rat matches excellently with Dragon and Monkey - all three are intelligent, creative, and quick. Ox, Snake, and Rooster create a triangle of dedication and hard work. Tiger, Horse, and Dog - a triangle of loyalty and courage. Rabbit, Goat, and Pig - a triangle of gentleness and sensitivity.</p><p>The strongest oppositions are between animals directly opposite on the wheel: Rat vs Horse, Ox vs Goat, Tiger vs Monkey, Rabbit vs Rooster, Dragon vs Dog, Snake vs Pig. This doesn't mean the relationship is impossible, but requires extra work for mutual understanding.</p><p>Elements in the Chinese system work in cycles of creation and destruction. Wood feeds fire, fire creates earth (ash), earth contains metal, metal condenses water, water nourishes wood. But wood depletes earth, fire melts metal, earth absorbs water, metal cuts wood, water extinguishes fire.</p>",
+    "practice2": {
+      "instruction": "Discover your birth year and your partner's (or close family member's) and identify which animals you are. Write down the personality traits of both animals and think: Where do you complement each other and where is there potential friction?",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books - When Combining Two Systems</h2><p>The great truth that most astrologers don't tell you is that to truly understand a relationship, you need to combine Western and Chinese astrology. Your zodiac sign tells how you react to situations, but the Chinese animal tells how you approach life.</p><p>For example, an Aries woman born in the Year of the Rabbit will be completely different from an Aries woman born in the Year of the Tiger. The Aries-Rabbit will assert independence but gently, jump on opportunities but consider others' feelings. The Aries-Tiger will be thunder and lightning, a natural leader who doesn't fear confrontation.</p><p>In romantic relationships, this becomes complex and beautiful simultaneously. Taurus-Dragon with Scorpio-Snake will create enormous magnetism but also power struggles. They understand each other at deep levels but both are so intense that the house can fill with tension or passion, with no middle ground.</p><p>The great secret is that sometimes opposition at one level is resolved by compatibility at another. Aquarius with Cancer in Western signs - a challenging relationship. But if the Aquarius is a Pig and Cancer is a Rabbit, suddenly there's deep emotional understanding that bridges intellectual differences.</p><p>The golden rule: always see the relationship from as many angles as possible. The Western sign gives the emotional language and temperament. The Chinese animal gives the life strategy and values. Only when you see the complete picture can you make wise decisions of the heart.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which signs receive the highest compatibility score?",
+          "options": [
+            "Aries and Sagittarius",
+            "Cancer and Pisces",
+            "Taurus and Capricorn",
+            "Gemini and Libra"
+          ],
+          "correct": 1,
+          "explanation": "Cancer and Pisces receive 96 points - two water signs in perfect emotional understanding"
+        },
+        {
+          "question": "What is the Tiger's element in Chinese astrology?",
+          "options": [
+            "Fire",
+            "Wood",
+            "Metal",
+            "Earth"
+          ],
+          "correct": 1,
+          "explanation": "The Tiger has the wood element and yang energy, giving it growth power and competitiveness"
+        },
+        {
+          "question": "Which animals form the balanced triangle with the Rat?",
+          "options": [
+            "Snake and Rooster",
+            "Dragon and Monkey",
+            "Goat and Pig",
+            "Horse and Dog"
+          ],
+          "correct": 1,
+          "explanation": "Rat, Dragon, and Monkey create a triangle of wisdom, creativity, and quick thinking"
+        },
+        {
+          "question": "Why do Aries and Cancer receive only 42 compatibility points?",
+          "options": [
+            "Fire and water don't match",
+            "Both are fixed signs",
+            "Both are cardinal and compete for leadership",
+            "There are 6 signs separating them"
+          ],
+          "correct": 2,
+          "explanation": "Two cardinal signs create competition for leadership instead of mutual completion"
+        },
+        {
+          "question": "Which element in the Chinese system nourishes fire?",
+          "options": [
+            "Metal",
+            "Water",
+            "Wood",
+            "Earth"
+          ],
+          "correct": 2,
+          "explanation": "Wood nourishes fire in the Chinese creation cycle, like trees that burn and create fire"
+        }
+      ]
+    },
+    "closing": {
+      "summary": "We've seen how Western and Chinese astrology offer two different angles for understanding relationships. Elements and modalities in the West, animals and elements in the East - each system adds a layer of understanding to the dynamics between people.",
+      "wisdom": "True love isn't in the stars - it's in choosing to understand and accept what's different from you.",
+      "nextPreview": "In the next lesson we'll learn about the Moon's influence on personality - how your Moon sign determines deep emotional needs and the way you seek security and comfort."
+    }
+  },
+  "faq": [
+    {
+      "question": "Does a low compatibility score mean the relationship won't work?",
+      "answer": "Not necessarily. A low score means there are more challenges to work through, but this can create a stronger relationship through shared struggle."
+    },
+    {
+      "question": "How do I know which Chinese animal I am if I was born early in the year?",
+      "answer": "The Chinese year begins in February, not January. If you were born in January or early February, you belong to the previous year's animal."
+    },
+    {
+      "question": "Do rising signs or moon signs affect compatibility?",
+      "answer": "Absolutely. Sun sign is just one layer. Rising sign affects first impressions, and moon sign affects deep emotional compatibility."
+    },
+    {
+      "question": "What do we do if there's contradiction between Western and Chinese systems?",
+      "answer": "Combine both. Each system speaks to a different aspect of personality. Contradiction sometimes creates interesting depth and complexity."
+    },
+    {
+      "question": "Are there signs that always get along with everyone?",
+      "answer": "Libra in the West and Goat or Pig in the East are considered most diplomatic, but even they have oppositions and challenges with certain signs."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "moon-signs",
+      "label": "⭐ Moon Signs and Emotions"
+    },
+    {
+      "course": "astrology",
+      "lesson": "elements",
+      "label": "⭐ The Four Elements"
+    },
+    {
+      "course": "chinese-zodiac",
+      "lesson": "basics",
+      "label": "🐲 Foundations of Chinese Astrology"
+    }
+  ],
+  "seo": {
+    "title": "Astrological Compatibility - The Zodiac Guide to Lasting Love",
+    "description": "Discover how to calculate compatibility in Western and Chinese astrology. Complete guide to astrological relationships with precise scores and practical tips for different signs.",
+    "keywords": [
+      "astrological compatibility",
+      "zodiac love matches",
+      "relationship astrology",
+      "Chinese zodiac compatibility",
+      "star sign relationships",
+      "zodiac attraction",
+      "love predictions",
+      "compatible signs"
+    ],
+    "ogImage": "/og/academy/astrology/astrology-14.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

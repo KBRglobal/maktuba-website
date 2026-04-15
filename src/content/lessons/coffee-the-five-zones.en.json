@@ -1,0 +1,136 @@
+{
+  "courseId": "coffee",
+  "lessonNumber": 4,
+  "title": "The Five Zones of the Cup",
+  "slug": "the-five-zones",
+  "module": "Foundations",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit beside me, and look at the coffee cup in your hands. Do you see only the remnants of a drink, or perhaps an entire world of secrets unfolding before you? In the previous lesson, we learned to prepare the finjan with artistry - how to close our eyes, swirl, and place it on the saucer. Now it's time to crack open the secret map that was created during our ritual. The cup divides into five precise zones, each telling us about a different area of life. This is the ancient way, used by our grandmothers in Armenia and Turkey to read the future. Today you will learn to identify each zone and understand what it reveals about your soul and destiny.",
+    "theoryA": "<h2>How Do We Divide the Cup into Five Zones?</h2><p>The cup divides into five clear zones, each with different meanings of time and life. The rim of the cup represents the near present - the coming days and weeks. This is the first zone we read, as it's the most urgent and relevant to your current life.</p><p>The second zone is the middle - the wide part of the cup. Here are revealed the processes happening in your life over the coming months. This is the zone of growth and changes that occur slowly, like a tree growing or a river flowing. The symbols here are more complex and require deeper understanding.</p><p>The bottom of the cup - the third zone - tells about the distant future and your great destiny. Here are revealed the answers to life's big questions: true love, spiritual purpose, completing karmic circles. The symbols at the bottom are the deepest and most meaningful.</p><p>Close to the handle of the cup - the fourth zone - relates to your private world: home, family, close friends, inner feelings. This is the place where we see what's happening in your closest circle, how your immediate environment affects you.</p><p>Far from the handle - the fifth zone - speaks about the external world: career, social status, what others see in you. Here are revealed the secrets of how you're perceived in the greater world, and how external forces influence your destiny.</p>",
+    "practice1": {
+      "instruction": "Take your cup and examine it in the light. Look at it from a 45-degree angle and search for three clear symbols - one at the rim, one in the middle, and one at the bottom. Mark them on a separate sheet with the labels: 'rim', 'middle', 'bottom'. Don't interpret yet - just identify.",
+      "type": "observe"
+    },
+    "theoryB": "<h2>Why Does Each Zone Represent a Different Time in Coffee Reading?</h2><p>Time in coffee reading flows like water - from the rim of the cup downward. The rim is the near present because it's the most accessible place, closest to the mouth and breath. The symbols there 'float' on the surface, just like things happening to us in the coming days.</p><p>The middle represents the coming months because it's the zone of action - the place where the coffee 'works' the most, flows and mixes. So too our lives - at this level occur the great processes, the choices that lead to significant changes.</p><p>The bottom is the distant future and destiny because it's the deepest, most hidden place. Just as coffee sediments sink to the bottom, so too the deepest secrets of the soul are revealed there. This is the place of karma, of the great spiritual missions we came to fulfill in this life.</p><p>The division of the cup into near-handle versus far-from-handle stems from the ancient principle of 'inner' and 'outer'. The handle represents home, the safe place, who we truly are. Symbols close to it tell about the inner world - feelings, family, the most intimate dreams.</p><p>The side far from the handle is the world - the place where we 'appear' before others, fight for our place, build careers. This is the zone of performance, achievements, but also external challenges. The symbols there tell how the world sees us and what it demands from us.</p>",
+    "practice2": {
+      "instruction": "Now divide the cup in your imagination into five zones. Mark on a separate paper which symbols you see in each zone: close to handle, far from handle, rim, middle, bottom. For each zone - at least one symbol. If you don't see anything in a particular place, write 'empty'.",
+      "type": "draw"
+    },
+    "deepDive": "<h2>What's Not Written in Books: The Hidden Sixth Zone</h2><p>The wisdom of coffee reading actually recognizes a hidden sixth zone - the hole in the center of the cup, at the bottom. This is called the 'eye of the soul' or 'the gate'. When the sediments create a small hole in the center of the bottom, it's a sign that your soul is open to receiving messages from the upper worlds.</p><p>My grandmother from Maktuba tells that in the old days, women were afraid of this hole. They would say that 'the coffee is crying' or 'the cup is separating'. But the truth is that it's a sign that the person is in a stage of spiritual transition, that the boundaries between worlds are thin for them.</p><p>There's another secret: how the handle 'feels' when you hold it during the reading. If it's warm - it means messages are flowing strongly. If cool - the reading focuses on the past or distant future. If the handle 'vibrates' slightly in your hands - it's a sign that spiritual entities are helping with the reading.</p><p>And here's the greatest secret: the cup is actually your personal star map. The rim parallels the ascendant in astrology - how you appear to the world. The bottom is the celestial background - where you came from. And the right and left zones parallel the left and right halves of the body - emotion and thought, intuition and logic.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which zone of the cup represents the near present?",
+          "options": [
+            "The rim",
+            "The middle",
+            "The bottom",
+            "Close to handle"
+          ],
+          "correct": 0,
+          "explanation": "The rim represents the near present - the coming days and weeks, because it's the most accessible place, closest to the mouth."
+        },
+        {
+          "question": "What is revealed in the bottom zone of the cup?",
+          "options": [
+            "Family problems",
+            "Distant future and destiny",
+            "Work problems",
+            "Relationships"
+          ],
+          "correct": 1,
+          "explanation": "The bottom represents the distant future and great destiny - just as sediments sink to the bottom, so the deepest secrets are revealed there."
+        },
+        {
+          "question": "What area of life do symbols far from the handle tell about?",
+          "options": [
+            "Family life",
+            "Inner feelings",
+            "Career and social status",
+            "Personal health"
+          ],
+          "correct": 2,
+          "explanation": "The area far from the handle represents the external world - career, social status, and how others see you."
+        },
+        {
+          "question": "In which zone do slow growth processes occur?",
+          "options": [
+            "The rim",
+            "The middle",
+            "Close to handle",
+            "The bottom"
+          ],
+          "correct": 1,
+          "explanation": "The middle is the zone of processes occurring over the coming months - slow changes and continuous growth."
+        },
+        {
+          "question": "What does the zone close to the handle symbolize?",
+          "options": [
+            "Distant future",
+            "External world",
+            "Home, family and inner feelings",
+            "Professional career"
+          ],
+          "correct": 2,
+          "explanation": "The handle represents home and the safe place, so symbols close to it tell about the inner world - family, feelings, and home."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today you learned one of the most important tools in coffee reading - dividing the cup into five zones. Each zone is a window to a different area of life and different time stage. The rim reveals the present, the middle the processes, the bottom the destiny, and the handle zones separate the inner from the outer.",
+      "wisdom": "The cup is a soul map - each symbol is a word, each zone is a chapter in your story.",
+      "nextPreview": "In the next lesson we enter the world of symbols themselves - we'll learn to identify basic shapes and understand what each symbol says about your destiny."
+    }
+  },
+  "faq": [
+    {
+      "question": "What do we do if there are no symbols in a certain zone?",
+      "answer": "An empty zone doesn't mean there's nothing to read - it means that area is stable for now and doesn't need special attention."
+    },
+    {
+      "question": "Is the cup always divided into only five zones?",
+      "answer": "Yes, this is the ancient traditional division. There are some variations, but the basic structure of five zones is the foundation for every reading."
+    },
+    {
+      "question": "How do we know which zone to read first?",
+      "answer": "Always start from the rim (the present) and work downward. This is the natural way information flows from present to future."
+    },
+    {
+      "question": "What does it mean if most symbols are in one zone?",
+      "answer": "A concentration of symbols in a certain zone indicates that this is the area or time period most important for you right now."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "tarot",
+      "lesson": "spread-positions",
+      "label": "⭐ Card Positions in Tarot Spreads"
+    },
+    {
+      "course": "astrology",
+      "lesson": "houses-system",
+      "label": "🌟 The Houses System in Astrology"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "four-worlds",
+      "label": "✨ The Four Worlds in Kabbalah"
+    }
+  ],
+  "seo": {
+    "title": "The Five Zones of the Cup - Coffee Reading Guide | Maktuba Academy",
+    "description": "Learn to divide the coffee cup into five zones and read each one. What are the rim, middle, bottom and how to identify symbols in each zone. Professional guide with practical exercises.",
+    "keywords": [
+      "coffee reading",
+      "cup zones",
+      "finjan",
+      "cup rim",
+      "cup bottom",
+      "fortune reading"
+    ],
+    "ogImage": "/og/academy/coffee/the-five-zones.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

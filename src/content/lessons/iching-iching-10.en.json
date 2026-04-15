@@ -1,0 +1,133 @@
+{
+  "courseId": "iching",
+  "lessonNumber": 10,
+  "title": "I Ching — Lesson 10",
+  "slug": "iching-10",
+  "module": "Hexagrams",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit beside the candle... today we arrive at one of the most important moments in our I Ching learning journey. After becoming familiar with the eight basic trigrams and learning how they connect, it's time to meet the golden essence of the book — the first complete hexagrams. These are not merely theoretical combinations, but living forces that have worked upon humanity for thousands of years.</p><p>In the previous lesson we dealt with yin-yang dynamics and how moving lines create transformation. Now we dive deep into the heart of the entire system — hexagrams 1-15. They are like the first letters of the cosmic alphabet, each carrying within it the genetic code of a universal state or process. Maktuba doesn't mince words: this is the time when theory becomes living wisdom.</p>",
+    "theoryA": "<h2>What are the Central Hexagrams in the I Ching?</h2><p>The hexagrams are the 64 complete symbols of the I Ching, each composed of six lines. The first 15 hexagrams constitute the archetypal foundation of the entire system — from \"Force\" (1) to \"Humility\" (15). These are like the basic notes of reality, the fundamental code from which all other possibilities derive.</p><p>The first hexagram, \"Force\" (Qian), consists of six solid yang lines — double heaven. This is pure power, the primordial cosmic impulse. In contrast, the second hexagram \"Field\" (Kun) consists of six broken yin lines — double earth. This is pure receptivity, the nourishing and receiving force. Together, they create the basic poles of existence.</p><p>The third hexagram, \"Sprouting,\" shows us what happens when these forces begin to work in reality — thunder beneath water, the natural difficulty in every new beginning. \"Youthful Folly\" (4) describes the innocence necessary for learning, a spring at the foot of a mountain. \"Waiting\" (5) teaches us about the patience required for things to ripen — clouds in the sky that have not yet become rain.</p><p>Each hexagram has an original Chinese name and an English name that attempts to capture the essence. Sometimes the names differ because translation tries to convey the spirit more than the literal word. For example, the hexagram translated as \"Conflict\" is called \"Song\" in Chinese — it deals with the nature of dispute and ways to resolve it wisely.</p>",
+    "practice1": {
+      "instruction": "Take your I Ching coins and cast three times. Record the results and identify which of hexagrams 1-15 you received. If you got a hexagram outside 1-15, cast again. Read the interpretation of the hexagram you received and write how it connects to your current situation.",
+      "type": "draw"
+    },
+    "theoryB": "<h2>How Do Trigrams Create Meaning in Hexagrams?</h2><p>Each hexagram consists of two trigrams — upper and lower — that together create a complex dynamic. The lower trigram represents the inner state, the foundation, the primary motivation. The upper trigram represents the outer state, the expression, the way the inner force manifests in the world.</p><p>For example, in hexagram \"Leading\" (7) — water (lower) under earth (upper). The hidden waters in the earth symbolize concealed force organized under discipline. This is the ordered energy of an army, stored and directed power. In contrast, hexagram \"Holding Together\" (8) — earth under water. Here water flows over earth, symbolizing natural union and connections that bind together.</p><p>The hexagrams also connect to seasons of the year and time cycles. \"Peace\" (11) suits spring — earth above heaven, a time when natural forces flow in harmony. \"Standstill\" (12) suits autumn-winter — heaven above earth, a time of retreat and waiting. This isn't \"good\" or \"bad\" but natural cycles that repeat themselves.</p><p>The connection to Kabbalah is clear here — the hexagrams function like the sefirot, each representing a stage in the flow of divine light through reality. In numerology, the numbers 1-15 create a sequence that explains how the primordial One breaks into multiplicity and then reunites. It's no accident that hexagram 15 is \"Humility\" — the point where inner greatness learns to express itself in simplicity.</p>",
+    "practice2": {
+      "instruction": "Choose one of hexagrams 1-15 that particularly attracts you. Draw it on paper, write its name and the trigrams that compose it. Write a short paragraph about how you see the dynamic between the lower and upper trigrams in this hexagram. How does the inner force become outer expression?",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books — The Hidden Clue in the Order of Hexagrams</h2><p>Maktuba will reveal to you now the secret that most students miss: the order of the first hexagrams is not random. It's a precise roadmap of human consciousness development, from birth to spiritual maturity. The I Ching doesn't just describe states — it teaches us the order in which consciousness develops.</p><p>Hexagrams 1-2 are the cosmic poles — pure yang and yin. 3-4 are the childhood stage — sprouting and initial learning. 5-6 are the youth stage — waiting and first conflict. 7-8 are early maturity — leadership and alliance formation. 9-12 are maturity tests — small and great accumulation, union and separation. 13-15 are the wisdom stage — fellowship, abundance, and finally humility.</p><p>This is a universal code that repeats in every domain — from individual development to civilization cycles. If you read the hexagrams in this order as a continuous story, you get the perfect guide to building a balanced life. The ancient Chinese weren't crazy — they encoded exactly the map every soul needs to develop.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What does the first hexagram \"Force\" (Qian) consist of?",
+          "options": [
+            "Six solid yang lines",
+            "Six broken yin lines",
+            "Three yang lines and three yin",
+            "Four yang lines and two yin"
+          ],
+          "correct": 0,
+          "explanation": "The first hexagram consists of six solid yang lines, symbolizing pure creative force — double heaven."
+        },
+        {
+          "question": "Which trigrams create the hexagram \"Sprouting\" (3)?",
+          "options": [
+            "Heaven and earth",
+            "Water and thunder",
+            "Fire and wind",
+            "Mountain and lake"
+          ],
+          "correct": 1,
+          "explanation": "\"Sprouting\" consists of thunder (lower) under water (upper) — movement under danger, the difficulty in new beginnings."
+        },
+        {
+          "question": "What does the lower trigram in a hexagram represent?",
+          "options": [
+            "The outer state",
+            "Expression in the world",
+            "The inner state and foundation",
+            "The future"
+          ],
+          "correct": 2,
+          "explanation": "The lower trigram represents the inner state, foundation, and primary motivation, while the upper represents outer expression."
+        },
+        {
+          "question": "To which season does the hexagram \"Peace\" (11) correspond?",
+          "options": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn"
+          ],
+          "correct": 1,
+          "explanation": "\"Peace\" corresponds to spring — a time of harmony and prosperity when natural forces flow together in perfect union."
+        },
+        {
+          "question": "What is the meaningful sequence in hexagrams 1-15?",
+          "options": [
+            "Random order of states",
+            "Map of consciousness development",
+            "Order of yearly seasons",
+            "List of common problems"
+          ],
+          "correct": 1,
+          "explanation": "The order of hexagrams 1-15 is a precise roadmap of consciousness development from birth to spiritual maturity."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we met the first 15 hexagrams — the basic archetypes of the I Ching. We learned how each hexagram consists of two trigrams creating inner-outer dynamics, and understood that the order of hexagrams is actually a map of consciousness development. From pure \"Force\" to wise \"Humility\" — this is the path every soul travels.",
+      "wisdom": "The longest journey begins with a single step, and the first step is always the hexagram you need right now.",
+      "nextPreview": "In the next lesson we'll continue with hexagrams 16-30 and learn about time cycles and the great transformations that shape our lives."
+    }
+  },
+  "faq": [
+    {
+      "question": "How do I know which hexagram is relevant to me now?",
+      "answer": "Cast coins or use the yarrow stalk method. The I Ching always gives exactly what you need to hear, even if it's not what you wanted to hear."
+    },
+    {
+      "question": "What's the difference between hexagrams and trigrams?",
+      "answer": "Trigrams are the basic elements (3 lines), hexagrams are complex combinations (6 lines) that create more detailed situations and processes."
+    },
+    {
+      "question": "Why is the order of the first hexagrams important?",
+      "answer": "This order is a map of consciousness development — from raw force to mature wisdom. It's the guide to building a balanced life."
+    },
+    {
+      "question": "How do hexagrams connect to Kabbalah and numerology?",
+      "answer": "Like the sefirot of Kabbalah, hexagrams describe the flow of divine energy. The numbers 1-15 create a numerological sequence of development from One to multiplicity and back to unity."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot-malkut",
+      "label": "🌳 Malkut in Kabbalah - Expression in the Physical World"
+    },
+    {
+      "course": "numerology",
+      "lesson": "numbers-1-9",
+      "label": "🔢 Numbers 1-9 in Numerology"
+    }
+  ],
+  "seo": {
+    "title": "Hexagrams 1-15 in I Ching - Complete Guide to Understanding Basic Symbols",
+    "description": "Learn the first 15 hexagrams in the I Ching - from 'Force' to 'Humility'. Discover the map of spiritual development and ancient wisdom that guides life.",
+    "keywords": [
+      "hexagrams",
+      "I Ching",
+      "Force",
+      "Humility",
+      "trigrams",
+      "yang yin",
+      "Chinese wisdom",
+      "spiritual development"
+    ],
+    "ogImage": "/og/academy/iching/iching-10.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

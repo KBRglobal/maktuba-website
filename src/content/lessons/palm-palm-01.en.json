@@ -1,0 +1,138 @@
+{
+  "courseId": "palm",
+  "lessonNumber": 1,
+  "title": "Palm Reading Foundations - Understanding the Major Lines",
+  "slug": "palm-01",
+  "module": "Foundations",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Come sit with me, dear child. The candle is lit, and it's time to explore one of the most ancient and beautiful arts - palm reading. For thousands of years, people have looked at their palms and found fascinating stories about their lives. I will teach you to read palms not like a fortune teller at a fair, but like a wise woman who understands the hidden language of the body. Every line, every mount, and every mark on your palm tells of your inner nature, your inclinations, your strengths, and your challenges. This isn't magic - it's ancient wisdom based on careful observation. In this first lesson, we'll meet the five major lines that will form the foundation of all your readings.</p>",
+    "theoryA": "<h2>How do we identify the major lines in the palm?</h2><p>The five major lines in the palm are located in fixed places, and each has a unique meaning. The heart line is the upper horizontal line, governing emotional life and love. The head line runs through the middle of the palm, representing intellect and thinking patterns.</p><p>The life line curves around the base of the thumb like a semicircle, and tells of your vitality and energy - not the length of your life, as is mistakenly believed. The fate line runs vertically from the base of the palm toward the middle finger, showing external influences on your life. The sun line runs toward the ring finger and relates to creativity and public recognition.</p><p>Each line is examined by its depth, length, clarity, and direction. A deep and clear line indicates strength in that area, while a weak or faded line suggests an area that changes or is less dominant. It's important to remember - not everyone has all the lines, and this isn't a bad sign. The absence of a certain line means that area is governed more by free will and less by innate tendencies.</p><p>In proper reading, we always begin with the dominant hand - the one you write with. It shows what you actively create in your life. The non-dominant hand shows the natural potential you were born with. Comparing both hands gives a complete picture of who you truly are and what you're creating with your life.</p>",
+    "practice1": {
+      "instruction": "Look at your dominant hand. Identify the five major lines: heart (upper), head (middle), life (around the thumb), fate (vertical to center), sun (toward the ring finger). Mentally trace each line and let your eyes understand this map.",
+      "type": "observe"
+    },
+    "theoryB": "<h2>What is the meaning of line depth and shape?</h2><p>The depth of a line indicates the strength and intensity of that area in your life. A deep and clear line presents a dominant area in your life, while a shallow or broken line shows an area that changes throughout life. The shape of the line - straight, curved, with branches - tells the personal story of how you express yourself in that area.</p><p>In Kabbalah wisdom, the lines correspond to sefirot in the Tree of Life. The heart line connects to Tiferet - the spiritual heart. The head line is linked to Binah and Daat - knowledge and wisdom. The life line connects to Malkhut - the physical world and our expression in it. These connections deepen our understanding of the spiritual meanings of what we see in the palm.</p><p>In astrology, the lines are connected to different planets. The heart line belongs to Venus - goddess of love and beauty. The head line is related to Mercury - planet of communication and thought. The life line is connected to Mars - vital energy. These connections help us understand planetary influences through our hands.</p><p>Breaks in a line indicate significant changes or traumas in that area. But it's important to understand - a break isn't always something negative. Sometimes it marks liberation from an old pattern and transition to a new life stage. Branches extending from the line indicate new developments in that area - branches upward are generally positive, while downward ones suggest challenges or losses.</p>",
+    "practice2": {
+      "instruction": "Choose your heart line. Check if it's deep or shallow, whether it has breaks or branches, and whether it's curved or straight. Now connect these observations to what you know about your emotional life - how does this relate to the way you love and handle relationships?",
+      "type": "observe"
+    },
+    "deepDive": "<h2>What's not written in books - the hidden connection between lines</h2><p>Most books teach reading each line separately, but the true wisdom lies in the connection between them. When the heart line and head line are very close together, this indicates a person whose heart and mind work in harmony - they make emotional decisions rationally. When they're far apart, there's a gap between feelings and thinking.</p><p>Intersection points between lines tell special stories. Where the fate line crosses the head line marks a period when intellect will influence professional direction. Crossing with the heart line indicates a time when emotions will affect career. These are 'moments of truth' in life where paths meet and new opportunities or challenges are created.</p><p>There's also a hidden clue in the relative thickness of the lines. When the heart line is thicker than the head line, emotions dominate. When the head line is thicker - intellect is the leader. When the life line is most prominent - physical vitality and energy are the primary driving force in your life.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which line represents emotional life and relationships?",
+          "options": [
+            "Head line",
+            "Heart line",
+            "Life line",
+            "Fate line"
+          ],
+          "correct": 1,
+          "explanation": "The heart line is the uppermost line in the palm and governs emotional life, love, and relationships."
+        },
+        {
+          "question": "What does a deep and clear life line indicate?",
+          "options": [
+            "Long life",
+            "Strong vitality and energy",
+            "Health problems",
+            "Bad luck"
+          ],
+          "correct": 1,
+          "explanation": "The depth and color of the line indicate the strength of vitality and energy, not the length of life."
+        },
+        {
+          "question": "Where is the head line located in the palm?",
+          "options": [
+            "At the top",
+            "In the middle of the palm",
+            "Around the thumb",
+            "At the bottom of the palm"
+          ],
+          "correct": 1,
+          "explanation": "The head line runs through the middle of the palm, between the heart line and life line, representing intellect and thinking patterns."
+        },
+        {
+          "question": "What does the absence of a fate line mean?",
+          "options": [
+            "Lack of purpose in life",
+            "Independent path and free choice",
+            "Career failure",
+            "Lack of willpower"
+          ],
+          "correct": 1,
+          "explanation": "The absence of a fate line suggests an independent path where you create your destiny through personal choices, without strong external influences."
+        },
+        {
+          "question": "Which hand should be examined first in a reading?",
+          "options": [
+            "Always the right hand",
+            "Always the left hand",
+            "The dominant hand",
+            "Both hands together"
+          ],
+          "correct": 2,
+          "explanation": "The dominant hand (the one you write with) shows what you actively create in life, so we begin with it."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we learned to identify the five major lines in the palm - heart, head, life, fate, and sun. Each line tells part of your story, and the connections between them create the complete picture.",
+      "wisdom": "Your palm is a map of your soul - not your fate.",
+      "nextPreview": "In the next lesson we'll dive deep into the heart line and learn to read all the secrets of your emotional life."
+    }
+  },
+  "faq": [
+    {
+      "question": "Does the length of the life line indicate lifespan?",
+      "answer": "No. This is a superstition. The life line indicates vitality and energy, not the number of years."
+    },
+    {
+      "question": "What if I only have some of the major lines?",
+      "answer": "This is completely normal. Not everyone is born with all the lines, and this indicates areas governed more by free choice."
+    },
+    {
+      "question": "Can lines change throughout life?",
+      "answer": "Yes. Lines can deepen, develop, or change according to changes in life and personality."
+    },
+    {
+      "question": "How do you distinguish between a deep line and a shallow line?",
+      "answer": "A deep line appears clear and defined, while a shallow line is more faded or broken. This is clearly visible when looking closely."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "mercury",
+      "label": "⭐ Mercury and the head line in astrology"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot",
+      "label": "🌟 The sefirot and palm lines"
+    },
+    {
+      "course": "numerology",
+      "lesson": "life-path",
+      "label": "🔢 Calculating life path number"
+    }
+  ],
+  "seo": {
+    "title": "Beginner Palm Reading - Understanding the Major Lines | Maktuba",
+    "description": "Learn to read the major lines in palm reading - heart line, head line, life line, fate line, and sun line. Professional and in-depth lesson with practical exercises.",
+    "keywords": [
+      "palm reading",
+      "palm lines",
+      "heart line",
+      "head line",
+      "life line",
+      "chiromancy guide",
+      "palmistry learning",
+      "Maktuba"
+    ],
+    "ogImage": "/og/academy/palm/palm-01.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

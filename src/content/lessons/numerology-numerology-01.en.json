@@ -1,0 +1,137 @@
+{
+  "courseId": "numerology",
+  "lessonNumber": 1,
+  "title": "Introduction to Numerology — The Ancient Science of Numbers",
+  "slug": "numerology-01-introduction",
+  "module": "Foundations",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit, my dear one. Light a candle, for today we open together a gateway to a hidden and ancient world — the world of numerology. For thousands of years, Babylon, Egypt, Greece, and India understood a simple truth: numbers are not merely tools of calculation. They are a hidden language, a cipher of the universe that tells us about our soul, our path, our deepest essence. Today, on our first journey, we will learn what numerology is and how it connects to all other mystical arts. We will understand that every number is a world, every calculation is a discovery, and every name — a key to our deepest secret.</p>",
+    "theoryA": "<h2>What is Numerology and Where Does It Come From?</h2><p>Numerology is the mystical science of numbers, believing that each number possesses unique energy and spiritual meaning. It is an ancient art of decoding the hidden connection between numbers and human life.</p><p>The deepest roots of numerology are found in ancient civilizations. In ancient Babylon, the wise ones recognized the hidden power of numbers. In Egypt, the pyramid builders used sacred mathematical ratios. But the most structured theoretical foundation developed in ancient Greece, especially in Pythagoras's school in the 6th century BCE.</p><p>Pythagoras, who was not only a mathematician but also a mystic, believed that \"all is number.\" He discovered that music, architecture, and even the cosmic movement of the stars — everything rests on perfect numerical relationships. From this insight was born Pythagorean numerology, the most widespread system in the West today.</p><p>Simultaneously, numerological systems developed in other cultures. In ancient China, the science of Feng Shui used numbers to establish energies in space. In India, the Vedic tradition developed complex numerological calculations connected to karma and soul reincarnation.</p><p>In the Arabic and Jewish worlds developed the Abjad system, also known as \"Hisab al-Jummal\" in Arabic. This is a sophisticated system that converts each letter to numerical value, allowing deep decoding of sacred names and words.</p>",
+    "practice1": {
+      "instruction": "Write your first name (in Hebrew) and calculate how many letters it contains. Count how many times each letter appears. This is a beginning of acquaintance with the connection between your name and numbers.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How is Numerology Connected to Tarot, Astrology, and Kabbalah?</h2><p>Numerology does not stand alone — it is part of a broader mystical tapestry connecting all hidden arts. Each system provides a different piece of the spiritual puzzle.</p><p>The connection to Tarot is the most direct. Every card in Tarot carries a number, and every number carries deep numerological meaning. For instance, The Emperor (number 4) represents stability and structure — exactly like the number 4 in numerology. The Wheel of Fortune (number 10) represents cycle completion and renewal — identical to the numerological meaning of number 1 (when we reduce 10 to 1). Every Tarot spread actually tells a numerical story.</p><p>In astrology, the connection is equally deep. Each zodiac sign carries a sequential number that influences its meaning. Aries is the first sign (1) and therefore carries traits of leadership and pioneering. Virgo is the sixth sign (6) and carries traits of service and precision. Planets also carry numerical values that connect to numerology.</p><p>In Kabbalah, the deepest connection of all. The Kabbalistic Tree of Life is built on ten Sefirot, each with its number and meaning. Kether is 1 — divine beginning. Chochmah is 2 — first pole. Binah is 3 — feminine pole. The numbers 11, 22, 33 are called \"Master Numbers\" in numerology, and they correspond to special paths in the Tree of Life.</p><p>The Arabic Abjad system connects us to Islamic tradition and Sufi mysticism. The name of Allah (الله) equals 66, a number carrying deep meaning of mercy and truth. The name of Prophet Muhammad (محمد) equals 92, which reduces to 11 — a master number of high spiritual inspiration.</p>",
+    "practice2": {
+      "instruction": "Choose a number that accompanies you often in life (birth date, home address, etc.). Write what you feel about it — does it bring you luck? Good feelings? This is the beginning of acquaintance with your personal energy toward numbers.",
+      "type": "write"
+    },
+    "deepDive": "<h2>The Secret Behind Letter Numbers — What They Don't Teach</h2><p>Here's what most teachers don't tell you: numerology is not dry mathematics, but a living language. Every letter, every number, carries not only numerical value but unique energetic vibration.</p><p>In the Hebrew system, for example, every letter is not just a sound but an entire world. Aleph (1) carries in its energy the force of divine beginning — \"Elohim created.\" Beth (2) is house, place, pairing — \"Bereshit.\" Gimel (3) is movement, giving — \"camel.\" Every letter in your name shapes part of your spiritual energy.</p><p>In the Arabic Abjad tradition, Sufi mystics discovered that certain words carry the same numerical value as other words — and this is no coincidence. This is \"numerical synchronicity.\" When the word \"nur\" (light) equals 256, and the word \"rahmah\" (mercy) equals 253 — there is a deep energetic echo here.</p><p>The great secret is that numerology works best when you attune to it with an open heart and intuition, not just intellect. Numbers speak to you on a subconscious level. When you calculate your name for the first time and discover it reduces to a certain number — the first feeling that arises is usually the most correct.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Who is considered the father of modern Western numerology?",
+          "options": [
+            "Plato",
+            "Pythagoras",
+            "Aristotle",
+            "Socrates"
+          ],
+          "correct": 1,
+          "explanation": "Pythagoras, the Greek mathematician and mystic, developed the theoretical foundation for Western numerology with the belief that 'all is number'."
+        },
+        {
+          "question": "What is the name of the Arabic numerology system?",
+          "options": [
+            "Ilm al-Asrar",
+            "Hisab al-Jummal",
+            "Asrar al-Huruf",
+            "Ilm al-Ruh"
+          ],
+          "correct": 1,
+          "explanation": "Hisab al-Jummal (حساب الجُمَّل) is the classical Arabic system for converting letters to numerical values."
+        },
+        {
+          "question": "How does numerology connect to Kabbalah?",
+          "options": [
+            "Through the ten Sefirot",
+            "Through the 22 letters",
+            "Through angel names",
+            "Through soul reincarnation"
+          ],
+          "correct": 0,
+          "explanation": "The Kabbalistic Tree of Life is built on ten Sefirot, each with its unique number and numerological meaning."
+        },
+        {
+          "question": "What is the numerical value of the name 'Allah' (الله) in the Abjad system?",
+          "options": [
+            "99",
+            "66",
+            "33",
+            "786"
+          ],
+          "correct": 1,
+          "explanation": "The name 'Allah' (الله) = 1+30+30+5 = 66, a number carrying deep meaning of mercy and truth."
+        },
+        {
+          "question": "What is the connection between numerology and Tarot?",
+          "options": [
+            "There is no connection between them",
+            "Every card carries a number with numerological meaning",
+            "Only number cards are connected",
+            "Only Major Arcana cards are connected"
+          ],
+          "correct": 1,
+          "explanation": "Every card in Tarot carries a number with deep numerological meaning — both number cards, court cards, and Major Arcana."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we opened together the door to the ancient and enchanting world of numerology. We learned that numbers are much more than calculation tools — they are a spiritual language connecting us to the wisdom of generations, to deep mystical traditions, and to the hidden energy of the universe. We understood how numerology connects to Tarot, astrology, Kabbalah, and other spiritual traditions.",
+      "wisdom": "Every number is a world, every name is a key.",
+      "nextPreview": "In the next lesson we will learn about basic life numbers: the Life Path number, Destiny number, and Soul number — and how to calculate them from your date and name."
+    }
+  },
+  "faq": [
+    {
+      "question": "Does numerology work only in Hebrew and English?",
+      "answer": "No, numerology works in any language. There are dedicated systems for Hebrew (Gematria), Arabic (Abjad), Greek, and other languages. Each language carries its own cultural and spiritual energy."
+    },
+    {
+      "question": "What's the difference between numerology and Gematria?",
+      "answer": "Gematria is the classical Hebrew system based on numerical values of Hebrew letters. Numerology is the broader term including systems from different cultural sources."
+    },
+    {
+      "question": "How can I know which numerological system is right for me?",
+      "answer": "Usually, the most suitable system is that of your mother tongue or the spiritual tradition closest to your heart. If you speak Hebrew — Hebrew Gematria. If mystical tradition attracts you — Arabic Abjad."
+    },
+    {
+      "question": "Do I need to know mathematics to learn numerology?",
+      "answer": "Not at all! Numerology uses only simple addition and reduction. Most important is an open heart and the ability to listen to your intuition."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot",
+      "label": "⭐ The Ten Sefirot in Kabbalah"
+    },
+    {
+      "course": "tarot",
+      "lesson": "numbers",
+      "label": "🃏 Number Meanings in Tarot"
+    },
+    {
+      "course": "astrology",
+      "lesson": "houses-meaning",
+      "label": "🌟 The 12 Houses in Astrology"
+    }
+  ],
+  "seo": {
+    "title": "Introduction to Numerology — The Ancient Science of Numbers | Maktuba Academy",
+    "description": "Learn what numerology is, how it connects to Tarot and Kabbalah, and discover the ancient roots of the mystical science of numbers. Complete guide for beginners.",
+    "keywords": [
+      "numerology",
+      "science of numbers",
+      "Gematria",
+      "Abjad",
+      "Pythagoras",
+      "Hebrew numerology",
+      "Kabbalah and numbers"
+    ],
+    "ogImage": "/og/academy/numerology/numerology-01.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

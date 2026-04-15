@@ -1,0 +1,155 @@
+{
+  "courseId": "crystals",
+  "lessonNumber": 5,
+  "title": "crystals — lesson 5",
+  "slug": "crystals-05",
+  "module": "Stones",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Dear beloved, the candle is burning and the crystals we've learned about are waiting for you on the table. So far we've met clear quartz and amethyst, touched the energy of rose quartz and discovered the protective power of black tourmaline. Today we're diving deep into three stone families that completely change the game. The diverse quartz family that offers healing for every soul, the lucky jade that invites prosperity, and the powerful tiger's eye that awakens the personal power within us. Each of these families carries ancient wisdom and unique energy. Feel how the stones speak to you in a different language than yesterday - each stone has its own voice, its own emotional tone and its own special place in your heart.</p>",
+    "theoryA": "<h2>How do different quartz crystals affect our energy?</h2><p>The quartz family is the most diverse and powerful in the world of crystals, and each member carries unique properties that affect energy in completely different ways. Smoky quartz works on grounding and releasing tension, while golden citrine awakens confidence and attracts abundance. This is the magic of this family - the energy base is the same, but the expression differs according to color and mineral components.</p><p>Smoky quartz in brown-gray color connects to the root chakra and earth element. Its energy is heavy and stable, helping to release negative thought patterns and anchoring us in physical reality. It's perfect after a stressful day when you need to let go and feel more grounded. Its affirmation \"I release what doesn't serve me\" helps in deep release processes.</p><p>On the other hand, golden-orange citrine is pure fire. It connects to the personal power chakra (solar plexus) and awakens self-confidence, expression ability and manifestation. This is the stone of entrepreneurs and people who want to fulfill dreams. Its energy is warm and empowering, and it's known as the \"merchant's stone\" because it attracts financial abundance.</p><p>Common properties of the quartz family include energy amplification, intention clarification and connection to higher consciousness. Every type of quartz acts as an energy amplifier, but directs them toward a specific direction. In working with zodiac signs, smoky quartz is especially strong for Scorpio and Capricorn (earth and water signs), while citrine supports Gemini, Aries and Leo (air and fire signs).</p>",
+    "practice1": {
+      "instruction": "Take two glasses of water. Next to one glass place a dark stone (can even be a regular stone from the garden), and next to the other place something golden or yellow. Drink from each glass and feel how the water \"tastes\" different. Write down the differences you feel.",
+      "type": "observe"
+    },
+    "theoryB": "<h2>What makes jade so special for luck and prosperity?</h2><p>Green jade has been considered for thousands of years the strongest stone of luck and prosperity, especially in Chinese culture where it symbolizes wisdom and nobility. Its energy works through the heart (green chakra) but in a way that attracts opportunities on a practical level. Jade connects emotion with action, intention with execution.</p><p>In connection to astrology, jade supports Taurus, Libra and Pisces - signs whose tendency is to seek harmony and stability. Taurus enjoys the financial stability that jade brings, Libra is drawn to its aesthetics and balance, and Pisces connects to its emotional and gentle energy. This isn't just a stone for luck - it's a stone that creates conditions where luck can flourish.</p><p>Jade's secret lies in its ability to create what's called \"opportunity flow.\" Instead of fighting for things or pushing, jade teaches us to flow with life in a way that invites natural opportunities. It works on the attraction principle - not passively, but in a way that prepares us internally to receive and utilize opportunities when they come.</p><p>In practical work, jade is usually placed in the wealth corner of the home (according to feng shui), worn as jewelry to attract business opportunities, or used in abundance meditations. The affirmation \"I attract luck and abundance\" works especially strongly with it because it helps us develop a sense of entitlement to good things in life.</p>",
+    "practice2": {
+      "instruction": "Today pay attention to the color green around you - plants, clothes, food. Every time you see green, think of one thing you'd like to manifest in your life. In the evening write a list of all the times you saw green and what you thought.",
+      "type": "observe"
+    },
+    "deepDive": "<h2>What's not written in books about the power of golden stones</h2><p>Tiger's eye, pyrite and sunstone share something you won't find in most crystal books - they carry within them an energy of \"tangible light.\" It's not just their golden color, but a unique mineral composition that creates internal light reflections. This light acts as an energetic mirror that returns to us our inner power.</p><p>Tiger's eye contains quartz fibers that create its special chatoyant effect. When you look at it from different angles, it seems to \"follow\" you. This isn't coincidence - its energy really follows and strengthens your personal power in every situation. It teaches how to be flexible yet strong, how to maintain direction even when circumstances change.</p><p>Pyrite, known as \"fool's gold,\" carries deep irony. While it's not real gold, the energy of wealth it carries is completely real. It teaches us the difference between external wealth and inner wealth, and how one can lead to the other. Its sparks are a reminder that true wealth begins from within.</p><p>The secret that's not written is that these golden stones work best when combined with gratitude practice. They respond to energy of appreciation and joy, and can double their effect when you work with them in a positive mood.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which quartz is best suited for releasing tension and grounding?",
+          "options": [
+            "Clear quartz",
+            "Smoky quartz",
+            "Rose quartz",
+            "Citrine"
+          ],
+          "correct": 1,
+          "explanation": "Smoky quartz is the perfect stone for releasing tension and grounding, thanks to its connection to the root chakra and earth element."
+        },
+        {
+          "question": "Which zodiac signs does jade support most?",
+          "options": [
+            "Leo, Gemini, Libra",
+            "Taurus, Libra, Pisces",
+            "Scorpio, Capricorn, Aries",
+            "Sagittarius, Virgo, Cancer"
+          ],
+          "correct": 1,
+          "explanation": "Jade supports Taurus, Libra and Pisces - signs that seek harmony, stability and emotional balance."
+        },
+        {
+          "question": "What's special about tiger's eye that creates its chatoyant effect?",
+          "options": [
+            "Gold crystals",
+            "Quartz fibers",
+            "Iron particles",
+            "Air bubbles"
+          ],
+          "correct": 1,
+          "explanation": "The quartz fibers in tiger's eye create the special chatoyant effect that makes it appear to 'follow' us."
+        },
+        {
+          "question": "How is citrine known in the business world?",
+          "options": [
+            "Stone of kings",
+            "Merchant's stone",
+            "Stone of the wise",
+            "Stone of princes"
+          ],
+          "correct": 1,
+          "explanation": "Citrine is called the 'merchant's stone' because of its renowned ability to attract financial abundance and business success."
+        },
+        {
+          "question": "When do golden stones work best?",
+          "options": [
+            "At night",
+            "Passively",
+            "With gratitude",
+            "In sad moods"
+          ],
+          "correct": 2,
+          "explanation": "Golden stones respond strongest to energy of gratitude and joy, and can double their effect in a positive mood."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we discovered the special power of three strong stone families - the diverse quartz that offers a solution for every situation, the lucky jade that invites opportunities, and the golden stones that amplify personal power. Each family carries ancient wisdom and unique strength.",
+      "wisdom": "The strongest light comes from within and expresses itself outward.",
+      "nextPreview": "In the next lesson we'll learn about blue stones - lapis lazuli, sodalite and aquamarine - and discover how they open gates of wisdom and communication for us."
+    },
+    "faq": [
+      {
+        "question": "How do I know which type of quartz is most suitable for me?",
+        "answer": "Your intuition will guide you - which color attracts you right now? If you feel a need for grounding, choose smoky quartz. If you lack confidence, citrine will be perfect."
+      },
+      {
+        "question": "Can there be too much abundance energy?",
+        "answer": "When working with abundance stones like jade and citrine, it's important to balance with grounding. If you feel too spaced out, add an earth stone like hematite or onyx for balance."
+      },
+      {
+        "question": "Why is tiger's eye called that?",
+        "answer": "The name derives from the chatoyant effect created by quartz fibers, which makes the stone look like a tiger's eye that follows and protects you."
+      },
+      {
+        "question": "How do I clean jade without damaging it?",
+        "answer": "Jade is sensitive to acids and overly hot water. Clean it with lukewarm water and mild soap, or leave it in moonlight. The mantra 'I attract luck and abundance' helps recharge it."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "How do I know which type of quartz is most suitable for me?",
+      "answer": "Your intuition will guide you - which color attracts you right now? If you feel a need for grounding, choose smoky quartz. If you lack confidence, citrine will be perfect."
+    },
+    {
+      "question": "Can there be too much abundance energy?",
+      "answer": "When working with abundance stones like jade and citrine, it's important to balance with grounding. If you feel too spaced out, add an earth stone like hematite or onyx for balance."
+    },
+    {
+      "question": "Why is tiger's eye called that?",
+      "answer": "The name derives from the chatoyant effect created by quartz fibers, which makes the stone look like a tiger's eye that follows and protects you."
+    },
+    {
+      "question": "How do I clean jade without damaging it?",
+      "answer": "Jade is sensitive to acids and overly hot water. Clean it with lukewarm water and mild soap, or leave it in moonlight. The mantra 'I attract luck and abundance' helps recharge it."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "numerology",
+      "lesson": "number-8",
+      "label": "⭐ Number 8 - abundance and wealth"
+    },
+    {
+      "course": "astrology",
+      "lesson": "taurus",
+      "label": "🌟 Taurus - stability and prosperity"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "sephirot",
+      "label": "🌕 Sephirot - energy pathways"
+    }
+  ],
+  "seo": {
+    "title": "Quartz, Jade and Tiger's Eye Stones - The Powerful Crystal Families",
+    "description": "Learn about powerful crystal families: smoky quartz and citrine for energy, jade for luck and prosperity, and tiger's eye for personal power. With practical exercises and affirmations.",
+    "keywords": [
+      "smoky quartz",
+      "citrine",
+      "jade",
+      "tiger's eye",
+      "abundance stones",
+      "personal power crystals",
+      "luck stones"
+    ],
+    "ogImage": "/og/academy/crystals/crystals-05.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

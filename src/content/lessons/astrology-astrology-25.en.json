@@ -1,0 +1,138 @@
+{
+  "courseId": "astrology",
+  "lessonNumber": 25,
+  "title": "Astrological Compatibility — What the Stars Say About Your Relationships",
+  "slug": "astrology-25",
+  "module": "Houses",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down, my dear child, the candle is glowing bright and it's time to open the final chapter of our astrological journey — romantic compatibility. You've already learned the secrets of the zodiac signs, planets, and houses, and now I'll teach you how to read the stars to understand what awaits you in romance, marriage, and your closest relationships. This isn't just another astrological puzzle — this is the most practical guide you'll receive for finding the partnership that will illuminate your heart. Did you know that every sign has its own unique love language? That fire signs are drawn to air signs like flame to wind? Come, let's discover together how the stars weave the story of your heart.</p>",
+    "theoryA": "<h2>How Does Astrological Compatibility Work?</h2><p>Astrological compatibility is based on the principle of the zodiac wheel and the interplay between different elements. Every sign belongs to a specific element — fire, earth, air, or water — and these elements interact with each other in particular ways in the universe.</p><p>Fire signs (Aries, Leo, Sagittarius) are drawn to air signs (Gemini, Libra, Aquarius) because air feeds fire and amplifies it. Together they create a dynamic of excitement, adventure, and high energy. In contrast, earth signs (Taurus, Virgo, Capricorn) find stability with water signs (Cancer, Scorpio, Pisces) — water nourishes the earth and makes it fertile for growth.</p><p>But it's not just about elements. Every pairing of signs has a unique dynamic: there are couples who are opposite each other on the wheel (like Aries and Libra) and create magnetic attraction where \"opposites attract,\" and there are pairs from the same element (like two fire signs) that create double fire — passionate but can also burn.</p><p>The true secret to compatibility lies in understanding what each sign seeks in love. Aries seeks challenge and passion, Taurus seeks security and comfort, Gemini seeks conversation and freshness, and so each sign brings something different and special to the table.</p>",
+    "practice1": {
+      "instruction": "Write down your birth sign and your partner's (or someone you're interested in). Look in the text above for the element of each of you. Are you complementary signs (fire+air, earth+water) or from the same element? Write how this feels in real life.",
+      "type": "write"
+    },
+    "theoryB": "<h2>What Does the Compatibility Score Between Signs Mean?</h2><p>The astrological compatibility score ranges from 0 to 100 and is based on several factors: elements, modalities, planetary rulerships, and the accumulated experience of generations of astrologers. A score of 90-100 means a once-in-a-lifetime match, 70-89 is an excellent match with little work needed, 50-69 requires significant investment but is possible, and below 50 — a real challenge.</p><p>Take for example the pairing of Cancer and Scorpio (94 points). Two water signs with deep intuitive understanding, unwavering loyalty, and the ability to read each other without words. They create an emotional bond that's hard to break. In contrast, Cancer and Aquarius (35 points) — the emotional homebody and the cool revolutionary — speak completely different emotional languages.</p><p>But pay attention — Chinese astrology adds another layer to compatibility. If you were born in the year of the Snake and he in the year of the Rooster, you have excellent compatibility regardless of Western zodiac signs. The wise Snake and precise Rooster create a collaboration of intelligence and devotion.</p><p>The key to understanding the scores is to remember they're a starting point, not a verdict. A couple with a low score can create a wonderful relationship if both are willing to invest and understand their partner's different language.</p>",
+    "practice2": {
+      "instruction": "Choose a couple you know (friends, parents, celebrities) and check their compatibility score in the table. Does their real-life relationship match the score? Write what you think causes the difference between prediction and reality.",
+      "type": "observe"
+    },
+    "deepDive": "<h2>What's Not Written in the Books</h2><p>The secret most astrologers won't reveal to you: true compatibility depends not only on the sun sign, but on the entire astrological chart. If you have Venus in Scorpio and he has Mars in Scorpio, there's an intense intimate connection between you even if your sun signs don't blend perfectly.</p><p>Another secret: the most important place to look at in romantic compatibility is the seventh house (house of partnerships) in your chart and whether his planets fall there. If his Mars is in your seventh house, it means he brings energy, passion, and sometimes conflict to your love life — exactly what you need to not stay in your comfort zone.</p><p>And the deepest compatibility of all? When your Moon is in the same sign as his Sun, or vice versa. This means your emotional, inner side speaks the same language as his outer identity. It's rare, it's beautiful, and it creates understanding that's hard to find anywhere else.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which signs create the best compatibility according to the table?",
+          "options": [
+            "Pisces and Cancer (96 points)",
+            "Capricorn and Taurus (95 points)",
+            "Sagittarius and Aries (95 points)",
+            "Gemini and Aquarius (92 points)"
+          ],
+          "correct": 0,
+          "explanation": "Pisces and Cancer achieve 96 points — the highest compatibility in the table, as two water signs that create spiritual and soulful union."
+        },
+        {
+          "question": "What do fire signs and air signs have in common in romantic compatibility?",
+          "options": [
+            "They always get along well together",
+            "Air feeds fire and amplifies it",
+            "They are both cold signs",
+            "They create stable relationships"
+          ],
+          "correct": 1,
+          "explanation": "Fire signs are drawn to air signs because air feeds fire and amplifies it, creating a dynamic of excitement and adventure."
+        },
+        {
+          "question": "Which compatibility gets a low score in Chinese astrology?",
+          "options": [
+            "Rat and Ox",
+            "Snake and Pig",
+            "Dragon and Monkey",
+            "Rooster and Rabbit"
+          ],
+          "correct": 1,
+          "explanation": "Snake and Pig are on the list of worst matches in Chinese astrology — the wise Snake and honest Pig don't understand each other."
+        },
+        {
+          "question": "What happens when you have Venus in Scorpio and your partner has Mars in Scorpio?",
+          "options": [
+            "It has no effect on compatibility",
+            "It creates an intense intimate connection",
+            "It causes conflicts",
+            "It cancels out the sun sign influence"
+          ],
+          "correct": 1,
+          "explanation": "When there's planetary overlap in the same sign (Venus and Mars in Scorpio), it creates an intense intimate connection regardless of sun signs."
+        },
+        {
+          "question": "Which compatibility score requires significant investment but is still possible?",
+          "options": [
+            "90-100 points",
+            "70-89 points",
+            "50-69 points",
+            "Below 50 points"
+          ],
+          "correct": 2,
+          "explanation": "A score of 50-69 points requires significant investment but is still possible, while below 50 is a real challenge and above 70 is a good match."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today you learned the secrets of astrological compatibility — how elements connect, how signs complement each other, and what compatibility scores really mean. You understood that compatibility isn't limited to sun signs but includes the entire astrological chart, and learned about the connection between Western and Chinese astrology.",
+      "wisdom": "The stars show the way, but your heart chooses the destination.",
+      "nextPreview": "We've completed our journey in astrology, but the mystical world still lies before you — in additional courses we'll explore tarot, Kabbalah and numerology..."
+    }
+  },
+  "faq": [
+    {
+      "question": "Does a low compatibility score mean there's no chance for a relationship?",
+      "answer": "Absolutely not. A low score means you'll need to invest more to understand each other, but it's not a verdict. Many happy couples have low compatibility scores."
+    },
+    {
+      "question": "How do you check compatibility if you don't know the exact birth time?",
+      "answer": "You can start with sun signs, but exact time is important for a complete chart. If there's no time — look at the general traits of the sign and its element."
+    },
+    {
+      "question": "What do you do if Western and Chinese astrology give different results?",
+      "answer": "That's normal! Use both systems to get a more complete picture. Sometimes signs that don't match in Western astrology are excellent matches in Chinese."
+    },
+    {
+      "question": "Are there signs that really don't match with anyone?",
+      "answer": "There's no sign that doesn't match with anyone. Every sign can find compatibility, but some couples need to work harder on the relationship. That's part of personal learning."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "venus",
+      "label": "⭐ Venus in Astrology — Planet of Love"
+    },
+    {
+      "course": "astrology",
+      "lesson": "houses-7",
+      "label": "🏠 The Seventh House — House of Partnerships and Marriage"
+    },
+    {
+      "course": "numerology",
+      "lesson": "compatibility",
+      "label": "🔢 Numerological Compatibility — Destiny Numbers"
+    }
+  ],
+  "seo": {
+    "title": "Astrological Love Compatibility — Guide to Finding Your Perfect Match",
+    "description": "Discover how the stars determine romantic compatibility, compatibility scores between signs, and what astrology really says about your relationship. Professional guide to astrological compatibility.",
+    "keywords": [
+      "astrological compatibility",
+      "zodiac relationships",
+      "compatibility score",
+      "romantic astrology",
+      "signs in love",
+      "zodiac matching",
+      "Chinese astrology",
+      "astrological relationships"
+    ],
+    "ogImage": "/og/academy/astrology/astrology-25.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

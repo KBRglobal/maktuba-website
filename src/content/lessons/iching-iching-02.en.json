@@ -1,0 +1,133 @@
+{
+  "courseId": "iching",
+  "lessonNumber": 2,
+  "title": "The Trigrams in I Ching — Heaven, Earth, Water, Fire",
+  "slug": "iching-02",
+  "module": "Introduction",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down, my dear, the candle is lit and night wraps around us like a soft blanket.</p><p>In our previous lesson we learned about yang and yin — the two forces operating in the world. But how exactly do these forces manifest in our reality? How can we see heaven, earth, water and fire working in our daily lives?</p><p>Tonight we'll meet the eight trigrams — the basic building blocks of the I Ching. Each trigram is a combination of three lines, yang or yin, representing a fundamental force of nature. Just as music is built from eight notes, the I Ching is built from eight elemental energies.</p>",
+    "theoryA": "<h2>What are the trigrams in I Ching and what is their meaning?</h2><p>The trigrams are eight basic combinations of three lines — yang (solid line) and yin (broken line). Each trigram represents a basic and primordial force of nature operating in the world.</p><p>The eight trigrams were created according to a simple yet brilliant principle: every possible combination of three lines. If we have two types of lines and three positions, we get 2³ = 8 possibilities. Ancient mathematics at its finest.</p><p>Each trigram carries within it the essence of a natural element: <strong>Qian (Heaven)</strong> — three yang lines, pure creative force. <strong>Kun (Earth)</strong> — three yin lines, receptivity and support. <strong>Kan (Water)</strong> — yin with yang in the middle, flow and depth. <strong>Li (Fire)</strong> — yang with yin in the middle, light and clarity.</p><p>The four additional trigrams are: <strong>Gen (Mountain)</strong> — upper yang line with two yin below, stability and determination. <strong>Sun (Wind)</strong> — two yang with lower yin, penetration and gentleness. <strong>Dui (Lake)</strong> — upper yin with two yang below, joy and abundance. <strong>Zhen (Thunder)</strong> — lower yang with two yin above, movement and initiative.</p><p>The trigrams are not just abstract symbols. They are living forces operating at every moment — in our bodies, in nature, in our relationships. When you express strong leadership, you reveal the power of heaven. When you listen and support, you manifest the power of earth.</p>",
+    "practice1": {
+      "instruction": "Go outside or stand by the window. Look at the sky for a full minute. Ask yourself: How is the energy of heaven (initiative, leadership, creative force) manifesting in my life right now? Write one sentence that begins with the words 'Heaven within me...'",
+      "type": "observe"
+    },
+    "theoryB": "<h2>How do the trigrams connect to hexagrams in I Ching?</h2><p>Every hexagram in I Ching is built from two trigrams — an upper trigram and a lower trigram. This creates 8×8 = 64 possible combinations, which is the exact number of hexagrams in I Ching.</p><p>The lower trigram is called 'the inner situation' or 'the source', and the upper is called 'the outer situation' or 'the expression'. When you read a hexagram, you are actually examining how two forces of nature interact and work together.</p><p>Take for example the first hexagram — Qian (Force). Two heaven trigrams on top of each other create double creative force, absolute power. This is energy of pure leadership, initiative without obstacles. The dragon of the Chinese text describes this energy — rising to heaven with strength and dignity.</p><p>The second hexagram — Kun (Field) — presents the complementary opposite. Two earth trigrams create absolute receptivity, support and humility. Not weakness, but the power of letting things grow. The mare in the text represents stability, perseverance and trust.</p><p>The play becomes interesting when mixing different trigrams. Water over heaven (hexagram 5 — Waiting) creates an image of clouds preparing for rain. Heaven gives power, water brings nourishment, but the time has not yet come. Patience is required.</p><p>Thunder under earth (hexagram 24 — Return) describes the moment of the shortest day of the year, when the first light begins to return. Earth covers and protects, thunder begins to stir beneath it — renewal comes from the depths.</p>",
+    "practice2": {
+      "instruction": "Choose two trigrams that feel most relevant to you today (for example: fire and water if you feel inner conflict). Imagine them one above the other and ask: What story are they telling about my current situation? Write a short paragraph about their interaction.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's not written in the books — trigrams as energetic keys</h2><p>Many think the trigrams are just symbols, but they are much more than that — they are energetic keys that open different channels of consciousness. Each trigram corresponds to a different vibrational frequency and can actually change your state.</p><p>The heaven trigram (Qian) is not just an idea about leadership — it activates your power center, your self-confidence. When you visualize three strong, straight lines, your nervous system aligns with initiative energy.</p><p>The secret is in the breath. Each trigram breathes differently: heaven breathes deeply and fully, earth in long, stable breaths, water in waves, and fire in short, sharp bursts. If you practice the trigram's breathing, you'll begin to experience its energy.</p><p>The I Ching sages knew the trigrams are also healing tools. Each trigram is connected to different organs in the body: heaven to the head and lungs, earth to the belly and spleen, water to the kidneys and ears, fire to the heart and eyes. When a certain trigram appears in a reading, pay attention to the corresponding organ — the body might be trying to tell you something.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "How many trigrams are there in I Ching?",
+          "options": [
+            "6",
+            "8",
+            "12",
+            "16"
+          ],
+          "correct": 1,
+          "explanation": "There are exactly 8 trigrams — all possible combinations of 3 lines (yang and yin)"
+        },
+        {
+          "question": "How is a hexagram in I Ching formed?",
+          "options": [
+            "from combining two trigrams",
+            "from 6 separate lines",
+            "from one trigram doubled",
+            "from 3 trigrams"
+          ],
+          "correct": 0,
+          "explanation": "Every hexagram is built from two trigrams — upper and lower"
+        },
+        {
+          "question": "Which trigram represents heaven?",
+          "options": [
+            "three yin lines",
+            "three yang lines",
+            "yang-yin-yang",
+            "yin-yang-yin"
+          ],
+          "correct": 1,
+          "explanation": "Qian (Heaven) consists of three yang lines — pure creative force"
+        },
+        {
+          "question": "What does the trigram Kun (Earth) represent?",
+          "options": [
+            "leadership",
+            "receptivity and support",
+            "flow",
+            "clarity"
+          ],
+          "correct": 1,
+          "explanation": "Kun represents the force of receptivity, support and humility — three yin lines"
+        },
+        {
+          "question": "How many hexagrams do 8 trigrams create?",
+          "options": [
+            "16",
+            "32",
+            "64",
+            "128"
+          ],
+          "correct": 2,
+          "explanation": "8×8 = 64 hexagrams — every possible combination of two trigrams"
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we learned about the eight trigrams — the building blocks of I Ching. Each trigram is a living force of nature operating in the world and within us, from heaven and earth to water, fire, mountain, wind, lake and thunder.",
+      "wisdom": "Every emotion is a living trigram — learn to read their language.",
+      "nextPreview": "In our next lesson we'll meet the first hexagrams and learn how to read their messages in our lives."
+    }
+  },
+  "faq": [
+    {
+      "question": "How do I remember all the trigrams?",
+      "answer": "Start with the four basic ones: heaven (all yang), earth (all yin), water (yin-yang-yin) and fire (yang-yin-yang). The rest will come with time."
+    },
+    {
+      "question": "Are the trigrams related to feng shui?",
+      "answer": "Yes! The trigrams are the foundation for the bagua map in feng shui. Each trigram occupies a different area of the house and influences a different area of life."
+    },
+    {
+      "question": "What's the difference between the upper and lower trigram in a hexagram?",
+      "answer": "The lower trigram represents the inner situation or source, and the upper represents the outer expression or outcome."
+    },
+    {
+      "question": "Can I use trigrams separately, without hexagrams?",
+      "answer": "Absolutely! Individual trigrams are excellent for meditation, understanding daily energies, and working with basic forces of nature."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot-introduction",
+      "label": "⭐ The Sefirot in Kabbalah — a similar energetic system"
+    },
+    {
+      "course": "astrology",
+      "lesson": "elements",
+      "label": "🌟 The Elements in Astrology — fire water air earth"
+    }
+  ],
+  "seo": {
+    "title": "Trigrams in I Ching — Heaven Earth Water Fire and 4 More",
+    "description": "Learn about the 8 trigrams in I Ching: heaven, earth, water, fire, mountain, wind, lake and thunder. Discover how they create the 64 hexagrams and their spiritual meaning in life.",
+    "keywords": [
+      "trigrams",
+      "I Ching",
+      "heaven",
+      "earth",
+      "water",
+      "fire",
+      "hexagrams",
+      "yang yin"
+    ],
+    "ogImage": "/og/academy/iching/iching-02.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

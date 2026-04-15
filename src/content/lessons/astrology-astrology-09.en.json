@@ -1,0 +1,131 @@
+{
+  "courseId": "astrology",
+  "lessonNumber": 9,
+  "title": "Astrological Compatibility - Lesson 9",
+  "slug": "astrology-09",
+  "module": "Zodiac Signs",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down my dear child, the candle burns bright and the stars gather to reveal one of the most ancient secrets — zodiac compatibility. While in previous lessons we learned about the nature of each sign individually, today we discover how they dance together in the dance of destiny. Astrological compatibility is more than a game or joke — it's an ancient map showing how different energies merge, clash, or complement each other. Come, let's understand why Aries and Leo burn together in passion while Taurus and Aquarius seem to speak different languages. This knowledge will give you true confidence in understanding emotional dynamics between people.</p>",
+    "theoryA": "<h2>How Do We Know Which Signs Are Compatible?</h2><p>Sign compatibility is determined by elements, modalities, and geometric relationships between the signs. The zodiac signs are divided into four elements — fire, earth, air, and water — and each element naturally understands the language of its own element.</p><p>Fire signs (Aries, Leo, Sagittarius) create a trine among themselves — a harmonious triangle symbolizing free-flowing energy. They understand each other immediately — enthusiasm, passion, desire for action. When two fire signs meet, sparks fly. They feed each other, inspire adventures, and amplify each other's inner fire.</p><p>Earth signs (Taurus, Virgo, Capricorn) also form their own trine — a world of stability, practicality, and gradual building. They appreciate each other's loyalty, depth, and seriousness. There are no fireworks here but deep, stable love built over time.</p><p>Air signs (Gemini, Libra, Aquarius) share the love of thinking, communication, and ideas. They're drawn to each other through the mind — endless conversations, mental stimulation, shared laughter. They give each other space to breathe and develop.</p><p>Water signs (Cancer, Scorpio, Pisces) connect on a soul level. They understand each other without words, share deep emotions, and create spiritual bonds. This is intuitive love that flows like water.</p>",
+    "practice1": {
+      "instruction": "Think about the best couple you know (it could be you and your partner, your parents, or friends). Check their birth signs and identify which elements they represent. Write down: Are they the same element? Compatible elements (fire-air or earth-water)? Or clashing elements?",
+      "type": "observe"
+    },
+    "theoryB": "<h2>What's the Difference Between Compatible and Opposing Elements?</h2><p>Compatible elements work together in natural harmony. Fire and air feed each other — air activates fire and fire warms air. This is a dynamic combination of passion and ideas, action and communication.</p><p>Earth and water also complement beautifully — water nourishes earth and earth contains water. This is a combination of stability and emotion, practicality and intuition.</p><p>But what happens when opposing elements meet? Fire and water create steam — powerful but also dangerous. Stable Taurus feels pressured by Aquarius's rapid changes. Emotional Cancer feels exposed by Aries's directness.</p><p>But let's understand something important — opposing doesn't necessarily mean bad. Sometimes opposites attract precisely because they complete what each lacks. Impulsive Aries can learn patience from Taurus, and Taurus can be awakened to life in Aries's company.</p><p>The geometric relationship between signs also matters. Opposite signs (180 degrees apart) create an axis of magnetic attraction — Aries-Libra, Taurus-Scorpio, Gemini-Sagittarius. It's like a magnet — can attract powerfully or repel, depending on the level of spiritual maturity.</p>",
+    "practice2": {
+      "instruction": "Choose two signs that interest you (could be yours and someone you know). Use the knowledge you've gained about elements and characteristics of each sign to analyze: Where will they get along excellently? Where might they clash? Write a list of strengths and expected challenges in their relationship.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books About Sign Compatibility</h2><p>The real secret of sign compatibility is that it's always bidirectional. Not just 'are they compatible' but 'why were they drawn to each other right now, at this stage of their lives'. Every relationship comes to teach us something about ourselves.</p><p>Sometimes we're drawn to someone whose sign 'doesn't match' ours precisely because our soul needs to learn the lesson they bring. The Aries who falls for Virgo despite 'incompatibility' might need to learn how to slow down and focus. The Virgo who falls for Aries might need to learn courage and spontaneity.</p><p>Another secret — our sign is just the tip of the iceberg. We also have Moon, Venus, Mars, and rising signs. Sometimes two people seem incompatible by sun sign but their moons are in the same element, or his Venus connects to her Moon. True compatibility is more complex and beautiful than appears on the surface.</p><p>Most importantly — true love doesn't ask permission from the stars. It simply happens. Astrology is here to help us understand how to deepen the connection, not to decide for us whom to live with.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which elements are considered compatible in astrology?",
+          "options": [
+            "Fire and water",
+            "Fire and air",
+            "Air and earth",
+            "Water and fire"
+          ],
+          "correct": 1,
+          "explanation": "Fire and air are compatible because air feeds fire and fire warms air. Similarly, earth and water are compatible because water nourishes earth and earth contains water."
+        },
+        {
+          "question": "What is a trine in terms of sign compatibility?",
+          "options": [
+            "Three signs of the same element",
+            "Three signs at equal distances",
+            "Three signs born in the same month",
+            "Three signs with the same planetary ruler"
+          ],
+          "correct": 0,
+          "explanation": "A trine is a harmonious triangle formed by three signs of the same element (like Aries-Leo-Sagittarius in fire), creating free and optimal energy flow between them."
+        },
+        {
+          "question": "How do opposite signs affect each other?",
+          "options": [
+            "They are never compatible",
+            "They create magnetic attraction",
+            "They are identical in traits",
+            "They belong to the same element"
+          ],
+          "correct": 1,
+          "explanation": "Opposite signs (180 degrees apart) create an axis of magnetic attraction. This can be a powerful relationship of mutual completion or tension, depending on the maturity level of the partners."
+        },
+        {
+          "question": "Why are we sometimes attracted to 'incompatible' signs?",
+          "options": [
+            "It's due to astrological error",
+            "Because the soul needs to learn something",
+            "It only happens to young people",
+            "It means compatibility doesn't exist"
+          ],
+          "correct": 1,
+          "explanation": "Sometimes we're drawn to 'incompatible' signs because our soul needs to learn the specific lesson that relationship brings - like patience, courage, or emotional balance."
+        },
+        {
+          "question": "What's the most important factor in determining true compatibility?",
+          "options": [
+            "Only the sun sign",
+            "The entire astrological chart",
+            "Only rising sign and zodiac",
+            "Only personal planets"
+          ],
+          "correct": 1,
+          "explanation": "True compatibility is determined by the entire astrological chart - sun sign, moon, Venus, Mars, rising sign and more. The sun sign is just the tip of the iceberg in the complex picture of relationships."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "We learned today that sign compatibility is based on elements, modalities, and geometric relationships. Same or compatible elements create natural harmony, while opposing elements can teach us important lessons. True compatibility involves the entire astrological chart and the willingness to learn and grow together.",
+      "wisdom": "True love doesn't ask permission from the stars — it simply flows.",
+      "nextPreview": "In the next lesson we'll dive deep into the astrological house system and discover how planetary positions in different houses affect our life areas."
+    }
+  },
+  "faq": [
+    {
+      "question": "Can incompatible signs actually get along?",
+      "answer": "Absolutely! 'Incompatibility' means there are challenges, not that it's impossible. Sometimes differences create perfect balance and mutual learning."
+    },
+    {
+      "question": "How do you know if compatibility is good based on sun sign alone?",
+      "answer": "Sun sign gives only a partial picture. For full compatibility you need to check moon sign, Venus, Mars, and rising signs of both partners."
+    },
+    {
+      "question": "What to do if the signs don't match but there's love?",
+      "answer": "Love always wins! Use astrology to understand where to work on the relationship, not to give up on it. Any relationship can succeed with understanding and goodwill."
+    },
+    {
+      "question": "Is sun sign compatibility enough for a long-term relationship?",
+      "answer": "Not entirely. Moon sign has great importance in intimate relationships because it represents our emotional world and inner needs."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "elements",
+      "label": "⭐ Astrological Elements"
+    },
+    {
+      "course": "astrology",
+      "lesson": "moon-signs",
+      "label": "⭐ Moon Signs in Relationships"
+    }
+  ],
+  "seo": {
+    "title": "Zodiac Compatibility - How to Check Astrological Compatibility | Maktuba",
+    "description": "Learn zodiac compatibility: how astrological elements affect relationships, compatible and opposing signs, and the secrets of successful relationships according to astrology.",
+    "keywords": [
+      "zodiac compatibility",
+      "astrology and relationships",
+      "compatible signs",
+      "astrological elements",
+      "astrological compatibility",
+      "relationships and signs"
+    ],
+    "ogImage": "/og/academy/astrology/astrology-09.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

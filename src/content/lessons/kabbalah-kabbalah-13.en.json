@@ -1,0 +1,136 @@
+{
+  "courseId": "kabbalah",
+  "lessonNumber": 13,
+  "title": "Kabbalah — Lesson 13: Gematria and the Hebrew Letters",
+  "slug": "kabbalah-13-gematria-hebrew-letters",
+  "module": "Letters",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Come, my child, sit close to the candle. Today we enter deep into the secret of the Hebrew letters and their gematria power. Each letter is not just a mark on paper — it is a living force, a spiritual entity that connects us to the very power of creation. The letters are the working tools with which the Holy One, blessed be He, created the world, and each one carries within it a deep secret and numerological value that opens doors to hidden understanding. This is not merely information — it is a map for the soul and a means to connect with higher wisdom.</p>",
+    "theoryA": "<h2>What is Hebrew Gematria and How Do We Calculate Letter Values?</h2><p>Gematria is an ancient system that assigns each Hebrew letter a precise numerological value. Each letter carries a number — from Aleph (1) to Tav (400), and as the letter approaches the end of the alphabet, so its power and influence increase. This system allows us to calculate numerological values of words and names and discover hidden connections.</p><p>Aleph (א) is the starting point — unity with the divine, the ox that breaks through with the force of pure will. It carries the value 1, the beginning, the spark from which all things are created. Beth (ב) with value 2, represents the first house created — the duality that enables relationships and dialogue. Gimel (ג) with value 3 brings reward — the kindness that flows when there is balance.</p><p>When we reach the higher letters, we see that the power intensifies. Qof (ק) with 100 represents deep growth cycles, Resh (ר) with 200 is the head that leads, Shin (ש) with 300 is the divine fire, and Tav (ת) with 400 brings the great completion — the truth that completes the cycle of creation.</p><p>That's not all — we also have final letters: Final Kaf (500), Final Mem (600), Final Nun (700), Final Peh (800), Final Tzadi (900). These letters appear only at the end of words and carry special powers of ending and completion, like gateways to the next stage.</p>",
+    "practice1": {
+      "instruction": "Calculate the gematria value of your name: Write your name in Hebrew and below it record the letter values according to the table. Add all the numbers together and get a single digit between 1-9 (if you get a number like 23, add 2+3=5).",
+      "type": "write"
+    },
+    "theoryB": "<h2>How Do the Letters Connect to the Kabbalistic Worlds and Sefirot?</h2><p>Each Hebrew letter connects to sefirot on the tree and to different energies in the kabbalistic worlds. The first letters (Aleph-Yod) are connected to the world of Atzilut, letters in the range 10-100 to the world of Beriah, and the higher letters to the worlds of Yetzirah and Asiyah. This is not just a numerical connection — it's a spiritual roadmap.</p><p>Take for example the letter Yod (י) with value 10. It connects to the sefirah Malkhut (10), but also to the most inner creative power. Yod is the smallest point that contains the greatest potential — like a seed that contains an entire tree. When you see Yod in a word, you know there is tremendous creative power here.</p><p>The letter Heh (ה) with value 5 connects to divine breath and revelation. It appears twice in the holy name (YHVH) and represents the window through which divine power flows into the world. When you calculate gematria of a word with Heh, remember there is energy of revelation and connection to the higher here.</p><p>The final letters (Final Kaf, Final Mem, Final Nun, Final Peh, Final Tzadi) represent gateways between worlds. When a word ends with one of them, it's a sign that there is completion of a process and opening to a new stage. They are like doors that open only at the end of the journey.</p>",
+    "practice2": {
+      "instruction": "Choose an important Hebrew word in your life (love, peace, dream, etc.). Calculate its gematria and look for additional words with the same gematria value. Write what the inner connection between these words reveals to you about this energy in your life.",
+      "type": "write"
+    },
+    "deepDive": "<h2>The Hidden Secret of Double Letters and Gematria Combinations</h2><p>What most books don't tell you is that letters also have hidden inner values that are revealed only through deep work. Each letter doesn't just carry a numerological value — it also holds specific energetic frequencies that affect the soul and reality.</p><p>The great secret is in the double letters: BeGaD KeFaRaT. These letters (Beth-Gimel-Dalet, Kaf-Peh-Resh-Tav) hold two values — soft and hard — and represent deep dualities in creation. When you see them in a word, pay attention to how they are vocalized — this affects the gematria interpretation.</p><p>Another secret: there are advanced gematria calculations — small gematria (each value divided by 9), regular gematria, and large gematria (including letter spellings). What's interesting is that sometimes completely different words reach the same value — this is not coincidence. It hints at a hidden connection between the ideas.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is the gematria value of the letter Shin (ש)?",
+          "options": [
+            "200",
+            "300",
+            "400",
+            "100"
+          ],
+          "correct": 1,
+          "explanation": "Shin (ש) carries a gematria value of 300 and represents the divine fire and the burning power of transformation."
+        },
+        {
+          "question": "Which letter symbolizes unity with the divine?",
+          "options": [
+            "Beth (ב)",
+            "Aleph (א)",
+            "Gimel (ג)",
+            "Dalet (ד)"
+          ],
+          "correct": 1,
+          "explanation": "Aleph (א) with value 1 represents the beginning, unity and the divine spark from which all things were created."
+        },
+        {
+          "question": "What is special about the final letters (Final Kaf, Final Mem, Final Nun, Final Peh, Final Tzadi)?",
+          "options": [
+            "They appear only at the beginning of words",
+            "They carry values 500-900",
+            "They represent only upper sefirot",
+            "They are identical to regular letters"
+          ],
+          "correct": 1,
+          "explanation": "The final letters carry high values (500-900) and represent powers of ending and completion, gateways to new stages."
+        },
+        {
+          "question": "What gematria value does the letter Tav (ת) carry?",
+          "options": [
+            "300",
+            "400",
+            "500",
+            "200"
+          ],
+          "correct": 1,
+          "explanation": "Tav (ת) carries value 400 and represents the completion of creation, truth and the great sign that completes the cycle of creation."
+        },
+        {
+          "question": "What does the letter Yod (י) with value 10 represent?",
+          "options": [
+            "End and death",
+            "Beginning and blessing",
+            "Hand, creation and divine spark",
+            "Fire and change"
+          ],
+          "correct": 2,
+          "explanation": "Yod (י) represents the creative hand, the power of creation and the divine spark — the smallest point that contains infinite potential."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today you learned the foundations of Hebrew gematria — how each letter carries precise numerological power, how letters connect to sefirot and kabbalistic worlds, and how to use this power to discover hidden connections.",
+      "wisdom": "Each letter is a complete world — whoever sees only the form misses the power.",
+      "nextPreview": "In the next lesson we will learn about the holy names and how their inner meaning is revealed through gematria and hidden connections..."
+    }
+  },
+  "faq": [
+    {
+      "question": "How do you calculate gematria for a complete word?",
+      "answer": "Add the values of all letters in the word. If the final number is greater than 9, add the digits until you reach a single digit (1-9)."
+    },
+    {
+      "question": "Do final letters change the meaning?",
+      "answer": "Yes, final letters (Final Kaf, Final Mem, Final Nun, Final Peh, Final Tzadi) carry higher values and represent gateways and completion of spiritual processes."
+    },
+    {
+      "question": "What's the difference between gematria and regular numerology?",
+      "answer": "Gematria is based on the original values of Hebrew letters and their connection to sefirot and Kabbalah wisdom, not just translation to numbers."
+    },
+    {
+      "question": "How do letters connect to sefirot?",
+      "answer": "Each letter connects to different sefirot according to its numerological value and inner meaning, creating a spiritual roadmap for understanding energies."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "numerology",
+      "lesson": "basics",
+      "label": "⭐ Foundations of Numerology"
+    },
+    {
+      "course": "tarot",
+      "lesson": "major-arcana",
+      "label": "🔮 Major Arcana and Connection to Letters"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "10",
+      "label": "🌳 Ten Sefirot and the Circle of Life"
+    }
+  ],
+  "seo": {
+    "title": "Hebrew Gematria Kabbalah - Letter Values and Hidden Meanings",
+    "description": "Learn the secrets of gematria in Kabbalah - Hebrew letter values, their spiritual meanings and connection to sefirot. Practical guide to calculating gematria.",
+    "keywords": [
+      "gematria",
+      "Hebrew letters",
+      "Kabbalah",
+      "numerological values",
+      "sefirot",
+      "final letters"
+    ],
+    "ogImage": "/og/academy/kabbalah/kabbalah-13.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

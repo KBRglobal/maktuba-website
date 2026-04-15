@@ -1,0 +1,137 @@
+{
+  "courseId": "astrology",
+  "lessonNumber": 10,
+  "title": "The Chinese Zodiac — 12 Sacred Animals",
+  "slug": "chinese-zodiac-animals",
+  "module": "Zodiac Signs",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Let's journey from Western zodiac signs into an ancient and fascinating world — the Chinese zodiac. Here, it's not the stars that determine your fate, but the year you were born invites a spiritual animal to accompany you throughout your life. For thousands of years, Chinese culture has developed a complex and precise system of 12 sacred animals, each with unique character, cosmic element, and special energy. This isn't just a 'horoscope' — it's a spiritual roadmap that reveals your inner nature, the powers within you, and the best way to live your life. In this lesson, we'll meet the 12 animals, learn to read their characters, and discover compatibility secrets that will help you understand the relationships around you.</p>",
+    "theoryA": "<h2>How Does the Chinese Zodiac Work and What Is Its Meaning?</h2><p>The Chinese zodiac operates on a 12-year cycle, where each year belongs to a specific animal that bestows its traits on all born within it. The animals are arranged in fixed order: Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, and Pig. The traditional story tells of a race held by the Jade Emperor, where the order in which the animals reached the finish line determines their place in the zodiac wheel.</p><p>The clever Rat came first by riding on the Ox and jumping off at the last moment, the faithful Ox arrived second, and the brave Tiger third. Each animal represents not only personality traits, but also a cosmic element — Water, Earth, Wood, Fire, or Metal — and either Yin or Yang energy. The system is more complex than Western astrology because it includes additional layers of meaning.</p><p>Unlike Western astrology that divides the year into 12 months, Chinese astrology follows the lunar year and focuses on birth year as the primary influencing factor. This creates a deeper connection with natural cycles and cosmic energies. Each animal brings not only character traits, but also spiritual purpose and a certain life direction.</p>",
+    "practice1": {
+      "instruction": "Calculate your birth year and identify your animal in the Chinese zodiac. Write down your animal's traits and compare them to your personality. Do you identify with the description?",
+      "type": "write"
+    },
+    "theoryB": "<h2>What Are the Differences Between the Various Animals and Their Elements?</h2><p>Each animal in the Chinese zodiac carries within it a unique combination of cosmic element and Yin-Yang energy. The Rat (Water, Yang) is characterized by sharp wit and resourcefulness — charming and cunning, first to seize opportunity. The Ox (Earth, Yin) embodies stability and determination — hardworking, reliable, and resolute, moving mountains through pure patience and tireless effort.</p><p>The Tiger (Wood, Yang) prowls with magnetic confidence and fierce independence — brave, competitive, and unpredictable. The Rabbit (Wood, Yin) reads rooms with refined sensitivity and moves through life with grace — quiet, elegant, and gentle. The Dragon (Earth, Yang) commands attention with innate charisma and visionary fire — self-confident, intelligent, and ambitious.</p><p>The Snake (Fire, Yin) sees what others miss and strikes with elegant precision — enigmatic, intelligent, and wise. The Horse (Fire, Yang) gallops toward freedom with unbridled passion and warmth — lively, active, and energetic. The Goat (Earth, Yin) creates beauty from chaos and finds harmony where others see discord — peaceful, gentle, and empathetic.</p><p>The Monkey (Metal, Yang) schemes and plays with mischievous brilliance and restless innovation — sharp, playful, and curious. The Rooster (Metal, Yin) rises at dawn with meticulous precision and bold self-expression — alert, hardworking, and brave. The Dog (Earth, Yang) guards the threshold with unwavering loyalty and honest heart — faithful, honest, and friendly. The Pig (Water, Yin) embraces life with complete sincerity and inexhaustible warmth — compassionate, generous, and hardworking.</p>",
+    "practice2": {
+      "instruction": "Choose close friends or family members and identify their animals according to birth year. Analyze compatibility relationships between you according to the chart. Write what matches reality and what surprises you.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books — Hidden Compatibility Between Animals</h2><p>Compatibility in the Chinese zodiac operates on three deep levels that most people don't understand. The first level is direct compatibility — animals that complement each other in energy and traits. Dragon and Monkey create a brilliant partnership of innovation and charisma, while Ox and Snake build together deep stability and practical intelligence.</p><p>The second level is opposite compatibility — animals positioned on opposite sides of the wheel but actually create magnetic attraction. Rat and Horse, Ox and Goat — these opposites create creative tension that can lead to mutual growth or constant friction, depending on the level of spiritual maturity.</p><p>The third level, the most hidden, is elemental compatibility — when the cosmic elements of the animals create natural harmony. Water nourishes Wood, Wood feeds Fire, Fire creates Earth, Earth produces Metal, Metal condenses Water. Understanding this cycle reveals deep connections that aren't visible to the eye.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which cosmic element does the Dragon represent in the Chinese zodiac?",
+          "options": [
+            "Water",
+            "Fire",
+            "Earth",
+            "Wood"
+          ],
+          "correct": 2,
+          "explanation": "The Dragon represents the Earth element, which gives it stability and strength alongside its charisma and vision."
+        },
+        {
+          "question": "Which animal is considered the best match for the Ox?",
+          "options": [
+            "Tiger",
+            "Snake",
+            "Monkey",
+            "Pig"
+          ],
+          "correct": 1,
+          "explanation": "The Ox and Snake create perfect compatibility — the Ox brings stability while the Snake adds wisdom and intelligence."
+        },
+        {
+          "question": "Which energy (Yin or Yang) characterizes the Tiger?",
+          "options": [
+            "Yin",
+            "Yang",
+            "Both together",
+            "Neither"
+          ],
+          "correct": 1,
+          "explanation": "The Tiger carries Yang energy — active, aggressive, and initiating energy expressed in its courage and confidence."
+        },
+        {
+          "question": "How many years does a complete Chinese zodiac cycle last?",
+          "options": [
+            "10",
+            "12",
+            "15",
+            "20"
+          ],
+          "correct": 1,
+          "explanation": "A complete Chinese zodiac cycle lasts 12 years, with each year dedicated to one of the 12 sacred animals."
+        },
+        {
+          "question": "Which animal is considered least compatible with the Rabbit?",
+          "options": [
+            "Goat",
+            "Pig",
+            "Rooster",
+            "Dragon"
+          ],
+          "correct": 2,
+          "explanation": "The Rabbit and Rooster are considered least compatible — the Rabbit's sensitivity clashes with the Rooster's boisterous confidence."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "The Chinese zodiac reveals a rich world of character, compatibility, and spiritual purpose. Each animal carries within it a unique combination of cosmic element and energy, creating a complex and accurate personality map. Understanding your animal and connections with other animals opens new ways to know yourself and those around you.",
+      "wisdom": "Your inner animal is not chains — it is wings.",
+      "nextPreview": "In the next lesson, we'll dive into the world of planetary harmonies and discover how the planets create 'music of the spheres' that influences our lives."
+    }
+  },
+  "faq": [
+    {
+      "question": "Is the Chinese zodiac more accurate than the Western one?",
+      "answer": "Both systems are accurate in their respective domains. The Chinese system focuses on birth year and 12-year cycles, while the Western follows months and star positions. Each system offers different and complementary insights."
+    },
+    {
+      "question": "How do you know when the Chinese cycle year begins?",
+      "answer": "The Chinese year begins between late January and early February, according to the lunar year. If you were born early in the calendar year, check the exact date of the Chinese New Year."
+    },
+    {
+      "question": "What's the difference between Yin and Yang in the context of the animals?",
+      "answer": "Yang represents active, external, and initiating energy (Rat, Tiger, Dragon, Horse, Monkey, Dog). Yin represents internal, receptive, and responding energy (Ox, Rabbit, Snake, Goat, Rooster, Pig)."
+    },
+    {
+      "question": "Does animal compatibility determine relationship success?",
+      "answer": "Compatibility provides direction and understanding, but doesn't determine fate. 'Incompatible' couples can learn from each other and grow, while 'compatible' couples still need to work on their relationship."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "elements",
+      "label": "⭐ Elements in Astrology"
+    },
+    {
+      "course": "numerology",
+      "lesson": "personal-year",
+      "label": "🔢 Personal Year in Numerology"
+    },
+    {
+      "course": "tarot",
+      "lesson": "court-cards",
+      "label": "🎴 Court Cards and Personality Types"
+    }
+  ],
+  "seo": {
+    "title": "Chinese Zodiac - 12 Sacred Animals and Their Traits",
+    "description": "Learn about the 12 animals in the Chinese zodiac, their unique characteristics and compatibility relationships. Discover your spiritual animal and its meaning.",
+    "keywords": [
+      "Chinese zodiac",
+      "12 animals",
+      "Chinese astrology",
+      "Chinese compatibility",
+      "sacred animals",
+      "Chinese elements",
+      "Yin Yang"
+    ],
+    "ogImage": "/og/academy/astrology/astrology-10.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

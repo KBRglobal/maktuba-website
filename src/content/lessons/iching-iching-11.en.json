@@ -1,0 +1,136 @@
+{
+  "courseId": "iching",
+  "lessonNumber": 11,
+  "title": "I Ching — Lesson 11",
+  "slug": "iching-11",
+  "module": "Practice",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit beside me, the candle is burning and the time has come for the ritual that concludes our journey together. Lesson 11 — almost at the end of the path, and now we'll practice everything we've learned. Today we'll connect theory to practice, hexagrams to life. I see your eyes — you already know how to read the lines, you're familiar with the trigrams, but now we'll do something completely different. We'll practice asking the right questions, receiving answers with humility, and understanding that the I Ching is not just a book — it's a living teacher. There's an enormous difference between knowing about the hexagrams and living with them. Like the difference between knowing a recipe for baking a cake and actually making it with your hands. Today we'll bake the cake.</p>",
+    "theoryA": "<h2>How to Practice I Ching in a Practical Way?</h2><p>I Ching practice begins with preparing the inner and outer space. Sit in a quiet place, prepare three coins (or sticks), and breathe deeply. This is not a fortune-telling game — it's an ancient dialogue with your inner wisdom.</p><p>True practice begins with learning to ask the right questions. Instead of \"When will I find love?\" ask \"How can I be ready for love?\" Hexagram 11 - Peace - teaches us that inner peace must come before outer peace. When Heaven and Earth are in union, everything flows naturally.</p><p>My technique for practice: throw the coins six times, build the hexagram from bottom to top. Each throw is a line in the hexagram. Three tails = yin (broken line), three heads = yang (solid line), two of each = changing line. Always remember: the first hexagram is the current situation, the second (if there are changing lines) is the desired direction.</p><p>The secret not written in books: the I Ching responds to your intention, not your question. If you ask from fear — you'll receive an answer reflecting fear. If you ask from pure curiosity — the answer will be much clearer. Hexagram 4 - Youthful Folly - reminds us that the student must seek the teacher with humility.</p>",
+    "practice1": {
+      "instruction": "Prepare three coins or one coin. Ask a simple question about your day (\"What is most important to focus on today?\"). Throw six times, record the results (tail=2, head=3), and build the hexagram from bottom to top. Look up the hexagram you received and read the interpretation.",
+      "type": "draw"
+    },
+    "theoryB": "<h2>How to Interpret Changing Lines in the I Ching?</h2><p>The changing lines are the beating heart of the reading. A changing line is created when you get two tails and one head (yin changing to yang) or two heads and one tail (yang changing to yin). The changing lines show how energy flows and transforms.</p><p>The golden rule: if you have one changing line — it carries the central message. Two or three changing lines — read all the texts and focus on the general pattern. More than three — the situation is too chaotic, ask again another day. Hexagram 29 - The Abyss - warns us that there are times when clarity is not possible.</p><p>Each line in the hexagram represents a different level of development: the bottom line (1) is the beginning, intuition. The second (2) - emotion, relationships. The third (3) - transition, action. The fourth (4) - counsel, leadership. The fifth (5) - true power, realization. The sixth (6) - completion, higher wisdom.</p><p>I've practiced with them for decades, and I can tell you that hexagram 25 - Innocence - is one of the most important to understand. When the answer seems too simple or illogical — that's often the deepest insight. Don't complicate what is simple.</p>",
+    "practice2": {
+      "instruction": "Return to the previous reading. If you had changing lines, build the second hexagram by flipping the changing lines. Read the second hexagram. Write one sentence summarizing how the first hexagram (the situation) connects to the second (the direction).",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books</h2><p>After thirty years of working with the I Ching, I can tell you that books don't teach the most important thing: the I Ching is not a technique — it's a relationship. Like any good relationship, it requires time, patience, and willingness to be surprised.</p><p>I have a method I've never seen in any book: before I ask a question, I sit with hexagram 5 - Waiting - in my heart. It reminds me that wisdom has its timing, not mine. Sometimes the right time for a question is not now.</p><p>Another secret: the best questions start with \"how\" instead of \"when\" or \"whether.\" \"How can I improve the situation?\" always gets an active and empowering answer. \"When will this change?\" often gets a vague response.</p><p>And the most important thing: the I Ching doesn't predict the future — it reveals the potential that already exists in the present moment. It's not a crystal ball, it's a mirror. And the mirror shows exactly what you're ready to see.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "How do you build a hexagram correctly?",
+          "options": [
+            "From top to bottom",
+            "From bottom to top",
+            "From center outward",
+            "In random order"
+          ],
+          "correct": 1,
+          "explanation": "A hexagram is built from bottom to top, like a tree growing from roots toward the heavens."
+        },
+        {
+          "question": "How many changing lines indicate a stable situation?",
+          "options": [
+            "Zero or one",
+            "Two to three",
+            "Four to five",
+            "All six"
+          ],
+          "correct": 0,
+          "explanation": "Zero or one changing line indicates a relatively stable situation with clear guidance."
+        },
+        {
+          "question": "What does the third line in a hexagram represent?",
+          "options": [
+            "Beginning",
+            "Emotion",
+            "Transition and action",
+            "Counsel"
+          ],
+          "correct": 2,
+          "explanation": "The third line represents a transition point and action - the movement from inner to outer world."
+        },
+        {
+          "question": "Which question will give a more empowering answer?",
+          "options": [
+            "When will I find work?",
+            "Will I find love?",
+            "How can I develop?",
+            "Why isn't this working?"
+          ],
+          "correct": 2,
+          "explanation": "Questions starting with \"how\" encourage action and empower the questioner."
+        },
+        {
+          "question": "What's the connection between hexagram 11 (Peace) and practice?",
+          "options": [
+            "It's forbidden to use it",
+            "It teaches about inner peace first",
+            "Only for emotional questions",
+            "Only in winter"
+          ],
+          "correct": 1,
+          "explanation": "Hexagram 11 teaches that inner peace (union of Heaven and Earth in the soul) must come first."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today you learned to practice the I Ching as a living tool — how to throw coins, build hexagrams, read changing lines, and ask empowering questions. You understood that the I Ching is not fortune-telling but dialogue with the wisdom that already exists within you.",
+      "wisdom": "Wisdom comes to those who practice with humility and patience.",
+      "nextPreview": "In the next lesson, our final lesson, we'll summarize the entire journey and discuss how to live with this ancient wisdom in modern life."
+    }
+  },
+  "faq": [
+    {
+      "question": "How many times a day can you consult the I Ching?",
+      "answer": "There's no hard rule, but quality is better than quantity. One deep question from the heart is better than thirty questions from boredom."
+    },
+    {
+      "question": "What if I keep getting the same hexagram repeatedly?",
+      "answer": "The I Ching persists until the message gets through. Deepen your understanding of that hexagram - there's something in it you need to learn."
+    },
+    {
+      "question": "Do you need to believe in the I Ching for it to work?",
+      "answer": "You don't need to believe - you need to be open. An approach of respectful curiosity works better than blind faith."
+    },
+    {
+      "question": "What do you do when the answer isn't clear?",
+      "answer": "Practice patience. Sometimes the answer only becomes clear over time, as the situation develops. Keep the reading and return to it later."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "tarot",
+      "lesson": "major-arcana-wisdom",
+      "label": "⭐ Major Arcana Wisdom in Tarot"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "tree-of-life-practice",
+      "label": "🌳 Tree of Life Practice"
+    },
+    {
+      "course": "astrology",
+      "lesson": "planetary-cycles",
+      "label": "🪐 Planetary Cycles"
+    }
+  ],
+  "seo": {
+    "title": "How to Practice I Ching - Practical Guide to Correct Reading",
+    "description": "Learn to practice I Ching practically: coin throwing, building hexagrams, reading changing lines, and asking the right questions.",
+    "keywords": [
+      "I Ching",
+      "I Ching practice",
+      "hexagrams",
+      "changing lines",
+      "coin oracle",
+      "divination"
+    ],
+    "ogImage": "/og/academy/iching/iching-11.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

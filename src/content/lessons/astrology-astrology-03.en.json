@@ -1,0 +1,137 @@
+{
+  "courseId": "astrology",
+  "lessonNumber": 3,
+  "title": "Chinese Astrology — The 12 Mystical Animals",
+  "slug": "astrology-03",
+  "module": "Zodiac Signs",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit by the candle, my dear. Today we travel to a distant land — to ancient China, where the wise ones understood that time is not linear but circular. Instead of twelve zodiac signs based on months, the Chinese created a cycle of twelve years, each year standing under the protection of a mystical animal. This is not just a calendar — it is a key to the soul. Each animal carries with it ancient wisdom, cosmic element, and yin or yang energy. If our Western astrology is a map of the stars, Chinese astrology is a map of time itself. In the previous lesson we learned about the balance between elements in Western signs, and today we will discover how Chinese wisdom sees the additional layers of existence — element, polarity, and cosmic cyclicality that repeats every 60 years.</p>",
+    "theoryA": "<h2>How is Chinese astrology different from Western?</h2><p>Chinese astrology is based on a cycle of 12 years instead of 12 months. Each year is ruled by a specific animal that defines the basic personality of anyone born in that year.</p><p>While Western zodiac signs focus on the position of the sun at the time of birth, Chinese signs are based solely on the year of birth. This creates a completely different approach to understanding personality — instead of looking at the specific moment of birth, we look at the ruling energy of the entire year.</p><p>The Chinese system is based on five elements (water, wood, fire, earth, metal) instead of four, and on yin-yang duality that divides all animals into two energetic categories. A yin animal is feminine, internal, intuitive. A yang animal is masculine, external, active.</p><p>The Chinese cycle is 60 years long, a combination of 12 animals with 5 elements. Each animal returns once in each element, creating 60 different combinations. For example, the Year of the Dragon can be Wood Dragon, Fire Dragon, Earth Dragon, Metal Dragon, or Water Dragon. Each combination creates completely different energy.</p><p>Both systems can work beautifully together. The Western sign tells how you react to the external world, and the Chinese sign tells how you are built from within. It's like two layers of understanding — one based on an annual solar cycle, and the other on a multi-year lunar cycle.</p>",
+    "practice1": {
+      "instruction": "Calculate your Chinese zodiac sign according to your birth year and find which element you are in. Write one sentence describing how this combination manifests in your life.",
+      "type": "write"
+    },
+    "theoryB": "<h2>What is the meaning of each animal in the Chinese zodiac?</h2><p>Each animal in the Chinese zodiac carries a special archetype that influences your deep personality. The animals are not just symbols — they are ancient life forces that shape the soul.</p><p>The Rat (1984, 1996, 2008) is the clever one who opened the cycle. Small but wise, first to reach every opportunity. Rat people are charming, cunning, and know how to find creative ways to solve problems.</p><p>The Ox (1985, 1997, 2009) is the earth element in its purest form. Patient, stubborn, reliable. The Ox doesn't hurry, but arrives at the right place. Ox people build their lives brick by brick and never give up.</p><p>The Tiger (1986, 1998, 2010) is the wild warrior. Brave to the point of recklessness, competitive, unpredictable. The Tiger cannot live in a cage — it needs freedom and challenges. Tiger people are natural leaders with magnetic charisma.</p><p>The Rabbit (1987, 1999, 2011) brings refinement and grace to the wild world. Sensitive, elegant, empathetic. The Rabbit reads the atmosphere in a room better than any other animal. Rabbit people are born diplomats who prefer peace over victory.</p><p>The Dragon (1988, 2000, 2012) is the luckiest sign on the list. Charismatic, visionary, attention-grabbing. The Dragon is born for greatness and knows it. Dragon people are natural leaders who live large and don't settle for less than the full package.</p><p>The Snake (1989, 2001, 2013) is the wise and mysterious one. Intuitive, sharp, knows how to see things others miss. The Snake doesn't rush to reveal itself — it watches, analyzes, and strikes with surgical precision when the time comes.</p>",
+    "practice2": {
+      "instruction": "Choose three animals from the Chinese zodiac that interest you. For each animal, write how you would behave in a workplace conflict situation if you were born under that sign.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's not written in the books</h2><p>The secret most books don't tell: Chinese zodiac signs work in layers. You have a year animal (the familiar one), but you also have a month animal, day animal, and hour animal. This is called the 'Four Pillars of Destiny' and creates an astoundingly accurate astrological map.</p><p>Another secret: compatibility between signs doesn't depend only on the animals. Elements and polarities are just as important. Two Tigers can be incompatible if one is a Fire Yang Tiger and the other is a Water Yin Tiger. The chemistry between elements creates harmony or tension — water nourishes wood, fire contains earth, metal cuts wood.</p><p>The best part: every Chinese sign knows how to work with a specific Western sign. Dragon who is also Leo? A star is born. Rabbit who is also Virgo? A perfect designer is created. The connection between the systems creates multi-layered personalities that are hard to find anywhere else.</p><p>Chinese signs also reveal how you behave in long-term relationships, unlike Western signs that focus more on initial attraction. This explains why couples who seem incompatible on paper can last for years.</p><p>The ultimate secret: Chinese signs also predict emotional weather. The Year of the Tiger always brings dramatic changes, the Year of the Rabbit brings stability, the Year of the Dragon brings opportunities. This isn't fate — it's cosmic rhythm you can dance with.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What are Chinese zodiac signs based on?",
+          "options": [
+            "Moon position",
+            "Birth year",
+            "Sun position",
+            "Birth season"
+          ],
+          "correct": 1,
+          "explanation": "Chinese zodiac signs are based on the birth year, unlike Western signs which are based on the sun's position"
+        },
+        {
+          "question": "How many years does the complete Chinese zodiac cycle last?",
+          "options": [
+            "12 years",
+            "24 years",
+            "36 years",
+            "60 years"
+          ],
+          "correct": 3,
+          "explanation": "The complete cycle is 60 years, a combination of 12 animals with 5 elements (12×5=60)"
+        },
+        {
+          "question": "Which element belongs to the Dragon?",
+          "options": [
+            "Fire",
+            "Water",
+            "Earth",
+            "Metal"
+          ],
+          "correct": 2,
+          "explanation": "The Dragon belongs to the earth element in the Chinese system"
+        },
+        {
+          "question": "Which animal is considered the luckiest in the Chinese zodiac?",
+          "options": [
+            "Tiger",
+            "Dragon",
+            "Rat",
+            "Horse"
+          ],
+          "correct": 1,
+          "explanation": "The Dragon is considered the luckiest sign on the list, born for greatness with natural charisma"
+        },
+        {
+          "question": "What distinguishes a yin animal from a yang animal?",
+          "options": [
+            "Their element",
+            "Energy - internal vs external",
+            "The year they appear",
+            "Their color"
+          ],
+          "correct": 1,
+          "explanation": "A yin animal is feminine, internal, intuitive, while a yang animal is masculine, external and active"
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we learned how Chinese astrology creates a map of time instead of a map of place. Each of the 12 animals carries ancient wisdom about personalities and life forces. The Chinese system complements the Western one beautifully - one tells how you react to the world, the other how you are built from within.",
+      "wisdom": "Every animal knows its place in the circle of life - so do you.",
+      "nextPreview": "In the next lesson we enter the world of astrological houses - the 12 areas of life that the stars illuminate."
+    }
+  },
+  "faq": [
+    {
+      "question": "How do I know what my Chinese zodiac sign is?",
+      "answer": "The Chinese sign is determined by birth year. Important to remember that the Chinese year begins around February, not January - so if you were born in January or early February, you might belong to the previous year."
+    },
+    {
+      "question": "Can I have Western and Chinese signs that clash?",
+      "answer": "Absolutely. For example, you can be a Virgo (organized, analytical) and a Tiger (wild, impulsive). These don't clash - they are layers of personality that create depth and complexity."
+    },
+    {
+      "question": "What is an element in the Chinese zodiac?",
+      "answer": "Each Chinese year also belongs to a specific element: water, wood, fire, earth, or metal. The element adds another layer to the sign - for example, a Water Dragon will be different from a Fire Dragon."
+    },
+    {
+      "question": "How can I combine Western and Chinese zodiac signs?",
+      "answer": "The Western sign shows how you behave in society and react to daily situations. The Chinese sign shows deep personality and basic instincts. Together they create a complete picture."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "elements",
+      "label": "⭐ Elements in Western astrology"
+    },
+    {
+      "course": "astrology",
+      "lesson": "compatibility",
+      "label": "💕 Compatibility between signs"
+    },
+    {
+      "course": "numerology",
+      "lesson": "life-path",
+      "label": "🔢 Life Path Number in numerology"
+    }
+  ],
+  "seo": {
+    "title": "My Chinese Zodiac Sign - The 12 Mystical Animals in Astrology",
+    "description": "Discover your Chinese zodiac sign and the deep meaning of the 12 mystical animals. Comprehensive guide to Chinese astrology and its integration with Western astrology.",
+    "keywords": [
+      "Chinese zodiac",
+      "Chinese astrology",
+      "12 animals",
+      "zodiac animals",
+      "dragon",
+      "tiger",
+      "yin yang"
+    ],
+    "ogImage": "/og/academy/astrology/astrology-03.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

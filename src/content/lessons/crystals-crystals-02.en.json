@@ -1,0 +1,138 @@
+{
+  "courseId": "crystals",
+  "lessonNumber": 2,
+  "title": "How to Choose Your First Crystal",
+  "slug": "crystals-02",
+  "module": "Foundations",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down, my dear. The world of crystals unfolds before you like an enchanted garden — sparkling colors, different energies, and so many possibilities. I see you standing there, wondering which crystal will be your first? This is exactly where most people feel most confused. But there's a little secret — the right crystal for you is already waiting. It's 'calling' to you. You just need to know how to listen. Today we'll learn together the art of your first choice, and I'll teach you to recognize the small signs the universe sends you.</p>",
+    "theoryA": "<h2>How Do You Know Which Crystal is Right for Me?</h2><p>The right crystal for you is one that aligns with your dominant chakra and your birth sign. Clear quartz suits everyone because it connects to all chakras and all zodiac signs, making it the safest choice for beginners. Amethyst is perfect for those born under Aquarius or Pisces who want to strengthen their intuition. Rose quartz suits Taurus and Libra signs seeking to enhance self-love. The secret is to start with a crystal whose properties match your most urgent needs right now. If you're seeking protection — black tourmaline will be perfect. If you want to boost self-confidence — citrine is your choice. The truth is the signs were there all along — you just need to know how to read them.</p>",
+    "practice1": {
+      "instruction": "Stand in a quiet place and close your eyes. Ask yourself: 'What's the most important thing I want to improve in my life right now?' Listen to the first answer that comes up. Write it down. Now go through the crystal list and find which properties match your answer.",
+      "type": "write"
+    },
+    "theoryB": "<h2>Which Crystals are Best for Beginners?</h2><p>The five best crystals for beginners are: clear quartz, amethyst, rose quartz, black tourmaline, and citrine. The reason is simple — they work with the most basic chakras and have gentle, safe energies. Clear quartz amplifies everything and cleanses energies, amethyst protects and calms, rose quartz opens the heart, black tourmaline protects against negativity, and citrine brings positive energy and abundance. Each is connected to specific elements and zodiac signs — clear quartz to all elements, amethyst to air, rose quartz to water, black tourmaline to earth, and citrine to fire. What's special about them is they don't conflict with each other and you can hold several together. They're like the basic family of the crystal world — each has a clear role and they all work in harmony.</p>",
+    "practice2": {
+      "instruction": "Take five deep breaths and bring to mind the five beginner crystals. Which one 'calls' to you? Pay attention to the first feeling — it's more important than logic. Check what your birth sign is and which of the crystals suits your sign.",
+      "type": "meditate"
+    },
+    "deepDive": "<h2>The Secret Signs That a Crystal is 'Calling' You</h2><p>There are signs most people don't know that show a crystal is right for you. The first — a feeling of warmth or gentle tingling in your palm when you hold it. The second — the crystal appears brighter or more sparkling to you than others in the group. The third — you encounter the same crystal in different places during the same week (in a shop, in a picture, in conversation). The fourth — dreams featuring colors related to the specific crystal. The fifth — a feeling of 'home' when you see it. The truth is crystals work on our vibrational frequency, and if your frequency matches a particular crystal, you'll feel the connection immediately. This isn't imagination — it's quantum physics in its most natural form.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which crystal suits all birth signs?",
+          "options": [
+            "Amethyst",
+            "Clear quartz",
+            "Rose quartz",
+            "Citrine"
+          ],
+          "correct": 1,
+          "explanation": "Clear quartz suits all birth signs because it connects to all elements and all chakras, making it the universal crystal."
+        },
+        {
+          "question": "Which chakra does rose quartz connect to?",
+          "options": [
+            "Root",
+            "Heart",
+            "Throat",
+            "Crown"
+          ],
+          "correct": 1,
+          "explanation": "Rose quartz connects to the heart chakra and helps with self-love, unconditional love, and emotional healing."
+        },
+        {
+          "question": "Which element does black tourmaline represent?",
+          "options": [
+            "Air",
+            "Water",
+            "Fire",
+            "Earth"
+          ],
+          "correct": 3,
+          "explanation": "Black tourmaline represents the earth element and provides protection, grounding, and shields against negativity."
+        },
+        {
+          "question": "What is citrine's main property?",
+          "options": [
+            "Peace and calm",
+            "Abundance and confidence",
+            "Spiritual protection",
+            "Emotional healing"
+          ],
+          "correct": 1,
+          "explanation": "Citrine is known for its properties of attracting abundance, strengthening self-confidence, and helping with manifestation."
+        },
+        {
+          "question": "Which signs suit amethyst?",
+          "options": [
+            "Taurus and Libra",
+            "Aquarius and Pisces",
+            "Leo and Gemini",
+            "Sagittarius and Virgo"
+          ],
+          "correct": 1,
+          "explanation": "Amethyst suits Aquarius and Pisces signs and helps strengthen intuition, spiritual protection, and peace."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Now you know that choosing your first crystal doesn't have to be complicated. Start with one of the five basics — clear quartz is the safest. Listen to your body and your intuition — they know how to guide you to the right crystal. Remember that the right crystal is one that answers your needs now, not the one that looks prettiest in the picture.",
+      "wisdom": "The right crystal chooses you as much as you choose it.",
+      "nextPreview": "In the next lesson we'll learn how to cleanse and prepare your new crystal so it works with you in perfect harmony."
+    }
+  },
+  "faq": [
+    {
+      "question": "Is it possible to choose the wrong crystal?",
+      "answer": "There's no such thing as a 'wrong' crystal. Every crystal that attracts you has a message or property you need now, even if it's not immediately clear."
+    },
+    {
+      "question": "How many crystals should I buy the first time?",
+      "answer": "Start with one or two crystals maximum. It's better to know one crystal well than to be confused among many."
+    },
+    {
+      "question": "How do you know if a crystal is 'working'?",
+      "answer": "Notice subtle changes in mood, energy, or thought patterns. Sometimes the change starts as a feeling of peace or confidence."
+    },
+    {
+      "question": "Does crystal size affect its power?",
+      "answer": "No, a small crystal works with the same power as a large one. More important is your personal connection to it and how you care for it."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "elements",
+      "label": "⭐ Elements in Astrology"
+    },
+    {
+      "course": "chakras",
+      "lesson": "basics",
+      "label": "🌈 Introduction to Chakras"
+    },
+    {
+      "course": "numerology",
+      "lesson": "personal-number",
+      "label": "🔢 Your Personal Number"
+    }
+  ],
+  "seo": {
+    "title": "How to Choose Your First Crystal - Beginner's Guide to the Best Crystals",
+    "description": "Complete guide to choosing your first crystal - which crystals suit beginners, how to know which crystal is right for you and what signs show it's 'calling' you.",
+    "keywords": [
+      "choosing crystals",
+      "crystals for beginners",
+      "clear quartz",
+      "amethyst",
+      "crystal guide",
+      "how to choose crystals",
+      "first crystals",
+      "gemstones"
+    ],
+    "ogImage": "/og/academy/crystals/crystals-02.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

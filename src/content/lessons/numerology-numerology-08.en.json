@@ -1,0 +1,137 @@
+{
+  "courseId": "numerology",
+  "lessonNumber": 8,
+  "title": "numerology — Lesson 8",
+  "slug": "numerology-08",
+  "module": "Numbers",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Come sit by me, my child. The candle flickers and the wind whispers outside, but here in the ancient house of wisdom, we open an ancient gate — a gate that leads us on a journey across cultures. Until now we've known numbers in their Western garb, seen how they work through life paths and expression numbers. But there's another world here that demands respect and understanding — a world where the letters themselves carry life. This is the world of Arabic numerology, known as 'Hisab al-Jummal', where each letter in your name carries a deep secret. In the ancient Middle East, they understood that letters aren't just symbols — they're living forces. Your name isn't just a label, it's a spiritual formula written in desert sands and stars.</p>",
+    "theoryA": "<h2>How Does Arabic Numerology Hisab al-Jummal Work?</h2><p>Arabic numerology Hisab al-Jummal is an ancient system that assigns numerical value to each Arabic letter. The system works according to a special order called the 'Standard Mashriqi Order': أبجد هوز حطي كلمن سعفص قرشت ثخذ ضظغ. Each letter receives a specific numerical value — from 1 to 1000 — and the numbers are divided into groups of units, tens, hundreds, and thousands.</p><p>The first letters from أ (Alif) to ط (Ta) carry the unit values 1-9. The next letters from ي (Ya) to ص (Sad) carry the tens values 10-90. Then come the hundreds from ق (Qaf) to غ (Ghayn) with values 100-1000. In this way, every Arabic name becomes a deep mathematical formula that reveals the spiritual essence of the person.</p><p>This system is also called 'Ilm al-Huruf' — the science of letters — and is considered part of ancient Islamic wisdom. Muslim mystics used it to explore the connection between a person's name and their spiritual destiny. They believed that each letter carries a specific spiritual frequency, and that the name is actually a key to the soul.</p>",
+    "practice1": {
+      "instruction": "Write your first name in Arabic letters (use translation or help from an Arabic speaker). Now calculate the total value according to the Hisab al-Jummal system. For example: if your name is 'Fatima' — ف (80) + ا (1) + ط (9) + م (40) + ة (5) = 135. Reduce to a single digit: 1+3+5=9.",
+      "type": "write"
+    },
+    "theoryB": "<h2>What is the Spiritual Meaning of Name Values in Arabic Numerology?</h2><p>In Arabic numerology, the numerical value of your name isn't just a number — it's a connection to a cosmic network of spiritual meanings. Each numerical value is linked to sacred words in the Quran and Islamic tradition. For example, the value 66 belongs to the word 'Allah' (الله), the value 92 belongs to the name 'Muhammad' (محمد), and the famous value 786 belongs to the phrase 'Bismillah ar-Rahman ar-Raheem' — the opening of most chapters in the Quran.</p><p>When you calculate your name's value, you look for connections to spiritual words with the same value. If your name comes to 256, it connects to the word 'Nur' (نور) meaning 'light'. If it comes to 131, it connects to 'Salam' (سلام) meaning 'peace'. These connections are considered spiritual signs about one's soul purpose.</p><p>The tradition also connects the name's value to sacred numbers in Islam — 5 like the five pillars of Islam, 7 like the seven heavens, 40 like the forty days of purification, and 99 like the 99 names of Allah. Each such connection reveals another aspect of a person's spiritual path.</p>",
+    "practice2": {
+      "instruction": "Search in a dictionary or online for an Arabic word that has the same value as your name. For example, if you got 10, look for Arabic words with value 10 like 'Hubb' (حب - love). Write down the word and its meaning, and reflect on how it connects to your personality or life path.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books — The Secret of Comparing Mother and Child Names</h2><p>There's a deep secret in Arabic numerology that doesn't appear in most Western books. Islamic tradition speaks of 'spiritual inheritance' — the connection between the numerical value of a son or daughter's name and the mother's name. According to this wisdom, a child inherits not only physical genes from their mother, but also a 'spiritual vibration' expressed in the relationship between their names.</p><p>The rule states that if the child's name value divides evenly into the mother's name value, or vice versa — this is a sign of deep spiritual connection and direct soul inheritance. If the difference between the values is exactly 11, 22, or 33 (master numbers), this indicates a shared spiritual mission between mother and child.</p><p>For example, if the mother's name comes to 144 and the child's name to 72, there's an exact ratio of half — the child carries half of the mother's spiritual power, but in a way that's perfect for them. This is a secret that Muslim mystics guarded jealously, because it reveals the hidden connections between generations within the spiritual family.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is the official name of Arabic numerology?",
+          "options": [
+            "Ilm al-Falak",
+            "Hisab al-Jummal",
+            "Ilm al-Nujum",
+            "Hisab al-Kawakib"
+          ],
+          "correct": 1,
+          "explanation": "The official name is 'Hisab al-Jummal' (حساب الجُمَّل), meaning 'calculation of values'. This system is also known as 'Ilm al-Huruf' (science of letters)."
+        },
+        {
+          "question": "What is the value of the Arabic letter ج (Jim) in the Hisab al-Jummal system?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correct": 1,
+          "explanation": "The letter ج (Jim) carries the value 3 in the Arabic system, according to the standard order أبجد هوز حطي."
+        },
+        {
+          "question": "What is the numerical value of the word 'Allah' (الله) in Arabic numerology?",
+          "options": [
+            "55",
+            "66",
+            "77",
+            "88"
+          ],
+          "correct": 1,
+          "explanation": "The word 'Allah' (الله) is calculated as: ا (1) + ل (30) + ل (30) + ه (5) = 66. This is one of the sacred values in Islamic tradition."
+        },
+        {
+          "question": "Which sacred phrase carries the famous value 786?",
+          "options": [
+            "Allahu Akbar",
+            "La ilaha illa Allah",
+            "Bismillah ar-Rahman ar-Raheem",
+            "Alhamdulillah"
+          ],
+          "correct": 2,
+          "explanation": "'Bismillah ar-Rahman ar-Raheem' (In the name of Allah, the Compassionate, the Merciful) carries the value 786, making this number especially sacred in Islam."
+        },
+        {
+          "question": "When is there considered to be 'spiritual inheritance' between mother and child according to Arabic tradition?",
+          "options": [
+            "When the names are identical",
+            "When the child's value is greater than the mother's",
+            "When one value divides evenly into the other",
+            "When the difference is always 7"
+          ],
+          "correct": 2,
+          "explanation": "According to tradition, spiritual inheritance occurs when the child's name value divides evenly into the mother's name value (or vice versa), or when the difference is a master number (11, 22, 33)."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we opened a new gate and entered the world of Arabic numerology — Hisab al-Jummal. We learned how each Arabic letter carries deep numerical value, how to calculate the total value of a name, and how to find spiritual connections to sacred words. We discovered the secret of spiritual inheritance between mother and child. Numbers, as I always say, aren't random — they're the language of the soul.",
+      "wisdom": "Your name is a song the universe wrote for you — and the numbers are the notes.",
+      "nextPreview": "In the next lesson we'll dive deep into numerological compatibility — how the numbers of your life path and your partner's create together a symphony of love or... might stir up a storm. We'll discover how to decode all the hidden connections."
+    }
+  },
+  "faq": [
+    {
+      "question": "Do I need to be Muslim to use Arabic numerology?",
+      "answer": "No. Arabic numerology is a mathematical system that can be used for spiritual exploration regardless of religion. It's important to approach it with respect and understanding of its cultural roots."
+    },
+    {
+      "question": "What if my name doesn't exist in Arabic?",
+      "answer": "Any name can be translated to Arabic or you can find a similar-sounding Arabic name. You can also calculate according to an Arabic name you would choose for yourself, since the goal is spiritual connection."
+    },
+    {
+      "question": "How do I know which Arabic word matches my numerical value?",
+      "answer": "Search in Arabic dictionaries or websites specializing in Arabic numerology. The important words are those that connect with you personally and carry spiritual meaning for you."
+    },
+    {
+      "question": "What's the difference between Arabic and Western numerology?",
+      "answer": "Arabic numerology is based on the Arabic alphabet and Islamic spiritual meanings, while Western numerology is based on the Latin alphabet and Pythagorean and Kabbalistic traditions."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "kabbalah",
+      "lesson": "gematria-introduction",
+      "label": "⭐ Gematria in Kabbalah — Letter Value Systems"
+    },
+    {
+      "course": "numerology",
+      "lesson": "life-path-basics",
+      "label": "📊 Life Path in Numerology"
+    },
+    {
+      "course": "tarot",
+      "lesson": "star",
+      "label": "⭐ The Star in Tarot — Connection to Universal Spirituality"
+    }
+  ],
+  "seo": {
+    "title": "Arabic Numerology: Complete Guide to Hisab al-Jummal",
+    "description": "Complete guide to Arabic numerology (Hisab al-Jummal): how to calculate name values, spiritual meanings and connections to sacred words. Learn Arabic numerology from the basics.",
+    "keywords": [
+      "Arabic numerology",
+      "Hisab al-Jummal",
+      "name values",
+      "Islamic numerology",
+      "science of letters",
+      "Arabic",
+      "spirituality"
+    ],
+    "ogImage": "/og/academy/numerology/numerology-08.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

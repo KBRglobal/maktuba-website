@@ -1,0 +1,140 @@
+{
+  "courseId": "crystals",
+  "lessonNumber": 10,
+  "title": "crystals — Lesson 10",
+  "slug": "crystals-10",
+  "module": "Stones",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">The candle burns bright this evening, and the crystal light on the table sparkles in the golden glow. Sit beside me, and let us learn together about the wondrous connection crystals create with astrology. In our previous lesson we learned about the relationship between crystals and chakras, and today we'll explore how each crystal connects to zodiac signs and elements. Every crystal carries within it the ancient wisdom of the stars, and when we understand this connection, we can use them in a deeper and more precise way. Astrology teaches us that each sign holds a unique frequency, and crystals can resonate with that frequency and amplify our natural powers. This isn't just magic - it's ancient science of frequencies and energies that corresponds to all life.</p>",
+    "theoryA": "<h2>How Do Crystals Connect to Astrology?</h2><p>Crystals and astrology are natural partners, as both deal with cosmic energies and spiritual frequencies. Each crystal carries characteristics that resonate with specific signs and with the basic elements.</p><p>Take amethyst for example - it connects to Aquarius and Pisces, both spiritual and intuitive signs. Amethyst strengthens intuition and inner wisdom, just as Aquarius brings spiritual innovation and Pisces deepens psychic connection. This isn't coincidence - it's natural energetic resonance.</p><p>Rose quartz connects to Taurus and Libra, two signs ruled by Venus energy. Taurus seeks stability and emotional comfort, and Libra seeks harmony and love. Rose quartz brings exactly that - self-love, emotional healing, and creating balance in the heart.</p><p>Elements play a central role here. Fire element crystals like citrine and tiger's eye connect to fire signs - Aries, Leo and Sagittarius. They bring energy of self-confidence, personal power and manifestation. Water element crystals like lapis lazuli and aquamarine connect to water signs - Cancer, Scorpio and Pisces. They deepen intuition and emotional connection.</p><p>This isn't just theory - it's a wise system of understanding how different energies work together. When you learn these connections, you can choose crystals that match exactly what you need at any given moment.</p>",
+    "practice1": {
+      "instruction": "Take out your birth chart (or search online for free). Identify your sun, moon and rising signs. Now look at the crystal list from the lesson and find 3 crystals that connect to your signs. Write why each one suits you personally.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How to Choose a Crystal According to Your Moon Sign?</h2><p>Your moon sign is the secret key to deep emotional work with crystals. While your sun sign represents your external identity, your moon sign reveals your deepest inner emotional and soul needs.</p><p>If your moon is in Cancer for example, you need crystals that connect to home, emotional security and protection. Here comes moonstone - it's naturally connected to Cancer and brings energy of mothering, intuition and emotional protection. It helps flow with life cycles and eases emotional changes.</p><p>Moon in Scorpio needs crystals that help with transformation and shadow work. Obsidian is a perfect choice - it reveals hidden truths, brings deep healing and helps handle intense emotions. It's not scary, just direct.</p><p>Moon in Leo needs crystals that amplify self-expression and confidence. Citrine and pyrite are excellent choices - they strengthen self-confidence, bring recognition and help illuminate personal power.</p><p>There are also special combinations - if you have sun in Leo and moon in Pisces, you can combine citrine with amethyst. Citrine will amplify self-confidence and leadership, while amethyst will deepen intuition and spirituality. It's a powerful combination of strength and sensitivity.</p>",
+    "practice2": {
+      "instruction": "Choose one crystal that connects to your moon sign (if you don't know your moon sign, search online). Hold it in your hands and close your eyes. Ask it: 'How can you help my emotional needs?' Listen to feelings or thoughts that arise. Record the experience.",
+      "type": "meditate"
+    },
+    "deepDive": "<h2>What's Not Written in Books: Crystals and Retrogrades</h2><p>Here's a secret you won't find in most books: crystals can help tremendously during retrograde periods of planets. When a planet 'goes backward' relative to Earth, its energies become internal and trigger processes of review and reflection.</p><p>During Mercury retrograde, which happens 3-4 times a year, communication and technology get confused. Here sodalite is a lifesaver - it balances logic with intuition and assists clear communication. Fluorite will help maintain mental clarity when everything seems confused.</p><p>In Venus retrograde, when love and relationship issues from the past return, rhodonite will help with forgiveness and emotional healing of old wounds. Rose quartz will ensure self-love during those times when you're dealing with memories.</p><p>Mars retrograde brings frustration and blocked energy. Here garnet and carnelian will help restore inner fire and channel frustration into creative action. Always keep them close when Mars goes backward.</p><p>This isn't superstition - it's understanding how different frequencies work together in the system. Crystals can serve as a kind of 'amplifier' or 'stabilizer' for astrological energies.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which crystal is particularly suitable for Aquarius and Pisces?",
+          "options": [
+            "Amethyst",
+            "Citrine",
+            "Rose Quartz",
+            "Black Tourmaline"
+          ],
+          "correct": 0,
+          "explanation": "Amethyst connects to Aquarius and Pisces and brings intuition, spiritual protection and peace."
+        },
+        {
+          "question": "Which element is connected to rose quartz?",
+          "options": [
+            "Fire",
+            "Water",
+            "Air",
+            "Earth"
+          ],
+          "correct": 1,
+          "explanation": "Rose quartz is connected to the water element, which relates to emotions and love."
+        },
+        {
+          "question": "Which crystal suits moon in Scorpio?",
+          "options": [
+            "Citrine",
+            "Obsidian",
+            "Moonstone",
+            "Clear Quartz"
+          ],
+          "correct": 1,
+          "explanation": "Obsidian suits moon in Scorpio because it helps with transformation and shadow work."
+        },
+        {
+          "question": "Which crystal will help during Mercury retrograde?",
+          "options": [
+            "Garnet",
+            "Sodalite",
+            "Rhodonite",
+            "Carnelian"
+          ],
+          "correct": 1,
+          "explanation": "Sodalite balances logic with intuition and assists clear communication during Mercury retrograde."
+        },
+        {
+          "question": "What is the special role of the moon sign in choosing crystals?",
+          "options": [
+            "Determines preferred color",
+            "Reveals inner emotional needs",
+            "Affects crystal size",
+            "Determines crystal price"
+          ],
+          "correct": 1,
+          "explanation": "The moon sign reveals the deepest inner emotional and soul needs, making it critical for choosing suitable crystals."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we learned about the wonderful connection between crystals and astrology - how each crystal carries characteristics that resonate with specific signs and elements, and how the moon sign reveals our deepest emotional needs.",
+      "wisdom": "Crystals are ambassadors of the stars on Earth.",
+      "nextPreview": "In our next lesson we'll learn about cleansing and charging crystals with the power of moon and sun."
+    }
+  },
+  "faq": [
+    {
+      "question": "Must I only choose crystals that connect to my sign?",
+      "answer": "Not necessarily. Your sign is a good starting point, but always listen to intuition. Sometimes we need the energy of another sign."
+    },
+    {
+      "question": "How do I know my moon sign?",
+      "answer": "You need your exact birth date, time and place. There are free websites that calculate complete birth charts like astro.com or cafe astrology."
+    },
+    {
+      "question": "Can a crystal suit more than one sign?",
+      "answer": "Absolutely. Take clear quartz for example, which suits all signs, or labradorite which connects to Leo, Scorpio and Sagittarius."
+    },
+    {
+      "question": "What happens if I have a crystal that doesn't match my sign?",
+      "answer": "No problem! Any crystal can work with any person. The astrological connection is just a tool for more informed choice."
+    },
+    {
+      "question": "Do retrogrades really affect working with crystals?",
+      "answer": "Many report different experiences with crystals during retrogrades. It's not mandatory to believe, but worth trying to see if you feel a difference."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "moon-signs",
+      "label": "⭐ Moon Signs in Astrology"
+    },
+    {
+      "course": "tarot",
+      "lesson": "court-cards-astrology",
+      "label": "🃏 Court Cards and Astrology"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot-elements",
+      "label": "🌳 The Sephirot and Elements"
+    }
+  ],
+  "seo": {
+    "title": "Crystals and Astrology: How to Choose a Crystal by Zodiac Sign",
+    "description": "Learn how crystals connect to astrology, how to choose a crystal by moon sign and the connection to elements. Comprehensive guide with practical tips.",
+    "keywords": [
+      "crystals and astrology",
+      "moon sign",
+      "elements",
+      "crystals by zodiac",
+      "retrograde",
+      "crystal selection"
+    ],
+    "ogImage": "/og/academy/crystals/crystals-10.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

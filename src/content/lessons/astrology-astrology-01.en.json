@@ -1,0 +1,138 @@
+{
+  "courseId": "astrology",
+  "lessonNumber": 1,
+  "title": "Introduction to Astrology — The Planets as Mirrors of the Soul",
+  "slug": "astrology-01",
+  "module": "Zodiac Signs",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down, dear child. The candle is lit, and the stars are waiting to tell you their secrets. Astrology is an ancient language through which the heavens speak to us about who we truly are — not just how we appear on the outside, but how our soul dances with the cosmos. This isn't fortune-telling; it's a map of the potential that lies within you. In this first lesson, we'll learn what astrology really is, how it works, and why it's so accurate in describing our true nature. I've been here for over seventy years, and every day I'm amazed anew by the wisdom contained in the movements of the stars. Come, let's kindle the torch that will light your way home — to yourself.</p>",
+    "theoryA": "<h2>What is Astrology and How Does it Differ from Astronomy?</h2><p>Astrology is an ancient wisdom system that studies the connection between planetary movements and our character and life circumstances. While astronomy deals with the scientific study of celestial bodies, astrology focuses on the spiritual and psychological meaning of their positions.</p><p>The roots of astrology pass through ancient Babylon, Egypt, and Greece, where wise ones developed their understanding that the heavens reflect what happens on Earth. The guiding principle is \"as above, so below\" — what occurs in the cosmos is also expressed in our daily lives.</p><p>It's important to understand that astrology doesn't claim the stars determine our fate. Instead, it offers a map of our potential and natural tendencies. Just as a musician can play a piece in different ways, we too can express our planetary energies in many diverse forms.</p><p>Our zodiac sign is just a starting point. In the complete birth chart, there are nine other planets, twelve houses, and complex aspects between them. All these together create your unique picture — like a soul fingerprint that has no equal in the entire world.</p>",
+    "practice1": {
+      "instruction": "Take out paper and pen. Write down your birth date, exact birth time, and birth location. If you don't know the exact time, look for it on your birth certificate or ask your parents. This will be the foundation for your birth chart.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How is Astrology Connected to Tarot, Kabbalah, and Numerology?</h2><p>Astrology doesn't stand alone — it's part of a rich network of mystical wisdom systems. Each system illuminates a different angle of the same deep truth about the nature of existence and the human soul.</p><p>In Tarot, each Major Arcana card is linked to a specific planet or zodiac sign. The Emperor connects to Aries, the High Priestess to the Moon, and the Tower to Scorpio. When you read cards, you're actually decoding astrological language through visual symbols.</p><p>In Kabbalah, the Tree of Life contains all planetary energies in its sefirot. Keter connects to Neptune, Chochmah to Uranus, Binah to Saturn, and so forth. Every spiritual journey passes through the stars — they are the gateways through which the soul descends to the world and ascends back.</p><p>Numerology connects to astrology through the numbers of planets and zodiac signs. The number 1 of the Sun, 2 of the Moon, 3 of Jupiter — each number carries the vibration of its planet. Your birth date is a numerical code that reveals the same energies that appear in your astrological chart.</p><p>When you understand these connections, you see that all paths lead to the same place — to deep self-knowledge and understanding of your spiritual purpose in this world.</p>",
+    "practice2": {
+      "instruction": "Choose a card from a Tarot deck (or imagine one). Look up online which planet or zodiac sign is connected to it. Write how this energy manifests in your life. For example: The Tower card (Mars) - how do strength and courage appear in your life?",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books — Why Astrology Works</h2><p>Most people think astrology works because of gravity or cosmic radiation. But the truth is deeper — it works because everything is connected. We're not located in a solar system; we're part of it.</p><p>When you're born, you take your first breath at exactly a certain planetary state. Your lungs fill with the same air that surrounds all the stars. Your blood flows at the same rhythm that Earth rotates. You begin to exist in harmony with cosmic movement — and this stays with you for life.</p><p>Every moment of birth is like freezing a cosmic symphony. This music becomes your inner soundtrack, the rhythm you dance to through life. This is why astrology is so accurate — it's not trying to predict what will happen to you, but reveals how you'll react to what happens.</p><p>And the biggest secret? The more you know your astrological map, the freer you become. Instead of fighting against your nature, you learn to dance with it in wisdom and awareness.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is the main difference between astrology and astronomy?",
+          "options": [
+            "Astrology deals with spiritual meaning, astronomy with scientific research",
+            "Astronomy is older than astrology",
+            "Astrology studies stars, astronomy studies planets",
+            "There's no difference, they're two names for the same thing"
+          ],
+          "correct": 0,
+          "explanation": "Astrology focuses on the spiritual and psychological meaning of planetary positions, while astronomy deals with the scientific study of celestial bodies."
+        },
+        {
+          "question": "Which principle guides astrology?",
+          "options": [
+            "As below, so above",
+            "As above, so below",
+            "The stars determine our fate",
+            "Only the Sun affects us"
+          ],
+          "correct": 1,
+          "explanation": "The principle 'as above, so below' expresses the connection between what happens in the cosmos and what manifests in our daily lives."
+        },
+        {
+          "question": "How many planets are in a complete birth chart?",
+          "options": [
+            "Six",
+            "Eight",
+            "Ten",
+            "Twelve"
+          ],
+          "correct": 2,
+          "explanation": "A complete birth chart has ten planets: Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune, and Pluto."
+        },
+        {
+          "question": "How is astrology connected to Tarot?",
+          "options": [
+            "There's no connection between them",
+            "Only the Moon is connected to Tarot",
+            "Each Major Arcana card is linked to a planet or zodiac sign",
+            "Only 12 cards are connected to zodiac signs"
+          ],
+          "correct": 2,
+          "explanation": "Each Major Arcana card in Tarot is linked to a specific planet or zodiac sign, creating a deep connection between the two wisdom systems."
+        },
+        {
+          "question": "Why does astrology work according to the deep understanding?",
+          "options": [
+            "Because of the gravitational pull of stars",
+            "Because of cosmic radiation",
+            "Because we are an inseparable part of the cosmic system",
+            "Because of magnetic forces"
+          ],
+          "correct": 2,
+          "explanation": "Astrology works because we are an inseparable part of the cosmic system — the moment of birth establishes our harmony with cosmic movement."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we learned that astrology is an ancient wisdom system connecting the heavens to our lives, different from astronomy in its focus on spiritual meaning. It connects to Tarot, Kabbalah, and numerology as part of one mystical wisdom network. Its secret is that we are an inseparable part of the cosmos, and the moment of birth establishes our inner harmony with celestial movement.",
+      "wisdom": "The stars don't determine your fate; they reveal who you can become.",
+      "nextPreview": "In the next lesson, we'll meet the twelve zodiac signs and understand how each expresses a different elemental energy in our lives."
+    }
+  },
+  "faq": [
+    {
+      "question": "Does astrology predict the future?",
+      "answer": "Not exactly. Astrology reveals tendencies and potential angles, but doesn't determine what will happen. It's like a weather map — shows you what to prepare for, doesn't determine exactly what will be."
+    },
+    {
+      "question": "Why do I need the exact birth time?",
+      "answer": "Birth time determines the rising sign (Ascendant) and the placement of houses in the chart. A difference of a few minutes can change the entire astrological picture."
+    },
+    {
+      "question": "Is there a difference between Western and Chinese astrology?",
+      "answer": "Yes, these are two completely different systems. Western astrology is based on the Sun's position in zodiac signs; Chinese astrology on 12-year cycles with animals and elements."
+    },
+    {
+      "question": "Can I learn astrology by myself?",
+      "answer": "Absolutely! It requires patience and practice, but the journey of knowing yourself through astrology is one of the most rewarding things you can do for your soul."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "tarot",
+      "lesson": "major-arcana-astrology",
+      "label": "⭐ Astrological Connections in the Major Arcana"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "tree-of-life-planets",
+      "label": "🌟 The Stars in the Kabbalistic Tree of Life"
+    },
+    {
+      "course": "numerology",
+      "lesson": "planetary-numbers",
+      "label": "🔢 Planetary Numbers in Numerology"
+    }
+  ],
+  "seo": {
+    "title": "Introduction to Astrology - Stars as Mirrors of the Soul | Maktuba",
+    "description": "Learn what astrology is, how it works, and its connection to Tarot and Kabbalah. A comprehensive beginner's guide to astrology with ancient Maktuba wisdom.",
+    "keywords": [
+      "astrology",
+      "zodiac signs",
+      "birth chart",
+      "planets",
+      "tarot astrology",
+      "kabbalah",
+      "astrology introduction",
+      "soul mirrors"
+    ],
+    "ogImage": "/og/academy/astrology/astrology-01.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

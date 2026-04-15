@@ -1,0 +1,133 @@
+{
+  "courseId": "palm",
+  "lessonNumber": 3,
+  "title": "The Major Lines in the Palm - A Practical Guide to Fortune Reading",
+  "slug": "palm-03",
+  "module": "Foundations",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">My dear, now that you know the hand shapes and their elements, it's time to delve deeper into the world of your lines. Here's a surprising discovery — hidden in your palm are three to five major stories, written in an ancient language of lines and curves. Each line is like a chapter in your life's book, and I'll teach you to read them the way a grandmother reads a family recipe — from memory, with wisdom and deep understanding. These aren't just random scratches in storage — they're a roadmap to your soul. In the previous lesson we discussed how your dominant hand reveals who you are now, and today we'll understand what these lines truly say about your journey.</p>",
+    "theoryA": "<h2>How to Read the Major Lines in the Palm?</h2><p>The three major lines in the palm are like the three central axes of human existence — the heart, the head, and life. The heart line, the upper line, tells about your emotional world and relationships. The head line, in the middle, reveals your thinking patterns and mental coping mechanisms. And the life line, wrapping around the thumb, discloses your vitality and inner energy.</p><p>When you look at the lines, first look for their strength and clarity. A deep, clear line speaks of strong, stable energy in that area of life. A faded or dotted line indicates scattered energy or challenges in that domain. Remember — there are no good or bad lines, only different stories.</p><p>The heart line is located in the upper part of the palm, running horizontally from the direction of the little finger toward the other fingers. If your line is deep and clear, you have a rich emotional nature and great capacity for love. If it's short or weak, perhaps you're more guarded with emotions or prefer a practical approach to relationships. When the line curves upward, it shows someone who expresses emotions easily and warmly. A straighter line indicates an analytical approach to love.</p><p>Breaks in the heart line don't mean the end of the world — they symbolize periods of great emotional change or experiences that shaped your approach to love. Every break has a story, and every healing has new wisdom.</p>",
+    "practice1": {
+      "instruction": "Take your dominant hand and gently examine the heart line. Follow it from the little finger to its end. Pay attention — is it deep or shallow? Straight or curved? Write down three observations about this line without interpretation, just what you see.",
+      "type": "observe"
+    },
+    "theoryB": "<h2>What is the Meaning of the Head Line and Life Line?</h2><p>The head line begins between the thumb and index finger, running horizontally across the palm. This is the conductor of your intellect and thinking. A long, deep line testifies to a sharp analytical mind that loves to dig deep into every subject. A shorter line doesn't mean stupidity — it shows you prefer quick action over lengthy contemplation.</p><p>The direction of the line is very important. A head line sloping downward indicates rich imagination and creative ability. A straight line points to logical and practical thinking. Breaks in the head line symbolize major shifts in perception — the moments when your worldview changed fundamentally.</p><p>The life line, the line wrapping around the thumb, is not a measure of lifespan as mistakenly believed. It tells about your energy and vitality, about the life force flowing through you. A deep, wide line shows someone full of energy who loves adventures. A thinner line indicates a careful person who prefers to save energy for truly important things.</p><p>The distance the line creates around the thumb is very important. A large Mount of Venus (the area enclosed by the life line) testifies to a warm and generous nature, full of passion and love of life. A small Mount of Venus indicates a more reserved person who prefers quality over quantity in relationships.</p>",
+    "practice2": {
+      "instruction": "Now examine both the head line and the life line. Pay attention to the point where the head line begins — is it connected to the life line or separate from it? Is the life line deep or shallow? Draw a simple map of the three lines in your hand and give them names based on your first impression of them.",
+      "type": "draw"
+    },
+    "deepDive": "<h2>What's Not Written in Books — The Hidden Connection Between Lines</h2><p>My dear, here's a secret that only veteran palmists know: the lines don't work alone, they create a constant internal dialogue. When the head line and heart line are close to each other, the heart and mind work in cooperation. When there's a large gap between them, there's an internal struggle between emotions and intellect.</p><p>And there's something more — where the head line begins says profound things. If it starts connected to the life line, you're a cautious person who values stability. If it starts separate, you have a free spirit and great self-confidence. And if the lines start connected and then separate? That means you gradually learned to be independent.</p><p>Another secret: when the life line starts wide and broad (going toward the center of the palm), it testifies to someone who goes out to conquer the world. A life line close to the thumb speaks of someone who prefers to keep to their familiar circle. And one isn't better than the other — there are just different ways to live a full life.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Where is the heart line located in the palm?",
+          "options": [
+            "In the upper part, running horizontally from the direction of the little finger",
+            "In the middle of the palm, from the thumb to the middle finger",
+            "Wrapping around the thumb from below",
+            "Running vertically from the wrist toward the fingers"
+          ],
+          "correct": 0,
+          "explanation": "The heart line is the upper line in the palm, running horizontally from the direction of the little finger toward the other fingers, and represents your emotional world and relationships."
+        },
+        {
+          "question": "What does a long and deep head line symbolize?",
+          "options": [
+            "Future health problems",
+            "A sharp analytical mind that loves to dig deep",
+            "Tendency toward depression and negative thoughts",
+            "Communication problems with others"
+          ],
+          "correct": 1,
+          "explanation": "A long and deep head line testifies to sharp intellect, excellent concentration ability, and good memory. It's a sign of someone who thinks things through thoroughly and deeply."
+        },
+        {
+          "question": "What is not true about the life line?",
+          "options": [
+            "It wraps around the base of the thumb",
+            "Its length determines your lifespan",
+            "It represents vitality and energy",
+            "It can contain breaks that symbolize changes"
+          ],
+          "correct": 1,
+          "explanation": "This is a common misconception. The life line does not determine lifespan, but represents the strength of vitality, health, and major changes in life."
+        },
+        {
+          "question": "What does a head line sloping downward indicate?",
+          "options": [
+            "Problems with the nervous system",
+            "Rich imagination and creative ability",
+            "Tendency toward lies and manipulation",
+            "Difficulty learning new things"
+          ],
+          "correct": 1,
+          "explanation": "A head line sloping downward (toward the Mount of the Moon) indicates a creative mind, rich imagination, and ability to think outside the box."
+        },
+        {
+          "question": "What does it say about a person when their head line starts separate from the life line?",
+          "options": [
+            "They will suffer from memory problems",
+            "They have a free spirit and great self-confidence",
+            "They won't succeed in relationships",
+            "They will have financial difficulties"
+          ],
+          "correct": 1,
+          "explanation": "When the head line starts separate from the life line, it indicates independence, self-confidence, and willingness to take risks. This is a person with a free spirit."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today you learned to read the three basic lines — the heart that tells about your loves, the head that reveals your thinking patterns, and life that discloses your vitality strength. Remember that each line is a dialogue between your soul and life — it changes and develops like you do.",
+      "wisdom": "The lines in your palm are not a decree of fate, they are a map — and you are the navigator.",
+      "nextPreview": "In the next lesson we'll dive into the smaller lines — the fate line and the sun line. You'll discover how your career and creativity are written in your hands."
+    }
+  },
+  "faq": [
+    {
+      "question": "Do breaks in lines mean future disasters?",
+      "answer": "Not necessarily. Breaks in lines symbolize changes, transitions, or challenges that shaped you. They sometimes show the strength to overcome difficulties and renew yourself."
+    },
+    {
+      "question": "Why do some people have deep lines and others have faded ones?",
+      "answer": "The depth of lines is related to the intensity of energy in that specific area. Deep lines indicate concentrated energy, while faded lines show a more cautious approach or scattered energy."
+    },
+    {
+      "question": "Do lines change throughout life?",
+      "answer": "Yes! Lines can deepen, change, and even appear. This is influenced by life decisions, personal changes, and spiritual development."
+    },
+    {
+      "question": "Which hand is better to read — right or left?",
+      "answer": "The dominant hand (the one you write with) shows who you are now and how you're developing yourself. The non-dominant hand shows your innate potential."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "mercury",
+      "label": "⭐ Mercury and Communication in Astrology"
+    },
+    {
+      "course": "numerology",
+      "lesson": "life-path",
+      "label": "🔢 Calculating Life Path in Numerology"
+    }
+  ],
+  "seo": {
+    "title": "Reading Palm Lines - Guide to Heart, Head and Life Lines",
+    "description": "Learn to read the major lines in the palm - heart line, head line and life line. Detailed guide with practical exercises for professional palm reading.",
+    "keywords": [
+      "palm reading",
+      "palm lines",
+      "heart line",
+      "head line",
+      "life line",
+      "chiromancy",
+      "palmistry",
+      "fortune telling"
+    ],
+    "ogImage": "/og/academy/palm/palm-03.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

@@ -1,0 +1,131 @@
+{
+  "courseId": "astrology",
+  "lessonNumber": 21,
+  "title": "Chinese Astrology — The Chinese Zodiac and Its Connection to Western Astrology",
+  "slug": "astrology-21-chinese-zodiac",
+  "module": "Houses",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Come sit beside me, my dear one. The candle glows and the night has long settled. Today we open the gate to Chinese astrology — an ancient system that views time not as a circle but as an infinite spiral. While Western astrology focuses on the positions of the sun, moon and stars, Chinese astrology gazes at cosmic energy patterns through the eyes of 12 sacred animals. Each creature carries within it ancient wisdom, a sacred element and unique energy that shapes the soul. This is not an ordinary zodiac sign — it's a cosmic essence that accompanies us in cycles of 12 years, deep as mountain roots and flowing like water springs. This journey connects Chinese wisdom to the astrological knowledge you already know, creating a bridge between East and West.</p>",
+    "theoryA": "<h2>What are the Chinese zodiac signs and how do they differ from Western signs?</h2><p>The Chinese zodiac is a system of 12 animal symbols that repeats every 12 years, unlike Western signs which are based on a yearly cycle. Each animal represents a specific archetypal energy that influences all those born in its year.</p><p>The Rat (1996, 2008, 2020) opens the cycle with resourcefulness and street wisdom. Sharp-minded, charming and clever, always the first to spot an opportunity and seize it. Its water energy flows in unexpected directions, and its inner yang drives it forward with determination.</p><p>The Ox (1997, 2009, 2021) brings with it stability of earth and infinite power. Hardworking, reliable and determined, the Ox moves mountains through sheer patience and tireless effort. Its yin energy is deep and internal, patiently building what will last long.</p><p>The Tiger (1998, 2010, 2022) blazes with wild wood energy and dynamic yang. Brave, competitive and unpredictable, the Tiger roams with magnetic confidence and fierce independence. Its inner power bursts like lightning, full of life passion and thirst for freedom.</p><p>Each Chinese sign also carries a unique combination of element (water, earth, wood, fire, metal) and yang/yin, creating 60 different variations in the complete cycle. This creates a much more complex energy map than first appears.</p>",
+    "practice1": {
+      "instruction": "Look up your birth year in the Chinese zodiac list. Write on a piece of paper the animal's name, element, and its yin/yang. Now read its description and think of 3 ways these traits truly manifest in your personality.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How do Chinese zodiac signs connect to compatibility and relationships?</h2><p>Compatibility in Chinese zodiac is built on complementary and balancing energies, not on similarity. Each sign connects deeply with certain signs and clashes with others, creating complex and profound relationship dynamics.</p><p>The Rat connects strongly with the Dragon and Monkey — three signs that share resourcefulness, intelligence and innovation. Together they create energy of explosive creativity and brilliant moves. But the Rat clashes with the Horse — their speeds work in opposite directions.</p><p>The Ox is drawn to the Snake and Rooster in harmony of order and organization. All three appreciate structure, method and beauty in small details. The Ox struggles with the Goat — its extremeness clashes with its gentleness and flow.</p><p>The Tiger races with the Horse and Dog — three signs that love freedom, truth and direct action. Together they create a force of justice and courage. The Tiger confronts the Monkey — both are too strong to compromise.</p><p>These connections aren't random — they stem from deep balances of elements, yin-yang and cosmic archetypes. When complementary signs meet, synergy is created that amplifies each one's power.</p>",
+    "practice2": {
+      "instruction": "Check your compatibility with 3 close people (family, friend, partner). Write for each of them your zodiac signs and the compatibility level. Do the descriptions align with the reality you experience with them?",
+      "type": "observe"
+    },
+    "deepDive": "<h2>What's not written in books — The great 60-year cycle</h2><p>The deep secret of Chinese astrology is not in the 12 signs but in the great 60-year cycle. Each sign repeats 5 times in the cycle, each time with a different element (wood, fire, earth, metal, water), creating 60 unique combinations.</p><p>A Fire Tiger (1986) is completely different from a Metal Tiger (1950). Fire ignites the Tiger's courage to levels of legendary heroism, while Metal sharpens its intuition into a sharp spiritual sword. This is not the same archetype — it's an evolution of the basic energy.</p><p>Chinese masters knew that a soul needs 60 years to pass through all variations of cosmic energy. Only then, in the 61st year, does it begin a new cycle at a higher level of understanding. This explains why 60 is considered the age of wisdom in Chinese culture.</p><p>The connection to Kabbalah is fascinating — both the Tree of Life and the Chinese cycle are based on energy flow through fixed structures. The Chinese elements parallel Kabbalistic worlds, each expressing a different aspect of divinity manifesting in matter.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "How many years does the basic Chinese zodiac cycle last?",
+          "options": [
+            "10 years",
+            "12 years",
+            "15 years",
+            "20 years"
+          ],
+          "correct": 1,
+          "explanation": "The basic cycle of Chinese zodiac lasts 12 years, each year with a different animal."
+        },
+        {
+          "question": "Which element belongs to the Rat?",
+          "options": [
+            "Fire",
+            "Water",
+            "Wood",
+            "Metal"
+          ],
+          "correct": 1,
+          "explanation": "The Rat belongs to the water element, which brings flow, adaptability and resourcefulness."
+        },
+        {
+          "question": "Which sign is most compatible with the Tiger?",
+          "options": [
+            "Rat",
+            "Horse",
+            "Monkey",
+            "Snake"
+          ],
+          "correct": 1,
+          "explanation": "The Tiger connects most strongly with the Horse - both are freedom lovers, active and full of life passion."
+        },
+        {
+          "question": "What is the complete cycle of all elements with all signs?",
+          "options": [
+            "30 years",
+            "48 years",
+            "60 years",
+            "72 years"
+          ],
+          "correct": 2,
+          "explanation": "The complete cycle lasts 60 years - 12 signs times 5 elements = 60 combinations."
+        },
+        {
+          "question": "Which energy (yin/yang) belongs to the Ox?",
+          "options": [
+            "Yang",
+            "Yin",
+            "Mixed",
+            "Variable"
+          ],
+          "correct": 1,
+          "explanation": "The Ox belongs to yin energy - internal, receptive, stable and enduring."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Chinese astrology adds a dimension of cyclical time to your astrological knowledge. The 12 sacred animals, with their elements and yin-yang, create a deep map of soul energies that develop in cycles of 12 and 60 years.",
+      "wisdom": "Time is not a straight line — it's a spiral where each turn brings us to a higher level of understanding.",
+      "nextPreview": "In the next lesson we'll explore the connection between Chinese zodiac and Tarot — how each animal connects to the Major Arcana and what this reveals about the soul's journey."
+    }
+  },
+  "faq": [
+    {
+      "question": "Is my Chinese sign more important than my Western sign?",
+      "answer": "Both systems complement each other. The Western sign shows your monthly and seasonal energy, the Chinese sign the greater yearly cycle. Together they create a more complete picture."
+    },
+    {
+      "question": "Why does the Rat open the cycle and not another animal?",
+      "answer": "According to legend, the Rat was first to reach the Moon Emperor through resourcefulness and wisdom. It symbolizes new beginnings, opportunities and the power of renewal."
+    },
+    {
+      "question": "How do I know which element belongs to my sign?",
+      "answer": "Each sign is connected to a basic element, but your specific year determines the secondary element. For example, all Tigers belong to wood, but a 1986 Tiger is a Fire Tiger."
+    },
+    {
+      "question": "What's the difference between yin and yang in Chinese zodiac?",
+      "answer": "Yang is external, active and initiating energy. Yin is internal, receptive and deepening energy. Each sign carries one of these two forces as its central energy."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "elements-introduction",
+      "label": "⭐ Elements in Astrology"
+    },
+    {
+      "course": "tarot",
+      "lesson": "court-cards-personalities",
+      "label": "🎭 Personalities in Court Cards"
+    }
+  ],
+  "seo": {
+    "title": "Chinese Zodiac - Complete Guide to Chinese Astrology | Maktuba",
+    "description": "Discover the Chinese zodiac: 12 sacred animals, elements, compatibility and the 60-year cycle. In-depth guide to ancient Chinese astrology",
+    "keywords": [
+      "Chinese zodiac",
+      "Chinese astrology",
+      "12 animals",
+      "Chinese elements",
+      "yin yang",
+      "compatibility"
+    ],
+    "ogImage": "/og/academy/astrology/astrology-21.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

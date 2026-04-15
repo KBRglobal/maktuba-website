@@ -1,0 +1,138 @@
+{
+  "courseId": "astrology",
+  "lessonNumber": 5,
+  "title": "Zodiac Compatibility — Who Matches Whom and Why?",
+  "slug": "astrology-05-compatibility",
+  "module": "Zodiac Signs",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit quietly, the candle is lit. Today we enter one of the most fascinating topics — zodiac compatibility. How many times have you heard \"He's an Aries and I'm a Cancer, it won't work\"? Or \"We're both Aries, it's guaranteed chaos\"? The truth is, Maktuba has learned over the years that there's no simple golden rule. The astrology of compatibility is a delicate art that considers the relationships between planets, elements, and the qualities of each sign. In the previous lesson we learned about fixed and mutable signs, and understood how their qualities influence personality. Now we'll dive deeper — we'll see how the signs communicate with each other, how fire gets excited by air and how water comforts earth. This is the key to understanding your relationships, not just romantic ones but also friendships and family connections.</p>",
+    "theoryA": "<h2>How Do Signs Match Each Other?</h2><p>Astrological compatibility is determined by several fundamental principles. The first and most important is elements: fire signs (Aries, Leo, Sagittarius) create natural harmony with air signs (Gemini, Libra, Aquarius). Air strengthens fire, and fire warms air. Similarly, earth signs (Taurus, Virgo, Capricorn) and water signs (Cancer, Scorpio, Pisces) create a natural connection — water nourishes earth, and earth gives form to water.</p><p>The second principle is the angular distance between signs. Signs that are in trine (120 degrees) from each other — like Aries and Leo — create smooth flow and mutual support. Sextile (60 degrees) like Gemini and Leo provides opportunities for growth. Conjunction (same sign) can be intense — two Aries create double energy but also dramatic clashes.</p><p>Opposition (180 degrees) is the most interesting. Opposite signs like Aries and Libra are drawn to each other with magnetic force — they complete what each lacks. Aries learns balance from Libra, and Libra receives decisiveness from Aries. It's not always easy, but it can be very profound.</p><p>Of course, the stars tell only part of the story. You must remember that each person is a complete astrological map. The sign is only the Sun — but we also have Moon, Ascendant, and Venus. Two people with \"incompatible\" Suns can be soulmates if their Moons connect, or if they have complementary elements in their charts.</p>",
+    "practice1": {
+      "instruction": "Write your sign and those of three people close to you. Next to each name, note the element (fire/earth/air/water) and quality (cardinal/fixed/mutable). Check which elements are common in your environment.",
+      "type": "write"
+    },
+    "theoryB": "<h2>Why Do Some Obviously Compatible Couples Not Work?</h2><p>This is the question Maktuba hears most often, and I have a clear answer: because compatibility is much more than just Sun signs. When we say \"two fire signs are compatible,\" we're talking about potential, not fate. Two Aries can create either the most passionate love or the most brutal battle.</p><p>The first secret is in the complete birth charts. An Aries with Moon in Pisces needs emotional depth that an Aries with Moon in Leo simply doesn't understand. The Moon rules our deep emotional needs, and two people with compatible Suns and incompatible Moons can feel like they're speaking different languages.</p><p>The second principle is the level of development. Every sign can express itself at a low or high level. An undeveloped Aries will be selfish and impatient. A developed Aries will be a courageous and inspiring leader. If two Aries at different levels meet — it won't work, no matter what astrology says on paper.</p><p>And the third principle? The chemistry of Venus and Mars. Venus (love) and Mars (attraction) in your chart tell how you love and are attracted. An Aries with Venus in Taurus will be much more stable and sensual than an Aries with Venus in Gemini who will be changeable and curious. When two people meet, magic happens when one's Venus \"speaks\" with the other's Mars.</p>",
+    "practice2": {
+      "instruction": "Choose a couple you know — whether parents, friends, or other couples. Analyze their compatibility based on what you've learned: which elements? What type of connection (trine/opposition, etc.)? What dynamics do you see between them?",
+      "type": "observe"
+    },
+    "deepDive": "<h2>What's Not Written in Books: The Connection with Chinese Astrology</h2><p>Here's a secret that Maktuba reveals only to advanced students. The West knows zodiacal astrology, and the East developed Chinese astrology with 12 animals. But few know that you can combine both to create a deeper picture of compatibility.</p><p>Each Chinese year is ruled by an animal (rat, ox, tiger...) and an element (fire, earth, metal, water, wood). The rat is quick-witted and resourceful, the dragon is confident and charismatic, the rabbit is gentle and sensitive. When I check compatibility, I don't just ask which Western sign, but also which Chinese year.</p><p>Take for example a couple — she's Aries (Western fire) and year of the Rabbit (Chinese wood), he's Leo (Western fire) and year of the Tiger (Chinese wood). Why do they match? The Western fire creates harmony, and the Chinese wood complements the fire. She's a gentle rabbit that balances her natural fire, he's a brave tiger that strengthens his warrior core. This explains why they push each other to grow, but can still relax together.</p><p>It's not exactly science, but it works. The combination of both traditions gives a three-dimensional picture of personality that neither alone can offer.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which signs create natural harmony with fire signs?",
+          "options": [
+            "Water signs",
+            "Earth signs",
+            "Air signs",
+            "Fixed signs"
+          ],
+          "correct": 2,
+          "explanation": "Air signs (Gemini, Libra, Aquarius) strengthen fire signs, just as air strengthens flame in nature."
+        },
+        {
+          "question": "What is the angular distance between signs in trine?",
+          "options": [
+            "60 degrees",
+            "90 degrees",
+            "120 degrees",
+            "180 degrees"
+          ],
+          "correct": 2,
+          "explanation": "Trine is a distance of 120 degrees, considered the best harmony in astrology."
+        },
+        {
+          "question": "Which planet rules our deep emotional needs?",
+          "options": [
+            "The Sun",
+            "The Moon",
+            "Venus",
+            "Mars"
+          ],
+          "correct": 1,
+          "explanation": "The Moon rules our inner emotional world, needs, and sense of security."
+        },
+        {
+          "question": "Which Chinese animal is described as quick-witted and resourceful?",
+          "options": [
+            "Dragon",
+            "Rat",
+            "Tiger",
+            "Rabbit"
+          ],
+          "correct": 1,
+          "explanation": "The Rat in Chinese astrology is described as quick-witted, resourceful, and charming."
+        },
+        {
+          "question": "Which pair of planets determines romantic chemistry?",
+          "options": [
+            "Sun and Moon",
+            "Venus and Mars",
+            "Mercury and Jupiter",
+            "Saturn and Uranus"
+          ],
+          "correct": 1,
+          "explanation": "Venus (love) and Mars (attraction) together create the romantic and sexual chemistry between people."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "We learned today that zodiac compatibility is much more than just comparing Sun signs. Elements, angular distances, and the complete astrological chart all influence the quality of relationships. Even combining with Chinese astrology can deepen understanding.",
+      "wisdom": "It's not the stars that determine your fate, but how you choose to relate to them.",
+      "nextPreview": "In the next lesson we'll dive into the world of astrological houses — the secret map of your life areas."
+    }
+  },
+  "faq": [
+    {
+      "question": "Do two people of the same sign always match?",
+      "answer": "Not necessarily. It depends on each person's level of development and the positions of other planets in their charts."
+    },
+    {
+      "question": "How do I know which signs truly suit me?",
+      "answer": "You need to check not just the Sun sign but also the Moon, Ascendant, and Venus in the complete astrological chart."
+    },
+    {
+      "question": "What does it mean that signs are 'opposite'?",
+      "answer": "Opposite signs are 180 degrees apart and create magnetic attraction of completion — each gives what the other needs."
+    },
+    {
+      "question": "Is there a connection between Western and Chinese astrology?",
+      "answer": "Both systems work separately, but can be combined to get a deeper picture of personality and compatibility."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": 4,
+      "label": "⭐ Fixed and Mutable Signs"
+    },
+    {
+      "course": "astrology",
+      "lesson": 6,
+      "label": "🏠 Astrological Houses"
+    },
+    {
+      "course": "numerology",
+      "lesson": "compatibility",
+      "label": "🔢 Numerological Compatibility"
+    }
+  ],
+  "seo": {
+    "title": "Zodiac Compatibility in Astrology | Who Matches Whom and Why?",
+    "description": "Discover how to check zodiac compatibility in astrology. In-depth learning about elements, angular distances, and planetary influence on personal relationships.",
+    "keywords": [
+      "zodiac compatibility",
+      "astrology relationships",
+      "sign compatibility",
+      "astrological relationships",
+      "Chinese astrology",
+      "Venus Mars compatibility",
+      "zodiac matches",
+      "astrological harmony"
+    ],
+    "ogImage": "/og/academy/astrology/astrology-05.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

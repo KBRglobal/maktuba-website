@@ -1,0 +1,136 @@
+{
+  "courseId": "astrology",
+  "lessonNumber": 12,
+  "title": "The Chinese Zodiac — 12 Sacred Animals and the Compatibility Path",
+  "slug": "chinese-zodiac-compatibility",
+  "module": "Zodiac Signs",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down, dear one... The candle burns bright and incense rises. Today we unfold the scroll of ancient Chinese wisdom — a system counting 4,000 years yet still beating strong like my Tibetan drum. Your Chinese sign isn't determined by the month you were born like in Western astrology, but by the year. This is a system that sees time in 12-year cycles, each year ruled by a sacred animal that imprints its character on all born in that period. These aren't ordinary animals — they're cosmic forces embodied through ancient archetypes, each with its element, energetic gender (yin or yang), and deep spiritual meaning. The Chinese understood something we're only beginning to grasp: that time itself lives and breathes.</p>",
+    "theoryA": "<h2>What is the Chinese System of 12 Sacred Animals?</h2><p>The Chinese zodiac is an ancient system of 12 animals that repeat in a 12-year cycle, each imprinting its unique character on those born in that year. Why animals specifically? The Chinese understood that in nature, animals are the purest expression of cosmic forces — they don't pretend, don't try to be something else. They simply <em>are</em>.</p><p>The 12 animals divide into four elements: water (rat, dragon, monkey), wood (tiger, rabbit), fire (horse, snake), earth (ox, dragon, goat, dog) and metal (monkey, rooster). Each animal can be yin (feminine, internal) or yang (masculine, external). This doesn't mean men must be yang and women yin — this is energy, not biological gender.</p><p>The rat opens the cycle with the water element and yang energy — sharp intellect, resourcefulness, first to seize opportunity. The ox follows with earth and yin — stable, reliable, building empires with patience. The tiger brings wood and yang — courage, independence, wild magnetism. The rabbit continues with wood and yin — grace, elegance, refined sensitivity.</p><p>The dragon, the most revered sign in China, carries earth and yang — natural charisma, visionary fire, born leadership. The snake arrives with fire and yin — deep wisdom, intuition, ability to see what others miss. The horse gallops with fire and yang — freedom, passion, unbridled energy. The goat grazes in earth and yin — creativity, harmony, ability to create beauty from chaos.</p>",
+    "practice1": {
+      "instruction": "Look up your birth year in the list and discover which animal you are. If you were born in January-February, check exactly when the Chinese year began that year (not always January 1st). Write down your animal, element, and energetic gender. Now think of 3 ways the described traits truly manifest in your character.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How Does Compatibility Work in Chinese Zodiac?</h2><p>Compatibility in Chinese zodiac operates on the triad principle — triangles of power formed every four years. There are four triangles of perfect compatibility: the first includes dragon, monkey and rat — all three possess sharp intelligence and adaptability. The second connects ox, snake and rooster — all meticulous and perfectionist. The third unites tiger, horse and dog — justice warriors with big hearts. The fourth links rabbit, goat and pig — gentle souls who love beauty and comfort.</p><p>But there are also cosmic conflicts that repeat every generation. Rat and horse face each other in the circle — the rat is focused and calculated, the horse gallops freely. Like trying to cage the wind. Ox and goat create tension between need for stability and search for beauty. Tiger and monkey — the trickster annoys the hero. Rabbit and rooster — shyness meets performance.</p><p>The great secret: these conflicts don't come to destroy but to teach. When rat meets horse, she learns to live more from the heart. When horse meets rat, he learns to think before jumping. This isn't just compatibility — it's a school of life.</p><p>So how do you know what will truly work? Look at the elements. Water and wood nourish each other (water feeds wood). Wood and fire are good friends (wood feeds fire). Fire and earth work together (fire fertilizes earth). Earth and metal were born to be together (earth births metal). And metal nourishes water (metal condenses water).</p>",
+    "practice2": {
+      "instruction": "Choose two people close to you and discover their Chinese animals. Check their triads and elemental relationships. Are they in the same compatibility triangle? Friendly elements? Or is there a conflict that teaches? Write a short paragraph about what reveals itself in this connection from the perspective of Chinese wisdom.",
+      "type": "write"
+    },
+    "deepDive": "<h2>The Secret They Don't Write in Chinese Zodiac Books</h2><p>Here's what they won't tell you in the newspaper horoscope: your Chinese sign is only the first layer. There are three more secret layers. The second is the Chinese month you were born in (your inner sign). The third is the day (your true sign). The fourth is the hour (your secret sign). But let's talk about something even deeper.</p><p>In ancient Chinese Tao there's a principle called \"Wu Xing\" — the limiting elements. Each element doesn't just nourish someone, it also limits someone else. Water extinguishes fire. Fire melts metal. Metal cuts wood. Wood draws from earth. Earth blocks water. This means conflicts in relationships aren't always bad — sometimes it's cosmic balance.</p><p>And here's the biggest secret: the year you were born shows your cosmic role in your generation. Those born in dragon years came to lead. Rabbit year — to create beauty. Tiger year — to protect and fight for justice. This isn't just personality, it's spiritual <em>mission</em>.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which element belongs to the dragon animal in Chinese zodiac?",
+          "options": [
+            "Water",
+            "Earth",
+            "Fire",
+            "Metal"
+          ],
+          "correct": 1,
+          "explanation": "The dragon is earth element with yang energy. Despite being associated with water in mythology, in Chinese elements it represents earth's power."
+        },
+        {
+          "question": "Which three animals form the first triad of perfect compatibility?",
+          "options": [
+            "Tiger, horse, dog",
+            "Dragon, monkey, rat",
+            "Ox, snake, rooster",
+            "Rabbit, goat, pig"
+          ],
+          "correct": 1,
+          "explanation": "Dragon, monkey and rat form the first triad — all three possess sharp intelligence and impressive adaptability."
+        },
+        {
+          "question": "Which animal is considered the greatest cosmic conflict with the rat?",
+          "options": [
+            "The tiger",
+            "The horse",
+            "The dog",
+            "The rooster"
+          ],
+          "correct": 1,
+          "explanation": "The horse is the rat's cosmic conflict — the rat is calculated and focused, the horse gallops freely and impulsively."
+        },
+        {
+          "question": "How many years does the complete Chinese zodiac cycle repeat?",
+          "options": [
+            "10 years",
+            "12 years",
+            "15 years",
+            "20 years"
+          ],
+          "correct": 1,
+          "explanation": "The Chinese cycle is exactly 12 years — each animal rules one year and then the cycle repeats itself."
+        },
+        {
+          "question": "Which animal opens the 12-year cycle in Chinese zodiac?",
+          "options": [
+            "The dragon",
+            "The rat",
+            "The ox",
+            "The tiger"
+          ],
+          "correct": 1,
+          "explanation": "The rat opens the cycle with water element and yang energy — first to seize opportunity and therefore earns the honor of being first in the cycle."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Chinese zodiac is a deep system of 12 sacred animals repeating in 12-year cycles. Each animal carries an element (water, wood, fire, earth, metal) and energetic gender (yin or yang). Compatibility works through four triangles of harmony and cosmic conflicts that teach. Elements nourish and limit each other in an eternal circle of balance.",
+      "wisdom": "The animal within you doesn't come to hide the human — it comes to show them how to be authentic.",
+      "nextPreview": "In the next lesson we'll explore Western zodiac compatibility and learn how fire meets water, air mixes with earth, and what truly happens when your heart meets its stars."
+    }
+  },
+  "faq": [
+    {
+      "question": "How do I know my Chinese zodiac if I was born in January or February?",
+      "answer": "The Chinese year doesn't begin January 1st but on the first new moon between January 21st and February 20th. If you were born before this date, your sign is from the previous year."
+    },
+    {
+      "question": "Can we be compatible even if our signs are in conflict?",
+      "answer": "Absolutely! Cosmic conflicts come to teach and balance, not destroy. Sometimes the strongest couples are those who learned to transform tensions into complementary strength."
+    },
+    {
+      "question": "What's the meaning of yin and yang in Chinese zodiac?",
+      "answer": "Yin is feminine, internal, calm energy. Yang is masculine, external, active energy. This isn't related to your biological gender but to the type of energy you bring to the world."
+    },
+    {
+      "question": "How do you know which element belongs to each animal?",
+      "answer": "Each animal was born with a fixed element: rat, pig (water), ox, dragon, goat, dog (earth), tiger, rabbit (wood), horse, snake (fire), monkey, rooster (metal). This is part of ancient wisdom."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "compatibility",
+      "label": "⭐ Western Zodiac Compatibility"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "tree-of-life",
+      "label": "🌳 Tree of Life and Elements"
+    },
+    {
+      "course": "numerology",
+      "lesson": "birth-numbers",
+      "label": "🔢 Birth Numbers and Personality"
+    }
+  ],
+  "seo": {
+    "title": "Chinese Zodiac - 12 Sacred Animals and Cosmic Compatibility | Maktuba",
+    "description": "Discover your Chinese zodiac sign among the 12 sacred animals. Learn about elements, yin-yang and deep compatibility in this ancient 4000-year system.",
+    "keywords": [
+      "Chinese zodiac",
+      "sacred animals",
+      "Chinese compatibility",
+      "yin yang",
+      "Chinese astrology",
+      "zodiac elements"
+    ],
+    "ogImage": "/og/academy/astrology/astrology-12.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

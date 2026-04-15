@@ -1,0 +1,131 @@
+{
+  "courseId": "iching",
+  "lessonNumber": 1,
+  "title": "I Ching — Lesson 1: The Power of Heaven and Earth",
+  "slug": "iching-01",
+  "module": "Introduction",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down, my child. The candle is lit and the time has come to open the ancient Book of Changes — the I Ching. For more than 3,000 years, the sages of China looked at the world and saw eternal patterns of change. They saw that everything flows: yang and yin, light and darkness, heaven and earth — and understood that the key to a good life is to understand this flow and flow with it. Today we'll start in the best place: with the fundamental forces of creation itself. This isn't just a fortune-telling book — it's a roadmap for wise living.</p>",
+    "theoryA": "<h2>What is the I Ching and why is it important?</h2><p>The I Ching is the ancient Chinese Book of Changes — a practical guide for understanding the patterns of life and time. The book is based on 64 hexagrams, each describing a specific life situation and the direction that situation is moving toward. This isn't magic — it's practical wisdom.</p><p>The foundation of the I Ching is the simple yet profound principle of yang and yin. Yang is the active, expanding, masculine force — represented by a solid line (—). Yin is the receptive, contracting, feminine force — represented by a broken line (- -). Everything in the world is created from the dynamic balance between these two forces.</p><p>The 64 hexagrams are built from eight basic trigrams: heaven (☰), earth (☷), thunder (☳), water (☵), mountain (☶), wind (☴), fire (☲), and lake (☱). Each trigram represents both a natural force and a psychological force. When two trigrams are combined, they create a hexagram that describes a more complex situation.</p><p>Contrary to what people think, the I Ching doesn't 'predict the future' — it shows you the dynamics active right now and the natural direction the situation is moving toward. It's like a map that shows you where you stand and where the path leads, but whether you'll walk that path or choose another — that's up to you.</p><p>The wisdom of the I Ching is that it teaches us to see change not as a threat but as natural law. Every situation changes, every problem passes, every opportunity develops. The key is to identify the quality of time and act accordingly — sometimes to push, sometimes to wait, sometimes to let go and sometimes to persist.</p>",
+    "practice1": {
+      "instruction": "Take three coins and throw them 6 times. Each throw gives you a line: three heads = solid line (yang), two heads and one tail = broken line (yin). Place the first line at the bottom and build the hexagram upward. Write down what you got.",
+      "type": "draw"
+    },
+    "theoryB": "<h2>How do hexagrams 1 (Force) and 2 (Field) represent the fundamentals of existence?</h2><p>The first hexagrams — Force (1) and Field (2) — represent the two basic forces of the universe. Force is double heaven: six consecutive yang lines. This is pure creative power, the celestial dragon, the cosmic father. Field is double earth: six broken yin lines. This is pure receptive power, the faithful mare, the cosmic mother.</p><p>Force acts — Field receives. Force initiates — Field realizes. Force dreams — Field gives birth. This isn't a hierarchy of superior and inferior, but perfect cooperation. Without heaven there's no direction, without earth there's no realization. Without yang there's no beginning, without yin there's no completion.</p><p>In personal life, Force teaches us when to lead and guide. It's the power within us that says 'yes!' to life, that takes initiative, that acts with confidence. But Force without Field becomes blind aggression. Field teaches us when to receive and support, when to listen and back up. It's the power within us that says 'let's do this together,' that contains and nurtures.</p><p>These hexagrams also teach about different times in life. There are times to be like the dragon — to act with strength, take responsibility, initiate changes. And there are times to be like the mare — to flow with the situation, support others, let things ripen in their own time. The wisdom is recognizing which time this is now.</p><p>In Kabbalah, Force relates to the sephirah of Kether — pure will, and Field relates to Malkhut — realization in the world. In Tarot, Force is the Magician and the Great Agent — masculine creative power, and Field is the High Priestess — receptive feminine wisdom. All spiritual systems recognize this fundamental duality.</p>",
+    "practice2": {
+      "instruction": "Look at the hexagram you created. If it has more solid lines than broken lines — your energy leans toward 'Force' (active, initiating). If more broken — it leans toward 'Field' (receptive, strengthening). Identify the tendency and consider how it affects a decision you need to make this week.",
+      "type": "observe"
+    },
+    "deepDive": "<h2>What's not written in the books: the connection between yang-yin and sacred sexual energy</h2><p>Yang and yin are not just philosophical principles — they are the basic energies that drive the cosmos and the human body. In deep Taoist understanding, sexual energy is the pure force of creation itself. Yang is the energy that expands, penetrates, activates. Yin is the energy that receives, integrates, transforms.</p><p>When people only know the external side of the I Ching, they miss the core: this is a book about the flow of living energy. Each hexagram describes not just a mental or social state, but also how cosmic energy flows through our body and soul at that moment.</p><p>The Taoist sages understood that sexual energy is the foundation of all creative power. Not that one needs to engage in sex to use the I Ching — but to understand that the same force that creates physical life can create spiritual life, art, wisdom, healing. Yang and yin flow through the body via meridians, meeting and separating, creating all our experiences.</p><p>This is why women often feel more naturally at home with the I Ching than men — because women are accustomed to cycles of change, to flow, to receptivity and intuitive wisdom. Men sometimes try to 'conquer' the I Ching like conquering a fortress, and then they get confused when it doesn't work. The I Ching requires a yin approach — patience, attentiveness, willingness to change one's mind.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What does a solid line (yang) represent in the I Ching?",
+          "options": [
+            "Receptive and passive force",
+            "Active and expanding force",
+            "Neutrality",
+            "Confusion"
+          ],
+          "correct": 1,
+          "explanation": "A solid line represents yang — the active, expanding, masculine force. This is the energy that initiates and acts."
+        },
+        {
+          "question": "How many lines are in a hexagram?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "correct": 2,
+          "explanation": "A hexagram consists of six lines that describe a complete and complex situation."
+        },
+        {
+          "question": "What's the difference between the I Ching and Tarot cards?",
+          "options": [
+            "I Ching focuses on the flow of time",
+            "Tarot focuses on the flow of time",
+            "There's no difference",
+            "I Ching is more accurate"
+          ],
+          "correct": 0,
+          "explanation": "The I Ching focuses on patterns of change and the flow of time, while Tarot focuses on psychological and spiritual structures."
+        },
+        {
+          "question": "What does the hexagram 'Field' (2) represent?",
+          "options": [
+            "Pure creative force",
+            "Pure receptive force",
+            "Destructive force",
+            "Mixed force"
+          ],
+          "correct": 1,
+          "explanation": "'Field' is double earth — six yin lines representing the receptive, nurturing, realizing force."
+        },
+        {
+          "question": "How is a hexagram created?",
+          "options": [
+            "Using cards",
+            "Using coin tosses or sticks",
+            "Using mathematical calculation",
+            "Using meditation"
+          ],
+          "correct": 1,
+          "explanation": "A hexagram is created by throwing three coins six times, or using the traditional yarrow stick method."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we learned about the basic elements of the I Ching — yang and yin, heaven and earth, force and field. We saw how these two forces work together to create all patterns of life. We understood that the I Ching is not a prediction tool but a roadmap for flowing wisely with the changes of time.",
+      "wisdom": "Change is the only law that doesn't change.",
+      "nextPreview": "In the next lesson we'll learn about hexagrams 3-8 and discover how the basic forces begin to interact and create more complex situations — sprouting, youthful folly, waiting, and conflict."
+    }
+  },
+  "faq": [
+    {
+      "question": "Do I need to believe in magic to use the I Ching?",
+      "answer": "Not at all. The I Ching is a system for thinking about patterns of change in life. It works as a tool for psychological reflection as well."
+    },
+    {
+      "question": "How do I know if the hexagram interpretation is correct?",
+      "answer": "The interpretation is correct if it resonates with your inner experience and provides clarity about the situation. Your intuition is the best guide."
+    },
+    {
+      "question": "Can I ask the same question multiple times?",
+      "answer": "It's not recommended. Ask once, look at the answer, let it influence you, and if after time the situation has changed — then you can ask again."
+    },
+    {
+      "question": "What's the difference between a trigram and a hexagram?",
+      "answer": "A trigram is three lines representing a basic natural force. A hexagram is two trigrams together (six lines) describing a complex situation."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot-basics",
+      "label": "⭐ Basic Sephirot in Kabbalah"
+    },
+    {
+      "course": "tarot",
+      "lesson": "major-arcana-structure",
+      "label": "⭐ Major Arcana Structure"
+    }
+  ],
+  "seo": {
+    "title": "I Ching for Beginners — Chinese Book of Changes and Yang Yin",
+    "description": "Comprehensive guide to the ancient I Ching. Learn about yang and yin, hexagrams, and how to use the Chinese Book of Changes for wise decision-making in life.",
+    "keywords": [
+      "I Ching",
+      "Book of Changes",
+      "yang yin",
+      "hexagram",
+      "trigram",
+      "Chinese wisdom"
+    ],
+    "ogImage": "/og/academy/iching/iching-01.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

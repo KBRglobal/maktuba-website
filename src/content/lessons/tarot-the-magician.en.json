@@ -1,0 +1,134 @@
+{
+  "courseId": "tarot",
+  "lessonNumber": 1,
+  "title": "The Magician — The Card That Starts Everything",
+  "slug": "the-magician",
+  "module": "Major Arcana",
+  "estimatedMinutes": 15,
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15",
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down. Light a candle. Before you open the deck — sit for a moment. The Tarot is not a textbook. It's a language. And in any language, the first word matters most. The first word of the Tarot is <strong>The Magician</strong> — and today we'll learn what it says.</p>",
+    "theoryA": "<h2>What Does The Magician Card Mean in Tarot?</h2><p><strong>The Magician card</strong> is card number 1 in the Major Arcana. It represents <strong>creation, communication, new beginnings, and faith in your own powers</strong>. In every spread where it appears — it says: you have the tools, now act.</p><p>In the classic Rider-Waite-Smith illustration, the Magician stands before a table. On the table are four tools: <strong>wand</strong> (fire, passion), <strong>cup</strong> (water, emotion), <strong>sword</strong> (air, thought), and <strong>pentacle</strong> (earth, matter). One hand points up, the other down. \"As above, so below.\" The message is clear: divine skills flow through your hands into this world.</p>",
+    "practice1": {
+      "instruction": "Draw The Magician card from your deck. Look at it for thirty seconds. Which of the four tools calls to you most strongly? This is a clue about which life channel needs your attention right now — wand (action), cup (emotion), sword (mental clarity), pentacle (material matters).",
+      "type": "observe"
+    },
+    "theoryB": "<h2>The Hidden Connections of The Magician</h2><h3>The Magician and Mercury — What's the Connection?</h3><p>In Kabbalah, The Magician is connected to the planet <strong>Mercury ☿</strong> — the planet of communication, commerce, and translation between worlds. Mercury is the messenger of the gods. It's no coincidence that The Magician is the one who translates heaven to earth. If this card appears in your reading during Mercury retrograde, think twice before you publish, send, or decide.</p><h3>The Magician and the Letter Beth — The Secret of Creation</h3><p>In practical Kabbalah, The Magician is connected to the letter <strong>Beth (ב׳)</strong> — the letter that opens the Torah. <em>\"In the beginning God created.\"</em> The letter Beth is a house, a place. The Magician is the one who understands where to place boundaries so that creation can happen inside them. Without boundaries, there's no creation — only dispersion.</p>",
+    "practice2": {
+      "instruction": "Draw three cards with the question: \"What am I ready to create this week?\" First — the intention. Second — the obstacle. Third — the small step I need to take today. Write down the three cards in your journal. Return to them in a week.",
+      "type": "draw"
+    },
+    "deepDive": "<h2>What's Not Written in the Books</h2><p>Most books present The Magician as a symbol of \"act and succeed.\" That's true, but incomplete. The grandmothers in Israeli cafés teach differently: <strong>The reversed Magician is not failure — it's a warning</strong>. A warning about someone pretending to know. Someone who shows clients only three of the four tools. Someone who uses symbolic language to sell, not to heal. When the reversed Magician appears — check who's telling the story, not just what they're saying.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is The Magician's number in the Major Arcana?",
+          "options": [
+            "0",
+            "1",
+            "7",
+            "22"
+          ],
+          "correct": 1,
+          "explanation": "The Magician is card number 1 — the card that opens the Major Arcana (after The Fool, numbered 0)."
+        },
+        {
+          "question": "Which planet rules The Magician card?",
+          "options": [
+            "Saturn",
+            "Mercury",
+            "Venus",
+            "Mars"
+          ],
+          "correct": 1,
+          "explanation": "Mercury — the planet of communication, commerce, and translation between worlds."
+        },
+        {
+          "question": "Which Hebrew letter is connected to The Magician in Kabbalah?",
+          "options": [
+            "Aleph",
+            "Beth",
+            "Gimel",
+            "Heh"
+          ],
+          "correct": 1,
+          "explanation": "The letter Beth — the letter that opens the Torah: \"In the beginning.\""
+        },
+        {
+          "question": "How many tools are visible on The Magician's table in the Rider-Waite-Smith illustration?",
+          "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+          ],
+          "correct": 2,
+          "explanation": "Four tools: wand, cup, sword, and pentacle — symbols of the four elements."
+        },
+        {
+          "question": "What does The Magician's posture mean (one hand up, one down)?",
+          "options": [
+            "A holy blessing",
+            "\"As above, so below\" — connecting worlds",
+            "A sign for luck",
+            "Protection from evil eye"
+          ],
+          "correct": 1,
+          "explanation": "\"As above, so below\" — divine energy flows through him to the material world."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "The Magician is the card of beginnings, creation, and translation between thought and matter. It appears when you have the tools — you just need to act. Connected to Mercury, the letter Beth, and the number 1. Reversed — a warning about those who play with language instead of serving it.",
+      "wisdom": "Today's wisdom: Everything you need is already in your hands.",
+      "nextPreview": "In the next lesson we'll meet The High Priestess — the card that teaches when to be silent in order to hear."
+    }
+  },
+  "faq": [
+    {
+      "question": "What does The Magician card say about love?",
+      "answer": "In a love reading, The Magician signifies new communication, attraction beginning, or an important conversation about to happen. It doesn't promise a relationship — it promises an opportunity to open clear dialogue. If it appears reversed — watch for signs of manipulation or dishonesty from the other side."
+    },
+    {
+      "question": "What does the reversed Magician card mean?",
+      "answer": "The reversed Magician is not \"failure.\" It's a warning: either you're not using all the tools you have (one of the four elements is missing), or there's someone around you who presents themselves as an expert but is actually pretending. Check sources before making decisions."
+    },
+    {
+      "question": "What's the connection between The Magician and Mercury?",
+      "answer": "In the Golden Dawn system — the esoteric tradition that built modern Tarot — each Major Arcana card is connected to planetary energy. The Magician received Mercury because both are messengers, translators, connectors between worlds. That's also why during Mercury retrograde we're advised to be careful with hasty communication — The Magician is \"sleeping.\""
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "mercury",
+      "label": "⭐ Mercury in Astrology"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "letter-beth",
+      "label": "🔯 The Letter Beth in Kabbalah"
+    },
+    {
+      "course": "numerology",
+      "lesson": "number-1",
+      "label": "🔢 The Number 1 in Numerology"
+    }
+  ],
+  "seo": {
+    "title": "The Magician Card in Tarot — Meaning, Interpretation, Mercury & Kabbalah Connection",
+    "description": "Learn what The Magician card means in Tarot. Connection to Mercury, the letter Beth in Kabbalah, and number 1. Full lesson, 15 minutes, with exercises and quiz. Free.",
+    "keywords": [
+      "The Magician tarot",
+      "tarot card meaning",
+      "Mercury tarot",
+      "Beth letter tarot",
+      "number 1 tarot",
+      "Major Arcana",
+      "tarot interpretation",
+      "Magician reversed"
+    ],
+    "ogImage": "/og-default.png"
+  }
+}

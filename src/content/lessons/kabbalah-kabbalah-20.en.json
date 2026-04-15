@@ -1,0 +1,138 @@
+{
+  "courseId": "kabbalah",
+  "lessonNumber": 20,
+  "title": "Gematria - The Sacred Calculation of Letters",
+  "slug": "kabbalah-gematria-sacred-calculation",
+  "module": "Gematria",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit comfortably, dear child. We have reached one of our deepest mysteries - Gematria. We have already traversed the worlds of the Sefirot, discovered their treasures, and now the time has come to reveal how the letters themselves carry sacred numbers within them. This is not mere mathematical calculation, but a hidden language through which the Holy Name created the world. Every letter is also a number, every word is also a formula, and every name is also a key to celestial mysteries. Since the days of the Talmud and Midrash, Kabbalistic sages discovered that behind every sacred text lies another layer of meaning - one that opens through the numerical values of the letters. Gematria is the bridge between the visible and invisible, between the written and the hinted.</p>",
+    "theoryA": "<h2>What is Gematria and How Does It Work?</h2><p>Gematria is a sacred system where each Hebrew letter carries a fixed and precise numerical value. The system divides into three parts: the first letters (Aleph-Tet) carry unit values, the following letters (Yod-Tzade) carry tens values, and the final letters (Qoph-Tav) carry hundreds values. Thus Aleph=1, Beth=2, Vav=6, Yod=10, Kaph=20, Mem=40, Qoph=100, Resh=200 and so forth.</p><p>The five final letters have continuation values: Final Kaph=500, Final Mem=600, Final Nun=700, Final Peh=800, Final Tzade=900. The spiritual significance of this system is that every word in Hebrew carries not only linguistic meaning but also a numerical formula. When two different words carry the same gematric value, they are connected to each other on a deeper level.</p><p>For example, the word 'love' (Ahavah: Aleph=1, Heh=5, Beth=2, Heh=5) equals 13, exactly like the word 'one' (Echad: Aleph=1, Chet=8, Daleth=4). This reveals that love and unity are the same thing on a cosmic level. 'Mother' (Ima: Aleph=1, Mem=40, Aleph=1) equals 42, and 'son' (Ben: Beth=2, Final Nun=700) also reaches 42 when we calculate the final Nun. These are not coincidences - they are the mysteries of creation.</p><p>Gematria serves to search for hidden connections between concepts, to reveal hints in sacred texts, and to understand the inner structure of reality. When we calculate the gematric value of a person's name, we discover their numerological frequency - the spiritual code that defines their purpose and characteristics.</p>",
+    "practice1": {
+      "instruction": "Calculate the gematric value of your first name. Write each letter, record its numerical value, and add everything together. If you also have a last name, calculate it separately as well. Search for additional words that reach the same value.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How Does Gematria Connect to the Tree of Life and Sefirot?</h2><p>The connection between Gematria and the Sefirot is fundamental and deep. Each Sefirah carries names and titles whose gematric values reveal its essence. 'Keter' (Kaph=20, Tav=400, Resh=200) equals 620, a number that hints at the supreme crown. 'Chochmah' (Chet=8, Kaph=20, Mem=40, Heh=5) gives 73, a number connected to divine wisdom.</p><p>The sacred number 26, which is the Gematria of the Holy Name YHVH (Yod=10, Heh=5, Vav=6, Heh=5), appears in several of the Sefirot when calculating their names in various ways. This reveals that all Sefirot are manifestations of the same One Name. 'Tiferet' (Tav=400, Peh=80, Aleph=1, Resh=200, Tav=400) reaches 1081, a number that connects to other sacred numbers through complex gematric calculations.</p><p>'Yesod' (Yod=10, Samech=60, Vav=6, Daleth=4) equals 80, like the letter Peh which symbolizes the mouth and expression. This teaches that Yesod is the mouth of the Tree, the channel through which all Sefirot express themselves. 'Malchut' (Mem=40, Lamed=30, Kaph=20, Vav=6, Tav=400) gives 496, a perfect number in mathematics that hints at the perfection within physicality.</p><p>Gematria also reveals the connections between different Sefirot. When combining the values of neighboring Sefirot, we get numbers that relate to other Sefirot or sacred names. This teaches that the Tree is a perfect mathematical system where all its parts are connected to each other on a deep numerical level.</p>",
+    "practice2": {
+      "instruction": "Choose three Sefirot that interest you most. Calculate the Gematria of each Sefirah's name. Search for connections or patterns between the resulting numbers. Check if the sum of two equals the third, or if there are other mathematical relationships.",
+      "type": "write"
+    },
+    "deepDive": "<h2>The Hidden Mysteries of Advanced Gematria</h2><p>What most books don't teach is that there are several types of Gematria, not just the basic one we learned. Small Gematria calculates any number greater than ten by the sum of its digits - thus 'YHVH' is not only 26 but also 8 (2+6). Large Gematria refers to each letter also by its full spelling - Aleph is not just 1 but 111 (Aleph-Lamed-Peh).</p><p>There is also the system of 'Atbash' - replacing the first letters with the last ones (Aleph↔Tav, Beth↔Shin and so forth). This reveals additional mysteries in texts. The word 'Babel' in Atbash becomes 'Sheshach' - the same name that appears in Jeremiah. The word 'heart' (Lev) in Atbash becomes 'joy' (Sas) - the connection between heart and joy.</p><p>The greatest secret is that Gematria is not just a numbers game but the language of creation itself. All phenomena in the world carry the same gematric frequencies. Names of people who carry the same spiritual mission will have similar gematric values, even if they don't know each other. Historical events repeat themselves on a gematric level - the same numerical values recur in the same relational systems.</p><p>The deepest level of Gematria is the understanding that all of reality is a sacred text, and everything in it carries a gematric value. When we learn to read this code, we become translators between the physical language and the spiritual language. This is an art that requires much practice, but it opens completely new ways of understanding reality.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is the gematric value of the letter Yod?",
+          "options": [
+            "1",
+            "10",
+            "100",
+            "20"
+          ],
+          "correct": 1,
+          "explanation": "Yod carries the value 10, and it opens the ten letters that carry tens values (Yod-Tzade)."
+        },
+        {
+          "question": "How do we calculate the Gematria of a word?",
+          "options": [
+            "Multiply the values",
+            "Add the letter values together",
+            "Take the first letter",
+            "Divide by the number of letters"
+          ],
+          "correct": 1,
+          "explanation": "In Gematria we add the numerical values of all letters in the word to get the total value."
+        },
+        {
+          "question": "What is the spiritual significance of identical Gematria between two words?",
+          "options": [
+            "They were written in the same period",
+            "They are connected on a deep level",
+            "They come from the same root",
+            "They appear in the same verse"
+          ],
+          "correct": 1,
+          "explanation": "When words have the same gematric value, it reveals an inner connection and deep cosmic bonding."
+        },
+        {
+          "question": "Which letter system carries hundreds values?",
+          "options": [
+            "Aleph-Tet",
+            "Yod-Tzade",
+            "Qoph-Tav",
+            "Final Kaph-Final Tzade"
+          ],
+          "correct": 2,
+          "explanation": "The letters Qoph, Resh, Shin, Tav carry hundreds values: 100, 200, 300, 400 respectively."
+        },
+        {
+          "question": "What is the gematric value of the Holy Name YHVH?",
+          "options": [
+            "18",
+            "22",
+            "26",
+            "32"
+          ],
+          "correct": 2,
+          "explanation": "YHVH = Yod(10) + Heh(5) + Vav(6) + Heh(5) = 26, a central sacred number in Kabbalah."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Gematria is an ancient key to reading the hidden code of reality. We learned how each Hebrew letter carries a precise numerical value, and how by calculating word values we discover hidden connections and celestial mysteries. We understood the deep connection between Gematria and the Tree's Sefirot, and reached advanced methods like small Gematria and Atbash.",
+      "wisdom": "One who knows how to read in numbers can hear the whisper of creation.",
+      "nextPreview": "In the next lesson we will learn about the 'Sacred Names' - the 72 hidden names of God that appear in the parting of the sea and constitute tremendous spiritual keys..."
+    }
+  },
+  "faq": [
+    {
+      "question": "Do you need to be good at mathematics to understand Gematria?",
+      "answer": "Not at all. Gematria requires only simple addition of numbers. The wisdom is in understanding the meanings, not in complex calculations."
+    },
+    {
+      "question": "How do we know if a gematric connection is real and not coincidental?",
+      "answer": "A true gematric connection appears in meaningful contexts, repeats itself, and relates to concepts that are close in content."
+    },
+    {
+      "question": "Can we do Gematria for non-Hebrew names?",
+      "answer": "Yes, but we must first translate or convert the name to Hebrew letters. Sometimes we use parallel Hebrew names."
+    },
+    {
+      "question": "What do we do when there are several spelling options for a word?",
+      "answer": "We choose the most common spelling in sacred sources. Sometimes both versions are important and each reveals a different aspect."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "numerology",
+      "lesson": "hebrew-numbers",
+      "label": "⭐ Hebrew Numbers in Numerology"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot-paths",
+      "label": "🌳 Paths of the Sefirot"
+    },
+    {
+      "course": "tarot",
+      "lesson": "hebrew-letters",
+      "label": "🃏 Hebrew Letters in Tarot"
+    }
+  ],
+  "seo": {
+    "title": "Gematria - The Sacred Calculation of Hebrew Letters",
+    "description": "Learn Kabbalistic Gematria: Hebrew letter values, numerical calculation of words and hidden connections between spiritual concepts. Comprehensive guide with practical exercises.",
+    "keywords": [
+      "gematria",
+      "kabbalah",
+      "hebrew letters",
+      "gematric calculation",
+      "sefirot",
+      "YHVH",
+      "sacred numbers",
+      "atbash"
+    ],
+    "ogImage": "/og/academy/kabbalah/kabbalah-20.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

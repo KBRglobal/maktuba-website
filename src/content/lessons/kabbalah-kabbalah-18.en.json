@@ -1,0 +1,138 @@
+{
+  "courseId": "kabbalah",
+  "lessonNumber": 18,
+  "title": "kabbalah — Lesson 18",
+  "slug": "kabbalah-18",
+  "module": "Gematria",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">The candle flickers, and letters dance across the page... Come, my beloved, we have arrived at one of Kabbalah's deepest secrets — gematria. Do you remember that first moment when you understood that words are not just sounds, but numbers? That each Hebrew letter carries within it a precise numerical value, and thus every word becomes a cosmic equation? Until now we have studied the Tree of Sefirot, prayed with holy names, and explored the structure of the soul. All this knowledge has prepared you for this moment — to understand how the Divine connects to us through numbers. Gematria is not merely a tool for cracking codes; it is a complete language in which the Creator wrote all of creation. Every letter in Scripture, every name in holy books, every word in our prayers — all are woven with deep calculations of creation waiting for us to discover them.</p>",
+    "theoryA": "<h2>How Do We Calculate Hebrew Gematria?</h2><p>Gematria is a Kabbalistic system where each Hebrew letter carries a fixed numerical value, making it possible to calculate the numerical value of any word or phrase. The system is based on letters from Aleph to Tav receiving values from 1 to 400, while final letters (Kaf, Mem, Nun, Peh, Tzade) receive values from 500 to 900.</p><p>Let us learn the basic value system: Aleph (א) = 1 — absolute unity, the beginning of all. Beth (ב) = 2 — the first duality, the house where creation dwells. Gimel (ג) = 3 — kindness and reward, the energy that gives. Dalet (ד) = 4 — humility and transition, the door between worlds. Heh (ה) = 5 — the divine breath, the window through which light enters.</p><p>The following letters jump by tens: Yod (י) = 10 — the hand of creation, the power that activates. Kaf (כ) = 20 — the palm that contains. Lamed (ל) = 30 — the teacher, the sharpening that elevates. Mem (מ) = 40 — revealed and hidden waters, the great receiver. Nun (נ) = 50 — the fish, faithfulness in the depths of the unconscious.</p><p>The hundreds come with the final letters: Kuf (ק) = 100 — holiness ascending upward. Resh (ר) = 200 — the head that leads processes. Shin (ש) = 300 — the divine fire. Tav (ת) = 400 — the seal, the absolute completion of creation. The final letters are called 'expanded letters' and express the extension of energy beyond normal boundaries: Final Kaf (500), Final Mem (600), Final Nun (700), Final Peh (800), Final Tzade (900).</p><p>In classical gematria, when we want to calculate a word's value, we simply add up the letter values. For example: Love (אהבה) = (א+ה+ב+ה) = 1+5+2+5 = 13. One (אחד) = (א+ח+ד) = 1+8+4 = 13. See how these two words share the same value! This is a profound Kabbalistic hint — love and unity are two faces of the same spiritual truth.</p>",
+    "practice1": {
+      "instruction": "Calculate the gematria of your name. Write your Hebrew name, record under each letter its numerical value, and add everything together. Please write on a separate page: the name, the values of the letters, and the total sum.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How Is Gematria Connected to the Sefirot and Tree of Life?</h2><p>Gematria and the Sefirot are connected by a deep and precise relationship — each Sefirah carries within it certain gematric values that reveal its spiritual nature. This connection is not accidental, but built into the very plan of creation — letters and numbers are the tools through which the Sefirot operate in our world.</p><p>Keter, the highest Sefirah, is connected to gematria through the name Ehyeh (אהיה) = (א+ה+י+ה) = 1+5+10+5 = 21. The number 21 is the number of perfection and the crown above all Sefirot. Chochmah and Binah, the two upper minds, are expressed through the word 'Chochmah' (חכמה) = (ח+כ+מ+ה) = 8+20+40+5 = 73, and 'Binah' (בינה) = (ב+י+נ+ה) = 2+10+50+5 = 67. Together they equal 140, identical to the gematria of 'place' (מקום) — the spiritual place where understanding takes place.</p><p>The emotional Sefirot — Chesed, Gevurah, and Tiferet — are expressed through the word 'heart' (לב) = (ל+ב) = 30+2 = 32. Thirty-two is the number of paths of wisdom mentioned in Sefer Yetzirah, the ways through which Divinity flows into the human heart. Netzach and Hod, the pair of lower Sefirot, are expressed through the word 'Netzach' (נצח) = (נ+צ+ח) = 50+90+8 = 148, connected to the eternity of time and natural cyclicality.</p><p>Yesod, the connecting Sefirah, carries the secret of the word 'Yesod' (יסוד) = (י+ס+ו+ד) = 10+60+6+4 = 80. The number 80 equals the gematria of 'mouth' (פה) = (פ+ה) = 80+5 = 85 — the mouth that connects soul to world. Malchut, the final Sefirah, is expressed through the word 'Malchut' (מלכות) = (מ+ל+כ+ו+ת) = 40+30+20+6+400 = 496, a perfect number expressing the completion of all Sefirot in physical reality.</p><p>The deepest connection is found between gematria and the Tree of Sefirot through the term 'Tree of Life' (עץ חיים) = (ע+צ ח+י+י+ם) = 70+90+8+10+10+40 = 228. The number 228 also equals the word 'blessed' (ברוך) — the blessing that flows through the entire Tree. This is proof that gematria is not just a numbers game, but our spiritual roadmap.</p>",
+    "practice2": {
+      "instruction": "Choose one Sefirah from the Tree that particularly interests you right now. Calculate the gematria of that Sefirah's name. Now find another word that has the same gematric value (you can use words of wisdom, place names, or words connected to your life). Write about the connection you discover between them.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in the Books</h2><p>The deep secret that most people don't know about gematria is that it's not just a calculation tool — it's a language of consciousness. Every gematric calculation you perform changes your brain, creating new neural connections that link you to the wisdom of generations.</p><p>There are several secrets that Kabbalists transmit only orally: First, gematria works best when you're in a precise state of spirit — not stressed, not rushed. You need to enter a state of 'holy playfulness,' as if you're playing with the Divine itself. Second, always calculate the gematria of a word three times — not because you might make mistakes, but because each time your brain creates a deeper connection to the meaning.</p><p>A third secret: the most powerful gematria is of words that are personally important to you. Don't start with grand holy words — begin with your name, with words that define who you are, with words that accompany you in difficult moments. The human brain connects to gematria best when it has emotional interest in the word. Finally, use gematria like meditation: not to get answers, but to ask better questions.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is the gematric value of the letter Yod (י)?",
+          "options": [
+            "5",
+            "10",
+            "20",
+            "15"
+          ],
+          "correct": 1,
+          "explanation": "Yod is the tenth letter of the Hebrew alphabet and carries the value 10. It symbolizes the hand of creation and the power that activates creation."
+        },
+        {
+          "question": "How do we calculate the gematria of a word?",
+          "options": [
+            "Divide the number of letters",
+            "Multiply the values",
+            "Add up the values of all the letters",
+            "Take the highest value"
+          ],
+          "correct": 2,
+          "explanation": "In gematria we add up the numerical values of all the letters in the word to get the total value of the word."
+        },
+        {
+          "question": "What is the value of the letter Tav (ת)?",
+          "options": [
+            "300",
+            "400",
+            "500",
+            "200"
+          ],
+          "correct": 1,
+          "explanation": "Tav is the last letter of the basic alphabet and carries the value 400. It symbolizes the completion of creation and the seal of truth."
+        },
+        {
+          "question": "Which of the following values belongs to final letters?",
+          "options": [
+            "400",
+            "500",
+            "300",
+            "100"
+          ],
+          "correct": 1,
+          "explanation": "The final letters (Final Kaf, Final Mem, Final Nun, Final Peh, Final Tzade) carry values from 500 to 900. They express the expansion of energy beyond normal boundaries."
+        },
+        {
+          "question": "Why is the gematria of 'love' (אהבה) and 'one' (אחד) identical?",
+          "options": [
+            "It's a coincidence",
+            "Both are built from 4 letters",
+            "It expresses a spiritual connection between love and unity",
+            "It results from a calculation error"
+          ],
+          "correct": 2,
+          "explanation": "Both words carry the value 13, expressing the deep connection between love and unity — two forms of expression of the same spiritual principle."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "In today's lesson we discovered the foundations of gematria — how each Hebrew letter carries a precise numerical value, how to calculate gematria of words, and the deep connection between gematria and the Sefirot. We learned that gematria is not just a calculation tool but a language of consciousness that connects us to the wisdom of generations.",
+      "wisdom": "Letters are not just sounds — they are living numbers dancing in our souls.",
+      "nextPreview": "In the next lesson we will deepen our understanding of special gematrias — how Kabbalists used advanced methods like small gematria and Atbash to reveal deeper secrets."
+    }
+  },
+  "faq": [
+    {
+      "question": "Is it important to memorize all letter values by heart?",
+      "answer": "It's not necessary to remember everything by heart. What's important is understanding the principles and meanings. With practice, the basic values are absorbed naturally."
+    },
+    {
+      "question": "What do we do when we find two words with the same gematria?",
+      "answer": "That's exactly the magic! It indicates a deep spiritual connection between the words. We need to explore what the shared meaning is and how it relates to our lives."
+    },
+    {
+      "question": "How can gematria help in daily life?",
+      "answer": "Gematria develops symbolic thinking and connects between concepts. It helps us see deeper patterns in words that are meaningful to us and understand the hidden connections between them."
+    },
+    {
+      "question": "Is there a difference between Sephardic and Ashkenazic gematria?",
+      "answer": "The basic values of the letters are identical in both traditions. The differences are mainly in methods of use and interpretive traditions, not in the calculations themselves."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "numerology",
+      "lesson": "hebrew-letters",
+      "label": "⭐ Meaning of Hebrew Letters in Numerology"
+    },
+    {
+      "course": "tarot",
+      "lesson": "hebrew-connection",
+      "label": "🎴 The Connection Between Hebrew Letters and Tarot"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot",
+      "label": "🌳 Review of the Sefirot and Tree of Life"
+    }
+  ],
+  "seo": {
+    "title": "Gematria in Kabbalah - How to Calculate Hebrew Gematria | Maktuba Academy",
+    "description": "Learn the foundations of Kabbalistic gematria: Hebrew letter values, calculating word gematria, and connections to the Sefirot. Complete guide with practical exercises.",
+    "keywords": [
+      "gematria",
+      "Kabbalah",
+      "Hebrew letters",
+      "Hebrew gematria",
+      "Sefirot",
+      "gematria calculation",
+      "Jewish mysticism",
+      "numerology"
+    ],
+    "ogImage": "/og/academy/kabbalah/kabbalah-18.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

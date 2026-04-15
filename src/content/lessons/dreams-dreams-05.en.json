@@ -1,0 +1,136 @@
+{
+  "courseId": "dreams",
+  "lessonNumber": 5,
+  "title": "dreams — Lesson 5",
+  "slug": "dreams-05",
+  "module": "Symbols",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Come, let's open together the ancient dream book written upon your heart. In our previous lesson, we learned how to remember and record dreams, and now comes the fascinating moment — deciphering the symbolic language your soul speaks at night. Every dream is an encoded letter from the soul, and each symbol within it is a word in an ancient language that humanity has spoken since time immemorial. Water, animals, people, houses — every symbol holds deep meaning that connects us to collective wisdom. This is the language Jung called the 'collective unconscious,' which the Talmud recognizes as 'soul hints,' and which the Muslim Ibn Sirin deciphered with meticulous precision. Ready to learn this language?</p>",
+    "theoryA": "<h2>How do we identify the central symbols in a dream?</h2><p>The central symbols in a dream are those that appear clearly and evoke strong feelings — whether positive or negative. When you remember a dream, there are always 3-5 elements that stand out more than others: the animal that chased you, the water you saw, the person who spoke with you.</p><p>Symbols are the soul's natural language. Unlike words we think in during the day, the soul thinks in images, sensations, ancient memories. Each symbol carries layers of meaning — personal (from your life), cultural (from your tradition), and universal (from the general human soul).</p><p>First technique: When you write down a dream, highlight the 3-5 things that stood out most to you. Not what you think is important, but what draws your attention when you read the recording. Sometimes it will be a strange color, sometimes the feeling of fear from an animal, sometimes a house that seemed familiar.</p><p>Second technique: Ask yourself — which of these elements has returned to me in other dreams? Recurring symbols are urgent messages from the soul. If the same animal appears again and again, if the same place returns — it's not coincidence.</p><p>Third technique: Pay attention to the emotion the symbol evoked in you, not just its appearance. Water can be frightening (drowning) or soothing (warm bath). The same symbol can carry completely different meaning depending on the feeling it aroused.</p>",
+    "practice1": {
+      "instruction": "Take a dream you recorded this week (or a dream you remember clearly). Write down 3-5 symbols that stood out most to you in the dream, and next to each symbol write in one word how it made you feel: fear/joy/magic/confusion etc.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How do symbol meanings change between different cultures?</h2><p>The same symbol carries different meanings in different traditions, and this has enormous importance for correctly deciphering your dream. A snake, for example, in Western tradition symbolizes desire or hidden enemy, in Jewish tradition it is the evil inclination but also wisdom (Moses' bronze serpent), and in Muslim tradition it is mainly an enemy or hidden treasure.</p><p>Jewish tradition sees dreams as letters from the soul that require meticulous deciphering. The Talmud says: 'A dream that is not interpreted is like a letter that is not read' (Berakhot 55a). Symbols here are connected to holidays, Hebrew letters, myths of the Jewish people. A Torah scroll in a dream is always spiritual guidance, Jerusalem is always yearning for wholeness.</p><p>Islamic tradition, following the wisdom of Ibn Sirin (653-729 CE), divides dreams into three types: ru'ya (true vision from Allah), hadith al-nafs (processing daily thoughts), and hulm (disturbing dream from Satan). Symbols here are connected to the Quran, the mosque, the five pillars of Islam. Clear water is always knowledge, dates are always blessed livelihood.</p><p>Jungian tradition focuses on universal archetypes — soul patterns that all humanity shares. The archetypal Mother, the Hero, the Wise Old Man — these are figures that appear in every culture. Jung claimed that dreams connect us to the collective unconscious of all humanity.</p><p>How does this connect to astrology? Each zodiac sign carries specific symbols. Aquarius dreams of flowing water, Leo of fire or gold, Scorpio of hidden creatures in the depths. The planets also leave their mark: Mercury brings symbols of communication and travel, Venus brings symbols of beauty and love.</p>",
+    "practice2": {
+      "instruction": "Choose one symbol from your dream and check how it appears in different traditions: search in your notebook or online for the meaning of this symbol in Judaism, Islam, and Jungian psychology. Write down which meaning connects with you most",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's not written in books: The symbolic code of numbers in dreams</h2><p>When numbers appear in dreams, they're not random. The soul speaks in an ancient numerological language that connects dreams, Kabbalah and astrology in a way no dream interpretation book will teach you.</p><p>Three birds in a dream — it's not just three birds. Three is the number of covenant, the sacred triangle, the combination of will-wisdom-knowledge in Kabbalah. Three women in a dream represent the three faces of the divine feminine: the Maiden, the Mother, the Crone. Three men are strength-wisdom-understanding.</p><p>Four barking dogs — four symbolizes earthly stability, four elements (fire water air earth), four directions. When four appears in a dream, the soul tells you: ground yourself, find balance, fix the foundations of your life.</p><p>Seven swimming fish — seven is the number of spiritual completion. Seven days of creation, seven days of the week, seven classical planets. When seven appears in a dream, the soul heralds a cycle ending and a new cycle beginning.</p><p>Numbers are bridges between the world of symbols and the worlds of astrology and Kabbalah. Every number is a force, every number is a gateway to deeper wisdom.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "How do we identify the central symbols in a dream?",
+          "options": [
+            "By elements that stand out and evoke strong feelings",
+            "By the order in which they appear in the dream",
+            "By their colors",
+            "By their size in the dream"
+          ],
+          "correct": 0,
+          "explanation": "Central symbols are those that stand out most and evoke strong feelings, not necessarily by order of appearance or external characteristics"
+        },
+        {
+          "question": "What does a snake symbolize according to Jewish tradition?",
+          "options": [
+            "Only the evil inclination and temptation",
+            "The evil inclination but also wisdom like the bronze serpent",
+            "Always a hidden enemy",
+            "Symbol of sexual desire"
+          ],
+          "correct": 1,
+          "explanation": "In Jewish tradition, a snake symbolizes the evil inclination (Garden of Eden) but also wisdom and healing (Moses' bronze serpent in the wilderness)"
+        },
+        {
+          "question": "How does the Talmud define an uninterpreted dream?",
+          "options": [
+            "Like a book that wasn't read",
+            "Like a letter that wasn't read",
+            "Like a song that wasn't heard",
+            "Like a prayer that wasn't answered"
+          ],
+          "correct": 1,
+          "explanation": "The Talmud in Berakhot 55a says: 'A dream that is not interpreted is like a letter that is not read' — emphasizing that dreams are messages that need deciphering"
+        },
+        {
+          "question": "According to Ibn Sirin, what is 'ru'ya'?",
+          "options": [
+            "A disturbing dream from Satan",
+            "Processing daily thoughts",
+            "A true vision from Allah",
+            "A recurring dream"
+          ],
+          "correct": 2,
+          "explanation": "Ru'ya (رؤيا) according to Ibn Sirin is a true vision from Allah, as opposed to hadith al-nafs (daily thoughts) and hulm (disturbing dream)"
+        },
+        {
+          "question": "What does the number seven symbolize in dreams according to the symbolic code?",
+          "options": [
+            "Earthly stability",
+            "Spiritual completion and a cycle ending",
+            "Covenant and connection",
+            "Divine power"
+          ],
+          "correct": 1,
+          "explanation": "Seven symbolizes spiritual completion (7 days of creation, 7 planets) and a cycle ending and beginning anew"
+        }
+      ]
+    },
+    "closing": {
+      "summary": "We learned to identify central symbols in dreams by their prominence and the feelings they evoke. We discovered how the same symbol carries different meanings in Jewish, Islamic, and Jungian traditions. We became acquainted with the hidden symbolic code of numbers in dreams and their connection to Kabbalah and astrology.",
+      "wisdom": "Every symbol in a dream is a key to a hidden chamber in your soul.",
+      "nextPreview": "In the next lesson we'll learn to read the complete story the dream tells and connect the symbols into one whole meaning."
+    }
+  },
+  "faq": [
+    {
+      "question": "What do you do if you don't remember exactly how the symbol looked in the dream?",
+      "answer": "Focus on the feeling the symbol evoked, not the exact appearance. The soul remembers emotions with greater accuracy than visuals."
+    },
+    {
+      "question": "How do you know which cultural tradition to use for interpretation?",
+      "answer": "Use the tradition you're spiritually connected to. If you're secular, start with the Jewish tradition and see how it feels."
+    },
+    {
+      "question": "What if a symbol appears in a dream but has no meaning in any tradition?",
+      "answer": "Ask yourself what the symbol reminds you of from your life. Sometimes personal meaning is more important than universal."
+    },
+    {
+      "question": "Do children's dreams require different interpretation?",
+      "answer": "Yes. Children dream more in simple symbols and raw emotions. Their meanings are usually more direct."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "numerology",
+      "lesson": "numbers-meaning",
+      "label": "⭐ Number meanings in numerology"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot",
+      "label": "🔯 The Sefirot and sacred numbers"
+    },
+    {
+      "course": "astrology",
+      "lesson": "planets-symbols",
+      "label": "🌙 Planetary symbols in astrology"
+    }
+  ],
+  "seo": {
+    "title": "Dream Symbol Interpretation - Complete Guide to Dream Meanings",
+    "description": "Learn to identify and interpret symbols in your dreams according to Jewish, Islamic, and Jungian traditions. Includes hidden symbolic code of numbers.",
+    "keywords": [
+      "dream interpretation",
+      "dream symbols",
+      "dream meanings",
+      "numerology in dreams",
+      "Jewish tradition",
+      "Jung dreams"
+    ],
+    "ogImage": "/og/academy/dreams/dreams-05.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

@@ -1,0 +1,138 @@
+{
+  "courseId": "palm",
+  "lessonNumber": 5,
+  "title": "Reading the Main Lines in Your Palm",
+  "slug": "palm-05",
+  "module": "Foundations",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit comfortably and look at your palm. I remember the first time I understood that the lines in the palm aren't just scratches — they're like a roadmap of the soul. In previous lessons we learned about hand shape and the mounts, now it's time to unveil the greatest secrets: the main lines. Each line tells a different story — the heart line about your emotions, the head line about how you think, the life line about your vitality. This isn't fortune-telling, it's reading what already exists within you now. The candle is lit, come journey with me between the lines that tell the most personal story there is — yours.</p>",
+    "theoryA": "<h2>How to Read the Heart Line and What It Says About You</h2><p>The heart line is the topmost horizontal line in the palm, ruling over your emotional life, love, and relationships. This is the line that reveals how you love and how you handle emotions.</p><p>When the line is deep and long, you have a deeply emotional nature with a strong capacity for love and loyalty. You feel things deeply and create lasting connections. Such people remember anniversaries, notice small details, and live love with full intensity.</p><p>A short and weak line tells a different story — you're more reserved with emotions, with a tendency to be self-focused in romantic matters. It's not that you don't love, you simply prefer logic over emotions and take time to open your heart.</p><p>The line's shape is no less important than its strength. A line curved upward indicates good verbal expression of emotions — you know how to say \"I love you\" and show physical affection. A straighter line points to an analytical approach to love — you're practical and value stability in relationships.</p><p>Breaks in the heart line are signs of emotional traumas or significant changes in romantic life. Each break marks a major emotional turning point, but remember — a break doesn't mean an end, but a new beginning. Small branches extending from the line tell of emotional growth. Upward branches indicate joy and happiness, downward ones suggest challenges that strengthen you.</p>",
+    "practice1": {
+      "instruction": "Look at the heart line in your left palm. Notice how it begins — under the pinky finger or between fingers? Mark with pencil (lightly) the starting point and ending point. Write one word that describes your first impression of this line.",
+      "type": "observe"
+    },
+    "theoryB": "<h2>What's the Connection Between the Head Line and Your Thinking Style?</h2><p>The head line is the middle horizontal line representing intellect, mental processes, and the way you think and learn. This is the key to understanding how your mind works.</p><p>A long and deep line indicates sharp intellect and excellent analytical mind. You have excellent focus, good concentration, and strong memory. You think things through thoroughly before making decisions, and you have the ability to see the big picture.</p><p>A short and weak line means you prefer physical activity over intellectual pursuits. You think quickly and make intuitive decisions, but may lack depth of analysis. This isn't bad — it means you're a person of action.</p><p>The line's direction tells about thinking style. A line curved upward indicates a creative thinker with imagination. You have an artistic mind with ability to think outside the box and find original solutions. A straight line points to logical and practical thinking — you prefer facts over fantasies and a grounded approach to problem-solving.</p><p>Breaks in the head line signify major changes in thinking or mental breakthroughs. This may indicate a significant shift in your worldview or career direction. Branches from the line show a versatile mind with many interests — upward branches indicate intellectual success, downward branches suggest scattered focus that needs balance.</p>",
+    "practice2": {
+      "instruction": "Compare the heart line and head line in your palm. Which is stronger and deeper? Write one sentence about how the two influence each other — do you make decisions with your head or heart?",
+      "type": "write"
+    },
+    "deepDive": "<h2>The Secret of the Life Line That Nobody Tells You</h2><p>The life line is the line that causes many people to panic, but I'll reveal the truth to you: its length doesn't determine how long you'll live. This is one of the biggest myths in palm reading.</p><p>The life line curving around the base of the thumb represents your vitality, health, and major life changes. A long and deep line indicates strong vitality and solid health — you're full of energy and enthusiasm for life, with a resilient body structure.</p><p>But here's the big secret: a short life line doesn't mean a short life. It means you may be easily influenced by others, or that you have a reserved and cautious approach to life's adventures. Sometimes people with short life lines live long and full lives, they're just more careful and moderate.</p><p>The curve of the life line tells about your energy. A wide curve indicates abundant energy and optimism, an adventurous spirit with zest for life. A straighter line indicates a cautious nature that prefers familiar territory and is careful in relationships and new experiences.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which line represents emotional life and relationships?",
+          "options": [
+            "Life line",
+            "Heart line",
+            "Head line",
+            "Fate line"
+          ],
+          "correct": 1,
+          "explanation": "The heart line is the topmost horizontal line in the palm, ruling over emotional life, love, and relationships."
+        },
+        {
+          "question": "What does a straight and long head line indicate?",
+          "options": [
+            "Creative thinking and imagination",
+            "Logical and practical thinking",
+            "Difficulty concentrating",
+            "Tendency to daydream"
+          ],
+          "correct": 1,
+          "explanation": "A straight head line points to logical and practical thinking that prefers facts over fantasies, and when long - indicates sharp intellect."
+        },
+        {
+          "question": "Does the length of the life line determine lifespan?",
+          "options": [
+            "Yes, always",
+            "No, it's a common myth",
+            "Only for men",
+            "Only for women"
+          ],
+          "correct": 1,
+          "explanation": "This is a common myth - the life line represents vitality and health, not lifespan. Many people with short life lines live long and full lives."
+        },
+        {
+          "question": "What do breaks in the main lines signify?",
+          "options": [
+            "Bad luck",
+            "Changes and major turning points",
+            "Illnesses",
+            "Failures"
+          ],
+          "correct": 1,
+          "explanation": "Breaks in lines signify major changes and turning points in life - in the heart line: emotional changes, in the head line: thinking changes, in the life line: life transitions."
+        },
+        {
+          "question": "How do you read a heart line curved upward?",
+          "options": [
+            "Difficulty expressing emotions",
+            "Good expression of emotions and demonstrativeness",
+            "Selfishness",
+            "Emotional coldness"
+          ],
+          "correct": 1,
+          "explanation": "A heart line curved upward indicates good verbal expression of emotions and being physically demonstrative in love - a warm and affectionate nature."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we learned to read the three main lines - the heart line that reveals how you love, the head line that exposes your thinking style, and the life line that represents your vitality and energy. Remember - the length of the life line doesn't determine lifespan, and breaks in lines are turning points, not bad signs.",
+      "wisdom": "The lines in your palm are the map, but you are the navigator.",
+      "nextPreview": "In the next lesson we'll explore the mysterious secondary lines - the fate line, sun line, and health line, and discover how they influence your career, popularity, and wellbeing."
+    }
+  },
+  "faq": [
+    {
+      "question": "What do you do if there's a double line (two lines instead of one)?",
+      "answer": "A double line indicates additional strength in that area. A double heart line means very deep emotions, a double head line points to exceptional intellectual talent."
+    },
+    {
+      "question": "Which hand should you look at - right or left?",
+      "answer": "The dominant hand (usually right) shows what you've developed and achieved in life. The non-dominant hand presents the natural potential you were born with."
+    },
+    {
+      "question": "Can lines change over time?",
+      "answer": "Yes! Lines can deepen, weaken, or even appear new. This reflects changes in life, health, and your personality."
+    },
+    {
+      "question": "What if I don't have a certain line (like the fate line)?",
+      "answer": "Absence of a line is also information! No fate line? You create your own destiny. No health line? That's an excellent sign of strong health."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "numerology",
+      "lesson": "lifepath",
+      "label": "🔢 Life Path Number in Numerology"
+    },
+    {
+      "course": "astrology",
+      "lesson": "mercury",
+      "label": "☿ Mercury - Planet of Communication and Intellect"
+    },
+    {
+      "course": "tarot",
+      "lesson": "court-cards",
+      "label": "🃏 Court Cards in Tarot and Personality"
+    }
+  ],
+  "seo": {
+    "title": "Reading Palm Lines - Guide to Heart, Head and Life Lines",
+    "description": "Learn to read the three main lines in your palm: heart line (emotions), head line (intellect) and life line (vitality). Detailed guide with accurate interpretations.",
+    "keywords": [
+      "palm reading",
+      "heart line",
+      "head line",
+      "life line",
+      "palm lines",
+      "palmistry",
+      "fortune telling",
+      "main lines"
+    ],
+    "ogImage": "/og/academy/palm/palm-05.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

@@ -1,0 +1,136 @@
+{
+  "courseId": "coffee",
+  "lessonNumber": 3,
+  "title": "Flipping the Cup",
+  "slug": "flipping-the-cup",
+  "module": "Foundations",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Come, let's sit together, the cup still warm in your hands and the coffee nearly finished. This is the magical moment — when ritual transforms into the act of reading. In the previous lesson we learned the secrets of proper Turkish coffee preparation, the importance of fine grounds and the golden rules for mindful drinking. Now comes the most delicate stage in the entire process: flipping the cup. One moment of carelessness can ruin all the work, but conversely — a perfect flip will give us an accurate and clear soul map. You'll feel how the cup trembles slightly, how the grounds settle on the walls, and how within mere seconds an entire world of symbols and shapes is created, waiting to be decoded.</p>",
+    "theoryA": "<h2>How to Flip a Coffee Cup Correctly?</h2><p>The proper flipping of the cup is an art that requires precision, perfect timing and a steady hand. You flip the cup at an even speed in one continuous motion, without stopping midway or repeating the action. The first secret: the cup must still be warm when you flip it — if the coffee has cooled completely, the grounds will have already hardened and won't give a proper reading.</p><p>The motion itself begins with a steady grip of the cup in your dominant hand. Too tight a grip will cause the cup to shake, too loose and it will fall. The right place to hold is slightly above the middle of the cup, where the temperature isn't too hot but there's still complete control. The perfect angle for flipping is exactly 180 degrees — no less, no more. Too much will cause the grounds to flow unevenly, too little will leave empty sections.</p><p>The timing of the flip is critical. The first seconds after you finish drinking are the ideal time — the grounds are still liquid enough to flow, but not so liquid that they flow out of the cup. The moment you flip, count to three and then place the cup on the plate. A faster motion will cause spattering, slower will create uneven drying.</p><p>Orientation within the cup space is critical. The cup's handle must point toward the reader — this is the 'south' of the cup map. From here you can determine all directions: to the right of the handle is east (near future), to the left is west (recent past), and the opposite side is north (distant future). Understanding this space is vital for correct interpretation of symbols and their positions.</p>",
+    "practice1": {
+      "instruction": "Take a cup of Turkish coffee you prepared (or a cup with a little instant coffee and water if just for practice). Take small sips to leave grounds, then practice flipping: steady grip, 180-degree turn, count to three and set down. Repeat the exercise 5 times until the motion feels natural.",
+      "type": "practice"
+    },
+    "theoryB": "<h2>How to Determine Directions in the Coffee Cup?</h2><p>The directional system in a coffee cup is an emotional and temporal navigation map based on ancient principles. The cup's handle symbolizes home, the safe place, the starting point of life. From there all directions unfold like an emotional compass describing the circle of life.</p><p>The right direction from the handle — the east of the cup — represents the near future, days, weeks or coming months. This is where symbols of approaching changes, opportunities on the way and new people entering life appear. Every symbol appearing in the east should be interpreted in the context of 'what is coming to me'.</p><p>The left direction — the west — is our emotional archive. Here appear symbols related to the recent past, to experiences that have recently shaped us, to people who still influence the present from the past. The west tells of emotional investments, of what we built and left behind, and how the past dictates present decisions.</p><p>The direction opposite the handle — the north — is the grand vision, the distant future, our goals and aspirations. Symbols appearing in the cup's north speak of destiny, of things that will manifest in years to come, of the general direction life is leading us. This is the most spiritual and visionary place in the cup.</p>",
+    "practice2": {
+      "instruction": "In the cup you flipped in the previous exercise, mark with a pencil the directions: handle = south/home, right = east/near future, left = west/recent past, opposite = north/distant future. Now choose 3 symbols you see and define which direction they're in and what their temporal meaning is.",
+      "type": "analyze"
+    },
+    "deepDive": "<h2>The Secret of the First Stage of Drying</h2><p>What most books don't teach is that flipping is only the first stage. What happens in the first minutes after flipping determines the quality of the entire reading. The grounds continue to flow and drain for 2-3 minutes, and during this time the real picture is formed.</p><p>The first secret: heavy grounds tend to flow downward, while the finer ones remain higher on the walls. This creates layers of meaning — the heavy ones represent material, tangible matters, while the fine ones represent spirituality and emotions. An experienced reader knows how to read both the layers and the interaction between them.</p><p>A second thing they don't teach: the cup 'breathes' after flipping. The warm air inside creates gentle currents that continue moving the grounds even after the cup is in a stable position. Therefore it's important to wait at least 5 minutes before starting to read — the grounds need to come to complete rest.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is the correct angle for flipping the cup?",
+          "options": [
+            "90 degrees",
+            "180 degrees",
+            "270 degrees",
+            "45 degrees"
+          ],
+          "correct": 1,
+          "explanation": "180 degrees is a perfect flip that ensures even flow of grounds on all cup walls."
+        },
+        {
+          "question": "Which direction represents the near future?",
+          "options": [
+            "East (right of handle)",
+            "West (left of handle)",
+            "North (opposite handle)",
+            "South (handle direction)"
+          ],
+          "correct": 0,
+          "explanation": "The east, the right direction from the handle, represents the near future — coming days, weeks or months."
+        },
+        {
+          "question": "How long is important to wait after flipping before reading?",
+          "options": [
+            "Immediately",
+            "One minute",
+            "At least 5 minutes",
+            "Quarter hour"
+          ],
+          "correct": 2,
+          "explanation": "It's important to wait at least 5 minutes so the grounds come to complete rest and internal currents cease."
+        },
+        {
+          "question": "Where in the cup do symbols of recent past appear?",
+          "options": [
+            "East",
+            "West",
+            "North",
+            "At the bottom"
+          ],
+          "correct": 1,
+          "explanation": "The west (left of handle) represents the recent past and experiences that recently shaped us."
+        },
+        {
+          "question": "What does the handle symbolize in the coffee cup?",
+          "options": [
+            "The future",
+            "The past",
+            "Home and security",
+            "Challenges"
+          ],
+          "correct": 2,
+          "explanation": "The handle symbolizes home, the safe place and starting point — it's the south of the cup map."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Flipping the cup is the magical moment that separates drinking coffee from fortune telling. A seemingly simple motion — a 180-degree flip, 5 minutes of waiting — but behind it stands an entire world of rules, timing and secrets. Each direction in the cup tells a different story: the east brings news of what's coming, the west keeps memories still influencing, and the north holds the grand vision of our lives.",
+      "wisdom": "A cup flipped correctly reveals not only the future, but the inner truth already known.",
+      "nextPreview": "In the next lesson we'll delve deep into the symbols themselves — how to identify shapes, how to distinguish between real image and imagination, and what's the difference between a single symbol and a cluster of symbols."
+    }
+  },
+  "faq": [
+    {
+      "question": "What to do if grounds flowed out of the cup during flipping?",
+      "answer": "This is a sign the coffee was too hot or the flip was too fast. You need to prepare a new cup — a cup that 'spilled' its contents cannot give an accurate reading."
+    },
+    {
+      "question": "Can you flip a second cup if the first didn't turn out well?",
+      "answer": "Not recommended. The first cup is the true answer, even if it's not perfect. A second flip will give vague or confusing information."
+    },
+    {
+      "question": "Why must the handle point toward the reader?",
+      "answer": "The handle represents the querent's home — it's the center of the emotional map. When it points to the reader, all directions relate correctly to the querent's life."
+    },
+    {
+      "question": "What's the meaning if the cup remained almost empty after flipping?",
+      "answer": "An empty or nearly empty cup symbolizes an emotional blockage or difficulty connecting to intuition. Try again on another day when the emotional state is more open."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "tarot",
+      "lesson": "card-positions",
+      "label": "⭐ Card Positions in Tarot"
+    },
+    {
+      "course": "astrology",
+      "lesson": "houses",
+      "label": "⭐ Astrological Houses"
+    },
+    {
+      "course": "numerology",
+      "lesson": "directions",
+      "label": "⭐ Directions in Numerology"
+    }
+  ],
+  "seo": {
+    "title": "Flipping the Cup in Coffee Reading - The Complete Guide",
+    "description": "Learn how to flip a coffee cup professionally, what is the correct angle and how to determine directions for accurate fortune telling in Turkish finjan.",
+    "keywords": [
+      "coffee cup flipping",
+      "coffee reading",
+      "Turkish finjan",
+      "cup directions",
+      "coffee fortune telling",
+      "Turkish coffee"
+    ],
+    "ogImage": "/og/academy/coffee/flipping-the-cup.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

@@ -1,0 +1,138 @@
+{
+  "courseId": "psalms",
+  "lessonNumber": 15,
+  "title": "Selected Psalms — Lesson 15",
+  "slug": "psalms-15",
+  "module": "Selected Psalms",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit close to me, dear child, the candle is lit and the page is open before us. We've traveled far together in the world of Psalms, and now we'll reach hidden corners that not every teacher tells about. Today we'll learn about the deep connection between Psalms and time — how each month of the year, each season in nature, is connected to a specific chapter. We'll also discover the wonderful mystical power of Psalm 119 according to the letters of the name, and the Baal Shem Tov's tradition about age and Psalms. This isn't just information — these are keys to opening the gates of heaven at the right time and in the right way.</p>",
+    "theoryA": "<h2>How do we determine which Psalms to read each month?</h2><p>The tradition of the ancients established a precise connection between the Hebrew months and specific chapters of Psalms. In Tishrei, the month of Libra, we say chapter 81. In Cheshvan, the time of Scorpio, chapter 80. In Kislev, the sign of Sagittarius, chapter 30. Each month has its own special chapter.</p><p>The ancient sages understood that every time has its own spiritual character. Tishrei, the month of judgment and mercy, needs Psalm 81 that speaks of \"Sing joyfully to God our strength\" — joy that comes from reverent awe. Cheshvan, the cold and dark month, needs chapter 80 that begins with \"Give ear, O Shepherd of Israel\" — a call for compassion from above.</p><p>Each zodiacal sign influences the spirit and soul differently. Libra brings a search for balance, Scorpio delves into mysteries, Sagittarius aspires to heights. Each sign has its corresponding Psalms that open exactly the gates the soul needs at that time.</p><p>Throughout the year, when you follow this monthly calendar, you create a complete circle of prayer and connection. This isn't just a custom — it's a complete spiritual system that connects you to the natural rhythm of creation and to the spiritual times of the year.</p>",
+    "practice1": {
+      "instruction": "Check which Hebrew month we are currently in. Find the corresponding chapter in the table (Tishrei-81, Cheshvan-80 etc.). Read this chapter slowly, three times, and feel how it connects to the spirit of the current month.",
+      "type": "meditate"
+    },
+    "theoryB": "<h2>What is special about Psalm 119 according to the letters of the name?</h2><p>Psalm 119 is the longest chapter in the Bible — 176 verses divided according to the 22 Hebrew letters. The Chida revealed a wonderful mystical power: when we want to pray for someone's benefit, we read the verses corresponding to the letters of their name.</p><p>Why is this so powerful? Because the personal name is the deepest spiritual root of a person. Each letter in the name carries within it a special spiritual force. When you read the verses corresponding to the letters of the name, you're addressing the root of the soul in the most direct way possible.</p><p>Kabbalah teaches that the name is not just a label — it's the spiritual genetic code of the person. At the time of the soul's creation, the letters of the name are engraved in it like a unique key. Therefore, when we pray through these letters, we're addressing directly the core of the soul.</p><p>Tradition tells of miracles that happened through this mystical practice. Mothers who prayed for sick children, fathers who requested livelihood for the family — all did so by reading the verses corresponding to the letters of the names. This isn't magic — it's a deep understanding of how the spirit works.</p>",
+    "practice2": {
+      "instruction": "Take your first name (or that of someone you want to pray for). Think of each letter in order. For example: David = Dalet+Vav+Dalet (verses 25-32, 41-48, 25-32). Read these verses with the intention that the prayer reaches directly to the soul.",
+      "type": "meditate"
+    },
+    "deepDive": "<h2>The Secret Tradition of Age and Psalms</h2><p>The Baal Shem Tov revealed another way of reading Psalms — according to age. Each year of life corresponds to a specific chapter: age 30 = chapter 31, age 25 = chapter 26. This sounds simple, but the secret is very deep.</p><p>Kabbalistic research shows that each year of life has specific spiritual challenges. Age 30 is a time of spiritual maturity — \"Into Your hand I commit my spirit\" (Psalm 31). Age 40 is a time of searching for one's soulmate — \"I waited patiently for the Lord\" (Psalm 40). This connection is not coincidental.</p><p>When you say every day the chapter corresponding to your age, you're working on the spiritual corrections specific to your year of life. It's like personalized medicine for the soul — exactly what it needs at exactly the right time.</p><p>Secret sages tell that those who work according to this system over years see how their lives align with the correct spiritual path. Difficulties become lessons, and lessons become wisdom.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which Psalm chapter corresponds to the month of Tishrei?",
+          "options": [
+            "Chapter 80",
+            "Chapter 81",
+            "Chapter 30",
+            "Chapter 22"
+          ],
+          "correct": 1,
+          "explanation": "The month of Tishrei, the sign of Libra, corresponds to chapter 81 - 'Sing joyfully to God our strength', fitting the spiritual character of the month."
+        },
+        {
+          "question": "How many verses are in Psalm 119?",
+          "options": [
+            "150",
+            "176",
+            "160",
+            "144"
+          ],
+          "correct": 1,
+          "explanation": "Psalm 119 is the longest chapter in the Bible with 176 verses, 8 verses for each of the 22 Hebrew letters."
+        },
+        {
+          "question": "According to the Baal Shem Tov's tradition, which chapter does a 35-year-old person say?",
+          "options": [
+            "Chapter 34",
+            "Chapter 35",
+            "Chapter 36",
+            "Chapter 37"
+          ],
+          "correct": 2,
+          "explanation": "According to tradition, one says the chapter corresponding to age plus 1. A 35-year-old says chapter 36."
+        },
+        {
+          "question": "Which month corresponds to chapter 22?",
+          "options": [
+            "Adar",
+            "Nissan",
+            "Iyar",
+            "Sivan"
+          ],
+          "correct": 0,
+          "explanation": "The month of Adar, the sign of Pisces, corresponds to chapter 22 - 'My God, my God, why have You forsaken me', connecting to the spiritual depth of the period."
+        },
+        {
+          "question": "Who revealed the mystical power of reading Psalm 119 according to the letters of the name?",
+          "options": [
+            "The Baal Shem Tov",
+            "The Chida",
+            "The Ari",
+            "The Rambam"
+          ],
+          "correct": 1,
+          "explanation": "The Chida discovered and wrote about the wonderful mystical power of reading Psalm 119 according to the letters of the personal name."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we learned about the three secret dimensions of Psalms: the connection to months and zodiacal signs, the mystical power of Psalm 119 according to letters, and the tradition of age and Psalms. Each way opens a different gate in the soul.",
+      "wisdom": "The right time, the right words, and the right intention — the three keys to prayer that is heard above.",
+      "nextPreview": "In the next lesson we'll enter the secrets of special Psalms — those said in times of crisis, during illness, and when searching for the right soulmate."
+    }
+  },
+  "faq": [
+    {
+      "question": "Is it mandatory to say specifically the Psalms of the month?",
+      "answer": "It's not mandatory, but tradition teaches that at the right time prayer penetrates deeper. It's like sowing in the right season."
+    },
+    {
+      "question": "How do we calculate letters in a compound name?",
+      "answer": "Usually we take only the first given name. If there's doubt, you can pray for all parts of the name separately."
+    },
+    {
+      "question": "What if my name is short and has only one or two letters?",
+      "answer": "Even a short name is a complete name. Read the verses of the letters you have, and repeat them several times with deep intention."
+    },
+    {
+      "question": "Can I work with Hebrew names even if I'm called by a foreign name?",
+      "answer": "Absolutely. The Hebrew name carries the deeper spiritual power, even if you don't use it in daily life."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "houses-12",
+      "label": "⭐ The Houses in Astrology - Spiritual Times"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot-basic",
+      "label": "🌟 The Sefirot - Spiritual Structure of Time"
+    },
+    {
+      "course": "numerology",
+      "lesson": "letters-meaning",
+      "label": "🔢 Meaning of Letters in the Kabbalistic System"
+    }
+  ],
+  "seo": {
+    "title": "Psalms by Months and Zodiac Signs - Hidden Powers and Baal Shem Tov Tradition",
+    "description": "Discover the mystical connection between Psalms and Hebrew months, the power of Psalm 119 according to name letters, and the Baal Shem Tov's tradition of age and Psalms. Practical guide to prayer at the right time.",
+    "keywords": [
+      "Psalms",
+      "Hebrew months",
+      "zodiac signs",
+      "mystical powers",
+      "Baal Shem Tov",
+      "Psalm 119",
+      "prayer timing",
+      "spiritual calendar"
+    ],
+    "ogImage": "/og/academy/psalms/psalms-15.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

@@ -1,0 +1,138 @@
+{
+  "courseId": "astrology",
+  "lessonNumber": 24,
+  "title": "Chinese Astrology — The Chinese Zodiac and Compatibility in Signs",
+  "slug": "chinese-astrology-zodiac-compatibility",
+  "module": "Houses",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit, my child, we have arrived at a fascinating journey into the Chinese zodiac — an ancient system of 12 animals rotating in a 12-year cycle. While our Western zodiac is based on the sun's position at birth, Chinese astrology connects us to an animal according to our birth year. This isn't just symbolic play — it's a key to an entire system of understanding personality, relationships, and destinies. In the previous lesson, we learned about houses and their influence on different areas of life. Now we'll discover a completely different astrological system that brings a deep Eastern perspective to our cosmic identity.</p>",
+    "theoryA": "<h2>What is the Chinese Zodiac and How Does it Work?</h2><p>The Chinese zodiac is an astrological system of 12 animals that alternate in an annual cycle. Each person carries the influence of the animal that ruled their birth year, and this determines basic personality traits and fundamental behavioral patterns.</p><p>The 12 animals are: Rat (1924, 1936, 1948, 1960, 1972, 1984, 1996, 2008, 2020), Ox (1925, 1937, 1949, 1961, 1973, 1985, 1997, 2009, 2021), Tiger (1926, 1938, 1950, 1962, 1974, 1986, 1998, 2010, 2022), Rabbit (1927, 1939, 1951, 1963, 1975, 1987, 1999, 2011, 2023), Dragon (1928, 1940, 1952, 1964, 1976, 1988, 2000, 2012, 2024), Snake (1929, 1941, 1953, 1965, 1977, 1989, 2001, 2013, 2025), Horse (1930, 1942, 1954, 1966, 1978, 1990, 2002, 2014, 2026), Goat (1931, 1943, 1955, 1967, 1979, 1991, 2003, 2015, 2027), Monkey (1932, 1944, 1956, 1968, 1980, 1992, 2004, 2016, 2028), Rooster (1933, 1945, 1957, 1969, 1981, 1993, 2005, 2017, 2029), Dog (1934, 1946, 1958, 1970, 1982, 1994, 2006, 2018, 2030), and Pig (1935, 1947, 1959, 1971, 1983, 1995, 2007, 2019, 2031).</p><p>Each animal is connected to a specific element — water, wood, fire, earth, or metal — and to yin or yang energy. The Rat, for example, is yang and water — sharp-witted, resourceful, and versatile. The Ox is yin and earth — hardworking, reliable, and determined. The Dragon is yang and earth — confident, intelligent, and ambitious.</p><p>What's special about Chinese astrology is how it looks at long time cycles. You're not just one sign — you're part of a 60-year cycle (5 elements times 12 animals), and every 12 years you return to your animal but in a different element.</p>",
+    "practice1": {
+      "instruction": "Identify your Chinese animal according to your birth year. Write down the main traits of your animal and check if you recognize them in your personality. Also pay attention to the element and energy (yin/yang) that characterize you.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How Does Chinese Zodiac Compatibility Work?</h2><p>Chinese zodiac compatibility is based on harmonious relationships or tension between different animals. Each animal has two animals that suit it best and one that clashes with it most.</p><p>For example, the Rat is most compatible with the Dragon and Monkey — all are intelligent, creative, and love challenges. The relationship between them is built on mutual appreciation for resourcefulness and innovation. In contrast, the Rat clashes with the Horse — the Rat is careful and calculated, the Horse gallops freely without advance planning.</p><p>The Ox finds harmony with the Snake and Rooster — all appreciate order, precision, and tradition. They build stable and reliable relationships. But the Ox struggles with the Goat — the Ox wants clear structure, the Goat flows with emotion and seeks beauty and softness.</p><p>This compatibility doesn't determine fate, it shows where there's natural flow and where more effort is needed. Couples from 'clashing signs' can create wonderful relationships if they understand the differences and learn to respect them.</p><p>It's interesting to see how this connects to Western astrology — sometimes a person with a Western emotional sign (like Cancer) and a Chinese fire animal (like Horse) might experience internal tension between the desire for security and the desire for freedom.</p>",
+    "practice2": {
+      "instruction": "Choose three close people and check their Chinese animals. Compare your compatibility level with them according to the Chinese system, then think about the actual relationships — where do you see compatibility and where challenges?",
+      "type": "observe"
+    },
+    "deepDive": "<h2>What's Not Written in Books About Chinese Astrology</h2><p>The great secret of Chinese astrology is that it's not just about the animal — it's about the meeting between heaven and earth at your specific point in time. Each year is a unique energetic junction that affects everyone born in it.</p><p>What Chinese masters know: your animal is just the first layer. There's also an animal for your birth month, date, and even hour — this is called 'the four pillars of destiny'. Most people only know their year animal, but the complete picture is much more complex.</p><p>Another secret is the connection to elements within your body. If you were born in an earth Dragon year, the earth is also expressed in your thinking patterns, food choices, and body areas that are strong or weak for you. This isn't symbolic — it's energetic.</p><p>And here's something only few know: there are certain hours of the day when your animal is strongest and hours when it's 'sleeping'. If you're a Dragon, 7-9 AM are your hours. If you're a Snake, 9-11 AM is your power time.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "How many years does a complete cycle of the Chinese zodiac last?",
+          "options": [
+            "10 years",
+            "12 years",
+            "15 years",
+            "20 years"
+          ],
+          "correct": 1,
+          "explanation": "The Chinese zodiac cycle is 12 years — each animal rules for one year, then the cycle starts over."
+        },
+        {
+          "question": "Which element characterizes the Rat?",
+          "options": [
+            "Fire",
+            "Water",
+            "Earth",
+            "Metal"
+          ],
+          "correct": 1,
+          "explanation": "The Rat is connected to the water element and yang energy, giving it flow and flexibility paired with active energy."
+        },
+        {
+          "question": "Which animal is most compatible with the Dragon?",
+          "options": [
+            "Dog",
+            "Rat",
+            "Goat",
+            "Rooster"
+          ],
+          "correct": 1,
+          "explanation": "The Rat and Monkey are the best partners for the Dragon — all are intelligent, creative, and love challenges."
+        },
+        {
+          "question": "What characterizes the Ox in the Chinese zodiac?",
+          "options": [
+            "Sharp-witted and versatile",
+            "Hardworking and reliable",
+            "Playful and curious",
+            "Calm and gentle"
+          ],
+          "correct": 1,
+          "explanation": "The Ox is characterized by being hardworking, reliable, and determined — it moves mountains through patience and tireless effort."
+        },
+        {
+          "question": "How is a person's Chinese sign determined?",
+          "options": [
+            "By birth month",
+            "By birth day",
+            "By birth year",
+            "By birth hour"
+          ],
+          "correct": 2,
+          "explanation": "The Chinese sign is determined by birth year — each year is ruled by a different animal in a 12-year cycle."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Chinese astrology opens a window to an Eastern view of personality and relationships. Each animal brings ancient wisdom about behavioral patterns, compatibility, and energetic flows. The meeting between Chinese and Western systems creates a multi-dimensional picture of who we are.",
+      "wisdom": "Your inner animal knows how to speak all the languages of the stars.",
+      "nextPreview": "In the next lesson, we'll close our astrological journey with a summary of all systems and how to use them together."
+    }
+  },
+  "faq": [
+    {
+      "question": "Can I have two Chinese signs if I was born near the end of the year?",
+      "answer": "No, you belong to only one animal according to your birth year. Unlike Western signs, there's no overlap in the Chinese zodiac."
+    },
+    {
+      "question": "What if my Chinese animal doesn't match my Western sign?",
+      "answer": "This is actually common and can create inner richness. The Western sign shows how you communicate with the world, the Chinese animal shows your inner nature."
+    },
+    {
+      "question": "Is Chinese zodiac compatibility stronger than Western compatibility?",
+      "answer": "Not stronger, but different. The Chinese system looks at life pace and basic communication styles, the Western at elements and emotional awareness."
+    },
+    {
+      "question": "How do I know which element belongs to my year?",
+      "answer": "Each animal is connected to a fixed element — Dragon is always earth, Snake is always fire. But there's also an additional 60-year cycle that adds changing elements."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "elements",
+      "label": "⭐ Elements in Astrology"
+    },
+    {
+      "course": "astrology",
+      "lesson": "compatibility",
+      "label": "🔮 Western Zodiac Compatibility"
+    },
+    {
+      "course": "numerology",
+      "lesson": "personal-year",
+      "label": "✨ Time Cycles in Numerology"
+    }
+  ],
+  "seo": {
+    "title": "Chinese Zodiac and Compatibility — Complete Guide to Chinese Astrology",
+    "description": "Discover your Chinese animal, learn about Chinese zodiac compatibility and the true meaning of Eastern astrology. Complete guide with year animals.",
+    "keywords": [
+      "Chinese zodiac",
+      "Chinese astrology",
+      "Chinese compatibility",
+      "year animals",
+      "Dragon sign",
+      "Snake sign",
+      "Rat sign",
+      "zodiac animals"
+    ],
+    "ogImage": "/og/academy/astrology/astrology-24.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

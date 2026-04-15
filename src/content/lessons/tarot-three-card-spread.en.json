@@ -1,0 +1,131 @@
+{
+  "courseId": "tarot",
+  "lessonNumber": 28,
+  "title": "Three-Card Spread",
+  "slug": "three-card-spread",
+  "module": "Spreads",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Come sit beside me, my dear. After you've learned the meanings of the cards and understood the connections between them, it's time to learn the most basic and important spread in tarot — the three-card spread. This is my favorite spread to teach beginners, because it's simple yet profound, quick yet accurate. As my teacher told me many years ago: 'Three cards can tell a complete story.' And he was right. This spread will accompany you for life — even when you learn more complex spreads, you'll always return to it like coming home. It gives a complete picture of a situation, problem, or question in exactly the right measure — not too much information that confuses, not too little that doesn't help.</p>",
+    "theoryA": "<h2>How Do You Do a Three-Card Spread?</h2><p>The three-card spread consists of three cards laid out in a straight line from left to right. Each card represents a different time or aspect of the question. The most classic spread is past-present-future, but there are many more variations we'll learn.</p><p>The process is simple: after you've shuffled the deck and focused on the question, you draw three cards and place them in order. The left card always represents the past or existing situation, the middle represents the present or main issue, and the right represents the future or possible solution. This is the natural order of reading — we start from the foundation, move through the current challenge, and arrive at the outcome or direction for action.</p><p>The power of this spread lies in its simplicity. Three cards create a short but complete story. They connect to each other like chapters in a small book — each card adds a layer to the overall meaning. And sometimes, the connection between the cards is more important than the meaning of each card separately. When two cards 'speak' to each other — for example, Three of Swords after Two of Cups — the story becomes alive and accurate.</p><p>The wonderful thing about the three-card spread is that it's flexible. You can use it for almost any question: 'How do I feel now / what's happening / where is this leading?' or 'What's the situation / where's the challenge / how to create change?' or 'Me / the partner / the relationship'. This trinity works because it reflects the way we naturally think — in beginning, middle, and end.</p>",
+    "practice1": {
+      "instruction": "Choose one question that's occupying you right now. Shuffle the cards while thinking about the question. Draw three cards and place them in a line from left to right. The left card = past/existing situation, middle = present/central issue, right = future/solution. Write down the card names and what you feel when you look at them together.",
+      "type": "draw"
+    },
+    "theoryB": "<h2>What Are the Variations of the Three-Card Spread?</h2><p>The three-card spread is the foundation for dozens of variations, each tailored to a different type of question. The classic past-present-future variation suits general questions, but for specific questions there are more precise spreads.</p><p>For relationship questions, the 'me-partner-relationship' variation reveals deep dynamics. The first card shows your inner state, the second what's happening with the partner, and the third the dynamic between you. This is a powerful spread that reveals not only what you're feeling, but also the other side of the story.</p><p>For career and project questions, the 'current situation-challenge-action' variation is very practical. The first card shows where you are, the second what's holding you back or what needs to be overcome, and the third what action will advance you. This is a spread that gives clear direction for action.</p><p>There are also more spiritual variations like 'body-soul-spirit' or 'consciousness-emotion-intuition'. The connection to Kabbalah is clear: the three cards represent the three pillars of the Tree of Life — Mercy (right), Severity (left), and Balance (center). Thus the spread becomes not just a divination tool but a deep understanding tool of your inner state.</p>",
+    "practice2": {
+      "instruction": "Now try a new variation. Choose a situation or relationship that interests you. Shuffle again and draw three cards for the 'me-the other side-the connection between us' spread. Read the cards and focus on the connections between them - how do they 'speak' to each other? What story do they tell together?",
+      "type": "draw"
+    },
+    "deepDive": "<h2>What's Not Written in Books About the Three-Card Spread</h2><p>The great secret of the three-card spread isn't found in the cards themselves, but in the spaces between them. When I look at a spread, I first read the spaces — how the cards 'speak' to each other, where there's tension and where there's harmony.</p><p>For example, if you have a number sequence (5-6-7), it shows natural development. If there's a jump (3-8-Ace), there's some leap or dramatic change. Two cards from the same suit show a central theme, three cards from the same suit — it's almost certainly the main message of the reading.</p><p>Another thing they don't teach: the direction of the figures in the cards. If a figure in the first card is looking toward the other cards, she's interested in the development. If she's looking away from the spread — there's resistance or a desire to escape the situation. This is a deep connection to astrology — like planets that look at each other or turn away from each other.</p><p>And my most important tip: always ask yourself what would have happened if the cards were in reverse order. This is a correctness check that deepens understanding and helps you see if your interpretation is logical and accurate.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is the correct order of the classic three-card spread?",
+          "options": [
+            "Future-present-past",
+            "Past-present-future",
+            "Present-past-future",
+            "No fixed order"
+          ],
+          "correct": 1,
+          "explanation": "The classic order is past-present-future, from left to right, reflecting the natural flow of time and story."
+        },
+        {
+          "question": "In what case would we use the 'me-partner-relationship' variation?",
+          "options": [
+            "For general questions",
+            "For relationship questions",
+            "For career questions",
+            "For spiritual questions only"
+          ],
+          "correct": 1,
+          "explanation": "This variation is specifically tailored for relationship questions, as it reveals both sides and the dynamic between them."
+        },
+        {
+          "question": "What's important to check in the spaces between the cards?",
+          "options": [
+            "Their colors",
+            "How they 'speak' to each other",
+            "The size of the figures",
+            "The number of symbols"
+          ],
+          "correct": 1,
+          "explanation": "The connections and spaces between the cards create the complete story and are sometimes more important than the meaning of each card separately."
+        },
+        {
+          "question": "What does a number sequence in a three-card spread (5-6-7) symbolize?",
+          "options": [
+            "Dramatic change",
+            "Natural development",
+            "No connection",
+            "Confusion"
+          ],
+          "correct": 1,
+          "explanation": "A number sequence shows natural and gradual development, a natural flow of events or process."
+        },
+        {
+          "question": "What is considered the 'golden tip' for checking the correctness of interpretation?",
+          "options": [
+            "Ask friends",
+            "Repeat the reading",
+            "Ask what would happen in reverse order",
+            "Check in books"
+          ],
+          "correct": 2,
+          "explanation": "Asking 'what would happen in reverse order' deepens understanding and ensures the interpretation is logical and accurate."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "The three-card spread is the most basic and important spread in tarot. It's simple to learn but profound in execution, suitable for any type of question and gives a complete picture. Its power lies in flexibility — the same framework can contain many variations for every need.",
+      "wisdom": "Three cards can tell a complete story — the past that shaped, the present that's happening, and the future that can be created.",
+      "nextPreview": "In the next lesson we'll learn about the Celtic Cross spread — the most detailed and complex spread, which will give you tools for deep and comprehensive readings."
+    }
+  },
+  "faq": [
+    {
+      "question": "Is it mandatory to read reversed cards in a three-card spread?",
+      "answer": "Not mandatory. Many beginners start without reversed cards to focus on the basic story. But if a card comes out reversed, it usually symbolizes a challenge or blockage in that area."
+    },
+    {
+      "question": "How much time should be dedicated to interpreting a three-card spread?",
+      "answer": "In the beginning, about 15-20 minutes. Read each card separately, then look at the connections between them, and finally summarize the overall story."
+    },
+    {
+      "question": "Can you ask an additional question about the same cards?",
+      "answer": "Yes, but it's better to draw new cards for a new question. The first cards answer the first question, and it's better not to confuse them."
+    },
+    {
+      "question": "What do you do if three very similar cards come out?",
+      "answer": "That's a very strong message! Three cards from the same suit or on a similar theme show that this is the central and most urgent issue in your life right now."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "tarot",
+      "lesson": "major-arcana-intro",
+      "label": "🃏 Introduction to the Major Arcana"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "tree-of-life-pillars",
+      "label": "🌳 The Three Pillars in the Tree of Life"
+    }
+  ],
+  "seo": {
+    "title": "Three-Card Tarot Spread - Complete Guide for Beginners",
+    "description": "Learn how to do a three-card tarot spread - the most basic and important spread. Variations, reading techniques and practical tips.",
+    "keywords": [
+      "three-card spread",
+      "tarot for beginners",
+      "card reading",
+      "tarot spreads",
+      "past present future",
+      "tarot cards"
+    ],
+    "ogImage": "/og/academy/tarot/three-card-spread.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

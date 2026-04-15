@@ -1,0 +1,133 @@
+{
+  "courseId": "coffee",
+  "lessonNumber": 18,
+  "title": "Love in Coffee",
+  "slug": "love-in-coffee",
+  "module": "Practice",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">The candle flickers, the coffee is still warm, and love floats in the cup like secrets waiting to be revealed. Today we'll dip our fingers into the romantic magic of finjan reading, learn to decipher the symbols of love, and discover how the cup becomes a mirror of the heart. In previous lessons you learned to read symbols of wealth and career - now it's time to delve into the most delicate and moving realm of all. I invite you to prepare a cup of Turkish coffee, sit comfortably, and prepare yourself for a journey into the secrets of the heart waiting for you at the bottom of the cup.</p>",
+    "theoryA": "<h2>How to Identify Love Symbols in Finjan Reading?</h2><p>Love symbols in finjan reading are the most tangible and clearest of all symbols. The heart is the most direct symbol - when it appears on the rim of the cup, love comes into your life in the near future. Location determines timing and nature: near the handle speaks of someone close, far from the handle of love from afar.</p><p>The ring is the second most important symbol - it promises commitment and partnership. When a ring floats in the upper part of the cup, a proposal or engagement is just around the corner. In the middle of the cup it describes deepening of an existing relationship, and at the bottom it speaks of fateful marriage, the kind written in the stars.</p><p>The flower is the symbol of joy and beauty in romance - it heralds blossoming romance, joyful events in the realm of love. Two hearts together? These are soulmates. A bird next to a heart? Good news about new love. A star next to love symbols amplifies and blesses the message.</p><p>The moon adds deep emotion and intuition to romantic relationships. When it appears with a heart, it speaks of inner emotional love, a connection developing on a soul level. The sun, on the other hand, brings open and bright joy, love that illuminates and warms.</p>",
+    "practice1": {
+      "instruction": "Prepare a cup of Turkish coffee and drink it as usual. Now turn the cup over onto the plate and wait 3 minutes. Lift the cup and examine the pattern. Identify if there are love symbols - heart, ring, flower. Note where each symbol is located: on the rim, in the middle, or at the bottom.",
+      "type": "observe"
+    },
+    "theoryB": "<h2>What Does the Location of Love Symbols Tell About You?</h2><p>The location of love symbols in the cup is more important than their meaning itself. A symbol near the handle always speaks of the close environment - family, friends, household members. A heart near the handle means someone close to you is already falling in love, or that love will come through a friend or family member.</p><p>Symbols at a distance from the handle speak of something new, of a stranger, of someone who hasn't yet entered your life. They can also appear when it's about a dramatic change in an existing relationship - like transitioning from friendship to love. The farther the symbol is from the handle, the more it speaks of a distant future or someone physically far away.</p><p>The height in the cup reveals timing: the rim of the cup is the near future, weeks at most. The middle of the cup is months ahead, and the bottom of the cup speaks of years or destiny. A heart at the bottom of the cup? This is love that will last a lifetime. A ring at the bottom? Marriage decreed from above.</p><p>The connectivity between symbols reveals the complete story. A path leading to a heart indicates a journey to love. A star above a heart blesses the relationship. An eye next to a ring warns of jealousy or evil eye. Every combination of symbols creates a unique narrative for each cup.</p>",
+    "practice2": {
+      "instruction": "Now observe the cup from a different angle. Rotate it and examine how the symbols look from different directions. Are there connections between the symbols? Lines that connect them? Symbols that create a story together? Identify and write down the romantic story that the cup tells you.",
+      "type": "observe"
+    },
+    "deepDive": "<h2>What's Not Written in Books: Secrets of Love Symbols</h2><p>There are symbols that appear only when your heart is open and ready for love. A butterfly in a love cup is the strongest symbol for romantic transformation - it indicates that you're about to be reborn through love. This isn't just a new relationship, it's love that will change you from the very foundation.</p><p>When a lion or eagle appears with love symbols, it indicates a strong and protective partner. Someone who won't just love you, but will fight for you. The dog next to the heart is the best symbol for true loyalty - love that will withstand all tests.</p><p>There are warning symbols in love: the cat can indicate emotional deception, the snake betrayal from someone you love. But even these aren't always negative - sometimes they come to warn in advance so you'll be prepared, not to frighten.</p><p>The biggest secret: when you see many love symbols together - heart, ring, flower, star - it's no coincidence. It means your soul is calling for love, that the time has come. The cup becomes a spiritual magnet that attracts exactly the love you need.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is the meaning of a heart on the rim of the cup?",
+          "options": [
+            "Old love will return",
+            "Love is coming very soon",
+            "Existing relationship will deepen",
+            "Distant love"
+          ],
+          "correct": 1,
+          "explanation": "According to the knowledge conveyed, a heart on the rim of the cup means that love is coming into your life in the very near future."
+        },
+        {
+          "question": "Where should a ring appear to herald a near engagement?",
+          "options": [
+            "At the bottom of the cup",
+            "In the middle of the cup",
+            "On the rim of the cup",
+            "Near the handle"
+          ],
+          "correct": 2,
+          "explanation": "A ring on the rim of the cup indicates an engagement or proposal coming very soon."
+        },
+        {
+          "question": "What does a symbol near the handle indicate in love matters?",
+          "options": [
+            "Love from afar",
+            "Love from someone close or familiar",
+            "Future love",
+            "Betrayal"
+          ],
+          "correct": 1,
+          "explanation": "Symbols near the handle always speak of the close environment - family, friends, or someone in your proximity."
+        },
+        {
+          "question": "How do we interpret a butterfly with love symbols?",
+          "options": [
+            "Short-lived love",
+            "Deep romantic transformation",
+            "Secret romance",
+            "Dormant love"
+          ],
+          "correct": 1,
+          "explanation": "A butterfly with love symbols indicates romantic transformation - love that will change you from the very foundation and give birth to you anew."
+        },
+        {
+          "question": "What does the cat mean as a warning symbol in love?",
+          "options": [
+            "Independent love",
+            "Possible emotional deception",
+            "Mysterious love",
+            "Secret relationship"
+          ],
+          "correct": 1,
+          "explanation": "The cat can indicate emotional deception, but it comes to warn in advance and not necessarily to frighten."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today you learned to decipher the hidden language of love in your coffee cup. You understood how location determines timing and meaning, how symbols connect to create a complete romantic story, and how to identify warning symbols alongside blessings.",
+      "wisdom": "The heart sees maps that the eyes don't recognize.",
+      "nextPreview": "In the next lesson we'll learn to read symbols of health and vitality in the coffee cup."
+    }
+  },
+  "faq": [
+    {
+      "question": "What if I see many love symbols together in the cup?",
+      "answer": "This is a very positive sign that your soul is calling for love and the time has come. The cup becomes a spiritual magnet that attracts the right love to you."
+    },
+    {
+      "question": "Are love symbols always related to romance?",
+      "answer": "Not necessarily. Sometimes they speak of family love, deep friendship, or self-love. The context and additional symbols determine the interpretation."
+    },
+    {
+      "question": "What to do if you see warning symbols in love?",
+      "answer": "Don't be afraid. Warning symbols like cat or snake come to warn in advance, not to frighten. They give you a chance to be aware and protect yourself."
+    },
+    {
+      "question": "How long does it take for love symbols to manifest?",
+      "answer": "Depends on location: rim of the cup - weeks, middle of the cup - months, bottom of the cup - years or lifelong destiny."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "tarot",
+      "lesson": "cups-suit",
+      "label": "🌙 The Cups Suit in Tarot - Symbols of Emotion and Love"
+    },
+    {
+      "course": "astrology",
+      "lesson": "venus",
+      "label": "💕 Venus - The Planet of Love in Astrology"
+    }
+  ],
+  "seo": {
+    "title": "Coffee Reading: How to Identify Love Symbols in Finjan - Practical Guide",
+    "description": "Learn to read love symbols in finjan reading: heart, ring, flower and more. Discover when love will come into your life and from where - complete guide to romantic reading.",
+    "keywords": [
+      "coffee reading",
+      "love symbols",
+      "finjan",
+      "romantic reading",
+      "love in coffee",
+      "heart symbol",
+      "ring in coffee",
+      "divination"
+    ],
+    "ogImage": "/og/academy/coffee/love-in-coffee.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

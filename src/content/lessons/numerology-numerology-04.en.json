@@ -1,0 +1,138 @@
+{
+  "courseId": "numerology",
+  "lessonNumber": 4,
+  "title": "Arabic Abjad Numerology — Secrets of Names in Hisab al-Jummal",
+  "slug": "numerology-04",
+  "module": "Foundations",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Come sit with me, dear child. The candle burns and the night wraps around us like an ancient blanket. Tonight we journey to the depths of the desert, to the hidden wisdom of Arabic Abjad — Hisab al-Jummal. This is not merely a counting system, but a complete language of Arabic mysticism, where each letter carries within it the secrets of worlds.</p><p>In previous lessons you learned the power of Western numbers, but now we turn to the ancient East, to the language in which Muhammad received the Quran and to the system where Arabic Kabbalah sages found the secrets of creation. The desert is not empty — it is full of words and mysteries, and every Arabic name is a map to the soul.</p>",
+    "theoryA": "<h2>How Does Arabic Hisab al-Jummal Work?</h2><p>Hisab al-Jummal is an ancient Arabic numerological system based on the numerical values of the 28 Arabic letters. The system operates according to the classical Mashriqi order: أبجد هوز حطي كلمن سعفص قرشت ثخذ ضظغ — each letter carries a precise value established hundreds of years ago.</p><p>The first letters carry low values: أ (Alif) = 1, ب (Ba') = 2, ج (Jim) = 3, د (Dal) = 4. The letters in the second decade jump to tens: ي (Ya') = 10, ك (Kaf) = 20, ل (Lam) = 30. And the third decade to hundreds: ق (Qaf) = 100, ر (Ra') = 200, ش (Shin) = 300, up to high values like غ (Ghain) = 1000.</p><p>The name الله (Allah) for example is calculated thus: ا (1) + ل (30) + ل (30) + ه (5) = 66. This is a number considered holy in many Islamic traditions. The name محمد (Muhammad) comes to 92: م (40) + ح (8) + م (40) + د (4). And the expression الرحمن الرحيم (Ar-Rahman Ar-Raheem) reaches the famous value of 786.</p><p>The uniqueness of this system is that it doesn't just calculate names but creates spiritual connections. When your name reaches the same value as a word with spiritual meaning — نور (light) = 256, or رحمة (mercy) = 253 — this is seen as a hint to your soul's qualities. This is numerology that connects the individual to the cosmic.</p>",
+    "practice1": {
+      "instruction": "Write your name in Hebrew letters, then translate it to Arabic letters (use a dictionary or app). Calculate the total value according to the Abjad table. Take the final number and reduce it to a single digit (or master number 11/22/33).",
+      "type": "write"
+    },
+    "theoryB": "<h2>What is the Spiritual Meaning of Abjad Numerology?</h2><p>Abjad numerology is not just mathematics — it is 'Ilm al-Huruf' (علم الحروف), the science of letters. This is a deep mystical tradition that sees each letter as a form of divine energy. Unlike Western Pythagorean numerology, the Arabic system is directly connected to religious and spiritual tradition.</p><p>When I calculate a name in Hisab al-Jummal, I look for connections to the 99 names of Allah, to Quranic verses, and to holy words. If your name comes to 102, this is the value of Iman (faith). If it comes to 131, this is Salam (peace). If to 256 — this is Nur (light). Every such connection is seen as a revelation of your spiritual role.</p><p>The tradition also speaks of comparison to the mother's name — the 'spiritual inheritance'. The numerical value of the mother's name represents the spiritual talents you inherited, while your value represents your personal destiny. The meeting between the two creates the complete spiritual map.</p><p>It's important to note that in Islamic tradition there is sensitivity to fortune-telling, which is considered in strict interpretations as 'haram' (forbidden). Therefore the system is called not 'destiny prediction' but 'spiritual reflection' — a means for self-understanding and connection with the divine name, not for predicting the future. This is a delicate point that's important to respect.</p>",
+    "practice2": {
+      "instruction": "Search in an Arabic dictionary for words with the same numerical value as your name. Choose three words with spiritual meaning (like love, light, peace, wisdom) and write how they reflect your qualities or aspirations.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in the Books</h2><p>In the long nights of the desert, when wisdom flows like an underground river, I'll tell you a secret that only few know. The Abjad system is not disconnected from Jewish Kabbalah — both grow from the same ancient root, from the same understanding that letters are the tools of creation.</p><p>The great secret is the connection between Abjad and the Kabbalistic Tree of Life. The Arabic letters correspond with the Sephiroth, and the numerical values create a map of energies on the astral body. When a Muslim sage calculates a name in Hisab al-Jummal, he sees not just numbers but paths of light on the Tree of Life.</p><p>Another secret: the famous expression 'Bismillah' (in the name of Allah) comes to the value 786. This is no coincidence. 786 divides into 6×131, where 6 is the number of creation and 131 is 'Salam' (peace). Every beginning of action in the divine name is done in precise partnership with the creative and completing energy.</p><p>And there's more: the ancient sages used Abjad not just for names but for analyzing times. Important dates were calculated according to numerical values, and great discoveries were made when the date matched a significant spiritual value. This is numerology that connects time, place, and consciousness.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is the numerical value of the letter ع (Ain) in Hisab al-Jummal?",
+          "options": [
+            "50",
+            "60",
+            "70",
+            "80"
+          ],
+          "correct": 2,
+          "explanation": "The letter ع (Ain) carries a value of 70 in Arabic Hisab al-Jummal, according to the classical Mashriqi order."
+        },
+        {
+          "question": "How is the name الله (Allah) calculated?",
+          "options": [
+            "1+30+30+10 = 71",
+            "1+30+30+5 = 66",
+            "1+20+20+5 = 46",
+            "1+30+40+5 = 76"
+          ],
+          "correct": 1,
+          "explanation": "Allah is calculated: ا (1) + ل (30) + ل (30) + ه (5) = 66, a number considered holy in Islamic tradition."
+        },
+        {
+          "question": "What is the meaning of the expression 'Ilm al-Huruf'?",
+          "options": [
+            "Science of stars",
+            "Science of letters",
+            "Science of numbers",
+            "Science of medicine"
+          ],
+          "correct": 1,
+          "explanation": "'Ilm al-Huruf' (علم الحروف) means 'science of letters' — the Arabic mystical tradition of analyzing letter meanings."
+        },
+        {
+          "question": "Why is it important to approach Abjad as 'spiritual reflection' and not fortune-telling?",
+          "options": [
+            "Because it's not accurate",
+            "Because it's too complicated",
+            "Because fortune-telling is considered haram in Islamic tradition",
+            "Because it's only for rabbis"
+          ],
+          "correct": 2,
+          "explanation": "In Islamic tradition, fortune-telling is considered 'haram' (forbidden) in strict interpretations, so Abjad is seen as a means for spiritual reflection."
+        },
+        {
+          "question": "What is the numerical value of the word محمد (Muhammad)?",
+          "options": [
+            "86",
+            "92",
+            "98",
+            "104"
+          ],
+          "correct": 1,
+          "explanation": "Muhammad is calculated: م (40) + ح (8) + م (40) + د (4) = 92, a significant value in Islamic tradition."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today you learned the secrets of Arabic Abjad numerology — Hisab al-Jummal. You discovered the values of Arabic letters, the way to calculate names, and the deep spiritual meaning of the system. This is numerology that connects the personal name to divine consciousness, the individual to the universal.",
+      "wisdom": "In every name lies a complete world — listen to its hidden voice.",
+      "nextPreview": "In the next lesson we'll explore numerological compatibility — how life path numbers dance with each other in the eternal dance of human relationships."
+    }
+  },
+  "faq": [
+    {
+      "question": "Do I need to know Arabic to use Hisab al-Jummal?",
+      "answer": "Not necessarily. You can use translation tables and apps that translate names from Hebrew or English to Arabic, then calculate according to the Abjad table."
+    },
+    {
+      "question": "How do you translate a Hebrew name for Abjad calculation?",
+      "answer": "First translate the name to Arabic (using a dictionary or app), then calculate according to Arabic letter values. It's important to ensure accurate translation."
+    },
+    {
+      "question": "What do you do if the name results in a very high number?",
+      "answer": "Like in regular numerology — reduce to a single digit (or master number 11/22/33). For example: 1,247 → 1+2+4+7 = 14 → 1+4 = 5."
+    },
+    {
+      "question": "Is there a difference in meaning between Arabic and Western numerology?",
+      "answer": "Yes. Abjad is connected to Islamic spiritual tradition and Arabic holy words, while Western numerology is based on Greek-Pythagorean thinking."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "kabbalah",
+      "lesson": "gematria",
+      "label": "⭐ Gematria in Kabbalah"
+    },
+    {
+      "course": "numerology",
+      "lesson": "life-path",
+      "label": "🔮 Life Path Number"
+    },
+    {
+      "course": "astrology",
+      "lesson": "houses",
+      "label": "🏠 Houses in Astrology"
+    }
+  ],
+  "seo": {
+    "title": "Arabic Abjad Numerology — Hisab al-Jummal for Names",
+    "description": "Learn the Arabic Abjad system — Hisab al-Jummal. How to calculate names in Arabic numerology, letter values and deep spiritual meanings.",
+    "keywords": [
+      "Arabic numerology",
+      "Abjad",
+      "Hisab al-Jummal",
+      "Arabic names",
+      "sacred numbers",
+      "Arabic mysticism",
+      "Islamic numerology",
+      "letter values"
+    ],
+    "ogImage": "/og/academy/numerology/numerology-04.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

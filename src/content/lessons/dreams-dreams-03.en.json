@@ -1,0 +1,132 @@
+{
+  "courseId": "dreams",
+  "lessonNumber": 3,
+  "title": "Dream Reading Structure — Step by Step",
+  "slug": "dreams-03",
+  "module": "Introduction",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down, dear one... The candle is lit and we're going deeper. In the previous lesson we learned how to identify symbols in dreams, now we'll learn how to put them together into a complete story. Every dream is a letter from the soul — but what do we do when we have a letter full of symbols and no key to read it? Just like a tarot reader who spreads the cards in a certain way, dream interpretation also has structure. There are stages. There's a way to read this letter that the soul wrote for us. Today we'll learn the precise process I use when reading a dream — eight clear steps that lead from vague description to a sharp, clear message. Come into my kitchen and let's see how to prepare a dream reading that will turn your nights into a source of wisdom.</p>",
+    "theoryA": "<h2>How Do We Read a Dream from Beginning to End?</h2><p>The dream reading process begins with a simple question: \"What did you dream?\" and ends with a precise spiritual message that connects the dream to your life. Between the question and the message are eight structured steps that every experienced dream reader knows. The first step — let the person describe the dream freely, without interruption. Every detail matters, even the strangest thing. The second step — identify 3-5 central symbols. Not everything in the dream is an important symbol, we're looking for those that feel weighty, recurring, or evoke strong emotion.</p><p>The third step is the real magic — determining which interpretive tradition to use. This isn't a technical matter, it's vital. A Jewish woman's dream about a Torah scroll is interpreted completely differently than a Muslim woman's dream about the same scroll. The Jewish tradition sees dreams as letters from the soul, the Islamic tradition of Ibn Sirin distinguishes between three types of dreams — ru'ya (true vision from Allah), hadith al-nafs (self-talk), and hulm (disturbing dream from Satan). Jung's universal tradition focuses on collective archetypes.</p><p>The fourth step — interpreting each symbol according to the chosen tradition. Here we use the appropriate symbol dictionary — Jewish, Islamic, or universal. Clear water in a Jewish dream symbolizes Torah and purity, in Islam it's knowledge and sustenance, and in the universal tradition it's emotional clarity. The fifth step — weaving the symbols into one coherent story. This isn't a shopping list of meanings, it's a narrative that connects to the dreamer's life.</p>",
+    "practice1": {
+      "instruction": "Take a dream from your past week and identify 3 central symbols. Write them down and next to each one write what emotion it evoked in the dream.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How Do We Connect Dreams to Real Life?</h2><p>The sixth step in our method is the personal connection — linking the dream symbols to the zodiac sign, life path, and current personal year. This is what transforms a dream from an interesting story into practical guidance. If someone's dream includes a snake, and she was born under Virgo, and she's in personal year 7 (year of inner contemplation), then this snake symbolizes emotional transformation that requires cold, precise analysis — like a Virgo who needs to organize her feelings.</p><p>In water signs (Cancer, Scorpio, Pisces), dreams about water mainly speak of emotional flow. In fire signs (Aries, Leo, Sagittarius), the same water dream symbolizes a need to balance the inner fire. In earth signs (Taurus, Virgo, Capricorn), water speaks of fertility and prosperity. In air signs (Gemini, Libra, Aquarius), water symbolizes ideas and flowing communications.</p><p>The seventh step — practical guidance. What does the dream want to tell the dreamer? How can she use this information today, this week? This isn't fortune-telling, it's guidance for action. The eighth and final step — mystical closure that fits the cultural tradition. In Judaism something is written about divine providence, in Islam about Allah's mercy, in the universal tradition about inner wisdom.</p>",
+    "practice2": {
+      "instruction": "Choose one of the symbols you identified earlier and connect it to your zodiac sign. If you don't know your sign, take the month you were born in. Write how this symbol connects to your sign's character.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books — Reading the Spaces in Dreams</h2><p>In decades of working with dreams, I've learned that sometimes what doesn't appear in a dream is no less important than what does appear. I call this \"reading the spaces.\" When someone tells me about a dream that takes place in a house, and doesn't mention people — that says something. When there's a dream about traveling, but no destination — that says something else.</p><p>The spaces in dreams reveal the lacks in life. A dream about an empty table symbolizes not just physical hunger — but emotional, spiritual, intellectual hunger. A dream about a road without end symbolizes a feeling of lacking direction. This isn't written in any symbol dictionary because it's not a symbol — it's the absence of a symbol. And when you learn to read what's not there too, you become a true dream reader.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is the first step in dream reading according to Maktuba?",
+          "options": [
+            "Let the person describe the dream freely",
+            "Identify central symbols immediately",
+            "Determine which interpretive tradition to use",
+            "Connect the dream to the person's zodiac sign"
+          ],
+          "correct": 0,
+          "explanation": "The first step is to let the person describe the dream without interruption. Every detail matters, even the strangest."
+        },
+        {
+          "question": "How many central symbols are typically identified in a dream?",
+          "options": [
+            "2-3 symbols",
+            "3-5 symbols",
+            "5-7 symbols",
+            "As many as there are in the dream"
+          ],
+          "correct": 1,
+          "explanation": "We identify 3-5 central symbols — those that feel weighty or recurring or evoke strong emotion."
+        },
+        {
+          "question": "What is 'ru'ya' in the Islamic interpretive tradition?",
+          "options": [
+            "A disturbing dream from Satan",
+            "Inner self-talk",
+            "A true vision from Allah",
+            "A memory from the past"
+          ],
+          "correct": 2,
+          "explanation": "Ru'ya is a true vision from Allah according to Ibn Sirin's Islamic tradition, sometimes prophetic in nature."
+        },
+        {
+          "question": "How is water in dreams interpreted for fire signs?",
+          "options": [
+            "Natural emotional flow",
+            "Fertility and prosperity",
+            "Ideas and communications",
+            "Need to balance the inner fire"
+          ],
+          "correct": 3,
+          "explanation": "In fire signs (Aries, Leo, Sagittarius), water in dreams symbolizes a need to balance the strong inner fire."
+        },
+        {
+          "question": "What is 'reading the spaces' in dream interpretation?",
+          "options": [
+            "Reading in dark places",
+            "Identifying what doesn't appear in the dream",
+            "Reading between the lines",
+            "Focusing on sounds"
+          ],
+          "correct": 1,
+          "explanation": "Reading the spaces is identifying what doesn't appear in the dream — the lacks that reveal lacks in life."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we learned the eight steps of dream reading — from initial description to the final spiritual message. We saw how to identify symbols, choose an interpretive tradition, and connect everything to real life.",
+      "wisdom": "Every dream is a letter — but only one who knows how to read will understand what's written.",
+      "nextPreview": "In the next lesson we'll dive into water symbols in dreams — clear water, murky water, rain and floods, and understand how each drop tells a different story."
+    }
+  },
+  "faq": [
+    {
+      "question": "Does every dream need to receive a full interpretation with 8 steps?",
+      "answer": "No, simple or recurring dreams don't always need the full process. Use judgment — meaningful dreams get the full treatment."
+    },
+    {
+      "question": "How do I know which interpretive tradition suits me?",
+      "answer": "It depends on your cultural background and what speaks to you. Jewish women usually connect to the Jewish tradition, Muslims to the Islamic, and others to the universal."
+    },
+    {
+      "question": "What do we do when there are more than 5 important symbols in a dream?",
+      "answer": "Choose the 3-5 most significant ones — those that caused the strongest emotion or repeated several times. Quality over quantity."
+    },
+    {
+      "question": "Does 'reading the spaces' work on all dreams?",
+      "answer": "No, only on dreams that feel lacking or incomplete. If the dream feels whole and satisfying, there's no need to search for spaces."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "numerology",
+      "lesson": "personal-year",
+      "label": "⭐ The Personal Year in Numerology"
+    },
+    {
+      "course": "astrology",
+      "lesson": "elements",
+      "label": "🌟 Elements in Signs — Water, Fire, Earth and Air"
+    }
+  ],
+  "seo": {
+    "title": "Dream Reading Structure — 8 Steps to Dream Interpretation",
+    "description": "Learn the precise process of dream reading: from symbol identification to spiritual message. Step-by-step guide for beginners.",
+    "keywords": [
+      "dream interpretation",
+      "dream reading",
+      "dream symbols",
+      "dream analysis",
+      "reading structure",
+      "interpretation process",
+      "dreams and zodiac"
+    ],
+    "ogImage": "/og/academy/dreams/dreams-03.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

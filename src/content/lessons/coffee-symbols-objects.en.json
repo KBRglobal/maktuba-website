@@ -1,0 +1,137 @@
+{
+  "courseId": "coffee",
+  "lessonNumber": 8,
+  "title": "Object Symbols",
+  "slug": "symbols-objects",
+  "module": "Symbols",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down, dear one, the candle is flickering and our reading coffee has already cooled to the perfect temperature. We've journeyed through the animal world and natural forces in previous lessons, and now we arrive at a particularly fascinating realm – the world of objects. These symbols speak to us about the tools we need, the opportunities waiting, and the solutions already within our reach. Every object that appears in the cup is a precise message about what life is preparing for us. Your coffee cup transforms into a mystical antique shop, filled with magical objects and symbols of power. Come, let us learn together how to identify and read the messages hidden in these object symbols, and discover the ancient wisdom they carry.</p>",
+    "theoryA": "<h2>How Are Object Symbols Identified in Coffee Grounds?</h2><p>Object symbols appear as familiar shapes of things we see in daily life - keys, rings, letters and anchors. They differ from nature or animal symbols in that they represent things humans created or use. Each object carries within it its archetypal meaning - a key opens doors, a ring symbolizes commitment, and a letter brings a message.</p><p>The most basic symbols you'll encounter are the heart - symbolizing love and emotions, the ring - heralding commitment and marriage, and the key - opening new opportunities. The eye symbolizes protection and awareness, while the letter foretells news and correspondence. The cross carries meaning of sacrifice and spiritual growth.</p><p>The object's position in the cup determines the message's intensity and timing of fulfillment. Object on the rim - immediate message happening now or in coming days. In the middle of the cup - a gradually developing process. At the bottom - something deep and fateful affecting one's entire life. Close to the handle - related to home and family. Far from the handle - related to the outside world and career.</p><p>Shape and size are particularly important. Clear, sharp object - direct and unshakeable message. Blurred object - a situation still developing. Large object - great importance. Small object - something delicate requiring special attention. Sometimes objects appear in groups - many keys symbolize multiple opportunities, many hearts herald loves or a happy family.</p>",
+    "practice1": {
+      "instruction": "Take your cup and observe it for 3 minutes. Look for shapes of familiar objects. Identify at least one object and write where it's located (rim/middle/bottom, close or far from handle). Describe the shape in detail.",
+      "type": "observe"
+    },
+    "theoryB": "<h2>What's the Difference Between Object Symbols and Other Symbols?</h2><p>Object symbols differ from nature and animal symbols in that they represent the human-made world. While animals symbolize natural forces and instincts, and plants express growth and cycles, objects speak about human choices, creativity and achievements. They are the tools we use to shape our reality.</p><p>The anchor symbolizes stability and security - the thing that keeps us in a safe place. When it appears on the rim, stability is coming soon. In the middle of the cup - you're already well anchored. At the bottom - deep security built over years. Close to the handle - home is the anchor of security. Far from the handle - financial stability through wise investments.</p><p>The butterfly, despite being a living creature, is considered a symbol bridging the natural world and human world - it symbolizes conscious, chosen change. When it's on the rim, a beautiful transformation begins. In the middle - a process of personal growth. At the bottom - complete rebirth. Close to the handle - change through love. Far from the handle - joyful career change.</p><p>The flower symbolizes happiness and celebration - the beauty we create in our lives. On the rim - celebration soon. In the middle - life is flourishing. At the bottom - deep happiness. Close to the handle - romance blooming at home. Far from the handle - recognition for creativity. The cat symbolizes independence but also deception - on the rim someone is deceiving you, in the middle embrace your independence, at the bottom a mystery will be revealed.</p>",
+    "practice2": {
+      "instruction": "Choose one object you identified and write a short 5-sentence story about it: how it came to be in the cup, what it wants to tell you, and when the message will manifest. Use the symbol's position to determine timing and context.",
+      "type": "write"
+    },
+    "deepDive": "<h2>The Hidden Secret of Golden Objects in Coffee</h2><p>What regular reading books won't tell you is that there's a fundamental difference between objects appearing in light versus dark in the cup. Light objects - when the grounds remain around and create a positive shape - herald good things. Dark objects - when the grounds disappear leaving emptiness in the object's shape - warn against things that could go wrong.</p><p>The deeper secret lies in objects appearing in pairs or threes. Two rings symbolize double marriage or renewal of vows. Three keys - three opportunities opening simultaneously. Two hearts - mutual and balanced love. A pair of eyes - double protection, but also a need to see things from multiple angles.</p><p>Ancient wisdom says that objects appearing upside down carry the opposite message. An inverted key symbolizes a door closing instead of opening. An inverted heart warns against disappointment in feelings. An inverted ring hints at separation or cancellation of commitment. But remember - no message is a decree of fate, but rather a warning that enables preparation and change of direction.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What does a ring appearing on the cup's rim symbolize?",
+          "options": [
+            "Ancient commitment returning",
+            "Engagement or proposal very soon",
+            "Financial deal",
+            "End of a relationship"
+          ],
+          "correct": 1,
+          "explanation": "A ring on the rim symbolizes engagement or proposal very soon - rim position indicates an immediate event in the near future."
+        },
+        {
+          "question": "How do you distinguish between positive and negative objects in the cup?",
+          "options": [
+            "By size - large positive, small negative",
+            "By position - close to handle positive",
+            "Light objects positive, dark ones warning",
+            "By shape - round ones positive"
+          ],
+          "correct": 2,
+          "explanation": "Light objects (when grounds create a positive shape) herald good things, while dark objects (emptiness in object's shape) warn against things that could go wrong."
+        },
+        {
+          "question": "What's the meaning of a key at the bottom of the cup?",
+          "options": [
+            "Immediate opportunity",
+            "Solution to a small problem",
+            "A great life secret will be revealed",
+            "Need to change locks"
+          ],
+          "correct": 2,
+          "explanation": "A key at the bottom of the cup symbolizes a great life secret that will be revealed - the bottom represents deep and fateful things."
+        },
+        {
+          "question": "What distinguishes object symbols from animal symbols?",
+          "options": [
+            "They're always smaller",
+            "They represent the human-made world",
+            "They only appear at the cup's bottom",
+            "They have negative meaning"
+          ],
+          "correct": 1,
+          "explanation": "Object symbols represent the human-made world - the tools and creations we use, unlike animals that symbolize natural forces."
+        },
+        {
+          "question": "How do you interpret an object appearing upside down in the cup?",
+          "options": [
+            "Exactly like a regular object",
+            "The message is opposite to the usual meaning",
+            "It means the message won't manifest",
+            "It symbolizes confusion"
+          ],
+          "correct": 1,
+          "explanation": "An upside-down object carries the opposite message from the usual meaning - an inverted key symbolizes a closing door, an inverted heart warns of disappointment in feelings."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we learned to identify and interpret object symbols in coffee grounds - from the heart that heralds love to the anchor that brings stability. We saw how position determines timing of fulfillment and context, and how the symbol's color reveals whether the message is positive or warning. These objects are the tools life grants us to shape our reality.",
+      "wisdom": "Every object in the cup is a key to a door in your life - you just need to know how to open it.",
+      "nextPreview": "In the next lesson we'll dive into the world of geometric shapes - circles, triangles and lines that carry ancient wisdom."
+    }
+  },
+  "faq": [
+    {
+      "question": "What if I see an unfamiliar object in the cup?",
+      "answer": "Look for the most similar shape among known symbols, or think about what this object serves in daily life. The meaning will emerge from its functional context."
+    },
+    {
+      "question": "Does the number of objects matter in the meaning?",
+      "answer": "Yes! Two identical objects strengthen the message or symbolize duality. Three - completeness and stability. More than three - abundance or special complexity."
+    },
+    {
+      "question": "How do you know if an object indicates time or place?",
+      "answer": "Position in cup determines: on rim - immediate time, in middle - process, at bottom - something deep. Close to handle - home/personal, far from handle - work/society."
+    },
+    {
+      "question": "What if the object appears partial or hidden?",
+      "answer": "A partial object symbolizes something still developing or requiring additional time. A hidden object hints at something concealed that will be revealed in the future."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "tarot",
+      "lesson": "minor-arcana-pentacles",
+      "label": "⭐ Suit of Pentacles - Objects of Wealth and Stability"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "sefirat-malkhut",
+      "label": "🔯 Malkhut - Physical Expression in the World"
+    },
+    {
+      "course": "numerology",
+      "lesson": "expression-number",
+      "label": "🔢 Expression Number - Tools for Self-Expression"
+    }
+  ],
+  "seo": {
+    "title": "Object Symbols in Coffee Reading - Keys, Rings and Hearts",
+    "description": "Learn to identify and interpret object symbols in coffee grounds: heart, ring, key, anchor and more. Meanings by position and advanced reading techniques with Maktuba.",
+    "keywords": [
+      "coffee reading",
+      "object symbols",
+      "coffee grounds",
+      "heart in coffee",
+      "ring in grounds",
+      "coffee key",
+      "anchor"
+    ],
+    "ogImage": "/og/academy/coffee/symbols-objects.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

@@ -1,0 +1,142 @@
+{
+  "courseId": "astrology",
+  "lessonNumber": 11,
+  "title": "Chinese Astrology - The Complete Guide to the Chinese Zodiac",
+  "slug": "astrology-11",
+  "module": "Zodiac Signs",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit down, my dear child. The candle flickers and the incense scent reminds me of my journey to ancient times. Today we open the red folder I keep from old tea leaves in Beijing - the Chinese Zodiac. Unlike the Western astrology we've learned, this is an ancient system of 12 animals that rotate in a 12-year cycle. Each person carries the spirit of their birth year animal, with its own traits and elements. This journey will reveal who you truly are according to the Chinese Zodiac, and how understanding this Eastern wisdom deepens the Western astrology you already know.</p>",
+    "theoryA": "<h2>What is the Chinese Zodiac and How Does It Work?</h2><p>The Chinese Zodiac is an ancient astrological system based on a 12-year cycle, with each year ruled by a different animal with unique characteristics. Unlike Western astrology which is based on the sun's position at birth, the Chinese Zodiac is determined solely by birth year.</p><p>Legend tells of the Moon Emperor who summoned all animals to a race. The first to arrive would receive a place in the time cycle. The rat, cunning and clever, jumped on the ox's back and with one final leap won first place. Thus the order of animals was established: rat, ox, tiger, rabbit, dragon, snake, horse, goat, monkey, rooster, dog, and pig.</p><p>Each animal is linked to a specific element - wood, fire, earth, metal, and water. The complete cycle includes 60 years (12 animals times 5 elements), and only then does the pattern repeat exactly. For example, if you were born in the year of the Golden Dragon, this exact cycle will return only in 60 years.</p><p>Each animal's traits are also influenced by its yin-yang. Animals in odd years are yang (active, external energy), and in even years are yin (receptive, internal energy). This creates another layer of complexity in personality interpretation.</p>",
+    "practice1": {
+      "instruction": "Take your birth year and find which Chinese zodiac sign you were born under. Write personally about how the listed traits match or don't match your personality. Give concrete examples from your life.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How to Read Compatibility in Chinese Zodiac Signs?</h2><p>Compatibility in Chinese zodiac works differently from Western astrology. Here there are triads (trios) of animals that blend well together, and also direct conflicts between opposing signs.</p><p>The triads are: first - rat, dragon and monkey (intelligent and initiating); second - ox, snake and rooster (steady and determined); third - tiger, horse and dog (idealistic and loyal); fourth - rabbit, goat and pig (sensitive and warm).</p><p>Direct conflicts are between signs that are exactly opposite each other in the circle: rat opposite horse, ox opposite goat, tiger opposite monkey, rabbit opposite rooster, dragon opposite dog, snake opposite pig. This doesn't mean such relationships are doomed to failure, but rather that they will create creative tension or constant challenge.</p><p>The beauty of the Chinese system is that it doesn't only look at romantic compatibility, but also work relationships, friendships and family. Rat and dragon, for example, can build a business empire together, while rabbit and pig can create a warm and nurturing home.</p><p>It's important to remember that in the East they believe compatibility is just a foundation - like fertile soil for growing a plant. What happens afterwards depends on actions, choices, and working on the relationship itself.</p>",
+    "practice2": {
+      "instruction": "Choose three important people in your life (family, friends, partner). Find their Chinese zodiac signs and write a brief analysis of your compatibility according to the Chinese system. Compare it to your actual experience with them.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books: The Fifth Element and Hidden Cycles</h2><p>The secret that most Western astrologers don't know about is the fifth element - the central earth. While most books recognize only the four elements, in ancient Chinese tradition there is a fifth element that stands at the center of everything and balances them all.</p><p>Each animal is connected not only to its element, but also to a season. The dragon and snake, for example, rule late spring and early summer - the most delicate transition period of the year. This explains why they are so sharp and intuitive.</p><p>There are also smaller, clearer time cycles in the system: a 28-day cycle (moon signs), a daily 12-hour cycle (each animal rules two hours), and even a 12-minute cycle within each hour. Someone born in the tiger hour (between 3-5 AM) will carry tiger traits, even if their yearly sign is different.</p><p>The deepest secret: your Chinese zodiac sign is not just a personality, but a spiritual force that accompanies you as a guardian. In Chinese culture this is called the 'guide spirit', and this is why people connect so strongly with their animal.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "Which animal won first place in the Chinese Zodiac race according to legend?",
+          "options": [
+            "The Ox",
+            "The Rat",
+            "The Dragon",
+            "The Tiger"
+          ],
+          "correct": 1,
+          "explanation": "The rat won first place through its cunning - it jumped on the ox's back and only at the last moment jumped forward and won the victory."
+        },
+        {
+          "question": "How many years does it take for the complete Chinese Zodiac cycle (including elements) to repeat itself?",
+          "options": [
+            "12 years",
+            "24 years",
+            "36 years",
+            "60 years"
+          ],
+          "correct": 3,
+          "explanation": "The complete cycle is 60 years: 12 animals times 5 elements. Only after 60 years does the same exact combination of animal and element repeat itself."
+        },
+        {
+          "question": "Which zodiac signs are in direct conflict with each other?",
+          "options": [
+            "Rat and Monkey",
+            "Dragon and Snake",
+            "Tiger and Monkey",
+            "Rabbit and Goat"
+          ],
+          "correct": 2,
+          "explanation": "Tiger and monkey are exactly opposite each other in the Chinese zodiac circle, creating direct conflict and creative tension between them."
+        },
+        {
+          "question": "Which triad (trio) of zodiac signs works best together?",
+          "options": [
+            "Rat, Dragon, Monkey",
+            "Ox, Tiger, Horse",
+            "Rabbit, Snake, Dog",
+            "Goat, Rooster, Pig"
+          ],
+          "correct": 0,
+          "explanation": "Rat, dragon and monkey form the first triad - intelligent, initiating signs full of creative energy that complement each other perfectly."
+        },
+        {
+          "question": "What is the meaning of yin-yang in Chinese zodiac signs?",
+          "options": [
+            "The color of the sign",
+            "The gender of the animal",
+            "The direction of energy - active or receptive",
+            "The season of the year"
+          ],
+          "correct": 2,
+          "explanation": "Yin-yang indicates the direction of energy: yang (odd years) is active and external energy, yin (even years) is receptive and internal energy."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "The Chinese Zodiac reveals another layer of who you truly are, beyond Western astrology. Understanding your animal, element, and energy (yin-yang) gives a richer picture of your personality and relationships. Chinese compatibility expresses not just love but every human connection, allowing deeper understanding of life's dynamics.",
+      "wisdom": "The animal within you is not just personality, it's a spiritual force that guides you.",
+      "nextPreview": "In the next lesson we'll dive deep into the connections between Western and Chinese zodiac signs, and discover how to combine both systems for a complete reading of your soul map."
+    }
+  },
+  "faq": [
+    {
+      "question": "Is the Chinese Zodiac more accurate than the Western one?",
+      "answer": "Both systems complement each other. Western zodiac focuses on inner personality and emotions, Chinese focuses on external traits and behavior patterns. Together they give a more complete picture."
+    },
+    {
+      "question": "What happens if I was born at the beginning of the Hebrew or Chinese year?",
+      "answer": "The Chinese year begins between late January and early February (Chinese New Year). If you were born before this date, your sign is from the previous year. It's important to check the exact date."
+    },
+    {
+      "question": "Can children match different signs than their parents?",
+      "answer": "Absolutely! Sometimes conflict between signs can create interesting and educational dynamics. The trick here is understanding the different emotional languages and finding ways to build bridges."
+    },
+    {
+      "question": "How do I know what element my sign has?",
+      "answer": "Each Chinese sign is linked to a fixed element: rat and rooster-metal, ox and dog-earth, tiger and rabbit-wood, dragon and snake-fire, and pig-water. Additionally, the year itself adds an element according to the 5-year cycle."
+    },
+    {
+      "question": "What do you do when Chinese compatibility contradicts Western compatibility?",
+      "answer": "Try this: check which system speaks to you more in that specific relationship. Sometimes Chinese zodiac explains family dynamics better, while Western explains inner emotions better."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "astrology",
+      "lesson": "compatibility",
+      "label": "⭐ Compatibility in Western Astrology"
+    },
+    {
+      "course": "numerology",
+      "lesson": "life-path",
+      "label": "🔢 Life Path Number"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "four-worlds",
+      "label": "🌳 Four Worlds in Kabbalah"
+    }
+  ],
+  "seo": {
+    "title": "Chinese Zodiac - Complete Guide to Chinese Astrology and Compatibility",
+    "description": "Discover your Chinese zodiac sign, personality traits, compatibility and elements. Comprehensive guide to Chinese astrology with practical tools for understanding your relationships.",
+    "keywords": [
+      "Chinese zodiac",
+      "Chinese astrology",
+      "zodiac compatibility",
+      "Chinese animals",
+      "yin yang",
+      "Chinese horoscope",
+      "zodiac personality",
+      "Eastern astrology"
+    ],
+    "ogImage": "/og/academy/astrology/astrology-11.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

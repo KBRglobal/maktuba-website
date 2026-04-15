@@ -1,0 +1,138 @@
+{
+  "courseId": "iching",
+  "lessonNumber": 5,
+  "title": "The First Hexagrams of the I Ching — From Power to Contemplation",
+  "slug": "iching-05",
+  "module": "Hexagrams",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit by my side, the candle burns. Light dances across the pages of the ancient book, and the whispers of sages mingle with celestial lights. So far you've learned the foundations of the I Ching — the eight trigrams, the meaning of broken and solid lines, and how nature speaks to us through ancient symbols. Now we open the great treasure chest — the 64 hexagrams themselves. Each hexagram is a complete story, a cosmic drama unfolding in six lines. Like tarot in a deck of cards, like astrology in a celestial map — the I Ching gives us a complete map of all situations the human soul can encounter. Today we begin a journey through the first hexagrams, from the pure power of heaven to the wisdom of contemplation. Each hexagram will teach you something about life, about yourself, and about the time you're living in.</p>",
+    "theoryA": "<h2>What is the Meaning of Hexagrams 1-10 in the I Ching?</h2><p>The first hexagrams of the I Ching represent the basic cycle of creation — from pure creative force to the principles of society and leadership. The first hexagram, Force (Chien), is double heaven — pure yang force manifesting in all six lines. It's no accident that it opens the book: it represents the cosmic starting point, unlimited potential. When it appears in your fate, it calls you to act from a place of strength and integrity.</p><p>The second hexagram, Field (Kun), is double earth — pure yin that receives and nourishes. Together, heaven and earth create the basic polarity of existence. Heaven acts, earth receives. Heaven initiates, earth realizes. This is the eternal dance between masculine and feminine, between yang and yin, from which all things are born. When you receive the second hexagram, it's time to be like the faithful mare — to lead through example and inspiration, not through external force.</p><p>Sprouting (the third hexagram) brings us to the material world — here the first meeting between heavenly and earthly forces creates chaos. This is the moment when idea becomes reality, and this chaos is completely natural. Like a seed breaking through frozen earth, every new beginning requires us to break through resistance. The ancients knew that difficulty in beginning is a good sign — it means something real is being born.</p><p>Youthful Folly (the fourth hexagram) teaches us about student-teacher relationships. Mountain above water — stable wisdom above the flowing energy of youth. Here the I Ching reveals a deep educational method: the student must seek the teacher, not the other way around. Innocence is not weakness — it's a force that enables true learning. Those who think they know everything can no longer learn.</p>",
+    "practice1": {
+      "instruction": "Choose one hexagram from hexagrams 1-4 that particularly attracts you. Sit quietly and remember a moment in your life when you experienced this energy. Write 3 sentences about how this energy manifests in your life today.",
+      "type": "write"
+    },
+    "theoryB": "<h2>How Do Hexagrams 5-10 Teach About Time and Community?</h2><p>Waiting (the fifth hexagram) is one of the deepest hexagrams. Clouds in the sky — the rain hasn't fallen yet, but it's on its way. This is the time to embrace the art of active waiting, not passivity. The I Ching doesn't tell you to sit idly, but to fill waiting time with nourishing actions — 'eat, drink and be at peace.' This is wisdom of generations: when you're waiting for the big breakthrough, cultivate what you already have.</p><p>Conflict (the sixth hexagram) brings us to the realm of complex human relationships. Heaven and water moving in opposite directions — this is the perfect image for conflict. The I Ching doesn't avoid conflicts, but teaches us how to deal with them wisely. Wisdom is not avoiding conflict, but knowing when to stand your ground and when to stop before damage becomes irreversible. The 'mediator' here is the key — seek those who can help you see truth from both sides.</p><p>Leadership (the seventh hexagram) and Holding Together (the eighth hexagram) are a complementary pair — one about how to lead, the other about how to unite. Leadership is water in earth — hidden force, internal discipline that reveals itself only when needed. Holding Together is water on earth — natural flow of people toward each other. These hexagrams teach that true leadership is not about control, but about the ability to unite people around a shared purpose.</p><p>Small Accumulation and Treading (hexagrams 9-10) complete the first group with a lesson on patience and caution. Wind over heaven — gentle influence that accumulates slowly. Sometimes the best way is not the fastest way. Treading teaches us that you can coexist near dangerous forces, but you need to know how. 'Step on the tiger's tail but it won't bite' — this is the poetic description of the art of living carefully without living in fear.</p>",
+    "practice2": {
+      "instruction": "Read again the explanations about hexagrams 5-10. Choose a concrete situation in your life where you feel 'stuck'. Which hexagram best fits this situation? Write one insight about how this hexagram can help you move forward.",
+      "type": "write"
+    },
+    "deepDive": "<h2>What's Not Written in Books — The Hidden Key of the First Hexagrams</h2><p>The great secret of the first hexagrams is that they're not just descriptions of situations — they're a roadmap for consciousness development. The ancients didn't arrange this order by chance. Hexagrams 1-10 are actually a manual for spiritual maturation. It begins with pure force (1-2), passes through the chaos of activation (3-4), learns patience (5), deals with conflicts (6), develops leadership (7-8), and finally acquires refinement and caution (9-10).</p><p>Chinese mystics understand something the West has forgotten: true development is not linear. The hexagrams teach that each life stage requires different skills, and sometimes you need to return to earlier stages to handle unresolved issues. Those who try to jump from Force (1) straight to Leadership (7) without going through the chaos of Sprouting (3) will fail. This is not quick success theory — this is the map of life.</p><p>Another secret: the first hexagrams contain within them all the principles of tarot and astrology. Force is the Emperor, Field is the Empress. Sprouting is the Star — hope within chaos. Youthful Folly is the Hermit — the search for wisdom. Waiting is the Hanged Man — patience that becomes power. Everything is already written in the first hexagrams, you just need to know how to read.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is represented in the first hexagram 'Force' (Chien)?",
+          "options": [
+            "Double heaven — pure yang force",
+            "Double earth — pure yin force",
+            "Water and fire — balanced forces",
+            "Wind and thunder — movement"
+          ],
+          "correct": 0,
+          "explanation": "The first hexagram consists of two heaven trigrams, creating pure yang force with six solid lines."
+        },
+        {
+          "question": "Which hexagram teaches about student-teacher relationships?",
+          "options": [
+            "Force",
+            "Field",
+            "Sprouting",
+            "Youthful Folly"
+          ],
+          "correct": 3,
+          "explanation": "The fourth hexagram 'Youthful Folly' teaches that the student must seek the teacher, and innocence enables true learning."
+        },
+        {
+          "question": "What does the hexagram 'Waiting' symbolize?",
+          "options": [
+            "Standing still without doing anything",
+            "Clouds in the sky — rain is coming but hasn't fallen yet",
+            "Conflict between opposing forces",
+            "Rapid accumulation of power"
+          ],
+          "correct": 1,
+          "explanation": "Waiting symbolizes active waiting — clouds in the sky promising rain, and time to fill the waiting with nourishing actions."
+        },
+        {
+          "question": "How does the hexagram 'Conflict' approach disputes?",
+          "options": [
+            "Avoid all conflict",
+            "Win at any cost",
+            "Seek a mediator and don't push to the bitter end",
+            "Always yield for the sake of peace"
+          ],
+          "correct": 2,
+          "explanation": "The hexagram teaches that conflicts are natural, but it's important to seek a mediator and avoid pushing the conflict to its bitter end."
+        },
+        {
+          "question": "What do the hexagrams 'Leadership' and 'Holding Together' have in common?",
+          "options": [
+            "Both deal with personal power",
+            "Both teach about relationships and community",
+            "Both warn against dangers",
+            "Both call for solitude"
+          ],
+          "correct": 1,
+          "explanation": "Both hexagrams teach about different aspects of community life — how to lead and how to unite around a shared purpose."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "The first hexagrams of the I Ching are a roadmap for spiritual development — from the pure power of heaven and earth, through the challenges of beginnings and learning, to the wisdom of waiting, resolving conflicts, and community leadership. Each hexagram contains a complete world of meanings, and their order is not accidental — it's a structured path to a fuller life.",
+      "wisdom": "The dragon rises from the depths with patience — so do you.",
+      "nextPreview": "In the next lesson we'll continue our journey through hexagrams 11-20, where we'll meet peace and standstill, fellowship and great possession, and touch upon the wisdom of humility and enthusiasm."
+    }
+  },
+  "faq": [
+    {
+      "question": "How do I know which hexagram fits my situation?",
+      "answer": "Usually you throw coins or ask a specific question before opening. But you can also read the explanations and see which hexagram resonates with your current situation."
+    },
+    {
+      "question": "What's the difference between the first and second hexagram?",
+      "answer": "The first (Force) is pure yang — initiative, action, leadership. The second (Field) is pure yin — reception, nurturing, support. Together they create the basic polarity of life."
+    },
+    {
+      "question": "Why is the third hexagram called 'Sprouting' if it talks about difficulty?",
+      "answer": "Because like a seed breaking through frozen earth, every real beginning requires effort and tension. Difficulty in beginning is a sign that something new is being born."
+    },
+    {
+      "question": "How are the hexagrams related to tarot?",
+      "answer": "There are deep connections — Force resembles the Emperor, Field the Empress, Waiting the Hanged Man. Both systems describe the human soul's journey through archetypal figures."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "tarot",
+      "lesson": "emperor-empress",
+      "label": "⭐ The Emperor and Empress in Tarot"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "sefirot-chesed-gevurah",
+      "label": "🌳 Chesed and Gevurah in Kabbalah"
+    },
+    {
+      "course": "astrology",
+      "lesson": "sun-moon",
+      "label": "☀️ The Sun and Moon in Astrology"
+    }
+  ],
+  "seo": {
+    "title": "The First Hexagrams of the I Ching — Force, Field, Sprouting and Waiting",
+    "description": "Learn about the first 10 hexagrams of the I Ching: Force (the Creative), Field (the Receptive), Sprouting, Youthful Folly, Waiting, Conflict, Leadership, Holding Together, Small Accumulation and Treading.",
+    "keywords": [
+      "hexagrams",
+      "I Ching",
+      "force",
+      "field",
+      "sprouting",
+      "waiting",
+      "yang yin",
+      "trigrams"
+    ],
+    "ogImage": "/og/academy/iching/iching-05.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

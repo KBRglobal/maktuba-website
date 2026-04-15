@@ -1,0 +1,136 @@
+{
+  "courseId": "dreams",
+  "lessonNumber": 1,
+  "title": "dreams — Lesson 1",
+  "slug": "dreams-01",
+  "module": "Introduction",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">We all dream every night, but how many of us truly know what our dreams are trying to tell us? Come sit close to the candlelight — it's time to unlock the hidden treasure within your dreams. For thousands of years, cultures around the world have understood that dreams are not just random fragments of memories. The Talmud says: \"A dream that is not interpreted is like a letter that is not read\" (Berakhot 55). Ibn Sirin, the great dream interpreter of the Islamic world, divided dreams into three types: ru'ya — a true vision from God, hadith al-nafs — processing of daily thoughts, and hulum — a disturbing dream. Jung expanded even further and showed us how dreams connect us to the collective unconscious. Today we begin a journey of learning how to truly read our dreams.</p>",
+    "theoryA": "<h2>How does dream interpretation work at Maktuba?</h2><p>Dream interpretation at Maktuba is a structured 8-step process that connects the symbols in your dream to the great spiritual traditions. Every dream begins when you describe to me what you dreamed in free text — up to 1000 words. I identify 3-5 central symbols from your narrative, then determine your cultural context: Hebrew users receive a Jewish-Jungian approach, Arabic users receive an Islamic approach (Ibn Sirin's method), and English users receive a universal Jungian approach.</p><p>For each symbol, I provide the culturally appropriate meaning: in the Jewish tradition we examine what the Talmud and Kabbalah say about the symbol, in the Islamic tradition we use Ibn Sirin's method, and in the universal approach we focus on Jungian archetypes. Then I weave all the symbols into one coherent story about your life — not separate interpretations, but a complete narrative that connects to everything happening with you now.</p><p>Our unique step is the connection to your numerological and astrological profile. I connect the dream symbols to your zodiac sign, your numerological life path, and your current personal year. This way the dream isn't just \"interesting\" — it becomes practical guidance based on who you truly are.</p><p>At the end of the process I summarize: what is the dream really trying to tell you? What next step to take? And how to use this understanding to grow. Every reading ends with a mystical message appropriate to your tradition — a Kabbalistic blessing, an ayah from the Quran, or Jungian wisdom.</p>",
+    "practice1": {
+      "instruction": "Write down one dream you remember from the past week. Describe it in detail: where it happened, who was there, what you felt, and how it ended. Don't interpret — just describe. This is an exercise in distinguishing between description and interpretation.",
+      "type": "write"
+    },
+    "theoryB": "<h2>What's the difference between a dream and a vision in different traditions?</h2><p>In the Islamic tradition, Ibn Sirin clearly distinguished between three types of dreams. Ru'ya (رؤيا) is the highest dream — a true vision from God, sometimes prophetic, that usually comes before Fajr prayer when the soul is purest. Hadith al-nafs (حديث النفس) is processing daily thoughts — like backing up your computer. And hulum (حلم) is a disturbing dream from Satan that should be ignored and protected against through prayer.</p><p>In the Jewish tradition, the Talmud teaches that a dream is one-sixtieth of prophecy. The Zohar says that a dream is a message from our soul — the higher level of our consciousness trying to guide the ordinary level. There's a distinction between a simple dream (a piece of information or processing) and a vision (a dream with deep spiritual message). Especially dreams with specific Jewish symbols — like a Torah scroll, the Temple, or Hebrew letters — are considered to have special spiritual significance.</p><p>Jung brought another angle: he distinguished between personal dreams (that process personal experiences) and archetypal dreams (that connect to humanity's collective unconscious). Archetypal dreams contain universal symbols like water, the snake, the Great Mother, the hero — and these are usually our most powerful dreams.</p><p>How do you know which type of dream it is? Timing (when you dreamed), emotional intensity (how much the dream affected you), and symbols (are there things unrelated to your daily life). A dream you remember clearly after weeks, that contains deep symbols and leaves you with a feeling of \"this was something special\" — this is the dream worth interpreting.</p>",
+    "practice2": {
+      "instruction": "Take the dream you wrote earlier and identify 3 central symbols. Not what you think they're supposed to mean — just which elements in the dream are most prominent: an animal? a place? a person? water? fire? Just write down the three symbols without interpretation.",
+      "type": "observe"
+    },
+    "deepDive": "<h2>What's not written in books: how symbols change according to where you are in life</h2><p>The great secret of dream interpretation is that the same symbol can say completely different things depending on where you are in life. Take the symbol \"water\" — in the universal tradition it's almost always emotion or knowledge, in the Islamic tradition clean water is blessing and livelihood, in the Jewish tradition it's Torah and purity. But that's only the first layer.</p><p>The second layer: how does the water behave in the dream? Gently flowing water = healthy emotional flow. Turbulent water = emotional storm. Water you're drowning in = emotional flooding. Water you're drinking = absorbing knowledge or healing.</p><p>The third layer — and this is the most important: where are you in life right now? If you're in personal year 1 (new beginnings), water could be the purifying immersion preparing you for the new. If you're in personal year 9 (endings), water could be the flow taking you to what's next. If you're a water sign (Cancer, Scorpio, Pisces), water in dreams could be a call to return home to yourself.</p><p>And there's another layer: the connection to your relationship with the Divine. Someone who practices meditation will interpret water differently from someone who distances from spirituality. Someone going through a spiritual crisis will see water as a symbol of renewal or rebirth — someone who feels spiritually connected will see it as natural flow of guidance from above.</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "According to Ibn Sirin, which type of dream is considered a true vision from God?",
+          "options": [
+            "Hulum (حلم)",
+            "Ru'ya (رؤيا)",
+            "Hadith al-nafs (حديث النفس)",
+            "All dreams are equal"
+          ],
+          "correct": 1,
+          "explanation": "Ru'ya (رؤيا) is the highest dream in the Islamic tradition - a true vision from God that is sometimes prophetic."
+        },
+        {
+          "question": "What did the Talmud say about a dream that isn't interpreted?",
+          "options": [
+            "It returns in the following nights",
+            "It is like a letter that is not read",
+            "It is lost forever",
+            "It becomes a nightmare"
+          ],
+          "correct": 1,
+          "explanation": "The Talmud (Berakhot 55) teaches: 'A dream that is not interpreted is like a letter that is not read' - you need to interpret to receive the message."
+        },
+        {
+          "question": "How many central symbols does Maktuba identify in each dream?",
+          "options": [
+            "1-2 symbols",
+            "3-5 symbols",
+            "6-8 symbols",
+            "As many as needed"
+          ],
+          "correct": 1,
+          "explanation": "Maktuba identifies 3-5 central symbols in each dream - a number that allows deep interpretation without being overly complex."
+        },
+        {
+          "question": "Which approach do Hebrew users receive at Maktuba?",
+          "options": [
+            "Islamic approach",
+            "Jungian only",
+            "Jewish-Jungian approach",
+            "Universal approach"
+          ],
+          "correct": 2,
+          "explanation": "Hebrew users receive a Jewish-Jungian approach that combines Jewish tradition with Jung's insights."
+        },
+        {
+          "question": "According to Jung, which dreams connect to the collective unconscious?",
+          "options": [
+            "Personal dreams",
+            "Archetypal dreams",
+            "Daily dreams",
+            "All dreams"
+          ],
+          "correct": 1,
+          "explanation": "Jung distinguished between personal and archetypal dreams - archetypal ones contain universal symbols and connect to the collective unconscious."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "Today we met the fascinating world of dream interpretation through three ancient traditions - Jewish, Islamic, and universal. We learned how Maktuba builds structured dream readings in 8 steps, how to distinguish between different types of dreams, and why the same symbol can say different things to different people in different life situations.",
+      "wisdom": "A dream is a letter that your soul writes to your heart.",
+      "nextPreview": "In the next lesson we'll dive deep into water symbols in dreams - from flood to rain, from ocean to tear, and learn how to interpret every type of water according to your tradition."
+    }
+  },
+  "faq": [
+    {
+      "question": "Do all my dreams need interpretation?",
+      "answer": "No. Dreams that repeat, contain deep symbols, or leave you with a strong feeling - these are the dreams worth interpreting."
+    },
+    {
+      "question": "What if I don't remember dreams?",
+      "answer": "Keep paper and pen by your bed. The moment you wake up, write down a few words about what you remember. Memory will gradually return."
+    },
+    {
+      "question": "Are there 'bad' dreams that are better not to interpret?",
+      "answer": "In the Islamic tradition, disturbing dreams are considered 'hulum' and are better ignored. In other traditions, even frightening dreams can contain important messages."
+    },
+    {
+      "question": "How long after the dream can it still be interpreted?",
+      "answer": "A dream you remember clearly even after weeks or months is a powerful dream that probably carries an important message and can be interpreted."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "numerology",
+      "lesson": "personal-year",
+      "label": "⭐ Personal Year in Numerology"
+    },
+    {
+      "course": "astrology",
+      "lesson": "mercury",
+      "label": "🌟 Mercury and Communication from the Unconscious"
+    },
+    {
+      "course": "kabbalah",
+      "lesson": "soul-levels",
+      "label": "✨ Soul Levels in Kabbalah"
+    }
+  ],
+  "seo": {
+    "title": "Dream Interpretation - How to Read Your Dreams | Maktuba",
+    "description": "Learn dream interpretation in Jewish, Islamic, and Jungian traditions. Discover what your dreams are trying to tell you and how to use them for personal growth.",
+    "keywords": [
+      "dream interpretation",
+      "dreams",
+      "dream symbols",
+      "Ibn Sirin",
+      "Jung",
+      "dream analysis"
+    ],
+    "ogImage": "/og/academy/dreams/dreams-01.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}

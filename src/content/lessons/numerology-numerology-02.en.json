@@ -1,0 +1,138 @@
+{
+  "courseId": "numerology",
+  "lessonNumber": 2,
+  "title": "Abjad System and Name Numerology — Lesson 2",
+  "slug": "numerology-02",
+  "module": "Foundations",
+  "estimatedMinutes": 15,
+  "sections": {
+    "opening": "<p class=\"drop-cap\">Sit beside me, dear child, and watch how the sage shares his ancient secrets. In the previous lesson we danced with path numbers — those numbers we were born with. Today we go deeper into the ancient earth, to where the letters themselves wait for us with infinite patience. They know that every name is more than just sounds — it's a soul key, a divine seal that brought you into this world. The Arabic Abjad system, called 'Hisab al-Jumal' in Arabic, reveals to us how each letter carries a sacred number, and how your name is actually a complex numerological equation containing your spiritual blueprint. There is deep wisdom here woven by sages and mystics over hundreds of years.</p>",
+    "theoryA": "<h2>How does the Abjad system calculate a name's value?</h2><p>The Arabic Abjad system assigns a unique numerical value to each letter of the Arabic alphabet, and name calculation is done by adding the values of all the letters. The classical order is 'Abjad Hawaz Hutti Kalaman Sa'fas Qarshat Thakhath Dhadhagh' — this is the original sequence used by sages and mystics. The first letter Aleph equals 1, Ba equals 2, and so on up to Ya which reaches value 10. Then the letters continue in tens: Kaf = 20, Lam = 30, up to Sad = 90. Then come the hundreds: Qaf = 100, Ra = 200, Shin = 300, Ta = 400, and more. The highest values reach thousands: Ayn = 1000.</p><p>A fascinating example is the name 'Fatima' (فاطمة) — daughter of Prophet Muhammad. Letter calculation: ف (Fa) = 80, ا (Aleph) = 1, ط (Ta) = 9, م (Mim) = 40, ة (Ta Marbuta) = 5. Total: 80+1+9+40+5 = 135. When we reduce 135 to a single digit we get: 1+3+5 = 9. This means Fatima carries the energy of number 9 — the number of completion, compassion and high spirituality. Mystics see this as a sign of her special spiritual role in Islamic tradition. Similarly, the name 'Allah' (الله) equals 66, which is considered especially sacred.</p><p>What's fascinating about this system is that it doesn't just calculate values — it reveals spiritual connections between different words and names that come out to the same numerical value. For example, the word 'Nur' (نور) meaning 'light' equals 256, and if we find a person whose name comes out to the same value, sages would see this as a sign that they're destined to bring light to the world. This isn't just a numbers game — it's a deep spiritual language based on the belief that everything in creation is connected by hidden threads of divine meaning.</p>",
+    "practice1": {
+      "instruction": "Take your first name, translate it to Arabic letters (or use an Arabic name you know), and calculate its Abjad value according to the table. Write down the entire calculation step by step.",
+      "type": "write"
+    },
+    "theoryB": "<h2>What's the connection between Abjad and Western numerology?</h2><p>Once we reach the final value of the name in Abjad, we apply the same reduction principles learned in Western numerology — adding the digits until we reach a single digit. But here begins the real magic: this final digit is considered equivalent to the path number in classical numerology. Meaning, if your name in Abjad comes out to 9, you have the same spiritual energy as someone born with path number 9 in the West. This is a fascinating bridge between two numerological traditions that developed in different parts of the world but arrived at the same basic insights about the nature of numbers and cosmic energies.</p><p>Islamic mystics added another layer of depth: they compared the name's value to the values of sacred words in the Quran. For instance, if your name comes out to 786 (the famous value of 'Bismillah ar-Rahman ar-Raheem'), it's considered a special lucky sign. If it comes out to 99 (like the number of Names of Allah), it indicates a soul with a special spiritual mission. They would even compare the name's value to the mother's name value — if they're identical or close, it indicates special spiritual inheritance. This isn't just superstition — it's a complex symbolic system that helps people understand their spiritual place in the universe.</p><p>This wisdom flows into other areas of mystical arts as well. Letters in Hebrew and Greek work similarly (gematria), and the energetic principles of numbers connect to astrology — number 1 connects to Mars, 2 to the Moon, 3 to Jupiter, and so on. When you understand your name in Abjad, you're actually opening a window to your soul's cosmic connections. It's no secret that many of the great mystics, like Ibn Arabi, saw the wisdom of letters ('Ilm al-Huruf') as one of the foundations of the deepest spiritual understanding.</p>",
+    "practice2": {
+      "instruction": "Now take your name's final value, reduce it to a single digit, and find online or in a dictionary 3 sacred Arabic words (like peace, love, light) that come out to the same value. Write down how this feels to you — is there a sense of connection?",
+      "type": "observe"
+    },
+    "deepDive": "<h2>What's not written in books — the secret of the living letters</h2><p>My grandmother, may she rest in peace, used to speak about letters like little living creatures dancing in space. 'Each letter,' she would whisper, 'is a little soul with its own will.' What the regular numerology books don't tell you is that when you calculate a name in Abjad, you're not just counting numbers — you're listening to a conversation between different parts of the soul. The great mystics knew there's a huge difference between a letter that comes at the beginning of a name and a letter that comes at the end — it's not just a matter of position, it's a matter of spiritual role.</p><p>The first letter in a name represents how the soul enters the world — this is your primary energetic signature. The middle letter (or letters) represents how you act in the world — this is the heart of the personality. And the last letter represents how the soul departs from the world — this is the legacy you leave behind. When you combine all this together, you get a deep and complex picture beyond what simple mathematical calculation can provide. The ancient sages would say: 'Whoever truly reads the names, hears the music of the stars.'</p>",
+    "quiz": {
+      "questions": [
+        {
+          "question": "What is 'Hisab al-Jumal'?",
+          "options": [
+            "The Arabic name for the Abjad numerological system",
+            "The name of a famous Muslim sage",
+            "A religious ceremony using numbers",
+            "A sacred book about numerology"
+          ],
+          "correct": 0,
+          "explanation": "Hisab al-Jumal is the Arabic name for the numerological system that assigns numerical values to Arabic alphabet letters, named after the classical order of letters: Abjad Hawaz Hutti..."
+        },
+        {
+          "question": "How much is the letter 'Mim' (م) worth in the Abjad system?",
+          "options": [
+            "30",
+            "40",
+            "50",
+            "20"
+          ],
+          "correct": 1,
+          "explanation": "The letter Mim (م) equals 40 in the Arabic Abjad system. It's in the tens series: Ya=10, Kaf=20, Lam=30, Mim=40, Nun=50."
+        },
+        {
+          "question": "How do you calculate the final value of a name in Abjad system?",
+          "options": [
+            "Multiply all the values",
+            "Add all the values then reduce to a single digit",
+            "Take only the highest value",
+            "Divide the sum of values by 9"
+          ],
+          "correct": 1,
+          "explanation": "Add the values of all letters in the name, then reduce the result to a single digit (or master number 11/22/33) exactly like in regular Western numerology."
+        },
+        {
+          "question": "What is the special significance of the number 786 in Abjad tradition?",
+          "options": [
+            "It's just a regular lucky number",
+            "It's the value of 'Bismillah ar-Rahman ar-Raheem'",
+            "It's the age of an important prophet",
+            "It's the number of letters in the Quran"
+          ],
+          "correct": 1,
+          "explanation": "786 is the numerological value of the phrase 'Bismillah ar-Rahman ar-Raheem' (In the name of Allah, the Compassionate, the Merciful), and is therefore considered especially sacred in Islamic tradition."
+        },
+        {
+          "question": "How are Abjad numbers related to path numbers in Western numerology?",
+          "options": [
+            "They're completely different and unrelated",
+            "They're exactly identical",
+            "The final digit in Abjad corresponds to the path number",
+            "Abjad is stronger and cancels out the path number"
+          ],
+          "correct": 2,
+          "explanation": "After reducing the final value of the name in Abjad to a single digit, this digit is considered equivalent to the path number in Western numerology - carrying the same spiritual energy."
+        }
+      ]
+    },
+    "closing": {
+      "summary": "The Abjad system is a magical bridge between the world of letters and the world of numbers, allowing us to read a name like a spiritual map. When you understand that each letter carries a unique cosmic value, and that your name is actually a mathematical-spiritual formula, a completely new world of self-understanding opens up.",
+      "wisdom": "Your name is the first prayer your soul sent to the universe.",
+      "nextPreview": "In the next lesson we'll learn about expression numbers and full name analysis - how each part of your name tells a different story about your soul."
+    }
+  },
+  "faq": [
+    {
+      "question": "Do I need to know Arabic to use the Abjad system?",
+      "answer": "Not necessarily. Conversion tables are available, but knowing Arabic letters adds spiritual depth to the process and allows for a more authentic connection with the ancient tradition."
+    },
+    {
+      "question": "How do I know how to translate my name to Arabic?",
+      "answer": "You can use online dictionaries or search for the Arabic version of your name. It's important to choose the common and accepted version, not a literal translation of the letters."
+    },
+    {
+      "question": "What if I get a very high number (like 1500) - how do I reduce it?",
+      "answer": "Continue adding the digits until you reach a single digit: 1500 → 1+5+0+0 = 6. If you reach 11, 22 or 33, these remain as master numbers."
+    },
+    {
+      "question": "Is there a difference in using Abjad for men and women?",
+      "answer": "Technically - no. But some mystics consider adding 'ibn' (son of) or 'bint' (daughter of) after the name, or compare to the mother's name in addition to the basic analysis."
+    }
+  ],
+  "crossReferences": [
+    {
+      "course": "kabbalah",
+      "lesson": "gematria",
+      "label": "🔯 Hebrew Gematria - The Connection Between Letters"
+    },
+    {
+      "course": "numerology",
+      "lesson": "expression-numbers",
+      "label": "🔢 Western Expression Numbers - Comparing Systems"
+    },
+    {
+      "course": "astrology",
+      "lesson": "planetary-numbers",
+      "label": "⭐ Number-Planet Connections"
+    }
+  ],
+  "seo": {
+    "title": "Arabic Abjad System and Name Numerology - Lesson 2",
+    "description": "Learn how to calculate your name's value in the Arabic Abjad system, understand the connection to Western numerology and discover the hidden spiritual meaning in your name",
+    "keywords": [
+      "Abjad system",
+      "Arabic numerology",
+      "name calculation",
+      "Hisab al-Jumal",
+      "name numerology",
+      "Islamic mysticism",
+      "letter values",
+      "spiritual naming"
+    ],
+    "ogImage": "/og/academy/numerology/numerology-02.png"
+  },
+  "datePublished": "2026-04-15",
+  "dateModified": "2026-04-15"
+}
