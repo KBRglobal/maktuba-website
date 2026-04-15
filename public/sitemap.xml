@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://maktuba.app/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/en/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/ar/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/academy</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/en/academy</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/ar/academy</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/academy/tarot</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/tarot" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/tarot" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/tarot" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/tarot" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/en/academy/tarot</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/tarot" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/tarot" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/tarot" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/tarot" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/ar/academy/tarot</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/tarot" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/tarot" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/tarot" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/tarot" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/academy/coffee</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/coffee" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/coffee" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/coffee" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/coffee" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/en/academy/coffee</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/coffee" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/coffee" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/coffee" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/coffee" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/ar/academy/coffee</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/coffee" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/coffee" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/coffee" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/coffee" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/academy/palm</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/palm" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/palm" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/palm" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/palm" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/en/academy/palm</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/palm" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/palm" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/palm" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/palm" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/ar/academy/palm</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/palm" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/palm" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/palm" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/palm" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/academy/astrology</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/astrology" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/astrology" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/astrology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/astrology" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/en/academy/astrology</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/astrology" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/astrology" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/astrology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/astrology" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/ar/academy/astrology</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/astrology" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/astrology" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/astrology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/astrology" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/academy/numerology</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/numerology" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/numerology" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/numerology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/numerology" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/en/academy/numerology</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/numerology" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/numerology" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/numerology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/numerology" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/ar/academy/numerology</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/numerology" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/numerology" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/numerology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/numerology" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/academy/kabbalah</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/kabbalah" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/kabbalah" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/kabbalah" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/kabbalah" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/en/academy/kabbalah</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/kabbalah" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/kabbalah" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/kabbalah" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/kabbalah" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/ar/academy/kabbalah</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/kabbalah" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/kabbalah" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/kabbalah" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/kabbalah" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/academy/dreams</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/dreams" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/dreams" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/dreams" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/dreams" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/en/academy/dreams</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/dreams" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/dreams" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/dreams" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/dreams" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/ar/academy/dreams</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/dreams" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/dreams" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/dreams" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/dreams" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/academy/iching</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/iching" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/iching" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/iching" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/iching" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/en/academy/iching</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/iching" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/iching" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/iching" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/iching" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/ar/academy/iching</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/iching" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/iching" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/iching" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/iching" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/academy/crystals</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/crystals" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/crystals" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/crystals" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/crystals" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/en/academy/crystals</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/crystals" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/crystals" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/crystals" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/crystals" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/ar/academy/crystals</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/crystals" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/crystals" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/crystals" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/crystals" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/academy/psalms</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/psalms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/psalms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/psalms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/psalms" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/en/academy/psalms</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/psalms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/psalms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/psalms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/psalms" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/ar/academy/psalms</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/psalms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/psalms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/psalms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/psalms" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/academy/tarot/the-magician</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/tarot/the-magician" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/tarot/the-magician" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/tarot/the-magician" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/tarot/the-magician" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/en/academy/tarot/the-magician</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/tarot/the-magician" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/tarot/the-magician" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/tarot/the-magician" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/tarot/the-magician" />
+  </url>
+  <url>
+    <loc>https://maktuba.app/ar/academy/tarot/the-magician</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="he" href="https://maktuba.app/academy/tarot/the-magician" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://maktuba.app/en/academy/tarot/the-magician" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://maktuba.app/ar/academy/tarot/the-magician" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://maktuba.app/academy/tarot/the-magician" />
+  </url>
+</urlset>
