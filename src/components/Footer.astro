@@ -1,0 +1,19 @@
+---
+const { lang = "he" } = Astro.props;
+const t = {
+  he: { privacy: "מדיניות פרטיות", terms: "תנאי שימוש", support: "תמיכה", disclaimer: "לבידור והתבוננות עצמית בלבד. מכתובה לא מספקת ייעוץ רפואי, פסיכולוגי, משפטי או פיננסי." },
+  en: { privacy: "Privacy", terms: "Terms", support: "Support", disclaimer: "For entertainment and self-reflection only. Not medical, legal, or financial advice." },
+  ar: { privacy: "الخصوصية", terms: "الشروط", support: "الدعم", disclaimer: "للترفيه والتأمل الذاتي فقط." },
+}[lang as "he" | "en" | "ar"];
+---
+<footer class="mt-24 border-t border-border py-10 px-6">
+  <div class="max-w-5xl mx-auto text-center space-y-4">
+    <div class="flex flex-wrap items-center justify-center gap-6 text-xs text-muted">
+      <a href="/privacy" class="hover:text-gold transition-colors">{t.privacy}</a>
+      <a href="/terms" class="hover:text-gold transition-colors">{t.terms}</a>
+      <a href="/support" class="hover:text-gold transition-colors">{t.support}</a>
+    </div>
+    <p class="text-xs text-muted max-w-xl mx-auto">{t.disclaimer}</p>
+    <p class="text-[11px] text-muted/60">© 2026 Travi.World Ltd. (Gibraltar)</p>
+  </div>
+</footer>

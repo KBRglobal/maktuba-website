@@ -1,0 +1,22 @@
+---
+const { lang = "he" } = Astro.props;
+const t = {
+  he: { home: "בית", academy: "אקדמיה", app: "אפליקציה" },
+  en: { home: "Home", academy: "Academy", app: "App" },
+  ar: { home: "الرئيسية", academy: "الأكاديمية", app: "التطبيق" },
+}[lang as "he" | "en" | "ar"];
+const prefix = lang === "he" ? "" : `/${lang}`;
+---
+<header class="sticky top-0 inset-x-0 z-40 bg-background/80 backdrop-blur-md border-b border-border">
+  <nav class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+    <a href={`${prefix}/`} class="font-display text-xl text-gold tracking-[0.15em]">🔮 MAKTUBA</a>
+    <div class="flex items-center gap-5">
+      <a href={`${prefix}/academy`} class="text-sm text-body-text hover:text-gold transition-colors">{t.academy}</a>
+      <div class="flex items-center gap-1 text-xs">
+        <a href={`/${Astro.url.pathname.replace(/^\/(en|ar)/, "")}`} class:list={["px-2 py-1 rounded-sm transition-colors", lang === "he" ? "bg-gold/20 text-gold" : "text-muted hover:text-gold"]}>HE</a>
+        <a href={`/en${Astro.url.pathname.replace(/^\/(en|ar)/, "")}`} class:list={["px-2 py-1 rounded-sm transition-colors", lang === "en" ? "bg-gold/20 text-gold" : "text-muted hover:text-gold"]}>EN</a>
+        <a href={`/ar${Astro.url.pathname.replace(/^\/(en|ar)/, "")}`} class:list={["px-2 py-1 rounded-sm transition-colors", lang === "ar" ? "bg-gold/20 text-gold" : "text-muted hover:text-gold"]}>AR</a>
+      </div>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,15 @@
+{
+  "courses": [
+    { "id": "tarot",         "titleHe": "קורס טארוט",        "titleEn": "Tarot",         "titleAr": "التاروت",       "lessonCount": 30, "order": 1, "icon": "🃏" },
+    { "id": "coffee",        "titleHe": "קריאה בקפה",         "titleEn": "Coffee Reading","titleAr": "قراءة الفنجان", "lessonCount": 20, "order": 2, "icon": "☕" },
+    { "id": "palm",          "titleHe": "קריאת כף יד",        "titleEn": "Palm Reading",  "titleAr": "قراءة الكف",    "lessonCount": 15, "order": 3, "icon": "✋" },
+    { "id": "astrology",     "titleHe": "אסטרולוגיה",         "titleEn": "Astrology",     "titleAr": "علم التنجيم",   "lessonCount": 25, "order": 4, "icon": "⭐" },
+    { "id": "numerology",    "titleHe": "נומרולוגיה",          "titleEn": "Numerology",    "titleAr": "علم الأرقام",   "lessonCount": 18, "order": 5, "icon": "🔢" },
+    { "id": "kabbalah",      "titleHe": "קבלה",              "titleEn": "Kabbalah",      "titleAr": "القبالة",        "lessonCount": 22, "order": 6, "icon": "🔯" },
+    { "id": "dreams",        "titleHe": "פתרון חלומות",        "titleEn": "Dream Reading", "titleAr": "تفسير الأحلام", "lessonCount": 16, "order": 7, "icon": "🌙" },
+    { "id": "iching",        "titleHe": "אי צ'ינג",            "titleEn": "I Ching",       "titleAr": "الإي تشينغ",     "lessonCount": 12, "order": 8, "icon": "☯" },
+    { "id": "crystals",      "titleHe": "קריסטלים",            "titleEn": "Crystals",      "titleAr": "البلورات",       "lessonCount": 14, "order": 9, "icon": "💎" },
+    { "id": "psalms",        "titleHe": "תהילים",              "titleEn": "Psalms",        "titleAr": "المزامير",       "lessonCount": 22, "order": 10, "icon": "📖" }
+  ],
+  "totals": { "lessonsPerLang": 194, "languages": 3, "urls": 582, "wordsPerLesson": 3000, "totalWords": 582000 }
+}

@@ -1,0 +1,60 @@
+---
+import Base from "@/layouts/Base.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Maktuba",
+  "url": "https://maktuba.app",
+  "description": "המיסטיקנית שקוראת את הקפה, הכף, הכוכבים והנשמה.",
+  "sameAs": [],
+};
+---
+<Base
+  title="מכתובה — אקדמיה + אפליקציה מיסטית"
+  description="מה שנכתב — כבר כתוב. קפה, טארוט, כף יד, כוכבים. אקדמיה חינמית של 194 שיעורים + אפליקציה עם 20+ קריאות AI עמוקות."
+  keywords={["מכתובה","טארוט","קריאה בקפה","קריאת כף יד","אסטרולוגיה","נומרולוגיה","קבלה"]}
+  ogType="website"
+  jsonLd={jsonLd}
+>
+  <Header lang="he" />
+  <main class="max-w-5xl mx-auto px-6 py-20 space-y-20">
+    <section class="text-center space-y-6">
+      <h1 class="font-display text-5xl sm:text-7xl text-gold tracking-[0.08em]">
+        מכתובה
+      </h1>
+      <p class="font-display text-2xl sm:text-3xl text-gold-light italic tracking-[0.06em]">
+        מה שנכתב — כבר כתוב
+      </p>
+      <p class="max-w-xl mx-auto text-body-text/80 leading-relaxed">
+        המיסטיקנית שקוראת את הקפה, את הכף, את הכוכבים ואת הנשמה שלך.
+        כל קריאה נפתחת במפתח. הקריאה הראשונה — חינם.
+      </p>
+      <div class="flex flex-wrap items-center justify-center gap-4 pt-4">
+        <a href="/academy" class="btn-gold">🎓 אקדמיה חינמית</a>
+        <a href="/app" class="inline-flex items-center gap-2 px-6 py-3 border border-gold/30 text-gold hover:bg-gold/5 transition-colors rounded-sm">הורדת האפליקציה</a>
+      </div>
+    </section>
+
+    <section class="grid sm:grid-cols-3 gap-8 text-center">
+      <div class="space-y-2">
+        <div class="text-4xl">🎓</div>
+        <h2 class="font-display text-xl text-gold">194 שיעורים חינם</h2>
+        <p class="text-sm text-body-text/70">קורסים מלאים על טארוט, אסטרולוגיה, קבלה, נומרולוגיה ועוד</p>
+      </div>
+      <div class="space-y-2">
+        <div class="text-4xl">🔑</div>
+        <h2 class="font-display text-xl text-gold">20+ קריאות AI</h2>
+        <p class="text-sm text-body-text/70">קפה, טארוט, כף יד, תהילים — כולם מופעלים במפתחות</p>
+      </div>
+      <div class="space-y-2">
+        <div class="text-4xl">✨</div>
+        <h2 class="font-display text-xl text-gold">אישי לחלוטין</h2>
+        <p class="text-sm text-body-text/70">שם, שם אם, תאריך לידה → פרופיל קבלי מלא</p>
+      </div>
+    </section>
+  </main>
+  <Footer lang="he" />
+</Base>

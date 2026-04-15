@@ -1,0 +1,88 @@
+---
+import type { z } from "astro:content";
+export interface Props {
+  quiz: {
+    questions: Array<{ question: string; options: string[]; correct: number; explanation: string }>;
+  };
+  storageKey: string;
+}
+const { quiz, storageKey } = Astro.props;
+const data = JSON.stringify(quiz);
+---
+<div class="quiz" data-quiz={data} data-storage-key={storageKey}>
+  <div class="quiz-body space-y-6"></div>
+  <button class="quiz-submit btn-gold mt-6 hidden">סיימתי — הראה תוצאה</button>
+  <div class="quiz-result hidden mt-6 p-5 border border-gold/30 bg-surface-2 rounded-sm">
+    <p class="font-display text-xl text-gold">
+      <span class="quiz-score"></span> / <span class="quiz-total"></span>
+    </p>
+    <p class="text-body-text/80 mt-2 quiz-feedback"></p>
+  </div>
+</div>
+
+<script>
+  type Q = { question: string; options: string[]; correct: number; explanation: string };
+  document.querySelectorAll<HTMLElement>(".quiz").forEach((root) => {
+    const quiz = JSON.parse(root.dataset.quiz!) as { questions: Q[] };
+    const storageKey = root.dataset.storageKey!;
+    const body = root.querySelector(".quiz-body")!;
+    const submit = root.querySelector<HTMLButtonElement>(".quiz-submit")!;
+    const result = root.querySelector(".quiz-result")!;
+    const scoreEl = root.querySelector(".quiz-score")!;
+    const totalEl = root.querySelector(".quiz-total")!;
+    const feedback = root.querySelector(".quiz-feedback")!;
+    const answers: Array<number | null> = quiz.questions.map(() => null);
+
+    quiz.questions.forEach((q, qi) => {
+      const block = document.createElement("div");
+      block.className = "border border-border bg-surface/60 p-5 rounded-sm";
+      const h = document.createElement("p");
+      h.className = "font-medium text-body-text mb-3";
+      h.textContent = `${qi + 1}. ${q.question}`;
+      block.appendChild(h);
+      q.options.forEach((opt, oi) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "w-full text-start px-4 py-2.5 mb-2 border border-border hover:border-gold/40 hover:bg-surface-2 transition-colors rounded-sm text-sm text-body-text/90 cursor-pointer";
+        btn.textContent = opt;
+        btn.addEventListener("click", () => {
+          if (answers[qi] !== null) return;
+          answers[qi] = oi;
+          const correct = oi === q.correct;
+          btn.classList.add(correct ? "bg-success/20" : "bg-warning/20");
+          btn.classList.add("border-" + (correct ? "success" : "warning"));
+          btn.disabled = true;
+          // Disable siblings and highlight correct
+          Array.from(block.querySelectorAll("button")).forEach((b, bi) => {
+            (b as HTMLButtonElement).disabled = true;
+            if (bi - 1 === q.correct && !correct) {
+              b.classList.add("border-success", "bg-success/10");
+            }
+          });
+          const exp = document.createElement("p");
+          exp.className = "mt-3 text-xs text-body-text/70";
+          exp.textContent = q.explanation;
+          block.appendChild(exp);
+          if (answers.every((a) => a !== null)) submit.classList.remove("hidden");
+        });
+        block.appendChild(btn);
+      });
+      body.appendChild(block);
+    });
+
+    submit.addEventListener("click", () => {
+      const score = answers.filter((a, i) => a === quiz.questions[i].correct).length;
+      scoreEl.textContent = String(score);
+      totalEl.textContent = String(quiz.questions.length);
+      const pct = (score / quiz.questions.length) * 100;
+      feedback.textContent = pct >= 80 ? "מעולה — מכתובה מחייכת אלייך. ✨" :
+                             pct >= 60 ? "טוב מאוד. תקרא/י שוב את הסקציות שבאת/ה לטעות בהן." :
+                                         "עוד לא. חזור/חזרי לקרוא — הידע לא נמדד במהירות.";
+      result.classList.remove("hidden");
+      submit.classList.add("hidden");
+      try {
+        localStorage.setItem(storageKey, JSON.stringify({ score, total: quiz.questions.length, at: Date.now() }));
+      } catch {}
+    });
+  });
+</script>

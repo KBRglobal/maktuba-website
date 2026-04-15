@@ -1,0 +1,285 @@
+{
+  "$ref": "#/definitions/lessons",
+  "definitions": {
+    "lessons": {
+      "type": "object",
+      "properties": {
+        "courseId": {
+          "type": "string"
+        },
+        "lessonNumber": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "title": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "module": {
+          "type": "string"
+        },
+        "estimatedMinutes": {
+          "type": "integer",
+          "exclusiveMinimum": 0
+        },
+        "sections": {
+          "type": "object",
+          "properties": {
+            "opening": {
+              "type": "string"
+            },
+            "theoryA": {
+              "type": "string"
+            },
+            "practice1": {
+              "type": "object",
+              "properties": {
+                "instruction": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "instruction",
+                "type"
+              ],
+              "additionalProperties": false
+            },
+            "theoryB": {
+              "type": "string"
+            },
+            "practice2": {
+              "type": "object",
+              "properties": {
+                "instruction": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "instruction",
+                "type"
+              ],
+              "additionalProperties": false
+            },
+            "deepDive": {
+              "type": "string"
+            },
+            "quiz": {
+              "type": "object",
+              "properties": {
+                "questions": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "question": {
+                        "type": "string"
+                      },
+                      "options": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "minItems": 4,
+                        "maxItems": 4
+                      },
+                      "correct": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 3
+                      },
+                      "explanation": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "question",
+                      "options",
+                      "correct",
+                      "explanation"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "minItems": 5,
+                  "maxItems": 5
+                }
+              },
+              "required": [
+                "questions"
+              ],
+              "additionalProperties": false
+            },
+            "closing": {
+              "type": "object",
+              "properties": {
+                "summary": {
+                  "type": "string"
+                },
+                "wisdom": {
+                  "type": "string"
+                },
+                "nextPreview": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "summary",
+                "wisdom",
+                "nextPreview"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "opening",
+            "theoryA",
+            "practice1",
+            "theoryB",
+            "practice2",
+            "deepDive",
+            "quiz",
+            "closing"
+          ],
+          "additionalProperties": false
+        },
+        "faq": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "question": {
+                "type": "string"
+              },
+              "answer": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "question",
+              "answer"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 2,
+          "maxItems": 6
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "src": {
+                "type": "string"
+              },
+              "alt": {
+                "type": "string"
+              },
+              "width": {
+                "type": "number"
+              },
+              "height": {
+                "type": "number"
+              },
+              "caption": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "src",
+              "alt",
+              "width",
+              "height"
+            ],
+            "additionalProperties": false
+          },
+          "default": []
+        },
+        "crossReferences": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "course": {
+                "type": "string"
+              },
+              "lesson": {
+                "type": "string"
+              },
+              "label": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "course",
+              "lesson",
+              "label"
+            ],
+            "additionalProperties": false
+          },
+          "default": []
+        },
+        "seo": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "maxLength": 70
+            },
+            "description": {
+              "type": "string",
+              "maxLength": 170
+            },
+            "keywords": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 3
+            },
+            "ogImage": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "title",
+            "description",
+            "keywords"
+          ],
+          "additionalProperties": false
+        },
+        "datePublished": {
+          "type": "string",
+          "default": "2026-04-15"
+        },
+        "dateModified": {
+          "type": "string",
+          "default": "2026-04-15"
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "courseId",
+        "lessonNumber",
+        "title",
+        "slug",
+        "module",
+        "estimatedMinutes",
+        "sections",
+        "faq",
+        "seo"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

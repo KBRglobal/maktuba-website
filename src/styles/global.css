@@ -1,0 +1,44 @@
+@import "@fontsource/playfair-display/400.css";
+@import "@fontsource/playfair-display/600.css";
+@import "@fontsource/playfair-display/700.css";
+@import "@fontsource/heebo/300.css";
+@import "@fontsource/heebo/400.css";
+@import "@fontsource/heebo/600.css";
+@import "@fontsource/heebo/700.css";
+@import "@fontsource/noto-kufi-arabic/400.css";
+@import "@fontsource/noto-kufi-arabic/600.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/600.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { font-family: "Heebo", "Inter", sans-serif; }
+  html[lang="ar"] { font-family: "Noto Kufi Arabic", "Heebo", sans-serif; }
+  body { @apply bg-background text-body-text antialiased; }
+  ::selection { background: theme("colors.gold / 30%"); color: theme("colors.gold-light"); }
+  h1, h2, h3, h4 { font-family: "Playfair Display", serif; letter-spacing: 0.02em; }
+}
+
+@layer components {
+  .drop-cap::first-letter {
+    @apply font-display text-gold text-6xl leading-none float-start me-3 mt-1;
+  }
+  .btn-gold {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-gold text-background font-semibold tracking-wider hover:bg-gold-light transition-colors rounded-sm;
+  }
+  .wisdom {
+    @apply border-s-2 border-gold ps-4 py-2 text-lavender italic;
+  }
+  .practice-box {
+    @apply border border-gold/30 bg-surface-2/60 p-6 rounded-sm my-8 relative;
+  }
+  .info-box {
+    @apply border border-border bg-surface/50 p-5 rounded-sm my-6;
+  }
+  .deep-dive-box {
+    @apply border border-lavender/30 bg-[#14082a]/60 p-6 rounded-sm my-8;
+  }
+}
