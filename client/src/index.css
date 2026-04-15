@@ -1,0 +1,296 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Maktuba brand colors in OKLCH */
+  --color-gold: oklch(0.76 0.1 65);
+  --color-gold-light: oklch(0.84 0.07 65);
+  --color-gold-dark: oklch(0.62 0.12 65);
+  --color-purple-accent: oklch(0.73 0.08 300);
+  --color-mystic-bg: oklch(0.1 0.03 290);
+  --color-mystic-card: oklch(0.14 0.04 290);
+  --color-dim: oklch(0.55 0.05 300);
+  --color-warning-red: oklch(0.6 0.12 20);
+  --color-success-green: oklch(0.65 0.1 150);
+
+  /* Font families */
+  --font-display: 'Playfair Display', 'Cormorant Garamond', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-hebrew: 'Heebo', 'Inter', sans-serif;
+  --font-arabic: 'Noto Kufi Arabic', 'Inter', sans-serif;
+  --font-logo: 'Cinzel', 'Playfair Display', serif;
+}
+
+:root {
+  /* Maktuba brand palette */
+  --primary: oklch(0.76 0.1 65);           /* #d4a574 gold */
+  --primary-foreground: oklch(0.1 0.03 290); /* dark bg for gold text */
+  --radius: 0.625rem;
+  --background: oklch(0.1 0.03 290);        /* #0a0612 deep mystical */
+  --foreground: oklch(0.88 0.03 300);       /* #ddd5ea soft lavender */
+  --card: oklch(0.14 0.04 290);             /* #12091f card bg */
+  --card-foreground: oklch(0.88 0.03 300);
+  --popover: oklch(0.14 0.04 290);
+  --popover-foreground: oklch(0.88 0.03 300);
+  --secondary: oklch(0.18 0.04 290);        /* #1a0f2e */
+  --secondary-foreground: oklch(0.84 0.07 65);
+  --muted: oklch(0.18 0.03 290);
+  --muted-foreground: oklch(0.55 0.05 300); /* #7a6b90 dim */
+  --accent: oklch(0.18 0.04 290);
+  --accent-foreground: oklch(0.76 0.1 65);
+  --destructive: oklch(0.6 0.12 20);       /* #c47070 */
+  --destructive-foreground: oklch(0.95 0 0);
+  --border: oklch(0.76 0.1 65 / 12%);      /* gold at 12% */
+  --input: oklch(0.76 0.1 65 / 15%);
+  --ring: oklch(0.76 0.1 65);
+  --chart-1: oklch(0.76 0.1 65);
+  --chart-2: oklch(0.62 0.12 65);
+  --chart-3: oklch(0.84 0.07 65);
+  --chart-4: oklch(0.73 0.08 300);
+  --chart-5: oklch(0.55 0.05 300);
+  --sidebar: oklch(0.12 0.03 290);
+  --sidebar-foreground: oklch(0.88 0.03 300);
+  --sidebar-accent: oklch(0.18 0.04 290);
+  --sidebar-accent-foreground: oklch(0.76 0.1 65);
+  --sidebar-border: oklch(0.76 0.1 65 / 12%);
+  --sidebar-ring: oklch(0.76 0.1 65);
+  --sidebar-primary: oklch(0.76 0.1 65);
+  --sidebar-primary-foreground: oklch(0.1 0.03 290);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  [type="button"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  a[href],
+  select:not(:disabled),
+  input[type="checkbox"]:not(:disabled),
+  input[type="radio"]:not(:disabled) {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .flex {
+    min-height: 0;
+    min-width: 0;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      max-width: 1280px;
+    }
+  }
+}
+
+/* ═══════════════ FONT UTILITIES ═══════════════ */
+.font-display {
+  font-family: 'Playfair Display', 'Cormorant Garamond', serif;
+}
+.font-logo {
+  font-family: 'Cinzel', 'Playfair Display', serif;
+}
+.font-hebrew {
+  font-family: 'Heebo', 'Inter', sans-serif;
+}
+.font-arabic {
+  font-family: 'Noto Kufi Arabic', 'Inter', sans-serif;
+}
+
+/* ═══════════════ STAR FIELD ANIMATION ═══════════════ */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+@keyframes float-medium {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(2deg); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(212, 165, 116, 0.15); }
+  50% { box-shadow: 0 0 40px rgba(212, 165, 116, 0.3); }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-twinkle {
+  animation: twinkle var(--duration, 3s) ease-in-out infinite;
+  animation-delay: var(--delay, 0s);
+}
+
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+.animate-float-medium {
+  animation: float-medium 4s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  background-size: 200% auto;
+  animation: shimmer 3s linear infinite;
+}
+
+.animate-glow-pulse {
+  animation: glow-pulse 3s ease-in-out infinite;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out forwards;
+}
+
+/* ═══════════════ GOLD DIVIDER ═══════════════ */
+.gold-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #d4a574 30%, #d4a574 70%, transparent);
+  opacity: 0.3;
+}
+
+/* ═══════════════ GLASS CARD ═══════════════ */
+.glass-card {
+  background: rgba(18, 9, 31, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 165, 116, 0.1);
+}
+
+.glass-card:hover {
+  border-color: rgba(212, 165, 116, 0.25);
+  box-shadow: 0 0 30px rgba(212, 165, 116, 0.08);
+}
+
+/* ═══════════════ PHONE MOCKUP ═══════════════ */
+.phone-mockup {
+  position: relative;
+  border-radius: 2.5rem;
+  border: 3px solid rgba(212, 165, 116, 0.3);
+  overflow: hidden;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5), 0 0 40px rgba(212, 165, 116, 0.1);
+}
+
+/* ═══════════════ SCROLLBAR ═══════════════ */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0612;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 165, 116, 0.25);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 165, 116, 0.45);
+}
+
+/* ═══════════════ SMOOTH SCROLL ═══════════════ */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ═══════════════ GRAIN OVERLAY ═══════════════ */
+.grain-overlay::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+/* ═══════════════ READING BLUR ═══════════════ */
+.reading-blur-fade {
+  mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+}
+
+/* ═══════════════ RTL SUPPORT ═══════════════ */
+[dir="rtl"] .font-display {
+  font-family: 'Heebo', 'Playfair Display', sans-serif;
+}
