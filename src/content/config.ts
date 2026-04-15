@@ -39,11 +39,13 @@ const lessons = defineCollection({
       caption: z.string().optional(),
     })).optional().default([]),
     crossReferences: z.array(z.object({
-      course: z.string(), lesson: z.string(), label: z.string(),
+      course: z.coerce.string(),
+      lesson: z.coerce.string(),
+      label: z.coerce.string(),
     })).optional().default([]),
     seo: z.object({
-      title: z.string().max(70),
-      description: z.string().max(170),
+      title: z.string().max(120),
+      description: z.string().max(260),
       keywords: z.array(z.string()).min(3),
       ogImage: z.string().optional(),
     }),
