@@ -16,9 +16,9 @@ const pathNoLang = Astro.url.pathname.replace(/^\/(en|ar)/, "") || "/";
       </span>
     </a>
     <div class="flex items-center gap-1 sm:gap-6">
-      <a href={`${prefix}/readings`}  class="hidden sm:inline text-[13px] tracking-[0.15em] uppercase text-parchment-2/85 hover:text-gold transition">{t.readings}</a>
-      <a href={`${prefix}/academy`}   class="text-[13px] tracking-[0.15em] uppercase text-parchment-2/85 hover:text-gold transition">{t.academy}</a>
-      <a href={`${prefix}/pricing`}   class="hidden sm:inline text-[13px] tracking-[0.15em] uppercase text-parchment-2/85 hover:text-gold transition">{t.pricing}</a>
+      <a href={`${prefix}/#readings`} class="hidden sm:inline text-[13px] tracking-[0.15em] uppercase text-parchment-2/85 hover:text-gold transition">{t.readings}</a>
+      <a href={`${prefix}/academy`}    class="text-[13px] tracking-[0.15em] uppercase text-parchment-2/85 hover:text-gold transition">{t.academy}</a>
+      <a href={`${prefix}/#pricing`}  class="hidden sm:inline text-[13px] tracking-[0.15em] uppercase text-parchment-2/85 hover:text-gold transition">{t.pricing}</a>
       <div class="flex items-center text-[11px] tracking-widest ms-2 sm:ms-4">
         <a href={pathNoLang} class:list={["px-2 py-1 transition", lang === "he" ? "text-gold" : "text-muted hover:text-gold"]} aria-label="עברית">HE</a>
         <span class="text-border/80">·</span>
