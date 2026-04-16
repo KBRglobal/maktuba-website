@@ -11,7 +11,6 @@ export default {
         "surface-2": "#1a0f2e",
         gold: "#d4a574",
         "gold-light": "#e8c9a0",
-        lavender: "#b8a0d8",
         "body-text": "#ddd5ea",
         muted: "#7a6b90",
         border: "#2a1f3d",

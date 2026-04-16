@@ -43,7 +43,7 @@
   --ink-deep: #0a0612;       --ink-surface: #12091f;  --ink-surface-2: #1a0f2e;
   --ink-paper: #0d081a;      --ink-border: #2a1f3d;   --ink-border-soft: #1e1531;
   --gold: #d4a574;           --gold-2: #e8c9a0;       --gold-3: #b8935d;
-  --lavender: #b8a0d8;       --parchment: #e8dcc8;    --parchment-2: #d4c4a8;
+  --parchment: #e8dcc8;    --parchment-2: #d4c4a8;
   --muted: #7a6b90;
 }
 
@@ -139,7 +139,7 @@
 
   .wisdom {
     position: relative; padding-inline-start: 1.4rem; margin-block: 1.5rem;
-    color: var(--lavender); font-family: "Frank Ruhl Libre", serif;
+    color: var(--gold-2); font-family: "Frank Ruhl Libre", serif;
     font-style: italic; font-size: var(--f-20); line-height: 1.45;
   }
   .wisdom::before {
@@ -197,7 +197,7 @@
   .prose-maktuba :where(h3) { font-size: var(--f-20); color: var(--gold-2); margin-block: 1.5rem 0.75rem; }
   .prose-maktuba :where(p) { max-width: var(--measure); color: var(--parchment-2); margin-block: 1rem; }
   .prose-maktuba :where(strong) { color: var(--gold-2); font-weight: 600; }
-  .prose-maktuba :where(em) { color: var(--lavender); font-style: italic; }
+  .prose-maktuba :where(em) { color: var(--gold-2); font-style: italic; }
 }
 
 @media (prefers-reduced-motion: no-preference) {
