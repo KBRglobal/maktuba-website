@@ -54,7 +54,8 @@ const altLangs: Array<{code: string; href: string}> = [
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={new URL(ogImage, Astro.site).toString()} />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     {jsonLdArr.map((ld) => (
       <script type="application/ld+json" set:html={JSON.stringify(ld)} />
