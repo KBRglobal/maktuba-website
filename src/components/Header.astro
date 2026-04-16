@@ -1,40 +1,19 @@
 ---
 const { lang = "he" } = Astro.props;
-const t = {
-  he: { readings: "קריאות", academy: "אקדמיה", pricing: "מחירים", about: "אודות", app: "האפליקציה" },
-  en: { readings: "Readings", academy: "Academy", pricing: "Pricing", about: "About", app: "App" },
-  ar: { readings: "قراءات",   academy: "الأكاديمية", pricing: "الأسعار", about: "عن", app: "التطبيق" },
-}[lang as "he" | "en" | "ar"];
-const prefix = lang === "he" ? "" : `/${lang}`;
-const pathNoLang = Astro.url.pathname.replace(/^\/(en|ar)/, "") || "/";
-
-// Wordmark per language — Hebrew with niqqud, Arabic with tashkīl, Latin tracked
-const wordmark = { he: "מַכְתּוּבָה", en: "Maktuba", ar: "مَكْتُوبَة" }[lang as "he" | "en" | "ar"];
-const wmStyle = lang === "en"
-  ? "font-family: 'Playfair Display', serif; font-weight: 700; letter-spacing: 0.28em; text-transform: uppercase;"
-  : "font-family: 'Frank Ruhl Libre', 'David', serif; font-weight: 900; letter-spacing: 0.01em;";
-const wmSize = lang === "en" ? "text-[18px]" : "text-[22px]";
 ---
 <header class="sticky top-0 inset-x-0 z-40 backdrop-blur-md border-b border-border/60" style="background: rgba(10,6,18,0.75);">
   <nav class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-    <a href={`${prefix}/`} class="flex items-center gap-3" aria-label="Maktuba — Home">
+    <a href="/" class="flex items-center gap-3" aria-label="מכתובה — דף הבית">
       <img src="https://cdn.maktuba.app/brand/mark-256.webp?v=2" alt="" width="32" height="32" class="block" loading="eager" decoding="async" />
-      <span class={`font-display ${wmSize} text-gold`} style={wmStyle}>
-        {wordmark}
+      <span class="text-[22px] text-gold" style="font-family: 'Frank Ruhl Libre', 'David', serif; font-weight: 900; letter-spacing: 0.01em;">
+        מַכְתּוּבָה
       </span>
     </a>
-    <div class="flex items-center gap-1 sm:gap-6">
-      <a href={`${prefix}/#readings`} class="hidden sm:inline text-[13px] tracking-[0.15em] uppercase text-parchment-2/85 hover:text-gold transition">{t.readings}</a>
-      <a href={`${prefix}/academy`}    class="text-[13px] tracking-[0.15em] uppercase text-parchment-2/85 hover:text-gold transition">{t.academy}</a>
-      <a href={`${prefix}/#pricing`}  class="hidden sm:inline text-[13px] tracking-[0.15em] uppercase text-parchment-2/85 hover:text-gold transition">{t.pricing}</a>
-      <!-- Language switcher — EN/AR disabled until pages exist -->
-      <div class="flex items-center text-[11px] tracking-widest ms-2 sm:ms-4">
-        <span class="px-2 py-1 text-gold" aria-label="עברית">HE</span>
-        <span style="color: var(--muted, #8a7a60); opacity: 0.4;">·</span>
-        <span class="px-2 py-1" style="color: #8a7a60; opacity: 0.35; cursor: default;" title="Coming soon">EN</span>
-        <span style="color: var(--muted, #8a7a60); opacity: 0.4;">·</span>
-        <span class="px-2 py-1" style="color: #8a7a60; opacity: 0.35; cursor: default;" title="Coming soon">AR</span>
-      </div>
+    <div class="flex items-center gap-4 sm:gap-6">
+      <a href="/academy" class="hidden sm:inline text-[13px] tracking-[0.12em] hover:text-gold transition" style="color: rgba(235,227,211,0.7);">אקדמיה</a>
+      <a href="#" class="text-[13px] tracking-[0.12em] px-4 py-2 rounded-full transition" style="color: #0a0612; background: linear-gradient(135deg, #f1d694, #d4a574 60%, #b8860b); font-family: 'Frank Ruhl Libre', serif; font-weight: 700;">
+        הורדת האפליקציה
+      </a>
     </div>
   </nav>
 </header>

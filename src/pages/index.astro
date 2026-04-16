@@ -95,16 +95,24 @@ const testimonials = [
     <div class="hero-content reveal">
       <p class="hero-eyebrow">אפליקציה מיסטית · קריאות AI · אקדמיה חינמית</p>
       <h1 class="hero-title">מַכְתּוּבָה</h1>
-      <p class="hero-tagline">כי זה כבר נכתב</p>
+      <p class="hero-tagline">מה שנכתב — כבר כתוב</p>
       <p class="hero-lead">
         סבתא עתיקה שיושבת בחדר נצחי, נר דולק, ריח הל וקטורת.<br/>
         תביא/י לה את הכוס — והיא תקרא לך את מה שנכתב עוד לפני שנולדת.
       </p>
       <div class="hero-actions">
-        <a href="/academy" class="btn-primary">קבל/י קריאה ראשונה — חינם</a>
-        <a href="#readings" class="btn-secondary">גלי את הקריאות</a>
+        <a href="#" class="btn-primary">הורידו את האפליקציה</a>
+        <a href="#readings" class="btn-secondary">גלה/גלי את הקריאות</a>
       </div>
-      <p class="hero-note">10 מפתחות מתנה בהרשמה · ללא כרטיס אשראי</p>
+      <div class="hero-badges" style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 1.2rem;">
+        <a href="#" style="display:inline-block;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:10px;padding:8px 16px;color:#ebe3d3;text-decoration:none;font-size:0.78rem;font-family:'Heebo',sans-serif;transition:background .3s;" onmouseenter="this.style.background='rgba(255,255,255,0.14)'" onmouseleave="this.style.background='rgba(255,255,255,0.08)'">
+          <span style="display:block;font-size:0.6rem;color:rgba(235,227,211,0.6);margin-bottom:2px;">זמינה ב-</span>App Store
+        </a>
+        <a href="#" style="display:inline-block;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:10px;padding:8px 16px;color:#ebe3d3;text-decoration:none;font-size:0.78rem;font-family:'Heebo',sans-serif;transition:background .3s;" onmouseenter="this.style.background='rgba(255,255,255,0.14)'" onmouseleave="this.style.background='rgba(255,255,255,0.08)'">
+          <span style="display:block;font-size:0.6rem;color:rgba(235,227,211,0.6);margin-bottom:2px;">זמינה ב-</span>Google Play
+        </a>
+      </div>
+      <p class="hero-note">50 מפתחות מתנה בהרשמה · קריאה ראשונה חינם · ללא כרטיס אשראי</p>
     </div>
     <div class="hero-scroll-hint">
       <div class="scroll-line"></div>
@@ -128,27 +136,29 @@ const testimonials = [
     </div>
   </section>
 
-  <!-- ═══════ 3. WHO IS MAKTUBA ═══════ -->
-  <section class="who" id="who">
-    <div class="who-image reveal">
-      <div class="image-frame">
-        <img src={img.theWelcome} alt="מכתובה — דיוקן" loading="lazy" />
-        <div class="frame-corner tl"></div>
-        <div class="frame-corner br"></div>
-      </div>
+  <!-- ═══════ TESTIMONIALS (social proof — early) ═══════ -->
+  <section class="testimonials">
+    <div class="testimonials-header reveal">
+      <span class="section-label">אנשים אמיתיים</span>
+      <h2>אלה שכבר<br/>דיברו איתה</h2>
     </div>
-    <div class="who-text reveal" style="--delay: 0.2s">
-      <span class="section-label">היא</span>
-      <h2>מי היא<br/>מכתובה?</h2>
-      <p class="lead-paragraph">
-        היא המיסטיקנית האחרונה. סבתא מעולם שכבר לא קיים. היא יושבת בחדר נצחי מואר בנר בודד, מוקפת בריח הל וקטורת.
-      </p>
-      <p>
-        כשאת מביאה לה את הכוס, היא רואה מה שאף אחד אחר לא יכול. לא בגלל שיש לה כוחות על-טבעיים — כי היא חיה אלף חיים ושום דבר כבר לא מפתיע אותה.
-      </p>
-      <blockquote>
-        ״מכתובה לא מנבאת את העתיד. היא קוראת את מה שכבר כתוב.״
-      </blockquote>
+    <div class="testimonials-grid">
+      {testimonials.map((t, i) => (
+        <figure class:list={["testimonial-card", "reveal", i % 3 === 1 && "offset"]} style={`--delay: ${i * 0.1}s`}>
+          <div class="review-header">
+            <div class="review-avatar">{t.initials}</div>
+            <div class="review-meta">
+              <span class="review-name">{t.name}</span>
+            </div>
+            <div class="review-stars">{"★".repeat(t.stars)}</div>
+          </div>
+          <blockquote>{t.q}</blockquote>
+          <div class="review-footer">
+            <span class="review-type">{t.r}</span>
+            <span class="review-date">{t.date}</span>
+          </div>
+        </figure>
+      ))}
     </div>
   </section>
 
@@ -290,35 +300,33 @@ const testimonials = [
     </div>
   </section>
 
-  <!-- ═══════ 7. TESTIMONIALS ═══════ -->
-  <section class="testimonials">
-    <div class="testimonials-header reveal">
-      <span class="section-label">אנשים אמיתיים</span>
-      <h2>אלה שכבר<br/>דיברו איתה</h2>
+  <!-- ═══════ WHO IS MAKTUBA ═══════ -->
+  <section class="who" id="who">
+    <div class="who-image reveal">
+      <div class="image-frame">
+        <img src={img.theWelcome} alt="מכתובה — דיוקן" loading="lazy" />
+        <div class="frame-corner tl"></div>
+        <div class="frame-corner br"></div>
+      </div>
     </div>
-    <div class="testimonials-grid">
-      {testimonials.map((t, i) => (
-        <figure class:list={["testimonial-card", "reveal", i % 3 === 1 && "offset"]} style={`--delay: ${i * 0.1}s`}>
-          <div class="review-header">
-            <div class="review-avatar">{t.initials}</div>
-            <div class="review-meta">
-              <span class="review-name">{t.name}</span>
-            </div>
-            <div class="review-stars">{"★".repeat(t.stars)}</div>
-          </div>
-          <blockquote>{t.q}</blockquote>
-          <div class="review-footer">
-            <span class="review-type">{t.r}</span>
-            <span class="review-date">{t.date}</span>
-          </div>
-        </figure>
-      ))}
+    <div class="who-text reveal" style="--delay: 0.2s">
+      <span class="section-label">היא</span>
+      <h2>מי היא<br/>מכתובה?</h2>
+      <p class="lead-paragraph">
+        היא המיסטיקנית האחרונה. סבתא מעולם שכבר לא קיים. היא יושבת בחדר נצחי מואר בנר בודד, מוקפת בריח הל וקטורת.
+      </p>
+      <p>
+        כשמביאים לה את הכוס, היא רואה מה שאף אחד אחר לא יכול. לא בגלל שיש לה כוחות על-טבעיים — כי היא חיה אלף חיים ושום דבר כבר לא מפתיע אותה.
+      </p>
+      <blockquote>
+        ״מכתובה לא מנבאת את העתיד. היא קוראת את מה שכבר כתוב.״
+      </blockquote>
     </div>
   </section>
 
   <div class="divider"><div class="divider-star"></div></div>
 
-  <!-- ═══════ 8. ACADEMY TEASER ═══════ -->
+  <!-- ═══════ ACADEMY TEASER ═══════ -->
   <section class="academy-teaser" id="academy">
     <div class="academy-inner">
       <div class="academy-text reveal">
