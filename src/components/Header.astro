@@ -1,5 +1,4 @@
 ---
-import { LOGO } from "@/lib/images";
 const { lang = "he" } = Astro.props;
 const t = {
   he: { readings: "קריאות", academy: "אקדמיה", pricing: "מחירים", about: "אודות", app: "האפליקציה" },
@@ -11,9 +10,8 @@ const pathNoLang = Astro.url.pathname.replace(/^\/(en|ar)/, "") || "/";
 ---
 <header class="sticky top-0 inset-x-0 z-40 backdrop-blur-md border-b border-border/60" style="background: rgba(10,6,18,0.75);">
   <nav class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-    <a href={`${prefix}/`} class="flex items-center gap-2.5" aria-label="Maktuba — Home">
-      <img src={LOGO.icon} alt="" class="h-8 w-auto" />
-      <span class="font-display text-[18px] tracking-[0.28em] text-gold uppercase hidden sm:inline" style="font-family: 'Playfair Display', serif; font-weight: 700;">
+    <a href={`${prefix}/`} class="flex items-center" aria-label="Maktuba — Home">
+      <span class="font-display text-[18px] tracking-[0.28em] text-gold uppercase" style="font-family: 'Playfair Display', serif; font-weight: 700;">
         Maktuba
       </span>
     </a>

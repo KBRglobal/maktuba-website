@@ -61,12 +61,22 @@ const testimonials = [
 </head>
 
 <body>
-  <!-- ═══════ CURTAIN PRELOADER ═══════ -->
-  <div id="curtain" aria-hidden="true">
+  <!-- ═══════ CURTAIN PRELOADER (first-visit of session only) ═══════ -->
+  <div id="curtain" aria-hidden="true" data-first-visit>
     <img src={img.heroWide} alt="" class="curtain-eyes" />
     <div class="curtain-vignette"></div>
     <div class="curtain-wordmark">מַכְתּוּבָה</div>
   </div>
+  <script is:inline>
+    try {
+      if (sessionStorage.getItem('maktuba:curtain') === '1') {
+        const c = document.getElementById('curtain');
+        if (c) c.remove();
+      } else {
+        sessionStorage.setItem('maktuba:curtain', '1');
+      }
+    } catch (_) { /* sessionStorage unavailable — show curtain */ }
+  </script>
 
   <Header lang="he" />
 
@@ -311,7 +321,7 @@ const testimonials = [
 
   <!-- ═══════ SCROLL REVEAL + CURTAIN JS ═══════ -->
   <script is:inline>
-    // Curtain reveal
+    // Curtain reveal (only exists on first visit of session)
     const curtain = document.getElementById('curtain');
     if (curtain) {
       setTimeout(() => curtain.classList.add('lift'), 2800);
