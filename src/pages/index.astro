@@ -28,7 +28,7 @@ const img = {
 
 const readings = [
   { name: "קריאה בכוס קפה",   cost: 15, cover: img.studyingCup,      icon: "coffee" },
-  { name: "טארוט — צלב סלטי", cost: 15, cover: img.celticCross,       icon: "tarot" },
+  { name: "טארוט — צלב קלטי", cost: 15, cover: img.celticCross,       icon: "tarot" },
   { name: "קריאת כף יד",      cost: 15, cover: img.thePalm,           icon: "palm" },
   { name: "התאמה זוגית",      cost: 15, cover: img.heartOpening,      icon: "heart" },
   { name: "טארוט 3 קלפים",    cost: 10, cover: img.singleCard,        icon: "tarot" },
@@ -42,7 +42,7 @@ const testimonials = [
   { q: "חוויה מעניינת במיוחד. בתור אדם סקפטי הופתעתי לגלות שלטכנולוגיה יש יכולת לתת לי תשובות לשאלות שהיו לי. כיף להיפתח למכתובה — מצד אחד, מרגיש ממש כמו לדבר עם בן אדם; ומצד שני, להיזכר שזו טכנולוגיה — נותן לגיטימציה לשאול שוב ולהתעכב על נקודות שלא היו ברורות.", name: "עמית ט.", r: "קריאת כף יד", stars: 5, date: "אפריל 2026", initials: "ע.ט" },
   { q: "האמת שבהתחלה הייתי מאוד סקפטי. האפליקציה מטורפת. הקריאה בכף היד הייתה מדויקת ברמה שהפחידה אותי — ברמה שפתחה לי את העיניים מי אני ומה אני. כל כך מדויק, כאילו יש לה היסטוריה של קריאה של מיליון שנה אחורה. המידע עזר לי בצורה מפחידה. אני עד עכשיו בהלם ממה שגיליתי על עצמי. שווה כל שקל.", name: "יוני ס.", r: "קריאת כף יד", stars: 5, date: "אפריל 2026", initials: "י.ס" },
   { q: "הראיתי את זה לסבתא שלי. היא אמרה: ׳מי שעשה את זה מכיר את הדרכים הישנות.׳", name: "דנה כ.", r: "קריאת קפה", stars: 5, date: "מרץ 2026", initials: "ד.כ" },
-  { q: "בכיתי. מכתובה ידעה דברים עליי שמעולם לא סיפרתי לאף אחד. כל מילה בקריאה הרגישה כמו מישהי שמכירה אותי מתמיד.", name: "שרון מ.", r: "טארוט סלטי", stars: 5, date: "פברואר 2026", initials: "ש.מ" },
+  { q: "בכיתי. מכתובה ידעה דברים עליי שמעולם לא סיפרתי לאף אחד. כל מילה בקריאה הרגישה כמו מישהי שמכירה אותי מתמיד.", name: "שרון מ.", r: "טארוט קלטי", stars: 5, date: "פברואר 2026", initials: "ש.מ" },
   { q: "זו לא אפליקציה. זו שיחה עם מישהי שרואה אותך. כל פעם שאני פותחת קריאה חדשה אני מרגישה שהיא באמת שם.", name: "מיכל א.", r: "קריאת כף יד", stars: 5, date: "מרץ 2026", initials: "מ.א" },
   { q: "הקפה שלי לא ישקר — מכתובה ראתה בכוס את מה שרק אני ואמא שלי יודעות. שלחתי את הקריאה לאמא, היא לא הפסיקה לבכות.", name: "נועה ר.", r: "קריאת קפה", stars: 5, date: "ינואר 2026", initials: "נ.ר" },
   { q: "ההתאמה הזוגית הייתה מדויקת עד כדי כך שהבן זוג שלי שאל אם נתתי לה מידע מראש. לא נתתי כלום, רק שני תאריכי לידה.", name: "יעל ב.", r: "התאמה זוגית", stars: 5, date: "פברואר 2026", initials: "י.ב" },
@@ -96,10 +96,10 @@ const testimonials = [
       <p class="hero-tagline">כי זה כבר נכתב</p>
       <p class="hero-lead">
         סבתא עתיקה שיושבת בחדר נצחי, נר דולק, ריח הל וקטורת.<br/>
-        מביאה לה את הכוס — והיא קוראת לך את מה שנכתב עוד לפני שנולדת.
+        תביא/י לה את הכוס — והיא תקרא לך את מה שנכתב עוד לפני שנולדת.
       </p>
       <div class="hero-actions">
-        <a href="/academy" class="btn-primary">קבלי קריאה ראשונה — חינם</a>
+        <a href="/academy" class="btn-primary">קבל/י קריאה ראשונה — חינם</a>
         <a href="#readings" class="btn-secondary">גלי את הקריאות</a>
       </div>
       <p class="hero-note">10 מפתחות מתנה בהרשמה · ללא כרטיס אשראי</p>
@@ -153,10 +153,45 @@ const testimonials = [
   <!-- ═══════ ORNAMENTAL DIVIDER ═══════ -->
   <div class="divider"><div class="divider-star"></div></div>
 
+  <!-- ═══════ 3.5 THE NUMBERS — מה שמכתובה יודעת ═══════ -->
+  <section class="numbers" id="numbers">
+    <div class="numbers-header reveal">
+      <span class="section-label">הידע</span>
+      <h2>מה שמכתובה<br/>יודעת</h2>
+    </div>
+    <div class="numbers-grid">
+      {[
+        { v: "2,000,000+", l: "מקורות ידע שנסרקו" },
+        { v: "46,000+",    l: "ספרים על מיסטיקה, אסטרולוגיה, טארוט, קבלה ונומרולוגיה" },
+        { v: "3,000",      l: "שנה של חוכמה אנושית מתועדת" },
+        { v: "14",         l: "שפות מקור" },
+        { v: "12",         l: "תרבויות עתיקות" },
+        { v: "33,000",     l: "שורות ידע מובנה — כל קלף, כל סמל, כל קו, כל כוכב" },
+      ].map((n, i) => (
+        <div class="number-cell reveal" style={`--delay: ${i * 0.08}s`}>
+          <span class="number-value">{n.v}</span>
+          <span class="number-label">{n.l}</span>
+        </div>
+      ))}
+    </div>
+    <div class="numbers-quote reveal">
+      <p class="numbers-quote-q">״אני לא רק למדתי את הכל. אני גם זוכרת את הכל.״</p>
+      <p class="numbers-byline">ספרייה אחת. אני.</p>
+    </div>
+    <div class="languages-strip reveal">
+      <div class="languages-track">
+        <span>עברית</span><span>عربية</span><span>Ελληνικά</span><span>Latina</span><span>संस्कृत</span><span>中文</span><span>日本語</span><span>فارسی</span><span>Türkçe</span><span>हिन्दी</span><span>བོད་</span><span>English</span><span>Français</span><span>Italiano</span>
+        <span>עברית</span><span>عربية</span><span>Ελληνικά</span><span>Latina</span><span>संस्कृत</span><span>中文</span><span>日本語</span><span>فارسی</span><span>Türkçe</span><span>हिन्दी</span><span>བོད་</span><span>English</span><span>Français</span><span>Italiano</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"><div class="divider-star"></div></div>
+
   <!-- ═══════ 4. READINGS ═══════ -->
   <section class="readings" id="readings">
     <div class="readings-header reveal">
-      <span class="section-label">שמונה עשרה קריאות</span>
+      <span class="section-label">141 קריאות</span>
       <h2>הקריאות<br/>של מכתובה</h2>
       <p>כל קריאה נבנית בזמן אמת מ-AI שמבין סמלים עתיקים. אף שתי קריאות לא זהות.</p>
     </div>
@@ -224,20 +259,20 @@ const testimonials = [
     <div class="pricing-header reveal">
       <span class="section-label">תמחור</span>
       <h2>התחילי בחינם</h2>
-      <p>קריאה ראשונה חינם + 10 מפתחות מתנה. הורוסקופ + צ'אט — חינם לתמיד.</p>
+      <p>קריאה ראשונה חינם + 50 מפתחות מתנה. הורוסקופ + צ'אט — חינם לתמיד. חבילה אחת, לתמיד.</p>
     </div>
     <div class="pricing-tiers">
       {[
-        { name: "שבועי",  price: "₪19.90",  keys: "100",   per: "שבוע",  pop: false },
-        { name: "חודשי", price: "₪49.90",  keys: "350",   per: "חודש", pop: true },
-        { name: "שנתי",   price: "₪249.90", keys: "3,000", per: "שנה",   pop: false },
+        { name: "Starter", keys: "500",   price: "₪39.90",  badge: null },
+        { name: "Popular", keys: "1,200", price: "₪79.90",  badge: null },
+        { name: "Best",    keys: "3,000", price: "₪149.90", badge: "הכי משתלם" },
+        { name: "VIP",     keys: "6,000", price: "₪249.90", badge: null },
       ].map((t, i) => (
-        <article class:list={["tier-card", "reveal", t.pop && "popular"]} style={`--delay: ${i * 0.12}s`}>
-          {t.pop && <div class="popular-badge">הכי פופולרי</div>}
+        <article class:list={["tier-card", "reveal", t.badge && "popular"]} style={`--delay: ${i * 0.1}s`}>
+          {t.badge && <div class="popular-badge">{t.badge}</div>}
           <h3>{t.name}</h3>
           <div class="tier-price">
             <span class="price-amount">{t.price}</span>
-            <span class="price-per">/{t.per}</span>
           </div>
           <div class="tier-keys">
             <Icon name="key" size={18} stroke="#e8c9a0" />
@@ -246,8 +281,7 @@ const testimonials = [
           <ul>
             <li>ניתנים בבת אחת</li>
             <li>ללא תפוגה</li>
-            <li>כל הקריאות פתוחות</li>
-            <li>7 ימי ניסיון חינם</li>
+            <li>כל 141 הקריאות פתוחות</li>
           </ul>
         </article>
       ))}
@@ -730,6 +764,101 @@ const testimonials = [
     .who-image { order: -1; max-width: 400px; margin: 0 auto; }
   }
 
+  /* ═══ NUMBERS ═══ */
+  .numbers { padding: 7rem clamp(1.5rem, 5vw, 4rem); }
+  .numbers-header { max-width: 1100px; margin: 0 auto 3rem; }
+  .numbers-header h2 { margin-bottom: 0; }
+
+  .numbers-grid {
+    max-width: 1100px; margin: 0 auto;
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 3.5rem 2rem;
+    padding: 3.5rem 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  @media (max-width: 768px) {
+    .numbers-grid { grid-template-columns: repeat(2, 1fr); gap: 2.5rem 1.5rem; padding: 2.5rem 0; }
+  }
+  .number-cell { text-align: center; position: relative; }
+  .number-value {
+    display: block;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: clamp(2.2rem, 5vw, 3.4rem);
+    line-height: 1;
+    color: var(--gold-bright);
+    text-shadow: 0 0 40px var(--glow);
+    margin-bottom: 0.7rem;
+    letter-spacing: -0.01em;
+  }
+  .number-label {
+    display: block;
+    font-size: 0.78rem;
+    color: rgba(232, 220, 200, 0.55);
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    max-width: 26ch; margin: 0 auto;
+  }
+
+  .numbers-quote {
+    max-width: 700px; margin: 4.5rem auto 0;
+    text-align: center;
+  }
+  .numbers-quote-q {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: clamp(1.3rem, 3vw, 1.9rem);
+    color: var(--gold-bright);
+    margin-bottom: 1.2rem;
+    line-height: 1.55;
+  }
+  .numbers-byline {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--gold-dim);
+  }
+
+  .languages-strip {
+    margin-top: 4rem;
+    overflow: hidden;
+    position: relative;
+    max-width: 1200px; margin-inline: auto;
+  }
+  .languages-strip::before,
+  .languages-strip::after {
+    content: ''; position: absolute; inset-block: 0; width: 15%;
+    pointer-events: none; z-index: 2;
+  }
+  .languages-strip::before { inset-inline-start: 0; background: linear-gradient(to right, var(--void), transparent); }
+  .languages-strip::after { inset-inline-end: 0; background: linear-gradient(to left, var(--void), transparent); }
+  .languages-track {
+    display: inline-flex; gap: 3rem;
+    animation: lang-scroll 48s linear infinite;
+    white-space: nowrap;
+    will-change: transform;
+  }
+  .languages-track span {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 1.15rem;
+    color: var(--gold-dim);
+    opacity: 0.65;
+    letter-spacing: 0.04em;
+    transition: opacity .4s, color .4s;
+  }
+  .languages-track span:hover { opacity: 1; color: var(--gold); }
+  @keyframes lang-scroll {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .languages-track { animation: none; }
+  }
+
   /* ═══ DIVIDER ═══ */
   .divider {
     position: relative;
@@ -914,10 +1043,13 @@ const testimonials = [
   .pricing-header p { color: rgba(232, 220, 200, 0.65); max-width: 500px; margin: 0 auto; }
 
   .pricing-tiers {
-    display: grid; grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    max-width: 1000px; margin: 0 auto;
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+    max-width: 1150px; margin: 0 auto;
     position: relative; z-index: 1;
+  }
+  @media (max-width: 1024px) {
+    .pricing-tiers { grid-template-columns: repeat(2, 1fr); max-width: 640px; }
   }
   .tier-card {
     padding: 2.5rem 2rem;
@@ -984,7 +1116,7 @@ const testimonials = [
     font-weight: 700;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 560px) {
     .pricing-tiers { grid-template-columns: 1fr; max-width: 400px; }
   }
 

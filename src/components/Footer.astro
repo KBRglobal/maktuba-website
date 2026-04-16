@@ -4,27 +4,27 @@ const t = {
   he: {
     privacy: "מדיניות פרטיות",
     terms: "תנאי שימוש",
+    dataDeletion: "מחיקת מידע",
     support: "תמיכה",
-    contact: "צור קשר",
-    disclaimer: "לבידור והתבוננות עצמית בלבד. מכתובה לא מספקת ייעוץ רפואי, פסיכולוגי, משפטי או פיננסי.",
+    disclaimer: "⚠️ מכתובה מופעלת על ידי בינה מלאכותית. לבידור והתבוננות עצמית בלבד. אינה מספקת ייעוץ רפואי, פסיכולוגי, משפטי או פיננסי.",
     company: "© 2026 KBR Global Ltd. · רשומה בגיברלטר",
     privacyMail: "privacy@maktuba.app",
   },
   en: {
     privacy: "Privacy",
     terms: "Terms",
+    dataDeletion: "Data Deletion",
     support: "Support",
-    contact: "Contact",
-    disclaimer: "For entertainment and self-reflection only. Not medical, legal, or financial advice.",
+    disclaimer: "⚠️ Maktuba is powered by AI. For entertainment and self-reflection only. Not medical, psychological, legal, or financial advice.",
     company: "© 2026 KBR Global Ltd. · Registered in Gibraltar",
     privacyMail: "privacy@maktuba.app",
   },
   ar: {
     privacy: "الخصوصية",
     terms: "الشروط",
+    dataDeletion: "حذف البيانات",
     support: "الدعم",
-    contact: "تواصل",
-    disclaimer: "للترفيه والتأمل الذاتي فقط. لا نقدم نصائح طبية، نفسية، قانونية أو مالية.",
+    disclaimer: "⚠️ مكتوبة تعمل بالذكاء الاصطناعي. للترفيه والتأمل الذاتي فقط. لا نقدم نصائح طبية، نفسية، قانونية أو مالية.",
     company: "© 2026 KBR Global Ltd. · مسجلة في جبل طارق",
     privacyMail: "privacy@maktuba.app",
   },
@@ -35,10 +35,11 @@ const t = {
     <div class="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-[12px] tracking-[0.15em] uppercase text-muted">
       <a href="/privacy" class="hover:text-gold transition-colors">{t.privacy}</a>
       <a href="/terms" class="hover:text-gold transition-colors">{t.terms}</a>
+      <a href="/data-deletion" class="hover:text-gold transition-colors">{t.dataDeletion}</a>
       <a href="/support" class="hover:text-gold transition-colors">{t.support}</a>
       <a href={`mailto:${t.privacyMail}`} class="hover:text-gold transition-colors lowercase tracking-normal">{t.privacyMail}</a>
     </div>
-    <p class="text-[13px] text-muted/80 max-w-xl mx-auto leading-relaxed">{t.disclaimer}</p>
+    <p class="text-[13px] text-muted/85 max-w-2xl mx-auto leading-relaxed">{t.disclaimer}</p>
     <p class="text-[11px] text-muted/60 tracking-wide">{t.company}</p>
   </div>
 </footer>
