@@ -27,12 +27,13 @@ const wmSize = lang === "en" ? "text-[18px]" : "text-[22px]";
       <a href={`${prefix}/#readings`} class="hidden sm:inline text-[13px] tracking-[0.15em] uppercase text-parchment-2/85 hover:text-gold transition">{t.readings}</a>
       <a href={`${prefix}/academy`}    class="text-[13px] tracking-[0.15em] uppercase text-parchment-2/85 hover:text-gold transition">{t.academy}</a>
       <a href={`${prefix}/#pricing`}  class="hidden sm:inline text-[13px] tracking-[0.15em] uppercase text-parchment-2/85 hover:text-gold transition">{t.pricing}</a>
+      <!-- Language switcher — EN/AR disabled until pages exist -->
       <div class="flex items-center text-[11px] tracking-widest ms-2 sm:ms-4">
-        <a href={pathNoLang} class:list={["px-2 py-1 transition", lang === "he" ? "text-gold" : "text-muted hover:text-gold"]} aria-label="עברית">HE</a>
-        <span class="text-border/80">·</span>
-        <a href={`/en${pathNoLang === "/" ? "" : pathNoLang}`} class:list={["px-2 py-1 transition", lang === "en" ? "text-gold" : "text-muted hover:text-gold"]}>EN</a>
-        <span class="text-border/80">·</span>
-        <a href={`/ar${pathNoLang === "/" ? "" : pathNoLang}`} class:list={["px-2 py-1 transition", lang === "ar" ? "text-gold" : "text-muted hover:text-gold"]}>AR</a>
+        <span class="px-2 py-1 text-gold" aria-label="עברית">HE</span>
+        <span style="color: var(--muted, #8a7a60); opacity: 0.4;">·</span>
+        <span class="px-2 py-1" style="color: #8a7a60; opacity: 0.35; cursor: default;" title="Coming soon">EN</span>
+        <span style="color: var(--muted, #8a7a60); opacity: 0.4;">·</span>
+        <span class="px-2 py-1" style="color: #8a7a60; opacity: 0.35; cursor: default;" title="Coming soon">AR</span>
       </div>
     </div>
   </nav>
