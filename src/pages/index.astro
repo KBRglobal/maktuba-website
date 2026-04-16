@@ -4,26 +4,24 @@ import Footer from "@/components/Footer.astro";
 import Icon from "@/components/Icon.astro";
 import "@/styles/global.css";
 
-const CDN = "https://d2xsxph8kpxj0f.cloudfront.net/310519663492248962/ToDf6mmxTX6kSgXA8csfFX";
+const IMG = "https://cdn.maktuba.app/img";
 const img = {
-  heroWide:     `${CDN}/21_hero_wide_756a0f71.webp`,
-  theWelcome:   `${CDN}/03_the_welcome_4efc7732.webp`,
-  studyingCup:  `${CDN}/B02_studying_cup_448b136f.webp`,
-  seeingSomething:`${CDN}/B03_seeing_something_1d73fc32.webp`,
-  theCards:     `${CDN}/06_the_cards_5f598521.webp`,
-  celticCross:  `${CDN}/T15_celtic_cross_d40d5ed8.webp`,
-  thePalm:      `${CDN}/23_hands_detail_bfc845ec.webp`,
-  silhouette:   `${CDN}/24_silhouette_286b27ae.webp`,
-  readingBook:  `${CDN}/15_reading_book_a14ad82f.webp`,
-  whisperingSecret:`${CDN}/19_whispering_secret_104458a2.webp`,
-  lookingAtMoon:`${CDN}/25_looking_at_moon_8c93f007.webp`,
-  handsDetail:  `${CDN}/23_hands_detail_bfc845ec.webp`,
-  heartOpening: `${CDN}/B07_heart_opening_ee13824a.webp`,
-  singleCard:   `${CDN}/T11_single_card_ab676940.webp`,
-  logoIcon:     `${CDN}/logo-v3-1_ae34c8a4.webp`,
-  logoFull:     `${CDN}/logo-full-v2_607272c0.webp`,
-  appHome:      `${CDN}/A02_home_screen_3f30af8c.webp`,
-  appComplete:  `${CDN}/A07_reading_complete_c933a817.webp`,
+  heroWide:        `${IMG}/21_hero_wide.webp`,
+  theWelcome:      `${IMG}/03_the_welcome.webp`,
+  studyingCup:     `${IMG}/B02_studying_cup.webp`,
+  seeingSomething: `${IMG}/B03_seeing_something.webp`,
+  theCards:        `${IMG}/06_the_cards.webp`,
+  celticCross:     `${IMG}/T15_celtic_cross.webp`,
+  thePalm:         `${IMG}/23_hands_detail.webp`,
+  silhouette:      `${IMG}/24_silhouette.webp`,
+  readingBook:     `${IMG}/15_reading_book.webp`,
+  whisperingSecret:`${IMG}/19_whispering_secret.webp`,
+  lookingAtMoon:   `${IMG}/25_looking_at_moon.webp`,
+  handsDetail:     `${IMG}/23_hands_detail.webp`,
+  heartOpening:    `${IMG}/B07_heart_opening.webp`,
+  singleCard:      `${IMG}/T11_single_card.webp`,
+  appHome:         `${IMG}/A02_home_screen.webp`,
+  appComplete:     `${IMG}/A07_reading_complete.webp`,
 };
 
 const readings = [
@@ -113,9 +111,9 @@ const testimonials = [
   <section class="stats-band">
     <div class="stats-inner">
       {[
-        { v: "20+", l: "קריאות AI" },
+        { v: "141", l: "קריאות AI" },
         { v: "194", l: "שיעורים חינם" },
-        { v: "3",   l: "שפות" },
+        { v: "46K+", l: "ספרים שנלמדו" },
         { v: "∞",   l: "ללא תפוגה" },
       ].map((s, i) => (
         <div class="stat reveal" style={`--delay: ${i * 0.1}s`}>
