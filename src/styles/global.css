@@ -44,7 +44,7 @@
   --ink-paper: #0d081a;      --ink-border: #2a1f3d;   --ink-border-soft: #1e1531;
   --gold: #d4a574;           --gold-2: #e8c9a0;       --gold-3: #b8935d;
   --parchment: #e8dcc8;    --parchment-2: #d4c4a8;
-  --muted: #7a6b90;
+  --muted: #8a7a60;
 }
 
 @layer base {
@@ -162,7 +162,7 @@
     padding: 1.6rem 1.8rem; margin: 2rem 0; position: relative;
   }
   .deep-dive-box {
-    border: 1px solid rgba(184,160,216,0.3);
+    border: 1px solid rgba(212,165,116,0.2);
     background: linear-gradient(180deg, rgba(20,8,42,0.7), rgba(10,6,18,0.7));
     padding: 1.6rem 1.8rem; margin: 2rem 0;
   }
