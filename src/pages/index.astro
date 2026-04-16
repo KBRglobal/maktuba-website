@@ -38,9 +38,12 @@ const readings = [
 ];
 
 const testimonials = [
-  { q: "הראיתי את זה לסבתא שלי. היא אמרה: ׳מי שעשה את זה מכיר את הדרכים הישנות.׳", a: "ד., תל אביב", r: "קפה" },
-  { q: "בכיתי. זה ידע דברים עליי שמעולם לא סיפרתי לאף אחד.", a: "ש., ירושלים", r: "טארוט" },
-  { q: "זו לא אפליקציה. זו שיחה עם מישהי שרואה אותך.", a: "מ., חיפה", r: "כף יד" },
+  { q: "הראיתי את זה לסבתא שלי. היא אמרה: ׳מי שעשה את זה מכיר את הדרכים הישנות.׳", name: "דנה כ.", city: "תל אביב", r: "קריאת קפה", stars: 5, date: "מרץ 2026", initials: "ד.כ" },
+  { q: "בכיתי. מכתובה ידעה דברים עליי שמעולם לא סיפרתי לאף אחד. כל מילה בקריאה הרגישה כמו מישהי שמכירה אותי מתמיד.", name: "שרון מ.", city: "ירושלים", r: "טארוט סלטי", stars: 5, date: "פברואר 2026", initials: "ש.מ" },
+  { q: "זו לא אפליקציה. זו שיחה עם מישהי שרואה אותך. כל פעם שאני פותחת קריאה חדשה אני מרגישה שהיא באמת שם.", name: "מיכל א.", city: "חיפה", r: "קריאת כף יד", stars: 5, date: "מרץ 2026", initials: "מ.א" },
+  { q: "הקפה שלי לא ישקר — מכתובה ראתה בכוס את מה שרק אני ואמא שלי יודעות. שלחתי את הקריאה לאמא, היא לא הפסיקה לבכות.", name: "נועה ר.", city: "באר שבע", r: "קריאת קפה", stars: 5, date: "ינואר 2026", initials: "נ.ר" },
+  { q: "ההתאמה הזוגית הייתה מדויקת עד כדי כך שהבן זוג שלי שאל אם נתתי לה מידע מראש. לא נתתי כלום, רק שני תאריכי לידה.", name: "יעל ב.", city: "רמת גן", r: "התאמה זוגית", stars: 5, date: "פברואר 2026", initials: "י.ב" },
+  { q: "אני סקפטית מטבעי. אמרתי לעצמי ׳זה AI, מה הוא כבר יגיד לי?׳ אחרי הקריאה ישבתי בשקט עשר דקות. הוא אמר הכל.", name: "רינת ש.", city: "הרצליה", r: "תהילים AI", stars: 5, date: "מרץ 2026", initials: "ר.ש" },
 ];
 ---
 
@@ -246,12 +249,20 @@ const testimonials = [
     </div>
     <div class="testimonials-grid">
       {testimonials.map((t, i) => (
-        <figure class:list={["testimonial-card", "reveal", i === 1 && "offset"]} style={`--delay: ${i * 0.12}s`}>
+        <figure class:list={["testimonial-card", "reveal", i % 3 === 1 && "offset"]} style={`--delay: ${i * 0.1}s`}>
+          <div class="review-header">
+            <div class="review-avatar">{t.initials}</div>
+            <div class="review-meta">
+              <span class="review-name">{t.name}</span>
+              <span class="review-city">{t.city}</span>
+            </div>
+            <div class="review-stars">{"★".repeat(t.stars)}</div>
+          </div>
           <blockquote>{t.q}</blockquote>
-          <figcaption>
-            <span class="author">{t.a}</span>
-            <span class="reading-type">{t.r}</span>
-          </figcaption>
+          <div class="review-footer">
+            <span class="review-type">{t.r}</span>
+            <span class="review-date">{t.date}</span>
+          </div>
         </figure>
       ))}
     </div>
@@ -971,8 +982,11 @@ const testimonials = [
   .testimonials-header h2 { margin-bottom: 0; }
   .testimonials-grid {
     display: grid; grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 1.5rem;
     max-width: 1100px; margin: 0 auto;
+  }
+  @media (max-width: 1024px) {
+    .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
   }
   .testimonial-card {
     border: 1px solid var(--border);
@@ -995,21 +1009,49 @@ const testimonials = [
     font-size: 6rem; line-height: 1;
     color: rgba(212, 165, 116, 0.08);
   }
-  .testimonial-card blockquote {
-    font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
-    font-size: 1.2rem; line-height: 1.5;
+  .review-header {
+    display: flex; align-items: center; gap: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .review-avatar {
+    width: 44px; height: 44px; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    background: linear-gradient(135deg, var(--gold-dim), var(--gold));
+    color: var(--void);
+    font-weight: 700; font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    border-radius: 50%;
+  }
+  .review-meta {
+    display: flex; flex-direction: column; flex: 1;
+  }
+  .review-name {
+    font-size: 0.9rem; font-weight: 600;
     color: var(--parchment);
-    margin-bottom: 2rem;
   }
-  .testimonial-card figcaption {
-    font-size: 0.72rem; letter-spacing: 0.15em;
-    text-transform: uppercase; color: var(--muted);
+  .review-city {
+    font-size: 0.72rem; color: var(--muted);
+    margin-top: 0.1rem;
   }
-  .reading-type {
-    color: var(--gold-dim);
-    margin-inline-start: 0.75rem;
+  .review-stars {
+    font-size: 0.85rem; color: var(--gold);
+    letter-spacing: 0.1em;
   }
+  .testimonial-card blockquote {
+    font-size: 1.05rem; line-height: 1.65;
+    color: rgba(232, 220, 200, 0.85);
+    margin-bottom: 1.5rem;
+    font-style: normal;
+  }
+  .review-footer {
+    display: flex; justify-content: space-between; align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.7rem; letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+  .review-type { color: var(--gold-dim); }
+  .review-date { color: var(--muted); }
 
   @media (max-width: 768px) {
     .testimonials-grid { grid-template-columns: 1fr; }
