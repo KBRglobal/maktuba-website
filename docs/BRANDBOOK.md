@@ -775,98 +775,51 @@ The website icon set (`src/components/Icon.astro`) is the **final, approved** ic
 
 ---
 
-## 11 · Zodiac Glyphs (12 hand-drawn signs)
+## 11 · Zodiac Glyphs (12 gold emblems)
 
-Canonical astrology ligatures, drawn from scratch — never Unicode (♈ etc.) and never emoji (♌). The glyph is the **dominant visual identifier** on the Zodiac Reveal screen. 64 × 64 viewBox, multi-stop gold gradient stroke, no fill, round caps.
+Twelve gold ornamental emblems, one per zodiac sign. Same visual language as the main brand mark — Torah-scroll-gilded, kabbalistic filigree, flower-of-life geometry in the corners. Hosted on the brand CDN as transparent WebP, drop them on any ink surface.
 
-### Gold gradient definition (reuse this `<defs>`)
+### CDN
 
-```xml
-<defs>
-  <linearGradient id="gold-glyph" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0"   stop-color="#b8860b"/>
-    <stop offset="0.4" stop-color="#d4a574"/>
-    <stop offset="0.7" stop-color="#f4e4a0"/>
-    <stop offset="1"   stop-color="#b8860b"/>
-  </linearGradient>
-</defs>
+All twelve live at `https://cdn.maktuba.app/brand/zodiac/` as transparent 512 × 512 WebP. Filenames are ordinal + English name, zero-padded:
+
+```
+01-aries.webp
+02-taurus.webp
+03-gemini.webp
+04-cancer.webp
+05-leo.webp
+06-virgo.webp
+07-libra.webp
+08-scorpio.webp
+09-sagittarius.webp
+10-capricorn.webp
+11-aquarius.webp
+12-pisces.webp
 ```
 
-Stroke used by every glyph: `stroke="url(#gold-glyph)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"`. Circles in Taurus/Cancer/Leo use width 3–3.5.
+### Usage
 
-### 11.1 · Aries — ♈ · טלה
-```xml
-<path d="M32 16 L32 52 M32 16 C 32 8 24 8 18 14 C 14 18 16 22 20 20 M32 16 C 32 8 40 8 46 14 C 50 18 48 22 44 20"/>
+```jsx
+// Zodiac Reveal screen — central medallion
+<img
+  src={`https://cdn.maktuba.app/brand/zodiac/${ordinal}-${sign}.webp`}
+  alt={hebrewName}
+  width={260}
+  height={260}
+  style={{ filter: 'drop-shadow(0 0 40px rgba(212,165,116,0.3))' }}
+/>
+
+// Inline (horoscope card, profile, small chip)
+<img src="..." width={48} height={48} />
 ```
 
-### 11.2 · Taurus — ♉ · שור
-```xml
-<circle cx="32" cy="42" r="12"/>
-<path d="M14 22 C 14 22 22 32 32 32 C 42 32 50 22 50 22"/>
-```
+### Rules
 
-### 11.3 · Gemini — ♊ · תאומים
-```xml
-<path d="M16 14 L48 14 M16 50 L48 50 M22 14 L22 50 M42 14 L42 50"/>
-```
-
-### 11.4 · Cancer — ♋ · סרטן
-```xml
-<path d="M14 22 C 14 14 22 12 32 12 C 42 12 50 14 50 22"/>
-<path d="M50 42 C 50 50 42 52 32 52 C 22 52 14 50 14 42"/>
-<circle cx="20" cy="22" r="5" stroke-width="3"/>
-<circle cx="44" cy="42" r="5" stroke-width="3"/>
-```
-
-### 11.5 · Leo — ♌ · אריה
-```xml
-<circle cx="22" cy="28" r="10"/>
-<path d="M32 28 C 36 22 44 22 48 26 C 52 30 50 38 46 42 C 42 46 36 46 34 42 C 32 38 36 36 38 38" stroke-width="3.5"/>
-```
-
-### 11.6 · Virgo — ♍ · בתולה
-```xml
-<path d="M14 14 L14 50 M14 14 L24 50 L24 14 L34 50 L34 14 L44 50" stroke-width="3.5"/>
-<path d="M44 50 C 50 46 50 38 46 36" stroke-width="3.5"/>
-```
-
-### 11.7 · Libra — ♎ · מאזניים
-```xml
-<path d="M10 50 L54 50 M16 38 L48 38"/>
-<path d="M16 38 C 16 26 22 18 32 18 C 42 18 48 26 48 38"/>
-```
-
-### 11.8 · Scorpio — ♏ · עקרב
-```xml
-<path d="M10 14 L10 50 M10 14 L20 50 L20 14 L30 50 L30 14 L40 50" stroke-width="3.5"/>
-<path d="M40 50 L48 42 L52 46 L54 38" stroke-width="3.5"/>
-```
-
-### 11.9 · Sagittarius — ♐ · קשת
-```xml
-<path d="M12 52 L52 12"/>
-<path d="M40 12 L52 12 L52 24"/>
-<path d="M22 30 L34 42" stroke-width="3"/>
-```
-
-### 11.10 · Capricorn — ♑ · גדי
-```xml
-<path d="M12 18 C 12 18 16 36 26 36 C 32 36 32 28 36 28 C 40 28 42 36 42 42" stroke-width="3.5"/>
-<path d="M42 42 C 42 50 50 50 50 42 C 50 38 46 36 42 36 C 50 36 54 32 54 28" stroke-width="3.5"/>
-```
-
-### 11.11 · Aquarius — ♒ · דלי
-```xml
-<path d="M10 24 L18 18 L26 24 L34 18 L42 24 L50 18 L54 22" stroke-width="3.5"/>
-<path d="M10 40 L18 34 L26 40 L34 34 L42 40 L50 34 L54 38" stroke-width="3.5"/>
-```
-
-### 11.12 · Pisces — ♓ · דגים
-```xml
-<path d="M14 14 C 24 22 24 42 14 50" stroke-width="3.5"/>
-<path d="M50 14 C 40 22 40 42 50 50" stroke-width="3.5"/>
-<path d="M16 32 L48 32" stroke-width="3"/>
-```
+- **Never** edit the emblems in Photoshop / re-color / outline. They're the signed artefact, like the main mark.
+- **Never** use Unicode astrology symbols (♈ ♉ ♊ …) or emoji (♌) in UI chrome. Always the CDN emblem.
+- **Minimum size**: 40 px. Below that, detail disappears — fall back to a text label ("טלה") with no glyph.
+- The emblems are transparent — they inherit whatever surface they sit on. Put them on ink.
 
 ### Reveal medallion (zodiac context)
 
