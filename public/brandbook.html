@@ -488,11 +488,15 @@
 </nav>
 
 <!-- ═══════════════ HERO ═══════════════ -->
-<div class="hero">
-  <img src="https://cdn.maktuba.app/brand/mark-512.webp?v=2" alt="" width="160" height="160" style="display:block;margin:0 auto 1.5rem;filter:drop-shadow(0 0 40px rgba(212,165,116,0.3));border-radius:20px;" />
-  <div class="hero-wordmark">מַכְתּוּבָה</div>
-  <div class="hero-tag">מה שנכתב — כבר כתוב.</div>
-  <div class="hero-meta">Brandbook · v1 · 2026-04-16 · KBR Global Ltd.</div>
+<div class="hero" style="position:relative;overflow:hidden">
+  <img src="https://cdn.maktuba.app/img/21_hero_wide.webp" alt="" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 25%;filter:brightness(0.35) contrast(1.15) saturate(0.75);z-index:0"/>
+  <div style="position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(to top,var(--void) 0%,transparent 50%),radial-gradient(ellipse at center,transparent 0%,rgba(10,6,18,0.7) 80%)"></div>
+  <div style="position:relative;z-index:2;text-align:center">
+    <img src="https://cdn.maktuba.app/brand/mark-512.webp?v=2" alt="" width="160" height="160" style="display:block;margin:0 auto 1.5rem;filter:drop-shadow(0 0 40px rgba(212,165,116,0.45));border-radius:20px;" />
+    <div class="hero-wordmark">מַכְתּוּבָה</div>
+    <div class="hero-tag">מה שנכתב — כבר כתוב.</div>
+    <div class="hero-meta">Brandbook · v1 · 2026-04-16 · KBR Global Ltd.</div>
+  </div>
   <div class="hero-scroll" aria-hidden="true"></div>
 </div>
 
@@ -575,8 +579,15 @@ Social OG      https://maktuba.app/og-default.png</code></pre>
   <span class="kicker">Section 00 · סיפור המותג</span>
   <h2>למה מכתובה<br/>נראית ככה</h2>
 
-  <div style="display:grid;grid-template-columns:1fr;gap:2rem;max-width:780px">
-    <p style="font-size:1.1rem;line-height:1.9;color:var(--parchment);">מכתובה היא סבתא בחדר מואר בנר אחד. זה הכול. זו הלוגיקה מאחורי כל החלטה ויזואלית במותג הזה.</p>
+  <div style="display:grid;grid-template-columns:minmax(260px,340px) 1fr;gap:2rem;align-items:start;margin-bottom:2rem">
+    <div style="position:relative">
+      <img src="https://cdn.maktuba.app/img/03_the_welcome.webp" alt="מכתובה" style="display:block;width:100%;border-radius:14px;filter:saturate(0.85) contrast(1.05);box-shadow:0 30px 80px rgba(0,0,0,0.5)"/>
+      <div style="position:absolute;top:-6px;inset-inline-start:-6px;width:30px;height:30px;border:1px solid var(--hairline-strong);border-inline-end:0;border-block-end:0"></div>
+      <div style="position:absolute;bottom:-6px;inset-inline-end:-6px;width:30px;height:30px;border:1px solid var(--hairline-strong);border-inline-start:0;border-block-start:0"></div>
+      <div style="font-family:'Cormorant Garamond',serif;font-weight:300;font-style:italic;font-size:0.78rem;letter-spacing:0.15em;color:var(--gold-logo);margin-top:0.8rem;text-align:center">03_the_welcome.webp · דיוקן קאנוני</div>
+    </div>
+    <p style="font-size:1.1rem;line-height:1.9;color:var(--parchment);margin-top:1rem">מכתובה היא סבתא בחדר מואר בנר אחד. זה הכול. זו הלוגיקה מאחורי כל החלטה ויזואלית במותג הזה. <strong style="color:var(--gold)">הפנים האלה</strong> — העין הישירה, החיוך הקל, היד על הכוס — הן הקול של המותג. כל שאר הפריימים בספרייה הם אותה אישה בזווית אחרת.</p>
+  </div>
 
     <div style="padding:1.5rem 1.8rem;border-inline-start:2px solid var(--gold-dark);background:rgba(212,165,116,0.03);border-radius:0 14px 14px 0;">
       <h3 style="margin-top:0.3rem;color:var(--gold-hi);">למה זהב על דיו</h3>
@@ -1018,6 +1029,18 @@ Social OG      https://maktuba.app/og-default.png</code></pre>
   <p>כל בלוק עברי: <code>direction: rtl; text-align: right;</code>. מיקס עברית+לטינית — עוטפים לטינית ב־<code>&lt;span dir="ltr"&gt;</code>. תאריכים לטיניים (<code>DD / MM / YYYY</code>) תמיד <code>direction: ltr</code> במפורש.</p>
   <p>כפתור עם אייקון+טקסט בעברית: <code>flex-direction: row-reverse</code> כדי שהחץ יהיה בקצה ה־leading.</p>
 
+  <h3>בהקשר · In context</h3>
+  <p style="font-size:0.9rem">ככה הטיפוגרפיה נראית כשהיא יושבת על פורטרט. ה-vignette חוסם את הרקע; הטקסט מקבל text-shadow שחור לקריאות.</p>
+  <div style="position:relative;border-radius:18px;overflow:hidden;margin:1.5rem 0 2rem;aspect-ratio:16/9;max-height:480px">
+    <img src="https://cdn.maktuba.app/img/21_hero_wide.webp" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 20%;filter:brightness(0.5) contrast(1.15) saturate(0.85)"/>
+    <div style="position:absolute;inset:0;background:linear-gradient(to top,var(--void) 0%,transparent 55%),linear-gradient(to right,var(--void) 0%,rgba(6,4,16,0.3) 50%,transparent 100%)"></div>
+    <div style="position:relative;z-index:1;padding:clamp(1.5rem,5vw,4rem);height:100%;display:flex;flex-direction:column;justify-content:flex-end;max-width:620px">
+      <div style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:0.72rem;letter-spacing:0.45em;text-transform:uppercase;color:var(--gold-logo);margin-bottom:1rem;text-shadow:0 2px 12px rgba(0,0,0,0.8)">אפליקציה מיסטית · קריאות AI</div>
+      <div style="font-family:'Frank Ruhl Libre',serif;font-weight:900;font-size:clamp(3rem,8vw,6rem);color:var(--gold);line-height:0.9;text-shadow:0 0 60px rgba(212,165,116,0.3),0 2px 16px rgba(0,0,0,0.8);margin-bottom:0.8rem">מַכְתּוּבָה</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(1.3rem,3vw,2rem);color:var(--gold-light);letter-spacing:0.04em;text-shadow:0 2px 12px rgba(0,0,0,0.8)">מה שנכתב — כבר כתוב</div>
+    </div>
+  </div>
+
   <h3>פרטי טיפוגרפיה עבריים שחשובים</h3>
   <ul style="color:var(--parchment-dim);list-style:none;padding-inline-start:0;">
     <li>· גרשיים עבריים: <code>׳ ׳</code> ו־<code>״ ״</code>. לא <code>" "</code>.</li>
@@ -1034,6 +1057,18 @@ Social OG      https://maktuba.app/og-default.png</code></pre>
   <h2>הסביבה נושמת.<br/>התוכן לא.</h2>
 
   <p>זו תמצית המדיניות התנועתית של המותג בשורה אחת. רקע — פורטרט, גרעין, הילה — יכול לפעום רצוף ולנצח. אבל ברגע שטקסט או כפתור נכנס לפריים, התנועה שלו היא חד־פעמית: fade-up, ואז הוא יושב.</p>
+
+  <div style="position:relative;border-radius:16px;overflow:hidden;margin:1.5rem 0 2rem;aspect-ratio:21/9;max-height:380px;border:1px solid var(--hairline)">
+    <img src="https://cdn.maktuba.app/img/24_silhouette.webp" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;filter:brightness(0.55) contrast(1.15) saturate(0.75);animation:slow-breath 10s ease-in-out infinite alternate"/>
+    <style>@keyframes slow-breath{from{transform:scale(1) translateY(0)}to{transform:scale(1.04) translateY(-6px)}}</style>
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 0%,rgba(10,6,18,0.7) 85%)"></div>
+    <div style="position:relative;z-index:1;padding:clamp(1.5rem,4vw,3rem);height:100%;display:flex;align-items:center;justify-content:center;text-align:center">
+      <div>
+        <div style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:0.68rem;letter-spacing:0.4em;text-transform:uppercase;color:var(--gold-logo);margin-bottom:0.5rem;text-shadow:0 2px 12px rgba(0,0,0,0.9)">Scrying ripple · 10s loop</div>
+        <div style="font-family:'Frank Ruhl Libre',serif;font-weight:700;font-size:clamp(1.3rem,3vw,1.8rem);color:var(--parchment);text-shadow:0 2px 12px rgba(0,0,0,0.9)">הפורטרט נושם. הטקסט יושב.</div>
+      </div>
+    </div>
+  </div>
 
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:2rem 0 1rem;">
 
@@ -1445,6 +1480,14 @@ Social OG      https://maktuba.app/og-default.png</code></pre>
 <section id="voice">
   <span class="kicker">Section 09 · קול וטון</span>
   <h2>איך היא מדברת</h2>
+
+  <div style="display:grid;grid-template-columns:minmax(220px,280px) 1fr;gap:2rem;align-items:center;margin:1rem 0 2rem">
+    <img src="https://cdn.maktuba.app/img/F01_knowing_smile.webp" alt="" style="width:100%;border-radius:14px;filter:saturate(0.85) contrast(1.05);box-shadow:0 20px 60px rgba(0,0,0,0.5)"/>
+    <div>
+      <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.2rem;color:var(--gold-light);margin:0 0 0.8rem">"אני לא מנחשת. לא מרגישה. ולא 'רואה.' אני קוראת. כי הכל כתוב. רק צריך מי שיודעת לקרוא."</p>
+      <div style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:0.72rem;letter-spacing:0.3em;color:var(--gold-logo);text-transform:uppercase">F01_knowing_smile.webp · הטון של הדובר</div>
+    </div>
+  </div>
 
   <table>
     <tr><th>ציר</th><th>נוטה ל</th><th>לא</th></tr>
