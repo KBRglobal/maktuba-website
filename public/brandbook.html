@@ -1259,20 +1259,128 @@ Social OG      https://maktuba.app/og-default.png</code></pre>
   <h2>עולם אחד</h2>
   <p>מכתובה עם ספריית נכסים של ~250 איורים. כולם נראים כאילו יכלו להיחתך לאותו סרט. סבתא אחת. חדר אחד. נר אחד.</p>
 
-  <table>
-    <tr><th>תיקייה</th><th>כמות</th><th>תפקיד</th></tr>
-    <tr><td><code>01_app_ui</code></td><td>15</td><td>מסכי אפליקציה (splash, home, paywall, empty, error…)</td></tr>
-    <tr><td><code>02_coffee_reading</code></td><td>12</td><td>רגעי כוס (קבלה, בחינה, הפיכה, מזיגה)</td></tr>
-    <tr><td><code>03_tarot_scenes</code></td><td>10</td><td>שולחן, ערבוב, חשיפה</td></tr>
-    <tr><td><code>04_tarot_major_arcana</code></td><td>17</td><td>מכתובה באווירת כל קלף Major Arcana</td></tr>
-    <tr><td><code>05_tarot_maktuba_with_cards</code></td><td>23</td><td>מכתובה מחזיקה כל קלף מהחפיסה</td></tr>
-    <tr><td><code>06_tarot_custom_cards_original</code></td><td>23</td><td>החפיסה עצמה — פרונטים + גב</td></tr>
-    <tr><td><code>07_palm_reading</code></td><td>6</td><td>ידיים, קווים, קלוזאפים</td></tr>
-    <tr><td><code>08_zodiac</code></td><td>12</td><td>דיוקן לכל מזל</td></tr>
-    <tr><td><code>09_emotions</code></td><td>10</td><td>צחוק, אזהרה, חיוך, דמעות</td></tr>
-    <tr><td><code>10_rituals</code></td><td>10</td><td>נרות, קטורת, שולחן</td></tr>
-    <tr><td><code>17_original_25_portraits</code></td><td>27</td><td>פורטרטים גיבוריים</td></tr>
-  </table>
+  <h3>תמונות המפתח · The key images</h3>
+  <p>33 תמונות עובדות ב-CDN, מקוטלגות לפי שימוש. לחיצה פותחת את הקובץ במלוא 1600 px.</p>
+
+  <style>
+    .img-cat{margin:2rem 0;padding-block:1rem;border-top:1px solid var(--hairline)}
+    .img-cat h4{color:var(--gold-hi);font-family:'Frank Ruhl Libre',serif;font-weight:700;font-size:1.05rem;margin:0 0 0.3rem}
+    .img-cat .ctx{color:var(--parchment-dim);font-size:0.88rem;margin:0 0 1rem;line-height:1.6}
+    .img-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:0.8rem}
+    .img-cell{background:var(--void);border:1px solid var(--hairline);border-radius:10px;overflow:hidden;transition:border-color .3s,transform .3s;text-decoration:none;color:inherit;display:block}
+    .img-cell:hover{border-color:var(--gold);transform:translateY(-3px)}
+    .img-cell img{display:block;width:100%;aspect-ratio:1;object-fit:cover;filter:saturate(0.85) contrast(1.05)}
+    .img-cell .meta{padding:0.55rem 0.7rem 0.6rem}
+    .img-cell .name{font-family:Menlo,monospace;font-size:10px;color:var(--gold-logo);letter-spacing:0.02em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block}
+    .img-cell .use{font-size:11px;color:var(--parchment-dim);margin-top:3px;line-height:1.4}
+  </style>
+
+  <div class="img-cat">
+    <h4>☕ קריאה בקפה — Coffee reading</h4>
+    <p class="ctx">7 תמונות: רגע קבלת הכוס, בחינה, הפיכה, מזיגה. <code>studyingCup</code> היא קאבר הקריאה; <code>seeingSomething</code> לרגע הגילוי; <code>heartOpening</code> לקריאת התאמה זוגית.</p>
+    <div class="img-grid">
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/08_the_coffee.webp"><img src="https://cdn.maktuba.app/img/08_the_coffee.webp"/><div class="meta"><span class="name">08_the_coffee.webp</span><div class="use">סצנה גיבור · הקפה עצמו</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/B01_receiving_cup.webp"><img src="https://cdn.maktuba.app/img/B01_receiving_cup.webp"/><div class="meta"><span class="name">B01_receiving_cup.webp</span><div class="use">onboarding · קבלת כוס</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/B02_studying_cup.webp"><img src="https://cdn.maktuba.app/img/B02_studying_cup.webp"/><div class="meta"><span class="name">B02_studying_cup.webp</span><div class="use">★ קאבר הקריאה באתר</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/B03_seeing_something.webp"><img src="https://cdn.maktuba.app/img/B03_seeing_something.webp"/><div class="meta"><span class="name">B03_seeing_something.webp</span><div class="use">רגע הגילוי</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/B05_turning_cup.webp"><img src="https://cdn.maktuba.app/img/B05_turning_cup.webp"/><div class="meta"><span class="name">B05_turning_cup.webp</span><div class="use">אנימציית סיבוב</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/B07_heart_opening.webp"><img src="https://cdn.maktuba.app/img/B07_heart_opening.webp"/><div class="meta"><span class="name">B07_heart_opening.webp</span><div class="use">התאמה זוגית</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/B12_pouring_foam.webp"><img src="https://cdn.maktuba.app/img/B12_pouring_foam.webp"/><div class="meta"><span class="name">B12_pouring_foam.webp</span><div class="use">רגע המזיגה</div></div></a>
+    </div>
+  </div>
+
+  <div class="img-cat">
+    <h4>🃏 טארוט — Tarot</h4>
+    <p class="ctx">5 תמונות קלפים + קאברים. <code>celticCross</code> לקריאת צלב קלטי, <code>singleCard</code> לטארוט 3 קלפים, <code>theCards</code> באקדמיה.</p>
+    <div class="img-grid">
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/06_the_cards.webp"><img src="https://cdn.maktuba.app/img/06_the_cards.webp"/><div class="meta"><span class="name">06_the_cards.webp</span><div class="use">אקדמיה · טארוט</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/T11_single_card.webp"><img src="https://cdn.maktuba.app/img/T11_single_card.webp"/><div class="meta"><span class="name">T11_single_card.webp</span><div class="use">טארוט 3 קלפים</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/T15_celtic_cross.webp"><img src="https://cdn.maktuba.app/img/T15_celtic_cross.webp"/><div class="meta"><span class="name">T15_celtic_cross.webp</span><div class="use">★ צלב קלטי</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/T16_relationship_spread.webp"><img src="https://cdn.maktuba.app/img/T16_relationship_spread.webp"/><div class="meta"><span class="name">T16_relationship_spread.webp</span><div class="use">פריסת זוגיות</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/T21_one_card_revealed.webp"><img src="https://cdn.maktuba.app/img/T21_one_card_revealed.webp"/><div class="meta"><span class="name">T21_one_card_revealed.webp</span><div class="use">קלף יחיד · חשיפה</div></div></a>
+    </div>
+  </div>
+
+  <div class="img-cat">
+    <h4>✋ קריאת כף יד — Palm</h4>
+    <p class="ctx">2 תמונות מרכזיות של הידיים. <code>thePalm</code> לכותרת השירות; <code>handsDetail</code> לקלוזאפ הקווים בתוך הקריאה.</p>
+    <div class="img-grid">
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/07_the_palm.webp"><img src="https://cdn.maktuba.app/img/07_the_palm.webp"/><div class="meta"><span class="name">07_the_palm.webp</span><div class="use">★ כרטיס הקריאה</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/23_hands_detail.webp"><img src="https://cdn.maktuba.app/img/23_hands_detail.webp"/><div class="meta"><span class="name">23_hands_detail.webp</span><div class="use">close-up · קווי היד</div></div></a>
+    </div>
+  </div>
+
+  <div class="img-cat">
+    <h4>🌙 ראיית הנסתר — Sight & mystery</h4>
+    <p class="ctx">ארבע תמונות לקריאות "לא פיזיות": חלום, אסטרולוגיה, קבלה, תהילים.</p>
+    <div class="img-grid">
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/24_silhouette.webp"><img src="https://cdn.maktuba.app/img/24_silhouette.webp"/><div class="meta"><span class="name">24_silhouette.webp</span><div class="use">פתרון חלום · צללית</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/25_looking_at_moon.webp"><img src="https://cdn.maktuba.app/img/25_looking_at_moon.webp"/><div class="meta"><span class="name">25_looking_at_moon.webp</span><div class="use">אסטרולוגיה</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/19_whispering_secret.webp"><img src="https://cdn.maktuba.app/img/19_whispering_secret.webp"/><div class="meta"><span class="name">19_whispering_secret.webp</span><div class="use">קבלה וגימטריה</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/15_reading_book.webp"><img src="https://cdn.maktuba.app/img/15_reading_book.webp"/><div class="meta"><span class="name">15_reading_book.webp</span><div class="use">תהילים · נומרולוגיה</div></div></a>
+    </div>
+  </div>
+
+  <div class="img-cat">
+    <h4>👵 מכתובה עצמה — Character portraits</h4>
+    <p class="ctx">הפנים, הגוף, ההבעות. <code>heroWide</code> הוא רקע ה-hero באתר; <code>theWelcome</code> בסקציית "מי היא". השתמש/י בהם כ-background לעולם לא כ-card.</p>
+    <div class="img-grid">
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/21_hero_wide.webp"><img src="https://cdn.maktuba.app/img/21_hero_wide.webp"/><div class="meta"><span class="name">21_hero_wide.webp</span><div class="use">★ רקע hero באתר + curtain</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/03_the_welcome.webp"><img src="https://cdn.maktuba.app/img/03_the_welcome.webp"/><div class="meta"><span class="name">03_the_welcome.webp</span><div class="use">★ "מי היא מכתובה"</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/01_the_reading.webp"><img src="https://cdn.maktuba.app/img/01_the_reading.webp"/><div class="meta"><span class="name">01_the_reading.webp</span><div class="use">הקריאה · scene-setter</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/14_full_body_standing.webp"><img src="https://cdn.maktuba.app/img/14_full_body_standing.webp"/><div class="meta"><span class="name">14_full_body_standing.webp</span><div class="use">דיוקן מלא-גוף</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/13_side_profile.webp"><img src="https://cdn.maktuba.app/img/13_side_profile.webp"/><div class="meta"><span class="name">13_side_profile.webp</span><div class="use">פרופיל צד</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/F01_knowing_smile.webp"><img src="https://cdn.maktuba.app/img/F01_knowing_smile.webp"/><div class="meta"><span class="name">F01_knowing_smile.webp</span><div class="use">חיוך יודע</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/05_the_laugh.webp"><img src="https://cdn.maktuba.app/img/05_the_laugh.webp"/><div class="meta"><span class="name">05_the_laugh.webp</span><div class="use">צחוק</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/04_the_warning.webp"><img src="https://cdn.maktuba.app/img/04_the_warning.webp"/><div class="meta"><span class="name">04_the_warning.webp</span><div class="use">אזהרה · אצבע</div></div></a>
+    </div>
+  </div>
+
+  <div class="img-cat">
+    <h4>🕯️ טקס, חפצים, סביבה — Ritual & environment</h4>
+    <p class="ctx">רקעים לסקציות שקטות: קטורת, שולחן, כוס יומי, שוק.</p>
+    <div class="img-grid">
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/09_behind_scenes_incense.webp"><img src="https://cdn.maktuba.app/img/09_behind_scenes_incense.webp"/><div class="meta"><span class="name">09_behind_scenes_incense.webp</span><div class="use">קטורת · בקעה</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/10_table_overhead.webp"><img src="https://cdn.maktuba.app/img/10_table_overhead.webp"/><div class="meta"><span class="name">10_table_overhead.webp</span><div class="use">שולחן מלמעלה</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/11_daily_wisdom.webp"><img src="https://cdn.maktuba.app/img/11_daily_wisdom.webp"/><div class="meta"><span class="name">11_daily_wisdom.webp</span><div class="use">חוכמה יומית · קריסטלים</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/12_daily_cup.webp"><img src="https://cdn.maktuba.app/img/12_daily_cup.webp"/><div class="meta"><span class="name">12_daily_cup.webp</span><div class="use">כוס יומית</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/22_marketplace.webp"><img src="https://cdn.maktuba.app/img/22_marketplace.webp"/><div class="meta"><span class="name">22_marketplace.webp</span><div class="use">שוק · רחוק</div></div></a>
+    </div>
+  </div>
+
+  <div class="img-cat">
+    <h4>📱 מסכי אפליקציה — App screens</h4>
+    <p class="ctx">מסכים ששולפים באתר כצילומי היישום.</p>
+    <div class="img-grid">
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/A02_home_screen.webp"><img src="https://cdn.maktuba.app/img/A02_home_screen.webp"/><div class="meta"><span class="name">A02_home_screen.webp</span><div class="use">Home screen</div></div></a>
+      <a class="img-cell" target="_blank" href="https://cdn.maktuba.app/img/A07_reading_complete.webp"><img src="https://cdn.maktuba.app/img/A07_reading_complete.webp"/><div class="meta"><span class="name">A07_reading_complete.webp</span><div class="use">Reading complete</div></div></a>
+    </div>
+  </div>
+
+  <h3>הספרייה המלאה · Full asset library</h3>
+  <p>33 ה-WebP למעלה הן מה שמחובר ל-CDN ומשרת את האתר. הספרייה המלאה — ~250 איורים — נמצאת במונורפו:</p>
+
+  <pre style="font-size:0.82rem"><code>/Users/claude/Documents/maktuba/repo/maktuba_visual_library/
+  ├── 01_app_ui/                  15 screens
+  ├── 02_coffee_reading/          12 cup moments
+  ├── 03_tarot_scenes/            10 table scenes
+  ├── 04_tarot_major_arcana/      17 atmospheres (Maktuba with each card)
+  ├── 05_tarot_maktuba_with_cards/23 Maktuba holding each card
+  ├── 06_tarot_custom_cards_orig/ 23 the deck itself
+  ├── 07_palm_reading/             6 hands close-ups
+  ├── 08_zodiac/                  12 portraits by sign
+  ├── 09_emotions/                10 expressions
+  ├── 10_rituals/                 10 candles, incense
+  ├── 11_social_media/            15 IG/TikTok templates
+  ├── 12_tehillim/                 4 book/scroll moments
+  ├── 13_dreams/                   4 silhouettes
+  ├── 14_seasons_holidays/         8
+  ├── 15_marketing/                4 ad heroes
+  ├── 16_tarot_shots_50/          50 detailed spreads
+  ├── 17_original_25_portraits/   27 hero portraits (reference)
+  └── MAKTUBA_ASSET_GUIDE.md     ← full catalog with use-cases</code></pre>
+
+  <p style="font-size:0.9rem">כדי להרים אחת חדשה ל-CDN: המר ל-WebP (max 1600 רוחב, quality 82), <code>PUT</code> ל-<code>cdn.maktuba.app/img/{filename}.webp</code> דרך CF API, ותוסיף למיפוי ב-<code>src/lib/images.ts</code>.</p>
 
   <h3>טיפול תמונה (CSS)</h3>
 <pre><code>.brand-image {
