@@ -7,13 +7,20 @@ const t = {
 }[lang as "he" | "en" | "ar"];
 const prefix = lang === "he" ? "" : `/${lang}`;
 const pathNoLang = Astro.url.pathname.replace(/^\/(en|ar)/, "") || "/";
+
+// Wordmark per language — Hebrew with niqqud, Arabic with tashkīl, Latin tracked
+const wordmark = { he: "מַכְתּוּבָה", en: "Maktuba", ar: "مَكْتُوبَة" }[lang as "he" | "en" | "ar"];
+const wmStyle = lang === "en"
+  ? "font-family: 'Playfair Display', serif; font-weight: 700; letter-spacing: 0.28em; text-transform: uppercase;"
+  : "font-family: 'Frank Ruhl Libre', 'David', serif; font-weight: 900; letter-spacing: 0.01em;";
+const wmSize = lang === "en" ? "text-[18px]" : "text-[22px]";
 ---
 <header class="sticky top-0 inset-x-0 z-40 backdrop-blur-md border-b border-border/60" style="background: rgba(10,6,18,0.75);">
   <nav class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
     <a href={`${prefix}/`} class="flex items-center gap-3" aria-label="Maktuba — Home">
       <img src="https://cdn.maktuba.app/brand/mark-256.webp?v=2" alt="" width="32" height="32" class="block" loading="eager" decoding="async" />
-      <span class="font-display text-[18px] tracking-[0.28em] text-gold uppercase" style="font-family: 'Playfair Display', serif; font-weight: 700;">
-        Maktuba
+      <span class={`font-display ${wmSize} text-gold`} style={wmStyle}>
+        {wordmark}
       </span>
     </a>
     <div class="flex items-center gap-1 sm:gap-6">

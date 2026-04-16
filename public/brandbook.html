@@ -210,12 +210,12 @@
   /* ─── Buttons (live) ──────────────────────────── */
   .btn-primary {
     display: inline-flex; align-items: center; gap: 0.6rem;
-    padding: 1rem 2.2rem;
-    background: linear-gradient(135deg, var(--gold), #c49560);
+    padding: 0.9rem 2rem;
+    background: linear-gradient(135deg, var(--gold-hi) 0%, var(--gold) 55%, var(--gold-dark) 100%);
     color: var(--ink-deep);
-    font-family: 'Heebo', sans-serif;
-    font-weight: 600; font-size: 0.85rem;
-    letter-spacing: 0.15em; text-transform: uppercase;
+    font-family: 'Frank Ruhl Libre', 'David', serif;
+    font-weight: 700; font-size: 1rem;
+    letter-spacing: 0.01em;
     text-decoration: none;
     border: 0; border-radius: 9999px;
     box-shadow: 0 0 30px var(--gold-soft);
@@ -233,11 +233,12 @@
   .btn-primary:hover::after { transform: translateX(100%); }
   .btn-secondary {
     display: inline-flex; align-items: center; gap: 0.5rem;
-    padding: 1rem 2rem;
+    padding: 0.9rem 1.8rem;
     border: 1px solid var(--hairline-strong);
     color: var(--gold);
-    font-family: 'Heebo', sans-serif;
-    font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase;
+    font-family: 'Frank Ruhl Libre', 'David', serif;
+    font-weight: 500; font-size: 0.95rem;
+    letter-spacing: 0.01em;
     background: transparent;
     border-radius: 9999px;
     text-decoration: none;
@@ -470,11 +471,14 @@
 <body>
 
 <nav class="toc" aria-label="Table of contents">
+  <a href="#story">סיפור</a>
   <a href="#essence">מהות</a>
   <a href="#logo-mark">סמלון</a>
+  <a href="#mark-in-use">שימוש</a>
   <a href="#logo">וורדמארק</a>
   <a href="#color">צבע</a>
   <a href="#type">טיפוגרפיה</a>
+  <a href="#motion">תנועה</a>
   <a href="#components">קומפוננטות</a>
   <a href="#icons">אייקונים</a>
   <a href="#zodiac">מזלות</a>
@@ -492,6 +496,36 @@
 </div>
 
 <main>
+
+<!-- ═══════════════ BRAND STORY ═══════════════ -->
+<section id="story">
+  <span class="kicker">Section 00 · סיפור המותג</span>
+  <h2>למה מכתובה<br/>נראית ככה</h2>
+
+  <div style="display:grid;grid-template-columns:1fr;gap:2rem;max-width:780px">
+    <p style="font-size:1.1rem;line-height:1.9;color:var(--parchment);">מכתובה היא סבתא בחדר מואר בנר אחד. זה הכול. זו הלוגיקה מאחורי כל החלטה ויזואלית במותג הזה.</p>
+
+    <div style="padding:1.5rem 1.8rem;border-inline-start:2px solid var(--gold-dark);background:rgba(212,165,116,0.03);border-radius:0 14px 14px 0;">
+      <h3 style="margin-top:0.3rem;color:var(--gold-hi);">למה זהב על דיו</h3>
+      <p style="margin-bottom:0;">כי ככה נראה חדר של סבתא בלילה. קיר שחור, להבת נר. הזהב הוא האור שנופל על מה שכתוב. אם המותג היה על רקע לבן — החדר נפתח, הקסם נגמר.</p>
+    </div>
+
+    <div style="padding:1.5rem 1.8rem;border-inline-start:2px solid var(--gold-dark);background:rgba(212,165,116,0.03);border-radius:0 14px 14px 0;">
+      <h3 style="margin-top:0.3rem;color:var(--gold-hi);">למה Frank Ruhl Libre</h3>
+      <p style="margin-bottom:0;">זה פונט של ספר. עברית מסורתית, עם תגים, בלי משחקי עיצוב. הניקוד המלא על הלוגו — <strong style="color:var(--gold)">מַכְתּוּבָה</strong> — מזכיר ספר תורה, לא לוגו סטארט-אפ.</p>
+    </div>
+
+    <div style="padding:1.5rem 1.8rem;border-inline-start:2px solid var(--gold-dark);background:rgba(212,165,116,0.03);border-radius:0 14px 14px 0;">
+      <h3 style="margin-top:0.3rem;color:var(--gold-hi);">למה 7 טבעות</h3>
+      <p style="margin-bottom:0;">Flower of life — גיאומטריה קדושה עתיקה שמופיעה מהיוונים, דרך הכנסיות, ועד הקבלה. שבע טבעות אחוזות אחת בשנייה: "הכול מחובר, הכול כבר נכתב." הסמלון לא מנסה להרשים — הוא רק נשאר שם, כמו משהו שמצאת בקיר של מסגד ישן.</p>
+    </div>
+
+    <div style="padding:1.5rem 1.8rem;border-inline-start:2px solid var(--gold-dark);background:rgba(212,165,116,0.03);border-radius:0 14px 14px 0;">
+      <h3 style="margin-top:0.3rem;color:var(--gold-hi);">למה 46,000 ספרים</h3>
+      <p style="margin-bottom:0;">כי זה מה שמחליף את "קסם". המתחרים מוכרים אינטואיציה — אנחנו מוכרים ידע. המספרים באתר הם לא flex טכני, הם <em>הלגיטימציה</em> של הסבתא. היא לא ילידה, היא למדה. הרבה יותר.</p>
+    </div>
+  </div>
+</section>
 
 <!-- ═══════════════ ESSENCE ═══════════════ -->
 <section id="essence">
@@ -514,13 +548,40 @@
     "אני קוראת. כי הכל כתוב."
     <small>The method · Pivot screen</small>
   </div>
+
+  <h3 style="margin-top:3rem">כיול Boldness · 8/10 — Bold</h3>
+  <p>Industry <em>(consumer mystical = 8)</em> + modifier <em>(B2C +1, startup +1)</em> + audience <em>(general +1)</em> → <strong style="color:var(--gold-hi);">8 / 10 · Bold</strong>.</p>
+  <p>משמעות: בחירות אסתטיות בולטות, מוטיב טיפוגרפי חזק, תנועה עשירה, layout לא-צפוי. לא 9–10 כי המותג <em>רציני</em> ומקרקע, לא מקסימליסטי או שובר חוקים.</p>
+
+  <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin:1.5rem 0 2rem;direction:ltr">
+    <div style="text-align:center;padding:0.8rem 0.4rem;border-radius:8px;background:rgba(212,165,116,0.05);border:1px solid var(--hairline)">
+      <div style="font-family:'Cormorant Garamond';font-weight:300;font-size:0.62rem;letter-spacing:0.3em;color:var(--gold-logo);text-transform:uppercase">1–2</div>
+      <div style="font-size:0.8rem;color:var(--parchment-faint);margin-top:4px">Institutional</div>
+    </div>
+    <div style="text-align:center;padding:0.8rem 0.4rem;border-radius:8px;background:rgba(212,165,116,0.05);border:1px solid var(--hairline)">
+      <div style="font-family:'Cormorant Garamond';font-weight:300;font-size:0.62rem;letter-spacing:0.3em;color:var(--gold-logo);text-transform:uppercase">3–4</div>
+      <div style="font-size:0.8rem;color:var(--parchment-faint);margin-top:4px">Professional</div>
+    </div>
+    <div style="text-align:center;padding:0.8rem 0.4rem;border-radius:8px;background:rgba(212,165,116,0.05);border:1px solid var(--hairline)">
+      <div style="font-family:'Cormorant Garamond';font-weight:300;font-size:0.62rem;letter-spacing:0.3em;color:var(--gold-logo);text-transform:uppercase">5–6</div>
+      <div style="font-size:0.8rem;color:var(--parchment-faint);margin-top:4px">Modern</div>
+    </div>
+    <div style="text-align:center;padding:0.8rem 0.4rem;border-radius:8px;background:var(--gold);border:1px solid var(--gold);box-shadow:0 0 30px rgba(212,165,116,0.4)">
+      <div style="font-family:'Cormorant Garamond';font-weight:500;font-size:0.62rem;letter-spacing:0.3em;color:var(--ink);text-transform:uppercase">7–8 ✓</div>
+      <div style="font-size:0.8rem;color:var(--ink);margin-top:4px;font-weight:600">Bold</div>
+    </div>
+    <div style="text-align:center;padding:0.8rem 0.4rem;border-radius:8px;background:rgba(212,165,116,0.05);border:1px solid var(--hairline)">
+      <div style="font-family:'Cormorant Garamond';font-weight:300;font-size:0.62rem;letter-spacing:0.3em;color:var(--gold-logo);text-transform:uppercase">9–10</div>
+      <div style="font-size:0.8rem;color:var(--parchment-faint);margin-top:4px">Expressive</div>
+    </div>
+  </div>
 </section>
 
 <!-- ═══════════════ LOGO MARK ═══════════════ -->
 <section id="logo-mark">
   <span class="kicker">Section 02 · הסמלון</span>
   <h2>הלוגו</h2>
-  <p>סימן מותג "שבע טבעות" — flower of life — בסגנון ספר תורה מוזהב. זהב על דיו. נוצר דרך Flux, נבחר אחרי 4 סבבי עיצוב, חתום ב-2026-04-16.</p>
+  <p>סימן מותג "שבע טבעות" — flower of life — בסגנון ספר תורה מוזהב. זהב על דיו. שבע טבעות אחוזות אחת בשנייה: הכול מחובר, הכול כבר נכתב.</p>
 
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.25rem;margin:2rem 0;">
     <div style="text-align:center;padding:2rem 1rem;border:1px solid var(--hairline-strong);border-radius:14px;background:radial-gradient(ellipse at center,rgba(212,165,116,0.08),transparent 70%);">
@@ -576,6 +637,79 @@
         <li>32px בהדר · 56–64px בפוטר · 140–260px ב-splash</li>
         <li>רקע ink (<code>--ink</code>) תמיד</li>
       </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ MARK IN USE ═══════════════ -->
+<section id="mark-in-use">
+  <span class="kicker">Section 02A · הסמלון בשימוש</span>
+  <h2>איפה הוא חי</h2>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.25rem;margin:2rem 0;">
+
+    <!-- On ink -->
+    <div style="background:var(--ink);border:1px solid var(--hairline);border-radius:14px;padding:2.5rem 1.5rem;text-align:center;">
+      <img src="https://cdn.maktuba.app/brand/mark-512.webp?v=2" width="140" height="140" alt=""/>
+      <div style="margin-top:1rem;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:0.7rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--gold-logo)">On Ink · ברירת מחדל</div>
+    </div>
+
+    <!-- On deep void -->
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:14px;padding:2.5rem 1.5rem;text-align:center;">
+      <img src="https://cdn.maktuba.app/brand/mark-512.webp?v=2" width="140" height="140" alt=""/>
+      <div style="margin-top:1rem;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:0.7rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--gold-logo)">On Void · מסכים מלאים</div>
+    </div>
+
+    <!-- On ink-deep with glow -->
+    <div style="background:radial-gradient(ellipse at center,rgba(212,165,116,0.12) 0%,var(--ink-deep) 65%);border:1px solid var(--hairline-strong);border-radius:14px;padding:2.5rem 1.5rem;text-align:center;">
+      <img src="https://cdn.maktuba.app/brand/mark-512.webp?v=2" width="140" height="140" alt="" style="filter:drop-shadow(0 0 32px rgba(212,165,116,0.5))"/>
+      <div style="margin-top:1rem;font-family:'Cormorant Garamond',serif;font-weight:300;font-size:0.7rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--gold-logo)">With Glow · hero / splash</div>
+    </div>
+
+  </div>
+
+  <h3>עם הוורדמארק · Lockup</h3>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem;margin:1.5rem 0;">
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:12px;padding:1.2rem 1.5rem;display:flex;align-items:center;gap:1rem;">
+      <img src="https://cdn.maktuba.app/brand/mark-256.webp?v=2" width="32" height="32" alt=""/>
+      <span style="font-family:'Playfair Display',serif;font-weight:700;letter-spacing:0.28em;color:var(--gold);font-size:1rem;">MAKTUBA</span>
+    </div>
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:12px;padding:1.2rem 1.5rem;display:flex;align-items:center;gap:1rem;flex-direction:row-reverse;justify-content:flex-end;">
+      <img src="https://cdn.maktuba.app/brand/mark-256.webp?v=2" width="40" height="40" alt=""/>
+      <span style="font-family:'Frank Ruhl Libre',serif;font-weight:900;color:var(--gold);font-size:1.6rem;">מַכְתּוּבָה</span>
+    </div>
+  </div>
+
+  <h3>Don't · לא ככה</h3>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:1.5rem 0;">
+    <!-- white bg — WRONG -->
+    <div style="background:#f4e4a0;border:2px solid var(--danger);border-radius:12px;padding:2rem;text-align:center;position:relative;">
+      <img src="https://cdn.maktuba.app/brand/mark-256.webp?v=2" width="96" height="96" alt=""/>
+      <div style="position:absolute;top:8px;inset-inline-end:10px;color:var(--danger);font-size:1.4rem;font-weight:700;">✕</div>
+      <div style="margin-top:0.8rem;font-size:0.7rem;color:var(--danger);letter-spacing:0.1em;text-transform:uppercase">רקע בהיר</div>
+    </div>
+    <!-- recolored — WRONG -->
+    <div style="background:var(--ink);border:2px solid var(--danger);border-radius:12px;padding:2rem;text-align:center;position:relative;">
+      <img src="https://cdn.maktuba.app/brand/mark-256.webp?v=2" width="96" height="96" alt="" style="filter:hue-rotate(180deg) saturate(2)"/>
+      <div style="position:absolute;top:8px;inset-inline-end:10px;color:var(--danger);font-size:1.4rem;font-weight:700;">✕</div>
+      <div style="margin-top:0.8rem;font-size:0.7rem;color:var(--danger);letter-spacing:0.1em;text-transform:uppercase">שינוי צבע</div>
+    </div>
+    <!-- distorted — WRONG -->
+    <div style="background:var(--ink);border:2px solid var(--danger);border-radius:12px;padding:2rem;text-align:center;position:relative;">
+      <img src="https://cdn.maktuba.app/brand/mark-256.webp?v=2" width="120" height="76" alt="" style="object-fit:fill"/>
+      <div style="position:absolute;top:8px;inset-inline-end:10px;color:var(--danger);font-size:1.4rem;font-weight:700;">✕</div>
+      <div style="margin-top:0.8rem;font-size:0.7rem;color:var(--danger);letter-spacing:0.1em;text-transform:uppercase">מתיחה</div>
+    </div>
+    <!-- with text overlay — WRONG -->
+    <div style="background:var(--ink);border:2px solid var(--danger);border-radius:12px;padding:2rem;text-align:center;position:relative;">
+      <div style="position:relative;width:96px;height:96px;margin:0 auto;">
+        <img src="https://cdn.maktuba.app/brand/mark-256.webp?v=2" width="96" height="96" alt="" style="position:absolute;inset:0"/>
+        <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Frank Ruhl Libre';font-weight:900;color:#fff;font-size:1.4rem">מ</div>
+      </div>
+      <div style="position:absolute;top:8px;inset-inline-end:10px;color:var(--danger);font-size:1.4rem;font-weight:700;">✕</div>
+      <div style="margin-top:0.8rem;font-size:0.7rem;color:var(--danger);letter-spacing:0.1em;text-transform:uppercase">טקסט על הסמלון</div>
     </div>
   </div>
 </section>
@@ -690,6 +824,44 @@
     </div>
   </div>
 
+  <h3>יחס · Color ratio</h3>
+  <p>המותג לא מחלק צבעים שווה בשווה. יחס ברור: דיו דומיננטי, קלף מחזיק את הטקסט, זהב חותך.</p>
+  <div style="display:flex;height:56px;border-radius:10px;overflow:hidden;margin:1rem 0 2rem;border:1px solid var(--hairline)">
+    <div style="flex:65;background:var(--ink);display:flex;align-items:center;justify-content:center;color:var(--parchment-dim);font-size:0.75rem;letter-spacing:0.2em">65% · INK</div>
+    <div style="flex:25;background:rgba(235,227,211,0.1);display:flex;align-items:center;justify-content:center;color:var(--parchment);font-size:0.75rem;letter-spacing:0.2em">25% · PARCHMENT</div>
+    <div style="flex:10;background:var(--gold);display:flex;align-items:center;justify-content:center;color:var(--ink);font-size:0.75rem;letter-spacing:0.2em;font-weight:600">10% · GOLD</div>
+  </div>
+  <p style="font-size:0.9rem;">זהב אף פעם לא עולה על <strong>15%</strong> משטח התמונה. אם הוא מתחיל להרגיש זול — צמצם אותו. דיו יכול להגיע עד 75%. קלף חייב לחיות בין 20–30% כדי שהטקסט יקרא.</p>
+
+  <h3>ניגודיות · Accessibility pairs</h3>
+  <p>כל צירוף טקסט-על-רקע נבחן מול WCAG. מה מותר ומה לא:</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0.8rem;margin:1rem 0 2rem;">
+    <div style="background:var(--ink);padding:1rem 1.2rem;border-radius:10px;border:1px solid var(--hairline)">
+      <span style="color:var(--parchment);font-size:1.05rem">Aa · טקסט רגיל</span>
+      <div style="font-size:0.7rem;color:var(--success);margin-top:6px;letter-spacing:0.15em">AAA · parchment on ink · 13.4:1</div>
+    </div>
+    <div style="background:var(--ink);padding:1rem 1.2rem;border-radius:10px;border:1px solid var(--hairline)">
+      <span style="color:var(--parchment-dim);font-size:1.05rem">Aa · טקסט משני</span>
+      <div style="font-size:0.7rem;color:var(--success);margin-top:6px;letter-spacing:0.15em">AA · parchment-dim on ink · 9.3:1</div>
+    </div>
+    <div style="background:var(--ink);padding:1rem 1.2rem;border-radius:10px;border:1px solid var(--hairline)">
+      <span style="color:var(--gold);font-size:1.05rem">Aa · לינק/דגש</span>
+      <div style="font-size:0.7rem;color:var(--success);margin-top:6px;letter-spacing:0.15em">AA · gold on ink · 6.8:1</div>
+    </div>
+    <div style="background:var(--ink);padding:1rem 1.2rem;border-radius:10px;border:1px solid var(--hairline)">
+      <span style="color:var(--parchment-faint);font-size:1.05rem">Aa · metadata</span>
+      <div style="font-size:0.7rem;color:var(--danger);margin-top:6px;letter-spacing:0.15em">AA-large only · 4.0:1 · 14px+</div>
+    </div>
+    <div style="background:var(--gold);padding:1rem 1.2rem;border-radius:10px;border:1px solid var(--gold)">
+      <span style="color:var(--ink);font-size:1.05rem">Aa · gold bg (כפתור)</span>
+      <div style="font-size:0.7rem;color:var(--ink-deep);margin-top:6px;letter-spacing:0.15em">AAA · ink on gold · 13.4:1</div>
+    </div>
+    <div style="background:#fff;padding:1rem 1.2rem;border-radius:10px;border:2px solid var(--danger)">
+      <span style="color:var(--gold);font-size:1.05rem">Aa · gold on white</span>
+      <div style="font-size:0.7rem;color:var(--danger);margin-top:6px;letter-spacing:0.15em">✕ FAIL · לעולם לא</div>
+    </div>
+  </div>
+
   <h3>Banned</h3>
   <p>סגול, לבנדר, אמטיסט, ניאון, טורקיז, תכלת, פוקסיה. אם מסך צריך "מסתורין" — להעמיק את הדיו ולהוסיף גרעין. לא להוסיף גוון.</p>
 
@@ -783,6 +955,41 @@
   </ul>
 </section>
 
+<!-- ═══════════════ MOTION PHILOSOPHY ═══════════════ -->
+<section id="motion">
+  <span class="kicker">Section 04A · תנועה</span>
+  <h2>הסביבה נושמת.<br/>התוכן לא.</h2>
+
+  <p>זו תמצית המדיניות התנועתית של המותג בשורה אחת. רקע — פורטרט, גרעין, הילה — יכול לפעום רצוף ולנצח. אבל ברגע שטקסט או כפתור נכנס לפריים, התנועה שלו היא חד־פעמית: fade-up, ואז הוא יושב.</p>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:2rem 0 1rem;">
+
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:14px;padding:1.5rem;">
+      <div style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:0.68rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--gold-logo);margin-bottom:0.8rem;">Rule 01</div>
+      <h3 style="margin-top:0;">רקע רציף</h3>
+      <p style="margin-bottom:0;font-size:0.92rem;">Scrying ripple (10s), halo נושמת (2.3/3.1/4.1s tempos ראשוניים — לא מסתנכרנים), grain מתמיד. תמיד לולאתי.</p>
+    </div>
+
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:14px;padding:1.5rem;">
+      <div style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:0.68rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--gold-logo);margin-bottom:0.8rem;">Rule 02</div>
+      <h3 style="margin-top:0;">תוכן נכנס פעם</h3>
+      <p style="margin-bottom:0;font-size:0.92rem;">Fade-up ב-cubic-bezier(0.22,1,0.36,1), 680ms, stagger 120–180ms. אחרי הכניסה — יושב. לא מתעורר כשגוללים חזרה.</p>
+    </div>
+
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:14px;padding:1.5rem;">
+      <div style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:0.68rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--gold-logo);margin-bottom:0.8rem;">Rule 03</div>
+      <h3 style="margin-top:0;">אינטראקציה מיקרו</h3>
+      <p style="margin-bottom:0;font-size:0.92rem;">Hover 240ms, press 120ms, checkbox 280ms elastic. לעולם לא bounce. <code>prefers-reduced-motion</code> מבטל הכל חוץ מ-fade-in של תוכן.</p>
+    </div>
+
+  </div>
+
+  <div class="phrase">
+    אסור: סקרול-פרלקס במובייל, ספינרים לטעינת תוכן, טקסט שרועד/מרחף, header ש״נסתר״ ב-scroll, כל loop של 60fps על element אינטראקטיבי.
+    <small>Motion anti-patterns</small>
+  </div>
+</section>
+
 <!-- ═══════════════ COMPONENTS ═══════════════ -->
 <section id="components">
   <span class="kicker">Section 05 · קומפוננטות</span>
@@ -790,8 +997,8 @@
 
   <h3>כפתורים</h3>
   <div class="btn-row">
-    <button class="btn-primary">קבלי קריאה ראשונה</button>
-    <button class="btn-secondary">גלי את הקריאות</button>
+    <button class="btn-primary">קבל/י קריאה ראשונה</button>
+    <button class="btn-secondary">גלה/גלי את הקריאות</button>
   </div>
   <p style="font-size:0.85rem;">טבעת זהב היא <code>--gold-soft</code> ב־30px blur. hover מרים ב־2px ומעצים את ה־shadow. גרדיאנט הפרה־shine זז ב־0.5s.</p>
 
@@ -845,6 +1052,50 @@
   <h3>Section label · kicker</h3>
   <div>
     <span class="kicker">Section 07 · Readings</span>
+  </div>
+
+  <h3>מצבי כפתור · Button states</h3>
+  <p style="font-size:0.9rem;">כל אלמנט אינטראקטיבי חייב לכסות 4 מצבים. ה-hover מרים 2px, ה-focus מראה טבעת זהב, ה-disabled מאבד זוהר.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:1rem 0 2rem;">
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:10px;padding:1.5rem;text-align:center">
+      <button class="btn-primary">Default</button>
+      <div style="font-size:0.7rem;color:var(--parchment-faint);margin-top:0.8rem;letter-spacing:0.2em;text-transform:uppercase">ברירת מחדל</div>
+    </div>
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:10px;padding:1.5rem;text-align:center">
+      <button class="btn-primary" style="transform:translateY(-2px);box-shadow:0 8px 50px rgba(212,165,116,0.3)">Hover</button>
+      <div style="font-size:0.7rem;color:var(--parchment-faint);margin-top:0.8rem;letter-spacing:0.2em;text-transform:uppercase">hover · ריחוף</div>
+    </div>
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:10px;padding:1.5rem;text-align:center">
+      <button class="btn-primary" style="outline:2px solid var(--gold);outline-offset:3px">Focus</button>
+      <div style="font-size:0.7rem;color:var(--parchment-faint);margin-top:0.8rem;letter-spacing:0.2em;text-transform:uppercase">focus · מקלדת</div>
+    </div>
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:10px;padding:1.5rem;text-align:center">
+      <button class="btn-primary" disabled style="background:var(--hairline);color:var(--parchment-faint);box-shadow:none;cursor:not-allowed">Disabled</button>
+      <div style="font-size:0.7rem;color:var(--parchment-faint);margin-top:0.8rem;letter-spacing:0.2em;text-transform:uppercase">disabled · לא פעיל</div>
+    </div>
+  </div>
+
+  <h3>מצבי input</h3>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin:1rem 0 2rem;">
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:10px;padding:1.2rem 1.5rem;">
+      <div class="field" style="margin-bottom:0;">
+        <label>Empty</label>
+        <input type="text" placeholder="placeholder גלוי"/>
+      </div>
+    </div>
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:10px;padding:1.2rem 1.5rem;">
+      <div class="field" style="margin-bottom:0;">
+        <label style="color:var(--gold-hi);">Focus</label>
+        <input type="text" value="קו תחתון זהב מלא" style="border-bottom-color:var(--gold);"/>
+      </div>
+    </div>
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:10px;padding:1.2rem 1.5rem;">
+      <div class="field" style="margin-bottom:0;">
+        <label style="color:var(--danger);">Error</label>
+        <input type="text" value="לא תקין" style="border-bottom-color:var(--danger);color:var(--danger);"/>
+        <span style="font-size:0.75rem;color:var(--danger);margin-top:4px">תאריך לידה לא תקין</span>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -906,85 +1157,27 @@
 <section id="zodiac">
   <span class="kicker">Section 07 · 12 מזלות</span>
   <h2>המזלות של מכתובה</h2>
-  <p>12 ליגטורות אסטרולוגיות מצוירות ידנית, לעולם לא Unicode (♈) ולעולם לא אמוג'י. הסימן הדומיננטי במסך ה־Zodiac Reveal. גרדיאנט זהב רב־תחנות, קצוות עגולים.</p>
-
-  <!-- one defs block, reused -->
-  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-    <defs>
-      <linearGradient id="gold-glyph" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="#b8860b"/>
-        <stop offset="0.4" stop-color="#d4a574"/>
-        <stop offset="0.7" stop-color="#f4e4a0"/>
-        <stop offset="1" stop-color="#b8860b"/>
-      </linearGradient>
-    </defs>
-  </svg>
+  <p>12 גליפי זהב בסגנון ספר תורה מוזהב — משפה ויזואלית אחת עם הסמלון הראשי. שקופים, מוכנים לכל רקע.</p>
 
   <div class="zodiac-grid">
-    <div class="zodiac-cell">
-      <svg width="72" height="72" viewBox="0 0 64 64" fill="none"><path d="M32 16 L32 52 M32 16 C 32 8 24 8 18 14 C 14 18 16 22 20 20 M32 16 C 32 8 40 8 46 14 C 50 18 48 22 44 20" stroke="url(#gold-glyph)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <span class="heb">טלה</span><span class="lat">Aries</span>
-    </div>
-    <div class="zodiac-cell">
-      <svg width="72" height="72" viewBox="0 0 64 64" fill="none"><circle cx="32" cy="42" r="12" stroke="url(#gold-glyph)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 22 C 14 22 22 32 32 32 C 42 32 50 22 50 22" stroke="url(#gold-glyph)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <span class="heb">שור</span><span class="lat">Taurus</span>
-    </div>
-    <div class="zodiac-cell">
-      <svg width="72" height="72" viewBox="0 0 64 64" fill="none"><path d="M16 14 L48 14 M16 50 L48 50 M22 14 L22 50 M42 14 L42 50" stroke="url(#gold-glyph)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <span class="heb">תאומים</span><span class="lat">Gemini</span>
-    </div>
-    <div class="zodiac-cell">
-      <svg width="72" height="72" viewBox="0 0 64 64" fill="none"><path d="M14 22 C 14 14 22 12 32 12 C 42 12 50 14 50 22" stroke="url(#gold-glyph)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M50 42 C 50 50 42 52 32 52 C 22 52 14 50 14 42" stroke="url(#gold-glyph)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="22" r="5" stroke="url(#gold-glyph)" stroke-width="3" fill="none"/><circle cx="44" cy="42" r="5" stroke="url(#gold-glyph)" stroke-width="3" fill="none"/></svg>
-      <span class="heb">סרטן</span><span class="lat">Cancer</span>
-    </div>
-    <div class="zodiac-cell">
-      <svg width="72" height="72" viewBox="0 0 64 64" fill="none"><circle cx="22" cy="28" r="10" stroke="url(#gold-glyph)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M32 28 C 36 22 44 22 48 26 C 52 30 50 38 46 42 C 42 46 36 46 34 42 C 32 38 36 36 38 38" stroke="url(#gold-glyph)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <span class="heb">אריה</span><span class="lat">Leo</span>
-    </div>
-    <div class="zodiac-cell">
-      <svg width="72" height="72" viewBox="0 0 64 64" fill="none"><path d="M14 14 L14 50 M14 14 L24 50 L24 14 L34 50 L34 14 L44 50" stroke="url(#gold-glyph)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 50 C 50 46 50 38 46 36" stroke="url(#gold-glyph)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <span class="heb">בתולה</span><span class="lat">Virgo</span>
-    </div>
-    <div class="zodiac-cell">
-      <svg width="72" height="72" viewBox="0 0 64 64" fill="none"><path d="M10 50 L54 50 M16 38 L48 38" stroke="url(#gold-glyph)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 38 C 16 26 22 18 32 18 C 42 18 48 26 48 38" stroke="url(#gold-glyph)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <span class="heb">מאזניים</span><span class="lat">Libra</span>
-    </div>
-    <div class="zodiac-cell">
-      <svg width="72" height="72" viewBox="0 0 64 64" fill="none"><path d="M10 14 L10 50 M10 14 L20 50 L20 14 L30 50 L30 14 L40 50" stroke="url(#gold-glyph)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M40 50 L48 42 L52 46 L54 38" stroke="url(#gold-glyph)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <span class="heb">עקרב</span><span class="lat">Scorpio</span>
-    </div>
-    <div class="zodiac-cell">
-      <svg width="72" height="72" viewBox="0 0 64 64" fill="none"><path d="M12 52 L52 12" stroke="url(#gold-glyph)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M40 12 L52 12 L52 24" stroke="url(#gold-glyph)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 30 L34 42" stroke="url(#gold-glyph)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <span class="heb">קשת</span><span class="lat">Sagittarius</span>
-    </div>
-    <div class="zodiac-cell">
-      <svg width="72" height="72" viewBox="0 0 64 64" fill="none"><path d="M12 18 C 12 18 16 36 26 36 C 32 36 32 28 36 28 C 40 28 42 36 42 42" stroke="url(#gold-glyph)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 42 C 42 50 50 50 50 42 C 50 38 46 36 42 36 C 50 36 54 32 54 28" stroke="url(#gold-glyph)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <span class="heb">גדי</span><span class="lat">Capricorn</span>
-    </div>
-    <div class="zodiac-cell">
-      <svg width="72" height="72" viewBox="0 0 64 64" fill="none"><path d="M10 24 L18 18 L26 24 L34 18 L42 24 L50 18 L54 22" stroke="url(#gold-glyph)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 40 L18 34 L26 40 L34 34 L42 40 L50 34 L54 38" stroke="url(#gold-glyph)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <span class="heb">דלי</span><span class="lat">Aquarius</span>
-    </div>
-    <div class="zodiac-cell">
-      <svg width="72" height="72" viewBox="0 0 64 64" fill="none"><path d="M14 14 C 24 22 24 42 14 50" stroke="url(#gold-glyph)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M50 14 C 40 22 40 42 50 50" stroke="url(#gold-glyph)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 32 L48 32" stroke="url(#gold-glyph)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <span class="heb">דגים</span><span class="lat">Pisces</span>
-    </div>
-  </div>
-
-  <h3>המדליון עם הילה נושמת</h3>
-  <p>שלוש טבעות הילה ב־<strong>tempos ראשוניים</strong> (2.3s / 3.1s / 4.1s) — הן לעולם לא מסתנכרנות. זו הנשימה. אין לנרמל אותם.</p>
-  <div class="medallion-wrap">
-    <div class="medallion">
-      <svg width="120" height="120" viewBox="0 0 64 64" fill="none">
-        <path d="M10 24 L18 18 L26 24 L34 18 L42 24 L50 18 L54 22" stroke="url(#gold-glyph)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M10 40 L18 34 L26 40 L34 34 L42 40 L50 34 L54 38" stroke="url(#gold-glyph)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-    </div>
+    <div class="zodiac-cell"><img src="https://cdn.maktuba.app/brand/zodiac/01-aries.webp" alt="טלה" width="160" height="160" style="border-radius:14px"/><span class="heb">טלה</span><span class="lat">Aries</span></div>
+    <div class="zodiac-cell"><img src="https://cdn.maktuba.app/brand/zodiac/02-taurus.webp" alt="שור" width="160" height="160" style="border-radius:14px"/><span class="heb">שור</span><span class="lat">Taurus</span></div>
+    <div class="zodiac-cell"><img src="https://cdn.maktuba.app/brand/zodiac/03-gemini.webp" alt="תאומים" width="160" height="160" style="border-radius:14px"/><span class="heb">תאומים</span><span class="lat">Gemini</span></div>
+    <div class="zodiac-cell"><img src="https://cdn.maktuba.app/brand/zodiac/04-cancer.webp" alt="סרטן" width="160" height="160" style="border-radius:14px"/><span class="heb">סרטן</span><span class="lat">Cancer</span></div>
+    <div class="zodiac-cell"><img src="https://cdn.maktuba.app/brand/zodiac/05-leo.webp" alt="אריה" width="160" height="160" style="border-radius:14px"/><span class="heb">אריה</span><span class="lat">Leo</span></div>
+    <div class="zodiac-cell"><img src="https://cdn.maktuba.app/brand/zodiac/06-virgo.webp" alt="בתולה" width="160" height="160" style="border-radius:14px"/><span class="heb">בתולה</span><span class="lat">Virgo</span></div>
+    <div class="zodiac-cell"><img src="https://cdn.maktuba.app/brand/zodiac/07-libra.webp" alt="מאזניים" width="160" height="160" style="border-radius:14px"/><span class="heb">מאזניים</span><span class="lat">Libra</span></div>
+    <div class="zodiac-cell"><img src="https://cdn.maktuba.app/brand/zodiac/08-scorpio.webp" alt="עקרב" width="160" height="160" style="border-radius:14px"/><span class="heb">עקרב</span><span class="lat">Scorpio</span></div>
+    <div class="zodiac-cell"><img src="https://cdn.maktuba.app/brand/zodiac/09-sagittarius.webp" alt="קשת" width="160" height="160" style="border-radius:14px"/><span class="heb">קשת</span><span class="lat">Sagittarius</span></div>
+    <div class="zodiac-cell"><img src="https://cdn.maktuba.app/brand/zodiac/10-capricorn.webp" alt="גדי" width="160" height="160" style="border-radius:14px"/><span class="heb">גדי</span><span class="lat">Capricorn</span></div>
+    <div class="zodiac-cell"><img src="https://cdn.maktuba.app/brand/zodiac/11-aquarius.webp" alt="דלי" width="160" height="160" style="border-radius:14px"/><span class="heb">דלי</span><span class="lat">Aquarius</span></div>
+    <div class="zodiac-cell"><img src="https://cdn.maktuba.app/brand/zodiac/12-pisces.webp" alt="דגים" width="160" height="160" style="border-radius:14px"/><span class="heb">דגים</span><span class="lat">Pisces</span></div>
   </div>
 
   <h3>שמות בעברית</h3>
   <p style="font-size:0.9rem;">טלה · שור · תאומים · סרטן · אריה · בתולה · מאזניים · עקרב · קשת · גדי · דלי · דגים</p>
   <p style="font-size:0.9rem;">תבנית כותרת ב־reveal: <code style="direction:rtl;">את בת מזל {sign}</code> · <code style="direction:rtl;">אתה בן מזל {sign}</code></p>
+  <p style="font-size:0.9rem;">URL טיפול: <code>https://cdn.maktuba.app/brand/zodiac/{01-aries..12-pisces}.webp</code></p>
 </section>
 
 <!-- ═══════════════ IMAGERY ═══════════════ -->
@@ -1088,6 +1281,38 @@
   <div class="phrase">"אין כוחות־על. אין עין שלישית." <small>Honesty opener</small></div>
   <div class="phrase">"אני קוראת. כי הכל כתוב." <small>Method</small></div>
   <div class="phrase" style="border-inline-start-color:var(--danger);color:var(--parchment-faint);">"כי זה כבר נכתב" <small>אסור — גרסה ישנה. השתמשו ב־em-dash.</small></div>
+
+  <h3>Do / Don't · דוגמאות</h3>
+  <p style="font-size:0.9rem;color:var(--parchment-dim);">ככה מכתובה מדברת. השמאל (לא) מזייף מיסטיקה באמוג'ים, השמאל (כן) אומר דבר ספציפי בטון שקט.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin:1.5rem 0 2rem;">
+
+    <div style="padding:1.3rem 1.5rem;border:1px solid var(--hairline);border-radius:12px;background:var(--ink-deep);position:relative;opacity:0.75">
+      <div style="font-family:'Cormorant Garamond';font-weight:300;font-size:0.65rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--parchment-faint);margin-bottom:0.6rem">לא</div>
+      <p style="margin:0;font-size:1rem;color:var(--parchment-dim);text-decoration:line-through;text-decoration-color:var(--parchment-faint);text-decoration-thickness:1px">"האנרגיה שלך מיושרת עם הקוסמוס! ✨ 🔮 הירח אומר משהו מיוחד היום 🌙"</p>
+    </div>
+    <div style="padding:1.3rem 1.5rem;border:1px solid var(--hairline-strong);border-radius:12px;background:rgba(212,165,116,0.05);position:relative">
+      <div style="font-family:'Cormorant Garamond';font-weight:500;font-size:0.65rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--gold);margin-bottom:0.6rem">כן</div>
+      <p style="margin:0;font-size:1rem;color:var(--parchment)">"הקווים בכף שלך חוזרים על עצמם. זה לא אופייני. מה קרה בין 2019 ל-2021?"</p>
+    </div>
+
+    <div style="padding:1.3rem 1.5rem;border:1px solid var(--hairline);border-radius:12px;background:var(--ink-deep);opacity:0.75">
+      <div style="font-family:'Cormorant Garamond';font-weight:300;font-size:0.65rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--parchment-faint);margin-bottom:0.6rem">לא</div>
+      <p style="margin:0;font-size:1rem;color:var(--parchment-dim);text-decoration:line-through;text-decoration-color:var(--parchment-faint);text-decoration-thickness:1px">"גלה/גלי את המסע הרוחני שלך! 🔥 התחבר/י לעצמי האמיתי עכשיו!!"</p>
+    </div>
+    <div style="padding:1.3rem 1.5rem;border:1px solid var(--hairline-strong);border-radius:12px;background:rgba(212,165,116,0.05)">
+      <div style="font-family:'Cormorant Garamond';font-weight:500;font-size:0.65rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--gold);margin-bottom:0.6rem">כן</div>
+      <p style="margin:0;font-size:1rem;color:var(--parchment)">"תביא/י לה את הכוס. היא תקרא לך את מה שנכתב עוד לפני שנולדת."</p>
+    </div>
+
+    <div style="padding:1.3rem 1.5rem;border:1px solid var(--hairline);border-radius:12px;background:var(--ink-deep);opacity:0.75">
+      <div style="font-family:'Cormorant Garamond';font-weight:300;font-size:0.65rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--parchment-faint);margin-bottom:0.6rem">לא</div>
+      <p style="margin:0;font-size:1rem;color:var(--parchment-dim);text-decoration:line-through;text-decoration-color:var(--parchment-faint);text-decoration-thickness:1px">"Maktuba is YOUR bestie for daily tarot vibes ✌️"</p>
+    </div>
+    <div style="padding:1.3rem 1.5rem;border:1px solid var(--hairline-strong);border-radius:12px;background:rgba(212,165,116,0.05)">
+      <div style="font-family:'Cormorant Garamond';font-weight:500;font-size:0.65rem;letter-spacing:0.35em;text-transform:uppercase;color:var(--gold);margin-bottom:0.6rem">כן</div>
+      <p style="margin:0;font-size:1rem;color:var(--parchment)">"לא באתי להחליף. באתי להמשיך."</p>
+    </div>
+  </div>
 
   <h3>מוסכמות עברית</h3>
   <ul style="color:var(--parchment-dim);list-style:none;padding:0;">
