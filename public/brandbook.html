@@ -485,6 +485,15 @@
   <a href="#zodiac">מזלות</a>
   <a href="#imagery">דימוי</a>
   <a href="#voice">קול</a>
+  <a href="#microcopy">Microcopy</a>
+  <a href="#character">דמות</a>
+  <a href="#states">Errors</a>
+  <a href="#photography">Photo</a>
+  <a href="#social">Social</a>
+  <a href="#sound">Sound</a>
+  <a href="#i18n">i18n</a>
+  <a href="#perf">Perf</a>
+  <a href="#team">Team</a>
 </nav>
 
 <!-- ═══════════════ HERO ═══════════════ -->
@@ -1577,9 +1586,504 @@ Social OG      https://maktuba.app/og-default.png</code></pre>
 &lt;/footer&gt;</code></pre>
 </section>
 
+<!-- ═══════════════ MICROCOPY ═══════════════ -->
+<section id="microcopy">
+  <span class="kicker">Section 10 · ביבליית Microcopy</span>
+  <h2>כל מילה קטנה<br/>בקול שלה</h2>
+  <p>ה-microcopy הוא המקום שבו מותגים מזייפים. ברירות-מחדל של frameworks כותבים "Loading…" / "Error" / "Try again". מכתובה לא מדברת ככה. להלן הטקסטים הקנוניים לכל מצב נפוץ.</p>
+
+  <h3>Loading</h3>
+  <table>
+    <tr><th>הקשר</th><th>נגיד</th><th>לא נגיד</th></tr>
+    <tr><td>טעינת קריאה</td><td>הנרות מתלקחים…</td><td>Loading your reading…</td></tr>
+    <tr><td>טעינת הורוסקופ</td><td>מכתובה מביטה בכוכבים…</td><td>Please wait</td></tr>
+    <tr><td>טעינת קפה</td><td>הקפה מתייבש…</td><td>Processing…</td></tr>
+    <tr><td>טעינת טארוט</td><td>מערבבת…</td><td>Shuffling cards</td></tr>
+    <tr><td>טעינת כף יד</td><td>בוחנת את הקווים…</td><td>Analyzing palm</td></tr>
+    <tr><td>שליחת טופס</td><td>רגע…</td><td>Submitting…</td></tr>
+  </table>
+
+  <h3>Empty states</h3>
+  <table>
+    <tr><th>הקשר</th><th>נגיד</th></tr>
+    <tr><td>אין היסטוריית קריאות</td><td>עדיין לא ישבנו יחד. בואי נתחיל.</td></tr>
+    <tr><td>אין מפתחות</td><td>המפתחות שלך נגמרו. כמה עוד?</td></tr>
+    <tr><td>אין פייבוריטים</td><td>עוד לא שמרת דבר. מה מצא חן בעיניך?</td></tr>
+    <tr><td>תוצאות חיפוש ריקות</td><td>לא מצאתי את זה. נסי מילה אחרת.</td></tr>
+    <tr><td>אין התראות</td><td>שקט. הכול כרגע רגוע.</td></tr>
+  </table>
+
+  <h3>Errors</h3>
+  <table>
+    <tr><th>הקשר</th><th>נגיד</th></tr>
+    <tr><td>שגיאה כללית</td><td>משהו בחדר שלנו הופרע. ננסה שוב בעוד רגע.</td></tr>
+    <tr><td>אינטרנט אבוד</td><td>התנתקנו לרגע. בדקי את החיבור וחזרי.</td></tr>
+    <tr><td>טופס לא תקין</td><td>חסר לי משהו כדי לראות נכון. תבדקי עוד פעם?</td></tr>
+    <tr><td>לא מורשית</td><td>עוד לא הגיע הזמן שלך כאן. חזרי כשתהיי בת 18.</td></tr>
+    <tr><td>תשלום נכשל</td><td>התשלום לא עבר. אולי ננסה כרטיס אחר?</td></tr>
+    <tr><td>timeout</td><td>לקח יותר מדי זמן. עוד פעם?</td></tr>
+  </table>
+
+  <h3>Confirmations · Success</h3>
+  <table>
+    <tr><th>הקשר</th><th>נגיד</th></tr>
+    <tr><td>קריאה הושלמה</td><td>הקריאה שלך מוכנה.</td></tr>
+    <tr><td>מייל נשלח</td><td>נשלח.</td></tr>
+    <tr><td>פרופיל נשמר</td><td>זכרתי.</td></tr>
+    <tr><td>מפתחות נוספו</td><td>עוד {N} מפתחות בכיס.</td></tr>
+    <tr><td>העתק ללוח</td><td>העתקתי.</td></tr>
+  </table>
+
+  <h3>Destructive</h3>
+  <table>
+    <tr><th>הקשר</th><th>נגיד</th></tr>
+    <tr><td>מחיקת חשבון</td><td>למחוק את החשבון שלך? זה סופי. לא תחזרי.</td></tr>
+    <tr><td>מחיקת קריאה</td><td>להעלים את הקריאה הזו מהזיכרון שלך?</td></tr>
+    <tr><td>יציאה באמצע</td><td>עוד לא סיימנו. לצאת בכל זאת?</td></tr>
+    <tr><td>אישור destructive</td><td>מחקי</td></tr>
+    <tr><td>ביטול destructive</td><td>חזרי</td></tr>
+  </table>
+
+  <h3>Paywall · Upsell</h3>
+  <table>
+    <tr><th>הקשר</th><th>נגיד</th></tr>
+    <tr><td>נגמרו מפתחות</td><td>המפתחות שלך נגמרו. חבילה אחת — לכל החיים.</td></tr>
+    <tr><td>Welcome gift</td><td>50 מפתחות מתנה. מצדי לשיחה ראשונה.</td></tr>
+    <tr><td>Trial ending</td><td>הניסיון שלך נגמר היום. תמשיכי?</td></tr>
+  </table>
+
+  <h3>Tooltips</h3>
+  <table>
+    <tr><th>מונח</th><th>הסבר</th></tr>
+    <tr><td>מפתח</td><td>המטבע של מכתובה. קונים פעם — משתמשים מתי שרוצים.</td></tr>
+    <tr><td>קריאה ראשונה</td><td>חינם. תמיד.</td></tr>
+    <tr><td>הורוסקופ יומי</td><td>חינם לתמיד. בלי מפתח.</td></tr>
+    <tr><td>צ'אט</td><td>שיחה פתוחה עם מכתובה. חינם.</td></tr>
+  </table>
+
+  <h3>כללים לכתיבת microcopy</h3>
+  <ul style="color:var(--parchment-dim);list-style:none;padding:0">
+    <li>· משפט קצר. נקודה. לא שלוש נקודות אלא אם זה טעינה.</li>
+    <li>· אף פעם לא "!" או "!!!". מכתובה לא צועקת.</li>
+    <li>· שאלה אמיתית בסוף, לא retorical ("כמה עוד?").</li>
+    <li>· פועל יחיד (מחקי · חזרי · שמרי), לא "לחץ/י כאן".</li>
+    <li>· לא "שגיאה 404" אלא "הדף שחיפשת נסחף".</li>
+    <li>· לא "בהצלחה!" אחרי פעולה — פשוט "נשלח."</li>
+  </ul>
+</section>
+
+<!-- ═══════════════ CHARACTER CANON ═══════════════ -->
+<section id="character">
+  <span class="kicker">Section 11 · הדמות · Character Canon</span>
+  <h2>מי היא באמת</h2>
+  <p>כל כותב, מעצב, או מפתח שעובד על מכתובה חייב את המסמך הזה. היא דמות עם חוקים. ברגע שהיא סוטה — המותג נקרע.</p>
+
+  <div style="display:grid;grid-template-columns:minmax(240px,300px) 1fr;gap:2rem;align-items:start;margin:2rem 0">
+    <img src="https://cdn.maktuba.app/img/13_side_profile.webp" alt="" style="width:100%;border-radius:14px;filter:saturate(0.85) contrast(1.05);box-shadow:0 20px 60px rgba(0,0,0,0.5)"/>
+    <div>
+      <h3 style="margin-top:0">גיל וסיפור</h3>
+      <p>אלף שנה. לא מילולית — כך היא מרגישה. חיה בחדר הזה כל חייה הבוגרים. למדה אצל סבתות קודמות, שלמדו אצל סבתות לפניהן. שום דבר בחיים שלה לא חדש — הכול הופיע כבר.</p>
+      <h3>איפה היא יושבת</h3>
+      <p>חדר יחיד. <strong>נר אחד</strong>. מוקדי אור אחרים — אסורים. קטורת הל וקטורת פרנקינסנס. שולחן ישן, כוס טורקי, ספרים עתיקים ערומים, טקסטיל מרוקאי. אין שום חפץ מודרני בחדר — לא טלפון, לא מחשב, לא אור חשמלי.</p>
+    </div>
+  </div>
+
+  <h3>איך היא מדברת</h3>
+  <ul style="color:var(--parchment-dim);list-style:none;padding:0">
+    <li>· משפטים קצרים. הפסקות ארוכות.</li>
+    <li>· עברית עם נגיעות ארמית ולדינו: "נפשי יודעת שפע", "אמרו לי הסבתות".</li>
+    <li>· לא סלנג, לא ביטויי רשת. אף פעם "מגניב", "וואו", "אחי".</li>
+    <li>· <strong>לעולם לא קריאה בקול</strong>. גם כשהיא מופתעת — שאלה שקטה ("ובאמת?").</li>
+  </ul>
+
+  <h3>איך היא מגיבה</h3>
+  <table>
+    <tr><th>משתמשת חווה</th><th>מכתובה מגיבה</th></tr>
+    <tr><td>אובדן / אבל</td><td>שתיקה קצרה. אז שאלה יחידה: "מתי הוא נגמר?"</td></tr>
+    <tr><td>שמחה</td><td>חיוך שקט. לא "וואו". לפעמים: "ידעתי."</td></tr>
+    <tr><td>כעס</td><td>מעבירה את השיחה לשורש הכעס, לא לרגש עצמו.</td></tr>
+    <tr><td>הפתעה</td><td>"ובאמת?" — לעולם לא "באמת?!"</td></tr>
+    <tr><td>סקפטיות</td><td>לא מתגוננת. "נראה."</td></tr>
+    <tr><td>פחד</td><td>"זה יעבור. ככה זה תמיד."</td></tr>
+  </table>
+
+  <h3>מה היא לא עושה · לעולם</h3>
+  <ul style="color:var(--parchment-dim);list-style:none;padding:0">
+    <li>✕ לא מנבאת מספרי לוטו, ספורט, בחירות.</li>
+    <li>✕ לא מקללת, לא מברכת מקצועית.</li>
+    <li>✕ לא מבטיחה אהבה, הריון, הצלחה כלכלית.</li>
+    <li>✕ לא אומרת מה לעשות. רק מה היא <em>רואה</em>.</li>
+    <li>✕ לא מתייחסת לחדשות או פוליטיקה אקטואלית.</li>
+    <li>✕ לא מדברת על עצמה — רק אם נשאלה ישירות.</li>
+    <li>✕ לא מחליפה רופא · מטפל · רב · עורך דין · יועץ פיננסי.</li>
+  </ul>
+
+  <h3>אמונות · Beliefs</h3>
+  <div class="phrase">
+    "הכול כבר נכתב (מכתובה). שום דבר לא על-טבעי — הכול לימוד. אני לא מחליפה את הסבתות, הטרוטיסטיות והרבנים שהיו לפניי. אני ממשיכה אותן. הרבה יותר ספרים נצברו מאז."
+    <small>Maktuba's self-definition</small>
+  </div>
+
+  <h3>Phrases she'd say · Phrases she'd never say</h3>
+  <div class="dodont">
+    <div class="do">
+      <h5>כן</h5>
+      <ul>
+        <li>"ככה זה תמיד."</li>
+        <li>"אמרו לי הסבתות."</li>
+        <li>"הכוס אומרת."</li>
+        <li>"אל תיבהלי."</li>
+        <li>"ובאמת?"</li>
+        <li>"מה שנכתב נכתב."</li>
+      </ul>
+    </div>
+    <div class="dont">
+      <h5>לא</h5>
+      <ul>
+        <li>"היקום שולח לך סימנים."</li>
+        <li>"את כוכבת!"</li>
+        <li>"Bestie, YOU got this!"</li>
+        <li>"זה שלילי / חיובי."</li>
+        <li>"הורוסקופ היום אומר ש…" (היא לא יועצת כוכבים)</li>
+        <li>"✨ 🔮 🌙" (אמוג'ים)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ EMPTY & ERROR STATES ═══════════════ -->
+<section id="states">
+  <span class="kicker">Section 12 · Empty & Error States</span>
+  <h2>כשאין מה להראות</h2>
+  <p>רוב האתרים פולטים "404" או "Oops" כשמשהו חסר. אצלנו, כל מצב ריק הוא הזדמנות לדמות שלנו לדבר. 6 המצבים הקנוניים:</p>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem;margin:1.5rem 0">
+
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:14px;overflow:hidden">
+      <div style="position:relative;aspect-ratio:4/3;overflow:hidden"><img src="https://cdn.maktuba.app/img/04_the_warning.webp" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(0.85) contrast(1.05) brightness(0.7)"/><div style="position:absolute;inset:0;background:linear-gradient(to top,var(--void) 20%,transparent 80%)"></div></div>
+      <div style="padding:1.2rem 1.5rem 1.5rem">
+        <div style="font-family:'Cormorant Garamond';font-weight:300;font-size:0.68rem;letter-spacing:0.3em;color:var(--gold-logo);text-transform:uppercase;margin-bottom:0.4rem">404 · Not found</div>
+        <h3 style="margin:0 0 0.5rem;color:var(--gold-hi);font-size:1.1rem">הדף שחיפשת נסחף</h3>
+        <p style="margin:0;color:var(--parchment-dim);font-size:0.92rem">לפעמים הרוח לוקחת דברים. חזרי הביתה.</p>
+        <div style="margin-top:0.8rem;font-family:Menlo,monospace;font-size:10px;color:var(--parchment-faint)">04_the_warning.webp</div>
+      </div>
+    </div>
+
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:14px;overflow:hidden">
+      <div style="position:relative;aspect-ratio:4/3;overflow:hidden"><img src="https://cdn.maktuba.app/img/09_behind_scenes_incense.webp" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(0.85) contrast(1.05) brightness(0.7)"/><div style="position:absolute;inset:0;background:linear-gradient(to top,var(--void) 20%,transparent 80%)"></div></div>
+      <div style="padding:1.2rem 1.5rem 1.5rem">
+        <div style="font-family:'Cormorant Garamond';font-weight:300;font-size:0.68rem;letter-spacing:0.3em;color:var(--gold-logo);text-transform:uppercase;margin-bottom:0.4rem">500 · Server error</div>
+        <h3 style="margin:0 0 0.5rem;color:var(--gold-hi);font-size:1.1rem">משהו בחדר שלנו הופרע</h3>
+        <p style="margin:0;color:var(--parchment-dim);font-size:0.92rem">ננסה שוב בעוד רגע.</p>
+        <div style="margin-top:0.8rem;font-family:Menlo,monospace;font-size:10px;color:var(--parchment-faint)">09_behind_scenes_incense.webp</div>
+      </div>
+    </div>
+
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:14px;overflow:hidden">
+      <div style="position:relative;aspect-ratio:4/3;overflow:hidden"><img src="https://cdn.maktuba.app/img/24_silhouette.webp" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(0.85) contrast(1.05) brightness(0.7)"/><div style="position:absolute;inset:0;background:linear-gradient(to top,var(--void) 20%,transparent 80%)"></div></div>
+      <div style="padding:1.2rem 1.5rem 1.5rem">
+        <div style="font-family:'Cormorant Garamond';font-weight:300;font-size:0.68rem;letter-spacing:0.3em;color:var(--gold-logo);text-transform:uppercase;margin-bottom:0.4rem">Offline</div>
+        <h3 style="margin:0 0 0.5rem;color:var(--gold-hi);font-size:1.1rem">התנתקנו לרגע</h3>
+        <p style="margin:0;color:var(--parchment-dim);font-size:0.92rem">בדקי את החיבור וחזרי.</p>
+        <div style="margin-top:0.8rem;font-family:Menlo,monospace;font-size:10px;color:var(--parchment-faint)">24_silhouette.webp</div>
+      </div>
+    </div>
+
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:14px;overflow:hidden">
+      <div style="position:relative;aspect-ratio:4/3;overflow:hidden"><img src="https://cdn.maktuba.app/img/03_the_welcome.webp" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(0.85) contrast(1.05) brightness(0.8)"/><div style="position:absolute;inset:0;background:linear-gradient(to top,var(--void) 20%,transparent 80%)"></div></div>
+      <div style="padding:1.2rem 1.5rem 1.5rem">
+        <div style="font-family:'Cormorant Garamond';font-weight:300;font-size:0.68rem;letter-spacing:0.3em;color:var(--gold-logo);text-transform:uppercase;margin-bottom:0.4rem">Empty · no readings</div>
+        <h3 style="margin:0 0 0.5rem;color:var(--gold-hi);font-size:1.1rem">עדיין לא ישבנו יחד</h3>
+        <p style="margin:0;color:var(--parchment-dim);font-size:0.92rem">הקריאה הראשונה שלך — חינם. בואי נתחיל.</p>
+        <div style="margin-top:0.8rem;font-family:Menlo,monospace;font-size:10px;color:var(--parchment-faint)">03_the_welcome.webp</div>
+      </div>
+    </div>
+
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:14px;overflow:hidden">
+      <div style="position:relative;aspect-ratio:4/3;overflow:hidden"><img src="https://cdn.maktuba.app/img/19_whispering_secret.webp" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(0.85) contrast(1.05) brightness(0.7)"/><div style="position:absolute;inset:0;background:linear-gradient(to top,var(--void) 20%,transparent 80%)"></div></div>
+      <div style="padding:1.2rem 1.5rem 1.5rem">
+        <div style="font-family:'Cormorant Garamond';font-weight:300;font-size:0.68rem;letter-spacing:0.3em;color:var(--gold-logo);text-transform:uppercase;margin-bottom:0.4rem">Empty · no keys</div>
+        <h3 style="margin:0 0 0.5rem;color:var(--gold-hi);font-size:1.1rem">נגמרו המפתחות</h3>
+        <p style="margin:0;color:var(--parchment-dim);font-size:0.92rem">חבילה אחת — לכל החיים. כמה עוד?</p>
+        <div style="margin-top:0.8rem;font-family:Menlo,monospace;font-size:10px;color:var(--parchment-faint)">19_whispering_secret.webp</div>
+      </div>
+    </div>
+
+    <div style="background:var(--void);border:1px solid var(--hairline);border-radius:14px;overflow:hidden">
+      <div style="position:relative;aspect-ratio:4/3;overflow:hidden"><img src="https://cdn.maktuba.app/img/25_looking_at_moon.webp" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(0.85) contrast(1.05) brightness(0.7)"/><div style="position:absolute;inset:0;background:linear-gradient(to top,var(--void) 20%,transparent 80%)"></div></div>
+      <div style="padding:1.2rem 1.5rem 1.5rem">
+        <div style="font-family:'Cormorant Garamond';font-weight:300;font-size:0.68rem;letter-spacing:0.3em;color:var(--gold-logo);text-transform:uppercase;margin-bottom:0.4rem">Age gate · under 18</div>
+        <h3 style="margin:0 0 0.5rem;color:var(--gold-hi);font-size:1.1rem">מכתובה מחכה לך</h3>
+        <p style="margin:0;color:var(--parchment-dim);font-size:0.92rem">חזרי בעוד {N} שנים ו-{M} חודשים.</p>
+        <div style="margin-top:0.8rem;font-family:Menlo,monospace;font-size:10px;color:var(--parchment-faint)">25_looking_at_moon.webp</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════ PHOTOGRAPHY DIRECTION ═══════════════ -->
+<section id="photography">
+  <span class="kicker">Section 13 · Photography Direction</span>
+  <h2>איך מייצרים תמונה חדשה</h2>
+  <p>כשצריך להוסיף פריים לספרייה — Midjourney, Freepik, או הזמנת מעצב — החוקים הבאים מבטיחים שהוא יראה כאילו נחתך מאותו סרט.</p>
+
+  <h3>6 כללים מחייבים</h3>
+  <ol style="color:var(--parchment-dim);list-style-position:inside">
+    <li><strong style="color:var(--parchment)">מקור אור יחיד</strong> — תמיד נר. לא חשמל, לא שמש, לא טלפון.</li>
+    <li><strong style="color:var(--parchment)">דמות אחת</strong> — מכתובה. לא ילדים, לא חברים, לא לקוחות. פעמים נדירות רק ידיים של משתמשת בפריים.</li>
+    <li><strong style="color:var(--parchment)">פלטת זהב-דיו</strong> — saturation 0.75–0.85. לא אדום עז, לא כחול. גוונים חמים בלבד.</li>
+    <li><strong style="color:var(--parchment)">אובייקטים עתיקים</strong> — כוס טורקי, ספרים עם עור, קטורת. בלי טלפון / מחשב / אוזניות.</li>
+    <li><strong style="color:var(--parchment)">רגש שקט</strong> — חיוך קל, מבט ישיר, יד על משהו. אף פעם לא צחוק פתוח או דמעות דרמטיות.</li>
+    <li><strong style="color:var(--parchment)">טקסטיל אותנטי</strong> — מרוקאי / מזרח תיכוני / ים תיכוני. לא modern minimalism.</li>
+  </ol>
+
+  <h3>Prompt template — Freepik Flux</h3>
+<pre><code>Ornamental cinematic portrait of a thousand-year-old grandmother seated
+in a candle-lit room with incense smoke, warm gold tones, dark rich
+shadows, single candle light source, ancient Turkish coffee cup,
+stack of old books, Moroccan textiles, one figure only looking
+directly forward, quiet knowing expression, museum quality, warm gold
+filter (hex d4a574 on black 0a0612), cinematic film grain, painterly
+
+Negative: bright daylight, modern objects, phone, computer, multiple
+people, young faces, bright white, purple, neon, cheerful, SaaS,
+stock photo, studio lighting, outdoor scene</code></pre>
+
+  <h3>Prompt anti-library · לא להשתמש</h3>
+  <div class="dodont">
+    <div class="do">
+      <h5>כן · שמות עובדים</h5>
+      <ul>
+        <li>"thousand-year-old grandmother"</li>
+        <li>"warm gold candlelight"</li>
+        <li>"ornamental kabbalistic filigree"</li>
+        <li>"illuminated manuscript"</li>
+        <li>"cinematic film grain"</li>
+      </ul>
+    </div>
+    <div class="dont">
+      <h5>לא · אוסרים</h5>
+      <ul>
+        <li>"mystical woman" / "psychic"</li>
+        <li>"colorful" / "vibrant" / "bright"</li>
+        <li>"modern" / "minimalist" / "SaaS"</li>
+        <li>"fantasy" / "magical" / "sparkles"</li>
+        <li>"stock photo" / "studio" / "corporate"</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>אחרי היצירה</h3>
+  <ol style="color:var(--parchment-dim);list-style-position:inside">
+    <li>Remove background (Freepik beta endpoint) אם הוא יושב על רקע שחור ולא נקי.</li>
+    <li>Resize max 1600 px רוחב.</li>
+    <li>WebP quality 82–88, method 6.</li>
+    <li><code>PUT</code> ל-<code>cdn.maktuba.app/img/{descriptive-name}.webp</code>.</li>
+    <li>הוסף ל-<code>src/lib/images.ts</code> עם שם סמנטי (למשל <code>sideProfile</code>, לא <code>image_42</code>).</li>
+    <li>תיעוד: הוסף שורה ל-Section 08 של הברנדבוק.</li>
+  </ol>
+</section>
+
+<!-- ═══════════════ SOCIAL TEMPLATES ═══════════════ -->
+<section id="social">
+  <span class="kicker">Section 14 · Social Templates</span>
+  <h2>איך מכתובה נראית בפיד</h2>
+
+  <table>
+    <tr><th>Platform</th><th>Format</th><th>Size</th><th>Mark</th><th>Wordmark</th></tr>
+    <tr><td>Instagram post</td><td>Square / Portrait</td><td>1080 × 1080 · 1080 × 1350</td><td>top-center 96px</td><td>bottom-center 1 line</td></tr>
+    <tr><td>Instagram Story</td><td>Vertical</td><td>1080 × 1920</td><td>top-center 140px</td><td>optional</td></tr>
+    <tr><td>Instagram Reel cover</td><td>Vertical</td><td>1080 × 1920</td><td>top-center 120px</td><td>required</td></tr>
+    <tr><td>Facebook post</td><td>Landscape</td><td>1200 × 630</td><td>top-left 80px</td><td>top-left next to mark</td></tr>
+    <tr><td>Twitter/X post</td><td>Landscape</td><td>1200 × 675</td><td>top-left 80px</td><td>optional</td></tr>
+    <tr><td>LinkedIn post</td><td>Landscape</td><td>1200 × 627</td><td>top-left 80px</td><td>required</td></tr>
+    <tr><td>YouTube thumbnail</td><td>Landscape</td><td>1280 × 720</td><td>top-left 96px</td><td>required bottom-center</td></tr>
+    <tr><td>TikTok cover</td><td>Vertical</td><td>1080 × 1920</td><td>top-center 140px</td><td>optional</td></tr>
+  </table>
+
+  <h3>Layout rules</h3>
+  <ul style="color:var(--parchment-dim);list-style:none;padding:0">
+    <li>· כל פוסט = ציטוט אחד או ביקורת אחת. לא טקסט ארוך.</li>
+    <li>· פורטרט Maktuba ברקע עם vignette כבד. אם אין פורטרט — ink מלא + סמלון גדול.</li>
+    <li>· הסמלון חייב לנשום — 1/4 רוחב הפריים לפחות מרווח אוויר מסביבו.</li>
+    <li>· טקסט מרכזי לפחות 72 px בעברית, לא פחות. קריא ב-thumbnail.</li>
+    <li>· אסור: hashtag-spam, stock photos של אחרים, צבעים לא-בברנד, אמוג'ים.</li>
+  </ul>
+
+  <h3>סוגי פוסטים קנוניים</h3>
+  <ol style="color:var(--parchment-dim);list-style-position:inside">
+    <li><strong style="color:var(--parchment)">Quote</strong> — ציטוט של מכתובה על פורטרט שלה.</li>
+    <li><strong style="color:var(--parchment)">Review</strong> — ביקורת אמיתית + שם + מזל + קאבר רקע.</li>
+    <li><strong style="color:var(--parchment)">Reading preview</strong> — קלף / כוס / כף עם הגרדיאנט.</li>
+    <li><strong style="color:var(--parchment)">Educational</strong> — "מה זה צלב קלטי?" עם איור מהאקדמיה.</li>
+    <li><strong style="color:var(--parchment)">Announcement</strong> — עדכון מוצר (חבילה חדשה, קריאה חדשה).</li>
+  </ol>
+</section>
+
+<!-- ═══════════════ SOUND ═══════════════ -->
+<section id="sound">
+  <span class="kicker">Section 15 · Sound Design</span>
+  <h2>הצליל של החדר</h2>
+  <p>כרגע שקט מוחלט. זה מכוון — אם נוסיף קול, הוא חייב להרגיש כמו החדר של מכתובה, לא כמו אפליקציה. פלטת הצליל הקנונית:</p>
+
+  <table>
+    <tr><th>אירוע</th><th>הצליל</th><th>Duration</th><th>Loop?</th></tr>
+    <tr><td>אווירה · רקע</td><td>להבת נר מרצדת (רך, רחש בעל 200 Hz)</td><td>∞</td><td>Yes · very quiet (-40dB)</td></tr>
+    <tr><td>פתיחת אפליקציה</td><td>אנחה קצרה של רוח</td><td>600ms</td><td>No</td></tr>
+    <tr><td>Hover קלף</td><td>רחש נייר עתיק</td><td>120ms</td><td>No</td></tr>
+    <tr><td>הפיכת כוס</td><td>קרמיקה מתגלגלת קלות</td><td>400ms</td><td>No</td></tr>
+    <tr><td>שליפת קלף</td><td>whoosh עדין, 1 קלף יחיד</td><td>300ms</td><td>No</td></tr>
+    <tr><td>קריאה הושלמה</td><td>שלוש פעמוני זהב רכים (פעמון · פעמון · פעמון)</td><td>1.2s</td><td>No</td></tr>
+    <tr><td>התראה</td><td>פעמון יחיד נמוך-אוקטבה</td><td>600ms</td><td>No</td></tr>
+    <tr><td>שגיאה</td><td>רוח פתאומית מכבה נר (ולא פיפ)</td><td>500ms</td><td>No</td></tr>
+  </table>
+
+  <h3>כללי סאונד</h3>
+  <ul style="color:var(--parchment-dim);list-style:none;padding:0">
+    <li>· <strong style="color:var(--parchment)">אקוסטי · אורגני</strong>. אין סינתזה דיגיטלית. אין beats.</li>
+    <li>· <strong style="color:var(--parchment)">אין מוסיקה</strong> בשום מקום. שקט > מוסיקה זולה.</li>
+    <li>· Reverb רך מותר — "חדר אבן עתיק".</li>
+    <li>· ברירת מחדל: <strong>ביטול קול פעיל</strong>. המשתמש מפעיל ביוזמתו.</li>
+    <li>· כל צליל ≤ 1.5 שניות. אף פעם יותר.</li>
+    <li>· התראות push — טקסט בלבד. אין צליל אלא אם המשתמש הפעיל.</li>
+  </ul>
+</section>
+
+<!-- ═══════════════ LOCALIZATION ═══════════════ -->
+<section id="i18n">
+  <span class="kicker">Section 16 · Localization</span>
+  <h2>מכתובה בשלוש שפות</h2>
+  <p>בעברית היא סבתא תימנית-ספרדית. באנגלית — אישה פולנית-יהודית מדור ישן. בערבית — جدّة מארץ-ישראל. זו אותה דמות, אבל הקצב משתנה.</p>
+
+  <table>
+    <tr><th>פרמטר</th><th>עברית</th><th>English</th><th>عربية</th></tr>
+    <tr><td>Wordmark</td><td>מַכְתּוּבָה</td><td>MAKTUBA</td><td>مَكْتُوبَة</td></tr>
+    <tr><td>Tagline</td><td>מה שנכתב — כבר כתוב</td><td>What's written is written</td><td>ما كُتِب فقد كُتِب</td></tr>
+    <tr><td>Direction</td><td>RTL</td><td>LTR</td><td>RTL</td></tr>
+    <tr><td>Primary font</td><td>Frank Ruhl Libre</td><td>Cormorant Garamond</td><td>Noto Naskh Arabic</td></tr>
+    <tr><td>טון</td><td>חמימה, יומיומית, עברית חכמה</td><td>Formal-warm, older Eastern European</td><td>فصحى لطيفة, مع لمسات شامية</td></tr>
+    <tr><td>Niqqud/tashkīl</td><td>רק על logo/hero</td><td>n/a</td><td>רק על logo/hero</td></tr>
+    <tr><td>מספרים</td><td>ערביים (1234)</td><td>Arabic (1234)</td><td>ערביים מערביים (1234) לא ההודים (١٢٣٤)</td></tr>
+    <tr><td>פועל מגדר</td><td>תביא/י · קבל/י</td><td>neutral singular</td><td>تعال/ي · اقبل/ي</td></tr>
+    <tr><td>Date</td><td>dd/mm/yyyy</td><td>dd/mm/yyyy (לא US)</td><td>dd/mm/yyyy</td></tr>
+    <tr><td>Currency</td><td>₪ (שקל)</td><td>ILS · USD · EUR לפי region</td><td>₪ / $ / د.إ</td></tr>
+    <tr><td>"קריאה ראשונה חינם"</td><td>קריאה ראשונה — חינם</td><td>First reading — free</td><td>القراءة الأولى — مجانًا</td></tr>
+    <tr><td>Disclaimer</td><td>AI · לא רפואי/משפטי/כלכלי</td><td>AI-based · entertainment only</td><td>ذكاء اصطناعي · للترفيه فقط</td></tr>
+  </table>
+
+  <h3>חוקי לוקליזציה</h3>
+  <ul style="color:var(--parchment-dim);list-style:none;padding:0">
+    <li>· הוורדמארק אף פעם לא מתורגם. זה <strong>השם</strong>, לא כותרת.</li>
+    <li>· הסמלון לעולם לא משתנה בין שפות.</li>
+    <li>· המילה "ככה זה תמיד" — תרגום מילולי בכל שפה. לא למצוא מקבילה מקומית.</li>
+    <li>· באנגלית: לעולם לא "cosmos", "universe signs", "manifest". בעברית: לעולם לא "יקום", "אנרגיות".</li>
+    <li>· בערבית: ניסוח עם מעט שכבתיות; לעולם לא שפה דיאלקטלית צרה (מצרית, עיראקית). ערבית-מודרנית-תקנית עם גוון שאמי.</li>
+  </ul>
+</section>
+
+<!-- ═══════════════ PERFORMANCE / TECH ═══════════════ -->
+<section id="perf">
+  <span class="kicker">Section 17 · Performance & Tech</span>
+  <h2>איך זה רץ מהר</h2>
+
+  <h3>יעדי Lighthouse</h3>
+  <table>
+    <tr><th>Metric</th><th>יעד</th><th>מינימום</th></tr>
+    <tr><td>Performance</td><td>90+</td><td>85</td></tr>
+    <tr><td>Accessibility</td><td>95+</td><td>90</td></tr>
+    <tr><td>Best Practices</td><td>95+</td><td>90</td></tr>
+    <tr><td>SEO</td><td>95+</td><td>90</td></tr>
+  </table>
+
+  <h3>Core Web Vitals</h3>
+  <ul style="color:var(--parchment-dim);list-style:none;padding:0">
+    <li>· <strong style="color:var(--parchment)">LCP</strong> (Largest Contentful Paint) &lt; 2.5s — היעד. &lt; 1.5s חזק.</li>
+    <li>· <strong style="color:var(--parchment)">CLS</strong> (Cumulative Layout Shift) &lt; 0.05 — חייב.</li>
+    <li>· <strong style="color:var(--parchment)">INP</strong> (Interaction to Next Paint) &lt; 200ms.</li>
+    <li>· <strong style="color:var(--parchment)">TTFB</strong> &lt; 600ms (Railway + Cloudflare).</li>
+  </ul>
+
+  <h3>תמונות</h3>
+  <ul style="color:var(--parchment-dim);list-style:none;padding:0">
+    <li>· WebP בלבד. לא JPG, לא PNG (חוץ מ-favicon fallback + transparent mark png).</li>
+    <li>· Max 1600 px רוחב. Quality 82–88. Method 6.</li>
+    <li>· <code>loading="lazy"</code> על הכל חוץ מתמונת ה-hero שהיא <code>loading="eager" fetchpriority="high"</code>.</li>
+    <li>· <code>decoding="async"</code> על תמונות not-above-fold.</li>
+    <li>· חובה לציין <code>width</code>+<code>height</code> — מונע CLS.</li>
+    <li>· כל תמונה מה-CDN: <code>cdn.maktuba.app/img/…</code></li>
+  </ul>
+
+  <h3>פונטים</h3>
+<pre><code>&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
+&lt;link href="https://fonts.googleapis.com/css2?…&amp;display=swap" rel="stylesheet"&gt;</code></pre>
+  <ul style="color:var(--parchment-dim);list-style:none;padding:0;margin-top:0.6rem">
+    <li>· <code>display=swap</code> תמיד.</li>
+    <li>· לטעון רק את המשקלים שבשימוש (לא 100 עד 900).</li>
+    <li>· ב-RN: <code>allowFontScaling={false}</code> על wordmark וכותרות גיבור.</li>
+  </ul>
+
+  <h3>CSS / JS</h3>
+  <ul style="color:var(--parchment-dim);list-style:none;padding:0">
+    <li>· <code>:root</code> tokens. אף פעם לא hex hardcoded בקוד.</li>
+    <li>· אסטרו לאתר (zero JS by default).</li>
+    <li>· React Native לאפליקציה.</li>
+    <li>· No jQuery. No Bootstrap. No Tailwind plugins.</li>
+    <li>· Animations: תמיד <code>prefers-reduced-motion</code>.</li>
+  </ul>
+
+  <h3>Security</h3>
+  <ul style="color:var(--parchment-dim);list-style:none;padding:0">
+    <li>· HTTPS בלבד. HSTS preload.</li>
+    <li>· CSP headers מוגדרים. אין inline scripts חוץ מאלו שנחתמים ב-nonce.</li>
+    <li>· Cookies: SameSite=Strict, HttpOnly.</li>
+    <li>· פרופיל משתמש מאוחסן רק במכשיר. לא נשלח לשרת אלא לקריאה בודדת (וגם אז — לא נשמר).</li>
+  </ul>
+</section>
+
+<!-- ═══════════════ TEAM ═══════════════ -->
+<section id="team">
+  <span class="kicker">Section 18 · Team & Ownership</span>
+  <h2>מי מחליט מה</h2>
+  <p>כל מותג מתבזבז כשאין אחראים. להלן מבנה קבלת ההחלטות. תעדכנו את השדות כשיש תפקידים מאוישים.</p>
+
+  <table>
+    <tr><th>Role</th><th>Owner</th><th>Responsibilities</th></tr>
+    <tr><td>Brand Owner</td><td>_______________</td><td>ההחלטה הסופית על כל דבר ברמה הזו — שינוי לוגו, פלטה, השקה</td></tr>
+    <tr><td>Copy Lead · Hebrew</td><td>_______________</td><td>כל טקסט עברי בחוץ (אתר, אפליקציה, social, פרסום)</td></tr>
+    <tr><td>Copy Lead · English</td><td>_______________</td><td>כל טקסט אנגלי</td></tr>
+    <tr><td>Copy Lead · Arabic</td><td>_______________</td><td>כל טקסט ערבי</td></tr>
+    <tr><td>Design Lead</td><td>_______________</td><td>אישור ויזואלי — מסכים, פרסומות, merchandise</td></tr>
+    <tr><td>Dev Lead · Web</td><td>_______________</td><td>maktuba-website (Astro + Railway)</td></tr>
+    <tr><td>Dev Lead · Mobile</td><td>_______________</td><td>mobile app (RN + Expo)</td></tr>
+    <tr><td>Dev Lead · API</td><td>_______________</td><td>NestJS, Claude API integration</td></tr>
+    <tr><td>Legal</td><td>_______________</td><td>ToS, Privacy, disclaimer, מיסוי, COPPA</td></tr>
+    <tr><td>Data Protection Officer</td><td>_______________</td><td>GDPR, מחיקת מידע, privacy@maktuba.app</td></tr>
+    <tr><td>Crisis Response</td><td>_______________</td><td>שגיאת content, חשיפת PII, תגובה למדיה</td></tr>
+  </table>
+
+  <h3>Escalation</h3>
+  <ol style="color:var(--parchment-dim);list-style-position:inside">
+    <li>שאלת copy קטנה → Copy Lead של השפה.</li>
+    <li>שאלת ויזואל קטנה → Design Lead.</li>
+    <li>שינוי טון · שינוי טון כולל → Brand Owner.</li>
+    <li>שינוי לוגו · פלטה · שם → Brand Owner + Legal (אם רלוונטי).</li>
+    <li>משבר → Crisis Response בתוך שעה. לא יותר.</li>
+  </ol>
+
+  <h3>כתובות חובה</h3>
+  <ul style="color:var(--parchment-dim);list-style:none;padding:0;font-family:'Menlo',monospace;font-size:0.9rem">
+    <li>· brand@maktuba.app — שאלות מותג, שימוש בלוגו, שותפויות</li>
+    <li>· privacy@maktuba.app — DSAR, מחיקת מידע, GDPR</li>
+    <li>· support@maktuba.app — משתמשים</li>
+    <li>· press@maktuba.app — מדיה, ראיונות</li>
+    <li>· security@maktuba.app — vulnerability disclosure</li>
+  </ul>
+</section>
+
 <!-- ═══════════════ NOT ═══════════════ -->
 <section id="not">
-  <span class="kicker">Section 10 · מה מכתובה אינה</span>
+  <span class="kicker">Section 19 · מה מכתובה אינה</span>
   <h2>NOT</h2>
   <ul style="list-style:none;padding:0;font-size:1.05rem;line-height:2;">
     <li style="color:var(--parchment-dim);">✕ לא פיד הורוסקופים.</li>
