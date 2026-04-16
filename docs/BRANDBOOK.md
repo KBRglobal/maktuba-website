@@ -28,7 +28,68 @@ Hebrew-first. Feminine-leaning but gender-inclusive where the interaction is dir
 
 ---
 
-## 2 · Naming & Wordmark
+## 2 · Logo Mark
+
+The Maktuba brandmark is a **flower of life / seven interlocking rings** sigil — gold on ink — drawn in an ornamental, kabbalistic-illuminated-manuscript style. Generated through brand-directed image synthesis (Flux), refined through 4 variants, committed on 2026-04-16.
+
+### Canonical files
+
+| Size | URL | Use |
+|---|---|---|
+| Master 1024 | `https://cdn.maktuba.app/brand/mark.webp` | App icon source, print, OG composites |
+| 512 | `https://cdn.maktuba.app/brand/mark-512.webp` | Splash screens, curtain preloader, hero ornaments |
+| 256 | `https://cdn.maktuba.app/brand/mark-256.webp` | Header, footer, inline within content |
+| `favicon.svg` | `maktuba.app/favicon.svg` | Browser tab (embedded bitmap SVG) |
+| `favicon.ico` | `maktuba.app/favicon.ico` | Legacy browser fallback (16/32/48/64) |
+| `apple-touch-icon.png` | 180 × 180 | iOS home screen |
+| `og-default.png` | 1200 × 630 | Social previews |
+
+### Clear space & minimum size
+
+- **Minimum render:** 16 px (favicon floor). Below this the sigil becomes illegible — use the wordmark alone.
+- **Clear space:** no content within a radius equal to ¼ of the mark's width on every side.
+- **With wordmark:** gap between mark and wordmark = ½ of the mark's height.
+
+### Logo usage
+
+```html
+<!-- Web header -->
+<a class="brand" href="/">
+  <img src="https://cdn.maktuba.app/brand/mark-256.webp" alt="" width="32" height="32" />
+  <span class="wordmark-latin">MAKTUBA</span>
+</a>
+
+<!-- Splash / hero moment -->
+<img src="https://cdn.maktuba.app/brand/mark-512.webp" alt="מכתובה" width="160" height="160" />
+```
+
+### Logo "don'ts"
+
+- ❌ **Never** recolor the sigil — it's gold on ink, only. No blue, no mono-white, no silver.
+- ❌ **Never** place the mark on a white or bright background. If a surface must be light, use the wordmark alone, not the mark.
+- ❌ **Never** crop, outline, invert, skew, or gradient-overlay the mark.
+- ❌ **Never** stack text over the mark. Typography sits beside or beneath — never on top.
+- ❌ **Never** animate the sigil itself (the sigil is static). The environment around it can breathe (halo, glow, fade).
+- ❌ **Never** regenerate the mark with a new prompt. This is the committed artefact.
+
+### Anti-AI-slop (for any visual work in this brand)
+
+Before shipping a design surface, confirm NONE of these apply:
+
+- [ ] Purple / lavender / neon / teal anywhere
+- [ ] Generic Inter / Roboto / Arial body font
+- [ ] Centered body prose
+- [ ] Decorative "accent line" under every heading
+- [ ] Full-width solid-color header or footer bars
+- [ ] Generic card: icon + title + 2 lines of filler × 3
+- [ ] Unicode emoji as UI chrome (⚡ ✨ 🔮) — we use custom SVG icons
+- [ ] Spinner instead of skeleton for content loading
+- [ ] Identical layout repeating across every section
+- [ ] Star of David / hexagram used as ornament (the mark is already enough mystical signal)
+
+---
+
+## 3 · Naming & Wordmark
 
 ### The name
 

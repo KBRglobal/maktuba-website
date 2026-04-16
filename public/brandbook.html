@@ -471,7 +471,8 @@
 
 <nav class="toc" aria-label="Table of contents">
   <a href="#essence">מהות</a>
-  <a href="#logo">לוגו</a>
+  <a href="#logo-mark">סמלון</a>
+  <a href="#logo">וורדמארק</a>
   <a href="#color">צבע</a>
   <a href="#type">טיפוגרפיה</a>
   <a href="#components">קומפוננטות</a>
@@ -483,6 +484,7 @@
 
 <!-- ═══════════════ HERO ═══════════════ -->
 <div class="hero">
+  <img src="https://cdn.maktuba.app/brand/mark-512.webp" alt="" width="160" height="160" style="display:block;margin:0 auto 1.5rem;filter:drop-shadow(0 0 40px rgba(212,165,116,0.3));border-radius:20px;" />
   <div class="hero-wordmark">מַכְתּוּבָה</div>
   <div class="hero-tag">מה שנכתב — כבר כתוב.</div>
   <div class="hero-meta">Brandbook · v1 · 2026-04-16 · KBR Global Ltd.</div>
@@ -514,9 +516,73 @@
   </div>
 </section>
 
-<!-- ═══════════════ LOGO ═══════════════ -->
+<!-- ═══════════════ LOGO MARK ═══════════════ -->
+<section id="logo-mark">
+  <span class="kicker">Section 02 · הסמלון</span>
+  <h2>הלוגו</h2>
+  <p>סימן מותג "שבע טבעות" — flower of life — בסגנון ספר תורה מוזהב. זהב על דיו. נוצר דרך Flux, נבחר אחרי 4 סבבי עיצוב, חתום ב-2026-04-16.</p>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.25rem;margin:2rem 0;">
+    <div style="text-align:center;padding:2rem 1rem;border:1px solid var(--hairline-strong);border-radius:14px;background:radial-gradient(ellipse at center,rgba(212,165,116,0.08),transparent 70%);">
+      <img src="https://cdn.maktuba.app/brand/mark-512.webp" alt="מכתובה · הסמלון הרשמי" width="220" height="220" style="display:block;margin:0 auto 1rem;border-radius:12px;box-shadow:0 0 60px rgba(212,165,116,0.2);"/>
+      <div style="font-family:'Cormorant Garamond',serif;font-weight:300;font-size:0.7rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--gold-logo);">Master · 1024 × 1024</div>
+    </div>
+    <div style="padding:1.5rem;border:1px solid var(--hairline);border-radius:14px;">
+      <div style="display:flex;gap:1rem;align-items:center;flex-wrap:wrap;margin-bottom:1.2rem;">
+        <img src="https://cdn.maktuba.app/brand/mark-256.webp" width="32" height="32" alt="" style="border-radius:6px;flex-shrink:0;"/>
+        <img src="https://cdn.maktuba.app/brand/mark-256.webp" width="48" height="48" alt="" style="border-radius:6px;flex-shrink:0;"/>
+        <img src="https://cdn.maktuba.app/brand/mark-256.webp" width="72" height="72" alt="" style="border-radius:8px;flex-shrink:0;"/>
+        <img src="https://cdn.maktuba.app/brand/mark-256.webp" width="96" height="96" alt="" style="border-radius:10px;flex-shrink:0;"/>
+      </div>
+      <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:0.85rem;color:var(--parchment-dim);margin-bottom:0.8rem;">Scales crisp from 16 to 1024</div>
+      <table style="margin-top:0;">
+        <tr><th>Size</th><th>CDN URL</th><th>Use</th></tr>
+        <tr><td>1024</td><td><code>cdn.maktuba.app/brand/mark.webp</code></td><td>Master · app icon · print</td></tr>
+        <tr><td>512</td><td><code>.../mark-512.webp</code></td><td>Splash · hero ornaments</td></tr>
+        <tr><td>256</td><td><code>.../mark-256.webp</code></td><td>Header · footer · inline</td></tr>
+        <tr><td>ICO</td><td><code>/favicon.ico</code></td><td>Browser tab · legacy</td></tr>
+        <tr><td>SVG</td><td><code>/favicon.svg</code></td><td>Browser tab · modern</td></tr>
+        <tr><td>180 PNG</td><td><code>/apple-touch-icon.png</code></td><td>iOS home screen</td></tr>
+        <tr><td>1200 × 630</td><td><code>/og-default.png</code></td><td>Social preview</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <h3>רווח נקי ומינימום</h3>
+  <ul style="color:var(--parchment-dim);list-style:none;padding:0;">
+    <li>· מינימום רנדור: 16 px (favicon floor). מתחת — השתמש/י בוורדמארק לבד.</li>
+    <li>· Clear space: ¼ מרוחב הסמלון מסביב. אין טקסט בתוך המרחב הזה.</li>
+    <li>· עם וורדמארק: מרווח בין הסמלון לטקסט = ½ מגובה הסמלון.</li>
+  </ul>
+
+  <h3>אסור</h3>
+  <div class="dodont">
+    <div class="dont">
+      <h5>לעולם לא</h5>
+      <ul>
+        <li>לשנות צבע — זהב על דיו. בלבד.</li>
+        <li>רקע לבן מתחת לסמלון (השתמש/י בוורדמארק לבד אם חייבים רקע בהיר)</li>
+        <li>לחתוך · לסובב · להטות · outline · overlay gradient</li>
+        <li>לערום טקסט מעל הסמלון</li>
+        <li>לאנים את הסמלון עצמו — הסביבה נושמת, לא הוא</li>
+        <li>לרנדר מחדש ב-Flux עם prompt חדש — זה הסמלון החתום</li>
+      </ul>
+    </div>
+    <div class="do">
+      <h5>כן</h5>
+      <ul>
+        <li>תמיד מ-CDN (<code>cdn.maktuba.app/brand/</code>)</li>
+        <li>ליד הוורדמארק — סמלון משמאל, טקסט מימין (RTL)</li>
+        <li>32px בהדר · 56–64px בפוטר · 140–260px ב-splash</li>
+        <li>רקע ink (<code>--ink</code>) תמיד</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ WORDMARK ═══════════════ -->
 <section id="logo">
-  <span class="kicker">Section 02 · לוגו ו־wordmark</span>
+  <span class="kicker">Section 03 · הוורדמארק</span>
   <h2>השם</h2>
 
   <div style="display: grid; grid-template-columns: 1fr; gap: 2rem;">

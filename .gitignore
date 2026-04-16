@@ -118,3 +118,7 @@ client/public/__manus__/version.json
 creds/
 *.creds.json
 cloudflare.json
+freepik.json
+
+# Draft / generated design assets — local only, not shipped
+design-assets/

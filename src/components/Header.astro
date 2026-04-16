@@ -10,7 +10,8 @@ const pathNoLang = Astro.url.pathname.replace(/^\/(en|ar)/, "") || "/";
 ---
 <header class="sticky top-0 inset-x-0 z-40 backdrop-blur-md border-b border-border/60" style="background: rgba(10,6,18,0.75);">
   <nav class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-    <a href={`${prefix}/`} class="flex items-center" aria-label="Maktuba — Home">
+    <a href={`${prefix}/`} class="flex items-center gap-3" aria-label="Maktuba — Home">
+      <img src="https://cdn.maktuba.app/brand/mark-256.webp" alt="" width="32" height="32" class="block" loading="eager" decoding="async" />
       <span class="font-display text-[18px] tracking-[0.28em] text-gold uppercase" style="font-family: 'Playfair Display', serif; font-weight: 700;">
         Maktuba
       </span>
