@@ -1,0 +1,436 @@
+=====================================================================
+MAKTUBA — PRIVACY POLICY
+=====================================================================
+
+Effective Date: [Launch Date]
+Last Updated: April 18, 2026
+Version: 1.0
+
+=====================================================================
+
+
+## 1. Who We Are
+
+This Privacy Policy governs the Maktuba mobile application ("Maktuba," 
+"the App," "we," "us," or "our"), operated by:
+
+**KBR Global Creative Consulting Ltd**
+Suite 4.3.02, Block 4, Eurotowers
+Gibraltar GX11 1AA
+Company Registration Number: 125571
+Incorporated: May 28, 2025
+Director: Moshe-Ziv Goldenberg
+
+**All privacy-related inquiries: privacy@maktuba.app**
+
+We are the "data controller" for purposes of the EU General Data 
+Protection Regulation (GDPR), the UK GDPR, the Gibraltar Data 
+Protection Act 2004, and other applicable data protection laws.
+
+
+## 2. Our Privacy Philosophy — Zero-Storage Architecture
+
+We want you to understand something unusual about Maktuba:
+
+**We do not keep your personal information on our servers.**
+
+Unlike most mobile applications, Maktuba is built on what we call a 
+**zero-storage architecture**. This is a deliberate design choice — 
+not merely a legal convenience.
+
+This means:
+
+- Your name, date of birth, mother's name, birth time, birth location, 
+  and all other profile information remain on **your device only**. 
+  We never copy them to our servers.
+
+- Your readings, chat conversations, journal entries, favorites, 
+  and reading history remain on **your device only**.
+
+- Photos you upload (coffee cup readings, palm readings, etc.) are 
+  transmitted once to our AI provider (Anthropic) to generate the 
+  reading, then discarded immediately. They are never stored on our 
+  servers, and under our agreement with Anthropic, they are not 
+  stored on theirs either.
+
+- When you delete the Maktuba app from your device, **all of your 
+  data is gone**. There is nothing for us to delete from a server, 
+  because we never saved anything.
+
+This architecture is our strongest privacy guarantee. You do not 
+need to rely solely on our policies — the data simply does not 
+exist in a form that could be leaked, subpoenaed, sold, or misused.
+
+
+## 3. What Limited Data We Process
+
+Despite the zero-storage architecture, certain minimal data 
+processing must occur for the App to function:
+
+### 3.1 Anonymous Authentication
+
+When you open Maktuba for the first time, we create an anonymous 
+user ID via **Firebase Anonymous Authentication** (operated by 
+Google LLC, USA).
+
+This anonymous ID:
+- Is **not** linked to your name, email, or any identifying 
+  information you provide
+- Is used solely to track your key (in-app currency) balance 
+  across app sessions on your device
+- Cannot, by itself, be used to identify you personally
+
+If you uninstall and reinstall the App, a new anonymous ID is 
+generated. Your previous balance will not automatically carry over 
+unless you explicitly restore purchases via Apple or Google.
+
+**Legal basis (GDPR):** Legitimate interest in providing app 
+functionality (Article 6(1)(f)).
+
+### 3.2 AI Reading Generation
+
+When you request a reading or chat with Maktuba, we send the 
+following to our AI provider, **Anthropic PBC (USA)**:
+
+- The text of your question, dream description, or chat message
+- The image you uploaded (for coffee, palm, or similar readings) — 
+  **deleted immediately after processing**
+- Derived numbers and signs calculated locally on your device 
+  (zodiac sign, life path number, personal year, etc.)
+- Your selected language for the response
+- **Nothing else.** No name, no birth date, no identifying information.
+
+This data is transmitted to Anthropic under our Zero Data Retention 
+agreement. Anthropic does not store this data, does not train 
+their AI models on it, and does not use it for any purpose other 
+than generating your specific reading response.
+
+**Legal basis (GDPR):** Performance of a contract with you — 
+delivery of the reading you requested (Article 6(1)(b)).
+
+### 3.3 Payment Processing
+
+When you purchase keys, the transaction is processed entirely by 
+**Apple Inc. (App Store)** or **Google LLC (Play Store)**, 
+depending on your device.
+
+**We never see or receive:**
+- Your credit card number
+- Your debit card number  
+- Your Apple Pay / Google Pay details
+- Your billing address
+- Your full name as registered with Apple/Google
+
+We receive only:
+- A transaction confirmation from Apple/Google
+- Your anonymous user ID (to credit the keys)
+- The product purchased (e.g., "1,200 keys pack")
+- The purchase timestamp
+
+Apple and Google are independent data controllers for the payment 
+data they collect. Please refer to their privacy policies:
+- Apple: https://www.apple.com/legal/privacy/
+- Google: https://policies.google.com/privacy
+
+**Legal basis (GDPR):** Performance of a contract (Article 6(1)(b)) 
+and legal obligation for tax records (Article 6(1)(c)).
+
+### 3.4 Technical and Analytics Data
+
+We use minimal analytics (Firebase Analytics and Crashlytics, 
+operated by Google LLC) to understand app usage and detect 
+technical issues. This collects:
+
+- Anonymous user ID (the same one from Section 3.1)
+- Screen names visited (without content)
+- Features used (e.g., "tarot_three_card_completed")
+- App version, device model, operating system version
+- Country of access (derived from IP address, **not** stored as IP)
+- Approximate locale (e.g., "Israel" or "UAE")
+- Crash logs and error reports (no personal content)
+
+**We do NOT collect:**
+- Your exact GPS location
+- Your contacts
+- Your photos beyond those you explicitly upload for a reading
+- Your browsing history outside the App
+- Your IP address (not stored)
+- Advertising identifiers (IDFA, GAID) — we do not track you for ads
+- Cross-app tracking data
+
+**Legal basis (GDPR):** Legitimate interest in improving the service 
+(Article 6(1)(f)).
+
+
+## 4. Data We Specifically Do NOT Collect or Store
+
+To be completely clear, Maktuba does not collect, process, or store:
+
+- Your real name (you enter it on-device, it stays there)
+- Your email address (not required)
+- Your phone number (not required)
+- Your home address
+- Your precise location
+- Your contacts or social connections
+- Your photos (other than the one sent for an active reading, then deleted)
+- Your private messages outside the app
+- Your browsing history
+- Behavioral profiles for advertising
+- Biometric data (we don't use face or fingerprint recognition 
+  — your device does, but we don't see it)
+
+
+## 5. How Long We Keep Data
+
+Because we don't store your personal data, there is typically 
+nothing to retain.
+
+The minimal exceptions:
+
+| Data Type | Retention |
+|-----------|-----------|
+| Anonymous user ID + key balance | Until account is deleted or inactive for 2 years |
+| AI reading requests (Anthropic) | Discarded immediately after response |
+| Analytics data (anonymous) | 14 months (Firebase default) |
+| Payment records (via Apple/Google) | Per tax law requirements (~7 years) |
+| Support email correspondence | 2 years after ticket closure |
+
+If you want immediate deletion, see Section 8.
+
+
+## 6. Who We Share Data With
+
+### 6.1 Service Providers (sub-processors)
+
+We share minimal data with the following sub-processors to operate 
+the App:
+
+**Anthropic PBC** (USA)
+- What: Reading request text + reading photo (discarded immediately)
+- Purpose: AI reading generation
+- Safeguard: Zero Data Retention agreement; Standard Contractual 
+  Clauses (SCCs) for international transfer
+
+**Google LLC / Firebase** (USA)
+- What: Anonymous user ID, app analytics, crash reports
+- Purpose: Authentication, analytics, crash monitoring
+- Safeguard: Google's Data Processing Addendum; SCCs
+
+**Apple Inc.** (USA) / **Google LLC** (USA) — Payment processing
+- What: Transaction data
+- Purpose: Processing in-app purchases
+- Safeguard: Their own privacy policies; they are independent 
+  data controllers
+
+**Expo / RevenueCat** (USA)
+- What: Anonymous user ID, purchase receipts
+- Purpose: Payment verification, app deployment infrastructure
+- Safeguard: Standard data processing agreements
+
+### 6.2 We Do NOT Share Data With
+
+- Advertising networks
+- Data brokers
+- Social media platforms
+- Anyone for marketing purposes
+- Any party for their own independent use
+
+
+## 7. International Data Transfers
+
+We are based in Gibraltar. Our service providers are primarily in 
+the United States. When we transfer data outside the European 
+Economic Area (EEA) or the UK, we ensure adequate protection through:
+
+- Standard Contractual Clauses (SCCs) approved by the European 
+  Commission
+- Our Zero Data Retention agreement with Anthropic
+- Reliance on adequacy decisions where applicable (e.g., 
+  UK-US Data Bridge)
+
+You may request copies of our data transfer safeguards by emailing 
+privacy@maktuba.app.
+
+
+## 8. Your Rights
+
+Under GDPR, UK GDPR, and similar data protection laws, you have 
+the following rights:
+
+### 8.1 Right of Access
+You may request confirmation of what data we process about you. 
+In most cases, the answer will be: almost nothing, because we 
+don't store your data on our servers.
+
+### 8.2 Right to Rectification
+You may request correction of inaccurate data. Since your data 
+is on your device, you can typically edit it yourself.
+
+### 8.3 Right to Erasure ("Right to be Forgotten")
+The fastest way to exercise this right is to **delete the app** — 
+doing so removes all data stored on your device. For any 
+anonymous data we hold (such as your key balance record), email 
+privacy@maktuba.app.
+
+### 8.4 Right to Data Portability
+You may request a copy of your data in a machine-readable format. 
+Since most of your data is on your device, you can export it 
+directly from within the App.
+
+### 8.5 Right to Object
+You may object to processing based on legitimate interests. If 
+we cannot demonstrate a compelling reason to continue, we will stop.
+
+### 8.6 Right to Restrict Processing
+In certain circumstances, you may request that we limit how we 
+process your data.
+
+### 8.7 Right to Withdraw Consent
+Where we rely on your consent, you may withdraw it at any time.
+
+### 8.8 Right to Complain
+You have the right to lodge a complaint with a data protection 
+authority:
+
+- **Gibraltar:** Gibraltar Regulatory Authority (GRA) — www.gra.gi
+- **EU:** Your local data protection authority
+- **UK:** Information Commissioner's Office (ICO) — www.ico.org.uk
+- **Israel:** Privacy Protection Authority — www.gov.il/en/Departments/ilita
+
+### How to Exercise Your Rights
+
+Email: **privacy@maktuba.app**
+
+Include:
+- A description of your request
+- Any information that helps us identify you (note: since we 
+  don't store identifying data, we may ask you for your anonymous 
+  user ID, which you can find in Settings → Privacy)
+
+We will respond within 30 days. We will not charge a fee unless 
+your request is manifestly unfounded or excessive.
+
+
+## 9. Security Measures
+
+Although we store minimal data, we take security seriously:
+
+- All communications with our servers use **TLS encryption (HTTPS)**
+- Your on-device data is protected by your device's own security 
+  (Face ID, Touch ID, PIN, device encryption)
+- We do not use tracking technologies that profile you across apps 
+  or websites (no Facebook Pixel, no cross-site advertising cookies, 
+  no fingerprinting)
+- Access to our systems is restricted and logged
+- We conduct regular security reviews
+
+Despite these measures, no system is perfectly secure. If we 
+become aware of a data breach that affects you, we will notify 
+you and the relevant authorities as required by law, typically 
+within 72 hours.
+
+
+## 10. Children
+
+Maktuba is intended only for users aged **18 and above**. We do 
+not knowingly collect or process data from individuals under 18.
+
+During onboarding, users must confirm they are 18 or older. If we 
+learn that we have inadvertently collected data from a person 
+under 18, we will delete it promptly.
+
+If you are a parent or guardian and believe your child under 18 
+has used the App, please contact privacy@maktuba.app immediately.
+
+
+## 11. EU Representative
+
+KBR Global Creative Consulting Ltd is based in Gibraltar, which 
+is outside the European Union. As required by Article 27 of the 
+GDPR, we will appoint an EU Representative within 30 days of our 
+public launch in the EU. Contact details will be published here 
+once appointed.
+
+Interim contact for EU data subjects: **privacy@maktuba.app**
+
+
+## 12. UK Representative
+
+For users in the United Kingdom, a UK Representative will be 
+appointed if required by UK GDPR. Interim contact: 
+**privacy@maktuba.app**
+
+
+## 13. Data Protection Officer
+
+Our current Data Protection Officer is:
+
+**Moshe-Ziv Goldenberg**
+Director, KBR Global Creative Consulting Ltd
+Contact: privacy@maktuba.app
+
+As the App grows, we may appoint an independent, professional 
+Data Protection Officer. Any change will be reflected in this Policy.
+
+
+## 14. Cookies and Tracking
+
+The Maktuba mobile app does **not** use cookies (cookies are a web 
+browser technology not present in native mobile apps).
+
+We do not use any cross-app tracking technology. We do not sell 
+or share device advertising identifiers.
+
+
+## 15. Automated Decision-Making
+
+The readings you receive are generated by AI (Anthropic's Claude) 
+based on the input you provide. This is automated content 
+generation, not automated decision-making with legal or similarly 
+significant effects within the meaning of Article 22 of GDPR.
+
+You have the right to:
+- Not rely on any reading for significant life decisions
+- Delete any reading at any time
+- Contact a human (via privacy@maktuba.app) if you wish to discuss 
+  any aspect of the service
+
+Readings are for **entertainment and self-reflection only** and do 
+not constitute medical, legal, financial, or psychological advice. 
+See our Terms of Service for full disclaimer.
+
+
+## 16. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. If we make 
+material changes, we will:
+
+- Update the "Last Updated" date at the top
+- Notify you via an in-app notification
+- Obtain fresh consent where legally required
+
+The most current version is always available within the App and 
+at https://maktuba.app/privacy.
+
+Continued use of the App after changes constitutes acceptance of 
+the updated Policy.
+
+
+## 17. How to Contact Us
+
+For all privacy-related matters:
+
+**Email: privacy@maktuba.app**
+
+**Postal Address:**
+KBR Global Creative Consulting Ltd
+Attn: Privacy Officer
+Suite 4.3.02, Block 4, Eurotowers
+Gibraltar GX11 1AA
+
+**Response time:** Within 30 days for all privacy requests.
+
+
+=====================================================================
+END OF PRIVACY POLICY
+=====================================================================

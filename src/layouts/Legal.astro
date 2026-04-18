@@ -1,0 +1,126 @@
+---
+// Minimal reading layout for Terms + Privacy.
+// Inherits brandbook palette + fonts from global.css but forces a
+// long-form reading column (max 720px) on ink background.
+import Base from "@/layouts/Base.astro";
+export interface Props {
+  title: string;
+  description: string;
+  body: string; // raw text (preserves line breaks + markdown-ish headings)
+}
+const { title, description, body } = Astro.props;
+---
+<Base title={title} description={description} lang="en" dir="ltr">
+  <main class="legal">
+    <header class="legal-hero">
+      <a href="/" class="back">← maktuba.app</a>
+      <h1 class="legal-title">{title}</h1>
+    </header>
+
+    <article class="legal-body">
+      {body.split('\n').map((line) => {
+        if (!line.trim()) return <br />;
+        if (line.startsWith('## ')) return <h2>{line.replace(/^##\s*/, '')}</h2>;
+        if (line.startsWith('### ')) return <h3>{line.replace(/^###\s*/, '')}</h3>;
+        if (line.startsWith('# ')) return <h1 class="legal-h1">{line.replace(/^#\s*/, '')}</h1>;
+        if (/^={5,}/.test(line)) return null; // decorative rule
+        if (line.startsWith('- ')) return <p class="bullet">• {line.replace(/^-\s*/, '')}</p>;
+        return <p>{line}</p>;
+      })}
+    </article>
+
+    <footer class="legal-footer">
+      <a href="/">Back to Maktuba</a>
+      <p class="contact">Questions: <a href="mailto:privacy@maktuba.app">privacy@maktuba.app</a></p>
+    </footer>
+  </main>
+</Base>
+
+<style>
+  main.legal {
+    min-height: 100vh;
+    background: #0a0612;
+    color: #ebe3d3;
+    padding: 32px 20px 96px;
+    font-family: "Frank Ruhl Libre", "Cormorant Garamond", Georgia, serif;
+    line-height: 1.7;
+  }
+  .legal-hero {
+    max-width: 720px;
+    margin: 0 auto 48px;
+    border-bottom: 1px solid rgba(212, 165, 116, 0.22);
+    padding-bottom: 28px;
+  }
+  .back {
+    display: inline-block;
+    color: rgba(212, 165, 116, 0.7);
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 24px;
+  }
+  .back:hover { color: #f1d694; }
+  .legal-title {
+    color: #f1d694;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin: 0;
+  }
+  .legal-body {
+    max-width: 720px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  .legal-body h1.legal-h1 {
+    color: #f1d694;
+    font-size: 28px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+  }
+  .legal-body h2 {
+    color: #f1d694;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 36px;
+    margin-bottom: 10px;
+    letter-spacing: -0.2px;
+  }
+  .legal-body h3 {
+    color: #ebe3d3;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+  .legal-body p {
+    color: rgba(235, 227, 211, 0.88);
+    margin: 0 0 12px;
+  }
+  .legal-body p.bullet {
+    padding-left: 18px;
+    color: rgba(235, 227, 211, 0.8);
+  }
+  .legal-body br { line-height: 0.4; display: block; }
+  .legal-body strong { color: #f4e4a0; font-weight: 600; }
+  .legal-body a { color: #d4a574; text-decoration: underline; text-underline-offset: 2px; }
+  .legal-body a:hover { color: #f1d694; }
+  .legal-footer {
+    max-width: 720px;
+    margin: 72px auto 0;
+    padding-top: 32px;
+    border-top: 1px solid rgba(212, 165, 116, 0.22);
+    text-align: center;
+    color: rgba(235, 227, 211, 0.6);
+    font-size: 14px;
+  }
+  .legal-footer a { color: #d4a574; text-decoration: none; }
+  .legal-footer a:hover { color: #f1d694; }
+  .contact { margin-top: 14px; }
+  @media (max-width: 640px) {
+    .legal-title { font-size: 28px; }
+    .legal-body { font-size: 15px; }
+    .legal-body h2 { font-size: 20px; }
+  }
+</style>
