@@ -1,0 +1,46 @@
+---
+export interface Props {
+  eyebrow: string;
+  align?: "right" | "center";
+}
+const { eyebrow, align = "right" } = Astro.props;
+---
+<div class:list={["kicker", `kicker-${align}`]}>
+  <span class="kicker-line"></span>
+  <span class="kicker-diamond"></span>
+  <span class="kicker-text">{eyebrow}</span>
+  <span class="kicker-diamond"></span>
+  <span class="kicker-line"></span>
+</div>
+
+<style>
+  .kicker {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1.2rem;
+  }
+  .kicker-center { display: flex; justify-content: center; }
+  .kicker-line {
+    width: 36px;
+    height: 1px;
+    background: var(--gold, #d4a574);
+    opacity: 0.45;
+  }
+  .kicker-diamond {
+    width: 4px;
+    height: 4px;
+    background: var(--gold, #d4a574);
+    transform: rotate(45deg);
+    opacity: 0.7;
+  }
+  .kicker-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.72rem;
+    font-weight: 300;
+    letter-spacing: 0.45em;
+    text-transform: uppercase;
+    color: var(--gold, #d4a574);
+    white-space: nowrap;
+  }
+</style>

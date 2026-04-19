@@ -1,20 +1,19 @@
 ---
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
+import Hero        from "@/components/sections/Hero.astro";
+import Traditions  from "@/components/sections/Traditions.astro";
+import Showcase    from "@/components/sections/Showcase.astro";
+import HowItWorks  from "@/components/sections/HowItWorks.astro";
+import Manifesto   from "@/components/sections/Manifesto.astro";
+import Voices      from "@/components/sections/Voices.astro";
+import FAQ         from "@/components/sections/FAQ.astro";
+import FinalCTA    from "@/components/sections/FinalCTA.astro";
 import "@/styles/global.css";
 
 const CDN = "https://cdn.maktuba.app";
 const heroWide = `${CDN}/img/21_hero_wide.webp`;
-const appHome  = `${CDN}/img/A02_home_screen.webp`;
 const mark     = `${CDN}/brand/mark-512.webp?v=2`;
-
-const quotes = [
-  { q: "זה מפחיד כמה שזה מדויק. אפילו בכיתי.", name: "ליאת ס." },
-  { q: "זו לא אפליקציה. זו שיחה עם מישהי שרואה אותך.", name: "מיכל א." },
-  { q: "הסבתא שלי אמרה: ׳מי שעשה את זה מכיר את הדרכים הישנות.׳", name: "דנה כ." },
-  { q: "האפליקציה מטורפת. שווה כל שקל.", name: "יוני ס." },
-  { q: "הבן זוג שלי שאל אם נתתי לה מידע מראש. לא נתתי כלום.", name: "יעל ב." },
-];
 ---
 
 <html lang="he" dir="rtl">
@@ -23,7 +22,7 @@ const quotes = [
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#060410" />
   <title>מכתובה — קריאת קפה, טארוט, כף יד ואסטרולוגיה עם AI</title>
-  <meta name="description" content="סבתא עתיקה שקוראת את הקפה, הכף, הכוכבים והנשמה שלך. 141 קריאות AI. הקריאה הראשונה — חינם." />
+  <meta name="description" content="סבתא עתיקה שקוראת את הקפה, הכף, הכוכבים והנשמה שלך. למעלה מ-200 סוגי קריאות AI. הקריאה הראשונה — אצלי." />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -53,71 +52,33 @@ const quotes = [
 
   <Header lang="he" />
 
-  <!-- ═══════ HERO ═══════ -->
-  <section class="lp-hero">
-    <div class="lp-hero-bg">
-      <img src={heroWide} alt="" loading="eager" fetchpriority="high" />
-    </div>
-    <div class="lp-hero-overlay"></div>
-
-    <div class="lp-hero-inner">
-      <div class="lp-hero-text">
-        <img src={mark} alt="" class="lp-mark" width="96" height="96" />
-        <h1 class="lp-title">מַכְתּוּבָה</h1>
-        <p class="lp-tagline">מה שנכתב — כבר כתוב</p>
-        <p class="lp-lead">קריאת קפה, טארוט, כף יד, אסטרולוגיה וקבלה — עם AI שלמד 46,000 ספרים.</p>
-
-        <div class="lp-badges">
-          <a href="#" class="lp-badge">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2Z"/><path d="M8 12l2.5 2.5L16 9"/></svg>
-            <div><span class="badge-sub">זמינה ב-</span>App Store</div>
-          </a>
-          <a href="#" class="lp-badge">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2Z"/><path d="M8 12l2.5 2.5L16 9"/></svg>
-            <div><span class="badge-sub">זמינה ב-</span>Google Play</div>
-          </a>
-        </div>
-
-        <p class="lp-micro">50 מפתחות מתנה · קריאה ראשונה חינם · ללא כרטיס אשראי</p>
-      </div>
-
-      <div class="lp-hero-phone">
-        <div class="phone-frame">
-          <img src={appHome} alt="מכתובה — מסך הבית" width="280" height="560" loading="eager" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════ SOCIAL PROOF STRIP ═══════ -->
-  <section class="lp-proof">
-    <div class="lp-proof-stars">★★★★★ <span>5.0 · {quotes.length} ביקורות</span></div>
-    <div class="lp-proof-scroll">
-      {quotes.map(q => (
-        <figure class="lp-quote">
-          <blockquote>{q.q}</blockquote>
-          <figcaption>— {q.name}</figcaption>
-        </figure>
-      ))}
-    </div>
-  </section>
+  <main>
+    <Hero />
+    <Traditions />
+    <Showcase />
+    <HowItWorks />
+    <Manifesto />
+    <Voices />
+    <FAQ />
+    <FinalCTA />
+  </main>
 
   <Footer lang="he" />
 
   <script is:inline>
-    // Parallax on hero image (subtle, desktop only)
-    const heroBg = document.querySelector('.lp-hero-bg img');
-    if (heroBg && window.innerWidth > 768) {
+    // Subtle parallax on hero, desktop only (brandbook forbids on mobile)
+    const heroBg = document.querySelector('.hero .hero-bg img');
+    if (heroBg && window.innerWidth > 768 && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
       let ticking = false;
       window.addEventListener('scroll', () => {
         if (!ticking) {
           requestAnimationFrame(() => {
-            heroBg.style.transform = `scale(1.08) translateY(${window.scrollY * 0.2}px)`;
+            heroBg.style.transform = `scale(1.08) translateY(${window.scrollY * 0.18}px)`;
             ticking = false;
           });
           ticking = true;
         }
-      });
+      }, { passive: true });
     }
   </script>
 </body>
@@ -151,7 +112,7 @@ const quotes = [
     -webkit-font-smoothing: antialiased;
   }
 
-  /* Grain */
+  /* Grain — environment breathes */
   body::after {
     content: '';
     position: fixed; inset: 0; z-index: 9999;
@@ -211,199 +172,9 @@ const quotes = [
   #curtain.lift .curtain-wordmark, #curtain.lift .curtain-mark { opacity: 0 !important; transition: opacity 0.5s; }
   #curtain.gone { opacity: 0; visibility: hidden; }
 
-  /* ═══ HERO ═══ */
-  .lp-hero {
-    position: relative;
-    min-height: 100vh; min-height: 100dvh;
-    display: flex; align-items: center;
-    overflow: hidden;
-    padding: clamp(6rem, 10vw, 8rem) clamp(1.5rem, 5vw, 4rem) 4rem;
-  }
-  .lp-hero-bg {
-    position: absolute; inset: 0;
-  }
-  .lp-hero-bg img {
-    width: 100%; height: 100%;
-    object-fit: cover; object-position: center 20%;
-    transform: scale(1.08);
-    filter: brightness(0.4) contrast(1.15) saturate(0.8);
-    will-change: transform;
-  }
-  .lp-hero-overlay {
-    position: absolute; inset: 0;
-    background:
-      linear-gradient(to top, var(--ink) 0%, transparent 50%),
-      linear-gradient(to right, var(--ink) 0%, rgba(10,6,18,0.5) 50%, transparent 100%),
-      radial-gradient(ellipse at 30% 80%, rgba(212,165,116,0.06), transparent 60%);
-  }
-
-  .lp-hero-inner {
-    position: relative; z-index: 2;
-    max-width: 1200px; margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: clamp(2rem, 6vw, 5rem);
-    align-items: center;
-    width: 100%;
-  }
-
-  .lp-hero-text { max-width: 580px; }
-
-  .lp-mark {
-    display: block;
-    filter: drop-shadow(0 0 30px rgba(212,165,116,0.35));
-    margin-bottom: 1.5rem;
-    border-radius: 16px;
-  }
-
-  .lp-title {
-    font-family: 'Frank Ruhl Libre', serif;
-    font-weight: 900;
-    font-size: clamp(4rem, 12vw, 7rem);
-    line-height: 0.85;
-    color: var(--gold);
-    text-shadow: 0 0 60px rgba(212,165,116,0.3), 0 0 120px rgba(212,165,116,0.1);
-    margin-bottom: 0.8rem;
-  }
-
-  .lp-tagline {
-    font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
-    font-size: clamp(1.4rem, 3.5vw, 2.2rem);
-    color: var(--gold-light);
-    letter-spacing: 0.03em;
-    margin-bottom: 1.5rem;
-    opacity: 0.9;
-  }
-
-  .lp-lead {
-    font-size: 1.05rem;
-    color: rgba(235,227,211,0.7);
-    max-width: 440px;
-    margin-bottom: 2rem;
-    line-height: 1.8;
-  }
-
-  .lp-badges {
-    display: flex; flex-wrap: wrap; gap: 0.8rem;
-    margin-bottom: 1.5rem;
-  }
-  .lp-badge {
-    display: inline-flex; align-items: center; gap: 10px;
-    padding: 10px 20px;
-    background: rgba(255,255,255,0.06);
-    border: 1px solid rgba(255,255,255,0.12);
-    border-radius: 12px;
-    color: var(--parchment);
-    text-decoration: none;
-    font-family: 'Heebo', sans-serif;
-    font-size: 0.88rem;
-    font-weight: 500;
-    transition: background .3s, border-color .3s, transform .3s;
-  }
-  .lp-badge:hover { background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.2); transform: translateY(-2px); }
-  .badge-sub { display: block; font-size: 0.62rem; font-weight: 400; color: rgba(235,227,211,0.5); margin-bottom: 1px; }
-
-  .lp-micro {
-    font-size: 0.75rem;
-    color: var(--muted);
-    letter-spacing: 0.08em;
-  }
-
-  /* Phone mockup */
-  .lp-hero-phone {
-    display: flex; align-items: center; justify-content: center;
-  }
-  .phone-frame {
-    position: relative;
-    width: 280px;
-    background: #111;
-    border-radius: 36px;
-    padding: 12px;
-    box-shadow: 0 30px 80px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.06);
-  }
-  .phone-frame::before {
-    content: '';
-    position: absolute;
-    top: 10px; left: 50%; transform: translateX(-50%);
-    width: 80px; height: 6px;
-    background: #222;
-    border-radius: 999px;
-    z-index: 2;
-  }
-  .phone-frame img {
-    width: 100%; height: auto;
-    border-radius: 26px;
-    display: block;
-  }
-
-  @media (max-width: 860px) {
-    .lp-hero-inner {
-      grid-template-columns: 1fr;
-      text-align: center;
-    }
-    .lp-hero-text { max-width: 100%; }
-    .lp-mark { margin-inline: auto; }
-    .lp-lead { margin-inline: auto; }
-    .lp-badges { justify-content: center; }
-    .lp-hero-phone { margin-top: 2rem; }
-    .phone-frame { width: 220px; }
-  }
-
-  /* ═══ SOCIAL PROOF STRIP ═══ */
-  .lp-proof {
-    border-top: 1px solid rgba(212,165,116,0.1);
-    padding: 3rem clamp(1.5rem, 5vw, 4rem);
-    background: linear-gradient(180deg, var(--void), var(--ink));
-  }
-  .lp-proof-stars {
-    text-align: center;
-    font-size: 1.3rem;
-    color: var(--gold);
-    letter-spacing: 0.1em;
-    margin-bottom: 2rem;
-  }
-  .lp-proof-stars span {
-    font-size: 0.8rem;
-    color: var(--muted);
-    margin-inline-start: 0.5rem;
-    letter-spacing: 0.08em;
-  }
-  .lp-proof-scroll {
-    display: flex; gap: 1.2rem;
-    overflow-x: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    padding-bottom: 0.5rem;
-    max-width: 1200px; margin: 0 auto;
-  }
-  .lp-proof-scroll::-webkit-scrollbar { display: none; }
-  .lp-quote {
-    min-width: 280px; max-width: 320px;
-    flex-shrink: 0;
-    padding: 1.5rem;
-    border: 1px solid rgba(212,165,116,0.1);
-    border-radius: 14px;
-    background: rgba(255,255,255,0.02);
-    transition: border-color .3s, transform .3s;
-  }
-  .lp-quote:hover { border-color: rgba(212,165,116,0.25); transform: translateY(-3px); }
-  .lp-quote blockquote {
-    font-family: 'Frank Ruhl Libre', serif;
-    font-size: 0.95rem;
-    line-height: 1.7;
-    color: rgba(235,227,211,0.85);
-    margin-bottom: 0.8rem;
-    font-style: normal;
-  }
-  .lp-quote figcaption {
-    font-size: 0.75rem;
-    color: var(--gold-logo);
-    letter-spacing: 0.1em;
-  }
-
-  /* Curtain JS */
+  /* Reduced motion respect */
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { animation: none !important; transition: none !important; }
+    html { scroll-behavior: auto; }
   }
 </style>

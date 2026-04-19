@@ -1,0 +1,116 @@
+---
+import Kicker from "./Kicker.astro";
+import Icon from "../Icon.astro";
+
+const steps = [
+  { icon: "candle", n: "1", title: "מורידה את האפליקציה", line: "App Store או Google Play. חינם." },
+  { icon: "hand",   n: "2", title: "בוחרת קריאה",         line: "טארוט · קפה · כף יד · אסטרולוגיה · נומרולוגיה · קבלה · חלומות · תהילים · קריסטלים · אי צ׳ינג. 200 ועוד." },
+  { icon: "chat",   n: "3", title: "מקבלת קריאה",         line: "אני יושבת איתך. הקריאה הראשונה — אצלי." },
+];
+---
+<section class="how">
+  <div class="how-inner">
+    <header class="how-head">
+      <Kicker eyebrow="ככה זה מתחיל" />
+      <h2 class="how-h2">שלושה שלבים. עשרים שניות.</h2>
+    </header>
+
+    <div class="how-grid" role="list">
+      {steps.map((s, i) => (
+        <div class="how-step" role="listitem">
+          <div class="how-icon">
+            <Icon name={s.icon} size={36} stroke="var(--gold)" />
+          </div>
+          <span class="how-n">{s.n}</span>
+          <h3 class="how-title">{s.title}</h3>
+          <p class="how-line">{s.line}</p>
+          {i < steps.length - 1 && <div class="how-line-connector" aria-hidden="true"></div>}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .how {
+    padding: clamp(5rem, 10vw, 8rem) clamp(1.5rem, 5vw, 4rem);
+    background: var(--void);
+    position: relative;
+  }
+  .how-inner { max-width: 1100px; margin: 0 auto; }
+  .how-head {
+    text-align: center;
+    margin-bottom: clamp(3rem, 6vw, 5rem);
+  }
+  .how-h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: clamp(2.2rem, 5vw, 3.4rem);
+    line-height: 1.15;
+    color: var(--parchment);
+    letter-spacing: -0.01em;
+  }
+
+  .how-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    position: relative;
+  }
+  .how-step {
+    position: relative;
+    text-align: center;
+    padding: 2rem 1.2rem;
+  }
+  .how-icon {
+    display: inline-flex;
+    align-items: center; justify-content: center;
+    width: 72px; height: 72px;
+    margin-bottom: 1.2rem;
+    border-radius: 50%;
+    background: rgba(212,165,116,0.05);
+    border: 1px solid rgba(212,165,116,0.18);
+    box-shadow: 0 0 30px rgba(212,165,116,0.06);
+  }
+  .how-n {
+    display: block;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: clamp(2.8rem, 6vw, 4rem);
+    line-height: 1;
+    color: var(--gold-hi);
+    opacity: 0.5;
+    margin-bottom: 0.4rem;
+    letter-spacing: -0.02em;
+  }
+  .how-title {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--gold);
+    margin-bottom: 0.6rem;
+  }
+  .how-line {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1rem;
+    color: rgba(235,227,211,0.7);
+    line-height: 1.65;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+
+  .how-line-connector {
+    position: absolute;
+    top: 36px;
+    left: -50%;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to left, transparent, rgba(212,165,116,0.25), transparent);
+  }
+  /* RTL: connector goes from current step to the next visually (next step is to the LEFT in RTL grid order) */
+
+  @media (max-width: 760px) {
+    .how-grid { grid-template-columns: 1fr; gap: 1rem; }
+    .how-line-connector { display: none; }
+  }
+</style>

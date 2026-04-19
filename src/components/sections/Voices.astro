@@ -1,0 +1,140 @@
+---
+import Kicker from "./Kicker.astro";
+
+const voices = [
+  { q: "זה מפחיד כמה שזה מדויק. אפילו בכיתי.",                                   name: "ליאת ס.",  r: "קריאת קפה",   date: "אפריל 2026", stars: 5 },
+  { q: "זו לא אפליקציה. זו שיחה עם מישהי שרואה אותך.",                            name: "מיכל א.",  r: "אסטרולוגיה",   date: "אפריל 2026", stars: 5 },
+  { q: "הסבתא שלי אמרה: ׳מי שעשה את זה מכיר את הדרכים הישנות.׳",                 name: "דנה כ.",   r: "קריאת קפה",   date: "אפריל 2026", stars: 5 },
+  { q: "האפליקציה מטורפת. שווה כל שקל.",                                          name: "יוני ס.",  r: "קריאת כף יד", date: "אפריל 2026", stars: 5 },
+  { q: "הבן זוג שלי שאל אם נתתי לה מידע מראש. לא נתתי כלום.",                    name: "יעל ב.",   r: "טארוט",       date: "אפריל 2026", stars: 5 },
+  { q: "ישבתי לקרוא לחמש דקות. עברו שעתיים.",                                    name: "שלי ו.",   r: "קריאת כף יד", date: "אפריל 2026", stars: 5 },
+];
+---
+<section class="voices">
+  <div class="voices-inner">
+    <header class="voices-head">
+      <Kicker eyebrow="מה הן אומרות" />
+      <h2 class="voices-h2">קולות מהחדר</h2>
+      <p class="voices-stars" aria-label="דירוג חמישה כוכבים">★★★★★ <span>5.0 · {voices.length} ביקורות</span></p>
+    </header>
+
+    <div class="voices-grid">
+      {voices.map((v) => (
+        <figure class="voice-card">
+          <div class="voice-stars" aria-hidden="true">{"★".repeat(v.stars)}</div>
+          <blockquote class="voice-quote">{v.q}</blockquote>
+          <figcaption class="voice-cite">
+            <span class="voice-name">— {v.name}</span>
+            <span class="voice-meta">{v.r} · {v.date}</span>
+          </figcaption>
+          <span class="voice-corner" aria-hidden="true"></span>
+        </figure>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .voices {
+    padding: clamp(5rem, 10vw, 8rem) clamp(1.5rem, 5vw, 4rem);
+    background: linear-gradient(180deg, var(--void), var(--ink));
+  }
+  .voices-inner { max-width: 1200px; margin: 0 auto; }
+
+  .voices-head {
+    text-align: center;
+    margin-bottom: clamp(3rem, 5vw, 4rem);
+  }
+  .voices-h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: clamp(2.2rem, 5vw, 3.4rem);
+    color: var(--parchment);
+    margin-bottom: 1.2rem;
+    letter-spacing: -0.01em;
+  }
+  .voices-stars {
+    font-size: 1.2rem;
+    color: var(--gold);
+    letter-spacing: 0.1em;
+  }
+  .voices-stars span {
+    font-family: 'Heebo', sans-serif;
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-inline-start: 0.5rem;
+    letter-spacing: 0.06em;
+  }
+
+  .voices-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.4rem;
+  }
+  .voice-card {
+    position: relative;
+    padding: 1.8rem 1.6rem;
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(212,165,116,0.12);
+    border-radius: 16px;
+    transition: border-color 280ms cubic-bezier(0.22,1,0.36,1),
+                transform 280ms cubic-bezier(0.22,1,0.36,1);
+    overflow: hidden;
+  }
+  .voice-card:hover {
+    border-color: rgba(212,165,116,0.3);
+    transform: translateY(-3px);
+  }
+  .voice-stars {
+    color: var(--gold);
+    font-size: 0.85rem;
+    letter-spacing: 0.18em;
+    margin-bottom: 0.9rem;
+  }
+  .voice-quote {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 400;
+    font-size: 1.02rem;
+    line-height: 1.7;
+    color: rgba(235,227,211,0.88);
+    margin-bottom: 1.2rem;
+    quotes: "״" "״";
+  }
+  .voice-cite {
+    display: flex; flex-direction: column;
+    gap: 4px;
+    border-top: 1px solid rgba(212,165,116,0.1);
+    padding-top: 0.8rem;
+  }
+  .voice-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 0.95rem;
+    color: var(--gold-logo);
+    letter-spacing: 0.04em;
+  }
+  .voice-meta {
+    font-family: 'Heebo', sans-serif;
+    font-size: 0.7rem;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .voice-corner {
+    position: absolute;
+    top: 12px; left: 12px;
+    width: 5px; height: 5px;
+    background: var(--gold);
+    transform: rotate(45deg);
+    opacity: 0.3;
+  }
+
+  @media (max-width: 900px) {
+    .voices-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 560px) {
+    .voices-grid { grid-template-columns: 1fr; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .voice-card { transition: none; }
+  }
+</style>

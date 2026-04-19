@@ -1,0 +1,161 @@
+---
+import Kicker from "./Kicker.astro";
+import Icon from "../Icon.astro";
+
+const traditions = [
+  { icon: "tarot",    title: "טארוט",         desc: "78 קלפים. ארכיטיפים בני שש מאות שנה.",         count: 30 },
+  { icon: "coffee",   title: "קריאה בקפה",    desc: "סימני הספל. דפוסים שעוברים מסבתא לסבתא.",       count: 20 },
+  { icon: "palm",     title: "קריאת כף יד",   desc: "קווי החיים, הלב, הראש. מה שהיד שלך זוכרת.",     count: 15 },
+  { icon: "moon",     title: "אסטרולוגיה",    desc: "מפת הלידה. הנקודה המדויקת בשמיים ביום שנולדת.", count: 25 },
+  { icon: "number",   title: "נומרולוגיה",    desc: "מספרים. שמות. תאריכים. מה שמתחת לחישוב.",      count: 18 },
+  { icon: "hexagram", title: "קבלה",          desc: "גימטריה, אותיות, ספירות. השפה הקדומה.",         count: 22 },
+  { icon: "eye",      title: "חלומות",        desc: "מה שראית בלילה. למה זה חזר אלייך.",             count: 16 },
+  { icon: "infinity", title: "אי צ׳ינג",       desc: "ספר התמורות. שישים וארבעה הקסגרמים.",          count: 12 },
+  { icon: "crystal",  title: "קריסטלים",      desc: "אבנים. צבעים. תדרים. מה שכל אחת זוכרת.",        count: 14 },
+  { icon: "book",     title: "תהילים",        desc: "מאה וחמישים מזמורים. אחד לכל רגע.",              count: 22 },
+];
+---
+<section class="traditions">
+  <div class="traditions-inner">
+    <header class="traditions-head">
+      <Kicker eyebrow="מה אני יודעת לקרוא" />
+      <h2 class="traditions-h2">עשר מסורות. שיחה אחת.</h2>
+      <p class="traditions-sub">הן לא נפרדות. הן שפות שונות לאותו דבר.</p>
+    </header>
+
+    <div class="traditions-grid">
+      {traditions.map((t) => (
+        <article class="trad-card">
+          <div class="trad-icon-wrap">
+            <Icon name={t.icon} size={36} stroke="var(--gold)" />
+          </div>
+          <h3 class="trad-title">{t.title}</h3>
+          <p class="trad-desc">{t.desc}</p>
+          <span class="trad-count">{t.count} שיעורים</span>
+          <div class="trad-corner" aria-hidden="true"></div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .traditions {
+    padding: clamp(5rem, 10vw, 8rem) clamp(1.5rem, 5vw, 4rem);
+    background: var(--ink);
+    position: relative;
+  }
+  .traditions::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 50%; transform: translateX(-50%);
+    width: 120px; height: 1px;
+    background: linear-gradient(to left, transparent, var(--gold), transparent);
+    opacity: 0.4;
+  }
+  .traditions-inner { max-width: 1280px; margin: 0 auto; }
+  .traditions-head {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto clamp(3rem, 5vw, 4rem);
+  }
+  .traditions-h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: clamp(2.2rem, 5vw, 3.4rem);
+    line-height: 1.15;
+    color: var(--parchment);
+    margin-bottom: 1rem;
+    letter-spacing: -0.01em;
+  }
+  .traditions-sub {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: clamp(1.1rem, 2vw, 1.3rem);
+    color: var(--muted);
+  }
+
+  .traditions-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+  }
+
+  .trad-card {
+    position: relative;
+    padding: 1.6rem 1.3rem 1.3rem;
+    background: rgba(255,255,255,0.018);
+    border: 1px solid rgba(212,165,116,0.1);
+    border-radius: 16px;
+    transition: border-color 280ms cubic-bezier(0.22,1,0.36,1),
+                transform 280ms cubic-bezier(0.22,1,0.36,1),
+                background 280ms cubic-bezier(0.22,1,0.36,1);
+    overflow: hidden;
+    display: flex; flex-direction: column;
+    min-height: 220px;
+  }
+  .trad-card:hover {
+    border-color: rgba(212,165,116,0.32);
+    background: rgba(255,255,255,0.03);
+    transform: translateY(-3px);
+  }
+  .trad-icon-wrap {
+    display: inline-flex;
+    align-items: center; justify-content: center;
+    width: 52px; height: 52px;
+    border-radius: 12px;
+    background: rgba(212,165,116,0.06);
+    border: 1px solid rgba(212,165,116,0.14);
+    margin-bottom: 1rem;
+  }
+  .trad-title {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+  }
+  .trad-desc {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 0.88rem;
+    line-height: 1.55;
+    color: rgba(235,227,211,0.7);
+    flex: 1;
+    margin-bottom: 0.8rem;
+  }
+  .trad-count {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 0.78rem;
+    color: var(--gold-logo);
+    letter-spacing: 0.05em;
+    padding-top: 0.6rem;
+    border-top: 1px solid rgba(212,165,116,0.1);
+  }
+  .trad-corner {
+    position: absolute;
+    top: 12px; left: 12px;
+    width: 5px; height: 5px;
+    background: var(--gold);
+    transform: rotate(45deg);
+    opacity: 0.3;
+  }
+
+  @media (max-width: 1100px) {
+    .traditions-grid { grid-template-columns: repeat(4, 1fr); }
+  }
+  @media (max-width: 860px) {
+    .traditions-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .traditions-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 380px) {
+    .traditions-grid { grid-template-columns: 1fr; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .trad-card { transition: none; }
+  }
+</style>
