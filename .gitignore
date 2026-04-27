@@ -122,3 +122,6 @@ freepik.json
 
 # Draft / generated design assets — local only, not shipped
 design-assets/
+
+# Per-user Claude Code tooling (GSD, etc.) — never commit
+.claude/
