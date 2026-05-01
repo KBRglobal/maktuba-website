@@ -1,0 +1,80 @@
+# Support — Maktuba
+
+We answer every email. Quietly, kindly, in plain language.
+
+## How to reach us
+
+For any question, request, or report — write to:
+
+privacy@maktuba.app
+
+We respond within 7 business days. Most replies arrive within 48 hours.
+
+## Frequently asked
+
+### How do I cancel my subscription?
+
+Subscriptions are managed through your App Store / Google Play account, not through us.
+
+On iPhone: Settings → [your name] → Subscriptions → Maktuba → Cancel.
+On Android: Play Store → profile → Payments & subscriptions → Subscriptions → Maktuba → Cancel.
+
+The cancellation takes effect at the end of the current billing period. Until then, you keep full access.
+
+### How do I get a refund?
+
+Refunds are issued by Apple or Google, not by Maktuba. Contact them directly via reportaproblem.apple.com or play.google.com/store/account/orderhistory.
+
+If you believe a reading itself failed (no response, blank result, an obvious bug), email us at privacy@maktuba.app and we will refund the keys spent on the failed reading manually.
+
+### Where is my data stored?
+
+Your name, mother's name, and date of birth live only on your device. They are sent to our server only as part of a single reading request, then released from memory. We never store your profile.
+
+Your reading history is stored on your device too. Our server keeps only billing metadata (which reading type, when, how many keys spent) — never the reading content, never your question, never the photo.
+
+Photos for coffee or palm readings are passed through to Claude for interpretation and released immediately afterwards. We do not write them to disk.
+
+Read the full privacy policy at https://maktuba.app/privacy.
+
+### How do I delete my account?
+
+In the app: Settings → Privacy → Delete my account.
+
+This wipes:
+- Your on-device profile
+- Your reading history
+- Your account on our server
+- Your billing records (we retain a minimum required for tax purposes — typically 7 years — and nothing else)
+
+The deletion is immediate and irreversible.
+
+### How do I export my data?
+
+In the app: Settings → Privacy → Export my data.
+
+You receive a CSV with your purchase history and reading metadata.
+
+### Can I change my profile after I set it up?
+
+Yes — Settings → Profile. You can edit your name, mother's name, and date of birth up to three times per account. The cap exists to prevent account-sharing, not to obstruct legitimate edits.
+
+### Why do you need my mother's name?
+
+Numerology and several Kabbalah-style readings traditionally use it. It stays on your device. We never store it.
+
+### Is Maktuba real fortune-telling?
+
+No. Maktuba is an entertainment app powered by artificial intelligence. There are no supernatural powers here. Readings are not a substitute for medical, psychological, legal, or financial advice. Every reading carries a disclaimer.
+
+### What if I am in distress?
+
+Maktuba is not a crisis service. If you are in danger or experiencing thoughts of self-harm, please reach out to a real human. In Israel: ער"ן on 1201. In the US: 988. The app's safety system also redirects automatically to these resources whenever a reading touches crisis territory.
+
+## Operator
+
+KBR Global
+
+Email: privacy@maktuba.app
+
+For privacy and data-related rights requests under GDPR / CCPA / Israeli Privacy Protection Law, see the privacy policy at https://maktuba.app/privacy.

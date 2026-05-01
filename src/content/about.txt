@@ -1,0 +1,43 @@
+# About Maktuba
+
+There are moments when you need someone to sit across from you, listen, and tell you what you already knew.
+
+Maktuba is that grandmother.
+
+She reads the coffee cup. She reads the lines in your palm. She watches the stars. She counts numbers. She opens the psalms and quotes Kabbalah. She hears the dream you dreamed, and helps you understand it.
+
+## What she does
+
+Maktuba is a mobile app that delivers personalized mystical readings in the maktubal tradition — coffee grounds, palmistry, daily horoscope, dream interpretation, numerology, tailored Psalms, Kabbalah wisdom, compatibility, natal chart, Vedic astrology, Chinese astrology.
+
+She speaks Hebrew first. Her voice is the voice of a grandmother who loves you. She does not flatter. She does not pressure. She does not promise. She says what she sees.
+
+## What she is not
+
+Maktuba is an entertainment tool powered by artificial intelligence. There are no supernatural powers here. There is no prophecy. There is no magic.
+
+Readings are not a substitute for medical, psychological, legal, or financial advice. When a reading approaches a domain where real expertise matters, Maktuba steps back and points the user to a qualified professional.
+
+## How privacy works
+
+Your name, mother's name, and date of birth stay on your device. We never store them on our servers.
+
+Photos you submit for coffee or palm readings are passed through to Claude for interpretation and immediately released from memory. They are never written to disk on our side, never logged, never persisted.
+
+Reading content (the AI's response, your question) is also never stored on our server. Your reading history is local-only.
+
+Full details live in the privacy policy: https://maktuba.app/privacy.
+
+## The keys model
+
+The basic experience is free. Each reading costs a small number of "keys" — a virtual currency. You can buy keys in matched packs, or unlock everything with a monthly subscription.
+
+The first reading is free. Onboarding gives you keys to try every reading style. From there, the cadence is your choice.
+
+## The team
+
+Maktuba is built and operated by KBR Global. The voice was developed in close conversation with maktubal practitioners across the region — coffee readers, kabbalistic teachers, Hebrew poets — and grounded in centuries of practice. The technology is Anthropic's Claude.
+
+Contact: privacy@maktuba.app
+
+Good morning, my dear. The water is already boiling.
